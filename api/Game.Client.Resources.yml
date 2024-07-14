@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Resources
+  commentId: N:Game.Client.Resources
+  id: Game.Client.Resources
+  children:
+  - Game.Client.Resources.Identifier
+  - Game.Client.Resources.ResourceManager
+  - Game.Client.Resources.ResourceManager.ReadLinesFlags
+  langs:
+  - csharp
+  - vb
+  name: Game.Client.Resources
+  nameWithType: Game.Client.Resources
+  fullName: Game.Client.Resources
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Client.Resources.Identifier
+  commentId: T:Game.Client.Resources.Identifier
+  parent: Game.Client.Resources
+  href: Game.Client.Resources.Identifier.html
+  name: Identifier
+  nameWithType: Identifier
+  fullName: Game.Client.Resources.Identifier
+- uid: Game.Client.Resources.ResourceManager
+  commentId: T:Game.Client.Resources.ResourceManager
+  parent: Game.Client.Resources
+  href: Game.Client.Resources.ResourceManager.html
+  name: ResourceManager
+  nameWithType: ResourceManager
+  fullName: Game.Client.Resources.ResourceManager
+- uid: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  commentId: T:Game.Client.Resources.ResourceManager.ReadLinesFlags
+  parent: Game.Client.Resources
+  href: Game.Client.Resources.ResourceManager.html
+  name: ResourceManager.ReadLinesFlags
+  nameWithType: ResourceManager.ReadLinesFlags
+  fullName: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  spec.csharp:
+  - uid: Game.Client.Resources.ResourceManager
+    name: ResourceManager
+    href: Game.Client.Resources.ResourceManager.html
+  - name: .
+  - uid: Game.Client.Resources.ResourceManager.ReadLinesFlags
+    name: ReadLinesFlags
+    href: Game.Client.Resources.ResourceManager.ReadLinesFlags.html
+  spec.vb:
+  - uid: Game.Client.Resources.ResourceManager
+    name: ResourceManager
+    href: Game.Client.Resources.ResourceManager.html
+  - name: .
+  - uid: Game.Client.Resources.ResourceManager.ReadLinesFlags
+    name: ReadLinesFlags
+    href: Game.Client.Resources.ResourceManager.ReadLinesFlags.html
+- uid: Game.Client.Resources
+  commentId: N:Game.Client.Resources
+  href: Game.html
+  name: Game.Client.Resources
+  nameWithType: Game.Client.Resources
+  fullName: Game.Client.Resources
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Resources
+    name: Resources
+    href: Game.Client.Resources.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Resources
+    name: Resources
+    href: Game.Client.Resources.html

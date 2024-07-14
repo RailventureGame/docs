@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.Components
+  commentId: N:Game.Common.Logic.Components
+  id: Game.Common.Logic.Components
+  children:
+  - Game.Common.Logic.Components.BufferStop
+  - Game.Common.Logic.Components.Crossing
+  - Game.Common.Logic.Components.CurvedRail
+  - Game.Common.Logic.Components.DoubleCrossoverSwitch
+  - Game.Common.Logic.Components.KlothoidRail
+  - Game.Common.Logic.Components.SingleCrossoverSwitch
+  - Game.Common.Logic.Components.StraightRail
+  - Game.Common.Logic.Components.Switch
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Logic.Components
+  nameWithType: Game.Common.Logic.Components
+  fullName: Game.Common.Logic.Components
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Logic.Components.BufferStop
+  commentId: T:Game.Common.Logic.Components.BufferStop
+  href: Game.Common.Logic.Components.BufferStop.html
+  name: BufferStop
+  nameWithType: BufferStop
+  fullName: Game.Common.Logic.Components.BufferStop
+- uid: Game.Common.Logic.Components.Crossing
+  commentId: T:Game.Common.Logic.Components.Crossing
+  href: Game.Common.Logic.Components.Crossing.html
+  name: Crossing
+  nameWithType: Crossing
+  fullName: Game.Common.Logic.Components.Crossing
+- uid: Game.Common.Logic.Components.CurvedRail
+  commentId: T:Game.Common.Logic.Components.CurvedRail
+  href: Game.Common.Logic.Components.CurvedRail.html
+  name: CurvedRail
+  nameWithType: CurvedRail
+  fullName: Game.Common.Logic.Components.CurvedRail
+- uid: Game.Common.Logic.Components.DoubleCrossoverSwitch
+  commentId: T:Game.Common.Logic.Components.DoubleCrossoverSwitch
+  href: Game.Common.Logic.Components.DoubleCrossoverSwitch.html
+  name: DoubleCrossoverSwitch
+  nameWithType: DoubleCrossoverSwitch
+  fullName: Game.Common.Logic.Components.DoubleCrossoverSwitch
+- uid: Game.Common.Logic.Components.KlothoidRail
+  commentId: T:Game.Common.Logic.Components.KlothoidRail
+  href: Game.Common.Logic.Components.KlothoidRail.html
+  name: KlothoidRail
+  nameWithType: KlothoidRail
+  fullName: Game.Common.Logic.Components.KlothoidRail
+- uid: Game.Common.Logic.Components.SingleCrossoverSwitch
+  commentId: T:Game.Common.Logic.Components.SingleCrossoverSwitch
+  href: Game.Common.Logic.Components.SingleCrossoverSwitch.html
+  name: SingleCrossoverSwitch
+  nameWithType: SingleCrossoverSwitch
+  fullName: Game.Common.Logic.Components.SingleCrossoverSwitch
+- uid: Game.Common.Logic.Components.StraightRail
+  commentId: T:Game.Common.Logic.Components.StraightRail
+  href: Game.Common.Logic.Components.StraightRail.html
+  name: StraightRail
+  nameWithType: StraightRail
+  fullName: Game.Common.Logic.Components.StraightRail
+- uid: Game.Common.Logic.Components.Switch
+  commentId: T:Game.Common.Logic.Components.Switch
+  href: Game.Common.Logic.Components.Switch.html
+  name: Switch
+  nameWithType: Switch
+  fullName: Game.Common.Logic.Components.Switch

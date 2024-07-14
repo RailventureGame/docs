@@ -1,0 +1,52 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../Game",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template":[
+      "default",
+      "templates/singulinkfx"
+    ],
+    "globalMetadata": {
+      "_appTitle": "Railventure",
+      "_appName": "Railventure",
+      "_appFaviconPath": "images/favicon.ico",
+      "_appLogoPath": "images/logo.png",
+      "_appFooter": "<h5 id=\"current-time\"></h5><script>setInterval(() => document.getElementById('current-time').innerText = new Date().toLocaleString(), 1000);</script>",
+      "_copyrightFooter": "Copyright © 2024 JustMattis, Sam302rk",
+      "_enableSearch": true,
+      "_disableSideFilter": false,
+      "_enableNewTab": true,
+      "_disableContribution": false,
+      "_disableBreadcrumb": false
+    }
+  }
+}

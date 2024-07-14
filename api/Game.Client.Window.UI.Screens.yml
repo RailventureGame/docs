@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window.UI.Screens
+  commentId: N:Game.Client.Window.UI.Screens
+  id: Game.Client.Window.UI.Screens
+  children:
+  - Game.Client.Window.UI.Screens.IngameScreen
+  langs:
+  - csharp
+  - vb
+  name: Game.Client.Window.UI.Screens
+  nameWithType: Game.Client.Window.UI.Screens
+  fullName: Game.Client.Window.UI.Screens
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Client.Window.UI.Screens.IngameScreen
+  commentId: T:Game.Client.Window.UI.Screens.IngameScreen
+  href: Game.Client.Window.UI.Screens.IngameScreen.html
+  name: IngameScreen
+  nameWithType: IngameScreen
+  fullName: Game.Client.Window.UI.Screens.IngameScreen

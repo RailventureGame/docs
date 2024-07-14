@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Debug
+  commentId: N:Game.Common.Debug
+  id: Game.Common.Debug
+  children:
+  - Game.Common.Debug.Command
+  - Game.Common.Debug.CommandResult
+  - Game.Common.Debug.RegisterCommand
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Debug
+  nameWithType: Game.Common.Debug
+  fullName: Game.Common.Debug
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Debug.Command
+  commentId: T:Game.Common.Debug.Command
+  parent: Game.Common.Debug
+  href: Game.Common.Debug.Command.html
+  name: Command
+  nameWithType: Command
+  fullName: Game.Common.Debug.Command
+- uid: Game.Common.Debug.CommandResult
+  commentId: T:Game.Common.Debug.CommandResult
+  parent: Game.Common.Debug
+  href: Game.Common.Debug.CommandResult.html
+  name: CommandResult
+  nameWithType: CommandResult
+  fullName: Game.Common.Debug.CommandResult
+- uid: Game.Common.Debug.RegisterCommand
+  commentId: T:Game.Common.Debug.RegisterCommand
+  parent: Game.Common.Debug
+  href: Game.Common.Debug.RegisterCommand.html
+  name: RegisterCommand
+  nameWithType: RegisterCommand
+  fullName: Game.Common.Debug.RegisterCommand
+- uid: Game.Common.Debug
+  commentId: N:Game.Common.Debug
+  href: Game.html
+  name: Game.Common.Debug
+  nameWithType: Game.Common.Debug
+  fullName: Game.Common.Debug
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html

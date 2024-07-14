@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.Types.LevelCrossingOperationStyle
+  commentId: T:Game.Common.Logic.Types.LevelCrossingOperationStyle
+  id: LevelCrossingOperationStyle
+  parent: Game.Common.Logic.Types
+  children:
+  - Game.Common.Logic.Types.LevelCrossingOperationStyle.SIGNALBOX_MONITORED
+  - Game.Common.Logic.Types.LevelCrossingOperationStyle.TRAIN_DRIVER_MONITORED
+  - Game.Common.Logic.Types.LevelCrossingOperationStyle.UNMONITORED
+  langs:
+  - csharp
+  - vb
+  name: LevelCrossingOperationStyle
+  nameWithType: LevelCrossingOperationStyle
+  fullName: Game.Common.Logic.Types.LevelCrossingOperationStyle
+  type: Enum
+  source:
+    remote:
+      path: Common/Logic/Types/LevelCrossingOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: LevelCrossingOperationStyle
+    path: ../Game/Common/Logic/Types/LevelCrossingOperationStyle.cs
+    startLine: 2
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: public enum LevelCrossingOperationStyle
+    content.vb: Public Enum LevelCrossingOperationStyle
+- uid: Game.Common.Logic.Types.LevelCrossingOperationStyle.UNMONITORED
+  commentId: F:Game.Common.Logic.Types.LevelCrossingOperationStyle.UNMONITORED
+  id: UNMONITORED
+  parent: Game.Common.Logic.Types.LevelCrossingOperationStyle
+  langs:
+  - csharp
+  - vb
+  name: UNMONITORED
+  nameWithType: LevelCrossingOperationStyle.UNMONITORED
+  fullName: Game.Common.Logic.Types.LevelCrossingOperationStyle.UNMONITORED
+  type: Field
+  source:
+    remote:
+      path: Common/Logic/Types/LevelCrossingOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: UNMONITORED
+    path: ../Game/Common/Logic/Types/LevelCrossingOperationStyle.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: UNMONITORED = 0
+    return:
+      type: Game.Common.Logic.Types.LevelCrossingOperationStyle
+- uid: Game.Common.Logic.Types.LevelCrossingOperationStyle.TRAIN_DRIVER_MONITORED
+  commentId: F:Game.Common.Logic.Types.LevelCrossingOperationStyle.TRAIN_DRIVER_MONITORED
+  id: TRAIN_DRIVER_MONITORED
+  parent: Game.Common.Logic.Types.LevelCrossingOperationStyle
+  langs:
+  - csharp
+  - vb
+  name: TRAIN_DRIVER_MONITORED
+  nameWithType: LevelCrossingOperationStyle.TRAIN_DRIVER_MONITORED
+  fullName: Game.Common.Logic.Types.LevelCrossingOperationStyle.TRAIN_DRIVER_MONITORED
+  type: Field
+  source:
+    remote:
+      path: Common/Logic/Types/LevelCrossingOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: TRAIN_DRIVER_MONITORED
+    path: ../Game/Common/Logic/Types/LevelCrossingOperationStyle.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: TRAIN_DRIVER_MONITORED = 1
+    return:
+      type: Game.Common.Logic.Types.LevelCrossingOperationStyle
+- uid: Game.Common.Logic.Types.LevelCrossingOperationStyle.SIGNALBOX_MONITORED
+  commentId: F:Game.Common.Logic.Types.LevelCrossingOperationStyle.SIGNALBOX_MONITORED
+  id: SIGNALBOX_MONITORED
+  parent: Game.Common.Logic.Types.LevelCrossingOperationStyle
+  langs:
+  - csharp
+  - vb
+  name: SIGNALBOX_MONITORED
+  nameWithType: LevelCrossingOperationStyle.SIGNALBOX_MONITORED
+  fullName: Game.Common.Logic.Types.LevelCrossingOperationStyle.SIGNALBOX_MONITORED
+  type: Field
+  source:
+    remote:
+      path: Common/Logic/Types/LevelCrossingOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SIGNALBOX_MONITORED
+    path: ../Game/Common/Logic/Types/LevelCrossingOperationStyle.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: SIGNALBOX_MONITORED = 2
+    return:
+      type: Game.Common.Logic.Types.LevelCrossingOperationStyle
+references:
+- uid: Game.Common.Logic.Types
+  commentId: N:Game.Common.Logic.Types
+  href: Game.html
+  name: Game.Common.Logic.Types
+  nameWithType: Game.Common.Logic.Types
+  fullName: Game.Common.Logic.Types
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+- uid: Game.Common.Logic.Types.LevelCrossingOperationStyle
+  commentId: T:Game.Common.Logic.Types.LevelCrossingOperationStyle
+  parent: Game.Common.Logic.Types
+  href: Game.Common.Logic.Types.LevelCrossingOperationStyle.html
+  name: LevelCrossingOperationStyle
+  nameWithType: LevelCrossingOperationStyle
+  fullName: Game.Common.Logic.Types.LevelCrossingOperationStyle

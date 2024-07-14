@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window.UI.Windows
+  commentId: N:Game.Client.Window.UI.Windows
+  id: Game.Client.Window.UI.Windows
+  children:
+  - Game.Client.Window.UI.Windows.OpenRailVehicleKeyboardCommand
+  - Game.Client.Window.UI.Windows.RailVehicleTest
+  langs:
+  - csharp
+  - vb
+  name: Game.Client.Window.UI.Windows
+  nameWithType: Game.Client.Window.UI.Windows
+  fullName: Game.Client.Window.UI.Windows
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Client.Window.UI.Windows.RailVehicleTest
+  commentId: T:Game.Client.Window.UI.Windows.RailVehicleTest
+  href: Game.Client.Window.UI.Windows.RailVehicleTest.html
+  name: RailVehicleTest
+  nameWithType: RailVehicleTest
+  fullName: Game.Client.Window.UI.Windows.RailVehicleTest
+- uid: Game.Client.Window.UI.Windows.OpenRailVehicleKeyboardCommand
+  commentId: T:Game.Client.Window.UI.Windows.OpenRailVehicleKeyboardCommand
+  href: Game.Client.Window.UI.Windows.OpenRailVehicleKeyboardCommand.html
+  name: OpenRailVehicleKeyboardCommand
+  nameWithType: OpenRailVehicleKeyboardCommand
+  fullName: Game.Client.Window.UI.Windows.OpenRailVehicleKeyboardCommand

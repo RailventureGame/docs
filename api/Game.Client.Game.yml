@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Game
+  commentId: N:Game.Client.Game
+  id: Game.Client.Game
+  children:
+  - Game.Client.Game.GameManager
+  langs:
+  - csharp
+  - vb
+  name: Game.Client.Game
+  nameWithType: Game.Client.Game
+  fullName: Game.Client.Game
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Client.Game.GameManager
+  commentId: T:Game.Client.Game.GameManager
+  parent: Game.Client.Game
+  href: Game.Client.Game.GameManager.html
+  name: GameManager
+  nameWithType: GameManager
+  fullName: Game.Client.Game.GameManager
+- uid: Game.Client.Game
+  commentId: N:Game.Client.Game
+  href: Game.html
+  name: Game.Client.Game
+  nameWithType: Game.Client.Game
+  fullName: Game.Client.Game
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Game
+    name: Game
+    href: Game.Client.Game.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Game
+    name: Game
+    href: Game.Client.Game.html

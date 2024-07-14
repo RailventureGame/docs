@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Geometry.Components
+  commentId: N:Game.Common.Geometry.Components
+  id: Game.Common.Geometry.Components
+  children:
+  - Game.Common.Geometry.Components.TrackComponent
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Geometry.Components
+  nameWithType: Game.Common.Geometry.Components
+  fullName: Game.Common.Geometry.Components
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Geometry.Components.TrackComponent
+  commentId: T:Game.Common.Geometry.Components.TrackComponent
+  href: Game.Common.Geometry.Components.TrackComponent.html
+  name: TrackComponent
+  nameWithType: TrackComponent
+  fullName: Game.Common.Geometry.Components.TrackComponent

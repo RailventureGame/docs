@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Reflections
+  commentId: N:Game.Common.Reflections
+  id: Game.Common.Reflections
+  children:
+  - Game.Common.Reflections.ReflectionHelper
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Reflections
+  nameWithType: Game.Common.Reflections
+  fullName: Game.Common.Reflections
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Reflections.ReflectionHelper
+  commentId: T:Game.Common.Reflections.ReflectionHelper
+  href: Game.Common.Reflections.ReflectionHelper.html
+  name: ReflectionHelper
+  nameWithType: ReflectionHelper
+  fullName: Game.Common.Reflections.ReflectionHelper

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window.UI.Components.Windows
+  commentId: N:Game.Client.Window.UI.Components.Windows
+  id: Game.Client.Window.UI.Components.Windows
+  children:
+  - Game.Client.Window.UI.Components.Windows.ExampleWindow
+  langs:
+  - csharp
+  - vb
+  name: Game.Client.Window.UI.Components.Windows
+  nameWithType: Game.Client.Window.UI.Components.Windows
+  fullName: Game.Client.Window.UI.Components.Windows
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Client.Window.UI.Components.Windows.ExampleWindow
+  commentId: T:Game.Client.Window.UI.Components.Windows.ExampleWindow
+  href: Game.Client.Window.UI.Components.Windows.ExampleWindow.html
+  name: ExampleWindow
+  nameWithType: ExampleWindow
+  fullName: Game.Client.Window.UI.Components.Windows.ExampleWindow

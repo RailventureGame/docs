@@ -1,0 +1,288 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Game.Time.TimeUtil.Weekdays
+  commentId: T:Game.Client.Game.Time.TimeUtil.Weekdays
+  id: TimeUtil.Weekdays
+  parent: Game.Client.Game.Time
+  children:
+  - Game.Client.Game.Time.TimeUtil.Weekdays.FRIDAY
+  - Game.Client.Game.Time.TimeUtil.Weekdays.MONDAY
+  - Game.Client.Game.Time.TimeUtil.Weekdays.SATURDAY
+  - Game.Client.Game.Time.TimeUtil.Weekdays.SUNDAY
+  - Game.Client.Game.Time.TimeUtil.Weekdays.THURSDAY
+  - Game.Client.Game.Time.TimeUtil.Weekdays.TUESDAY
+  - Game.Client.Game.Time.TimeUtil.Weekdays.WEDNESDAY
+  langs:
+  - csharp
+  - vb
+  name: TimeUtil.Weekdays
+  nameWithType: TimeUtil.Weekdays
+  fullName: Game.Client.Game.Time.TimeUtil.Weekdays
+  type: Enum
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Weekdays
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 34
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: A enum with all days of the week
+  example: []
+  syntax:
+    content: public enum TimeUtil.Weekdays
+    content.vb: Public Enum TimeUtil.Weekdays
+- uid: Game.Client.Game.Time.TimeUtil.Weekdays.MONDAY
+  commentId: F:Game.Client.Game.Time.TimeUtil.Weekdays.MONDAY
+  id: MONDAY
+  parent: Game.Client.Game.Time.TimeUtil.Weekdays
+  langs:
+  - csharp
+  - vb
+  name: MONDAY
+  nameWithType: TimeUtil.Weekdays.MONDAY
+  fullName: Game.Client.Game.Time.TimeUtil.Weekdays.MONDAY
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: MONDAY
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 37
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: MONDAY = 0
+    return:
+      type: Game.Client.Game.Time.TimeUtil.Weekdays
+- uid: Game.Client.Game.Time.TimeUtil.Weekdays.TUESDAY
+  commentId: F:Game.Client.Game.Time.TimeUtil.Weekdays.TUESDAY
+  id: TUESDAY
+  parent: Game.Client.Game.Time.TimeUtil.Weekdays
+  langs:
+  - csharp
+  - vb
+  name: TUESDAY
+  nameWithType: TimeUtil.Weekdays.TUESDAY
+  fullName: Game.Client.Game.Time.TimeUtil.Weekdays.TUESDAY
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: TUESDAY
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 40
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: TUESDAY = 1
+    return:
+      type: Game.Client.Game.Time.TimeUtil.Weekdays
+- uid: Game.Client.Game.Time.TimeUtil.Weekdays.WEDNESDAY
+  commentId: F:Game.Client.Game.Time.TimeUtil.Weekdays.WEDNESDAY
+  id: WEDNESDAY
+  parent: Game.Client.Game.Time.TimeUtil.Weekdays
+  langs:
+  - csharp
+  - vb
+  name: WEDNESDAY
+  nameWithType: TimeUtil.Weekdays.WEDNESDAY
+  fullName: Game.Client.Game.Time.TimeUtil.Weekdays.WEDNESDAY
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: WEDNESDAY
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 43
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: WEDNESDAY = 2
+    return:
+      type: Game.Client.Game.Time.TimeUtil.Weekdays
+- uid: Game.Client.Game.Time.TimeUtil.Weekdays.THURSDAY
+  commentId: F:Game.Client.Game.Time.TimeUtil.Weekdays.THURSDAY
+  id: THURSDAY
+  parent: Game.Client.Game.Time.TimeUtil.Weekdays
+  langs:
+  - csharp
+  - vb
+  name: THURSDAY
+  nameWithType: TimeUtil.Weekdays.THURSDAY
+  fullName: Game.Client.Game.Time.TimeUtil.Weekdays.THURSDAY
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: THURSDAY
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 46
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: THURSDAY = 3
+    return:
+      type: Game.Client.Game.Time.TimeUtil.Weekdays
+- uid: Game.Client.Game.Time.TimeUtil.Weekdays.FRIDAY
+  commentId: F:Game.Client.Game.Time.TimeUtil.Weekdays.FRIDAY
+  id: FRIDAY
+  parent: Game.Client.Game.Time.TimeUtil.Weekdays
+  langs:
+  - csharp
+  - vb
+  name: FRIDAY
+  nameWithType: TimeUtil.Weekdays.FRIDAY
+  fullName: Game.Client.Game.Time.TimeUtil.Weekdays.FRIDAY
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: FRIDAY
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 49
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: FRIDAY = 4
+    return:
+      type: Game.Client.Game.Time.TimeUtil.Weekdays
+- uid: Game.Client.Game.Time.TimeUtil.Weekdays.SATURDAY
+  commentId: F:Game.Client.Game.Time.TimeUtil.Weekdays.SATURDAY
+  id: SATURDAY
+  parent: Game.Client.Game.Time.TimeUtil.Weekdays
+  langs:
+  - csharp
+  - vb
+  name: SATURDAY
+  nameWithType: TimeUtil.Weekdays.SATURDAY
+  fullName: Game.Client.Game.Time.TimeUtil.Weekdays.SATURDAY
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SATURDAY
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 52
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: SATURDAY = 5
+    return:
+      type: Game.Client.Game.Time.TimeUtil.Weekdays
+- uid: Game.Client.Game.Time.TimeUtil.Weekdays.SUNDAY
+  commentId: F:Game.Client.Game.Time.TimeUtil.Weekdays.SUNDAY
+  id: SUNDAY
+  parent: Game.Client.Game.Time.TimeUtil.Weekdays
+  langs:
+  - csharp
+  - vb
+  name: SUNDAY
+  nameWithType: TimeUtil.Weekdays.SUNDAY
+  fullName: Game.Client.Game.Time.TimeUtil.Weekdays.SUNDAY
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SUNDAY
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 55
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: SUNDAY = 6
+    return:
+      type: Game.Client.Game.Time.TimeUtil.Weekdays
+references:
+- uid: Game.Client.Game.Time
+  commentId: N:Game.Client.Game.Time
+  href: Game.html
+  name: Game.Client.Game.Time
+  nameWithType: Game.Client.Game.Time
+  fullName: Game.Client.Game.Time
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Game
+    name: Game
+    href: Game.Client.Game.html
+  - name: .
+  - uid: Game.Client.Game.Time
+    name: Time
+    href: Game.Client.Game.Time.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Game
+    name: Game
+    href: Game.Client.Game.html
+  - name: .
+  - uid: Game.Client.Game.Time
+    name: Time
+    href: Game.Client.Game.Time.html
+- uid: Game.Client.Game.Time.TimeUtil.Weekdays
+  commentId: T:Game.Client.Game.Time.TimeUtil.Weekdays
+  parent: Game.Client.Game.Time
+  href: Game.Client.Game.Time.TimeUtil.html
+  name: TimeUtil.Weekdays
+  nameWithType: TimeUtil.Weekdays
+  fullName: Game.Client.Game.Time.TimeUtil.Weekdays
+  spec.csharp:
+  - uid: Game.Client.Game.Time.TimeUtil
+    name: TimeUtil
+    href: Game.Client.Game.Time.TimeUtil.html
+  - name: .
+  - uid: Game.Client.Game.Time.TimeUtil.Weekdays
+    name: Weekdays
+    href: Game.Client.Game.Time.TimeUtil.Weekdays.html
+  spec.vb:
+  - uid: Game.Client.Game.Time.TimeUtil
+    name: TimeUtil
+    href: Game.Client.Game.Time.TimeUtil.html
+  - name: .
+  - uid: Game.Client.Game.Time.TimeUtil.Weekdays
+    name: Weekdays
+    href: Game.Client.Game.Time.TimeUtil.Weekdays.html

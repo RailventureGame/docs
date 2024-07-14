@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window.UI.Components.Common
+  commentId: N:Game.Client.Window.UI.Components.Common
+  id: Game.Client.Window.UI.Components.Common
+  children:
+  - Game.Client.Window.UI.Components.Common.Button
+  - Game.Client.Window.UI.Components.Common.GUIWindow
+  - Game.Client.Window.UI.Components.Common.GUIWindow.GUIWindowCloseButton
+  - Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  - Game.Client.Window.UI.Components.Common.TextInput
+  - Game.Client.Window.UI.Components.Common.VerticalScrollbar
+  langs:
+  - csharp
+  - vb
+  name: Game.Client.Window.UI.Components.Common
+  nameWithType: Game.Client.Window.UI.Components.Common
+  fullName: Game.Client.Window.UI.Components.Common
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Client.Window.UI.Components.Common.Button
+  commentId: T:Game.Client.Window.UI.Components.Common.Button
+  href: Game.Client.Window.UI.Components.Common.Button.html
+  name: Button
+  nameWithType: Button
+  fullName: Game.Client.Window.UI.Components.Common.Button
+- uid: Game.Client.Window.UI.Components.Common.GUIWindow
+  commentId: T:Game.Client.Window.UI.Components.Common.GUIWindow
+  parent: Game.Client.Window.UI.Components.Common
+  href: Game.Client.Window.UI.Components.Common.GUIWindow.html
+  name: GUIWindow
+  nameWithType: GUIWindow
+  fullName: Game.Client.Window.UI.Components.Common.GUIWindow
+- uid: Game.Client.Window.UI.Components.Common.GUIWindow.GUIWindowCloseButton
+  commentId: T:Game.Client.Window.UI.Components.Common.GUIWindow.GUIWindowCloseButton
+  href: Game.Client.Window.UI.Components.Common.GUIWindow.html
+  name: GUIWindow.GUIWindowCloseButton
+  nameWithType: GUIWindow.GUIWindowCloseButton
+  fullName: Game.Client.Window.UI.Components.Common.GUIWindow.GUIWindowCloseButton
+  spec.csharp:
+  - uid: Game.Client.Window.UI.Components.Common.GUIWindow
+    name: GUIWindow
+    href: Game.Client.Window.UI.Components.Common.GUIWindow.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.Common.GUIWindow.GUIWindowCloseButton
+    name: GUIWindowCloseButton
+    href: Game.Client.Window.UI.Components.Common.GUIWindow.GUIWindowCloseButton.html
+  spec.vb:
+  - uid: Game.Client.Window.UI.Components.Common.GUIWindow
+    name: GUIWindow
+    href: Game.Client.Window.UI.Components.Common.GUIWindow.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.Common.GUIWindow.GUIWindowCloseButton
+    name: GUIWindowCloseButton
+    href: Game.Client.Window.UI.Components.Common.GUIWindow.GUIWindowCloseButton.html
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  commentId: T:Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  href: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.html
+  name: HorizontalScrollbar
+  nameWithType: HorizontalScrollbar
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+- uid: Game.Client.Window.UI.Components.Common.TextInput
+  commentId: T:Game.Client.Window.UI.Components.Common.TextInput
+  href: Game.Client.Window.UI.Components.Common.TextInput.html
+  name: TextInput
+  nameWithType: TextInput
+  fullName: Game.Client.Window.UI.Components.Common.TextInput
+- uid: Game.Client.Window.UI.Components.Common.VerticalScrollbar
+  commentId: T:Game.Client.Window.UI.Components.Common.VerticalScrollbar
+  href: Game.Client.Window.UI.Components.Common.VerticalScrollbar.html
+  name: VerticalScrollbar
+  nameWithType: VerticalScrollbar
+  fullName: Game.Client.Window.UI.Components.Common.VerticalScrollbar
+- uid: Game.Client.Window.UI.Components.Common
+  commentId: N:Game.Client.Window.UI.Components.Common
+  href: Game.html
+  name: Game.Client.Window.UI.Components.Common
+  nameWithType: Game.Client.Window.UI.Components.Common
+  fullName: Game.Client.Window.UI.Components.Common
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components
+    name: Components
+    href: Game.Client.Window.UI.Components.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.Common
+    name: Common
+    href: Game.Client.Window.UI.Components.Common.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components
+    name: Components
+    href: Game.Client.Window.UI.Components.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.Common
+    name: Common
+    href: Game.Client.Window.UI.Components.Common.html

@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Configuration
+  commentId: N:Game.Common.Configuration
+  id: Game.Common.Configuration
+  children:
+  - Game.Common.Configuration.Configuration
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Configuration
+  nameWithType: Game.Common.Configuration
+  fullName: Game.Common.Configuration
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Configuration.Configuration
+  commentId: T:Game.Common.Configuration.Configuration
+  parent: Game.Common.Configuration
+  href: Game.Common.Configuration.Configuration.html
+  name: Configuration
+  nameWithType: Configuration
+  fullName: Game.Common.Configuration.Configuration
+- uid: Game.Common.Configuration
+  commentId: N:Game.Common.Configuration
+  href: Game.html
+  name: Game.Common.Configuration
+  nameWithType: Game.Common.Configuration
+  fullName: Game.Common.Configuration
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Configuration
+    name: Configuration
+    href: Game.Common.Configuration.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Configuration
+    name: Configuration
+    href: Game.Common.Configuration.html

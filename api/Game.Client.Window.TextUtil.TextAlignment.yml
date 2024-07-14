@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window.TextUtil.TextAlignment
+  commentId: T:Game.Client.Window.TextUtil.TextAlignment
+  id: TextUtil.TextAlignment
+  parent: Game.Client.Window
+  children:
+  - Game.Client.Window.TextUtil.TextAlignment.BOTH
+  - Game.Client.Window.TextUtil.TextAlignment.HORIZONTAL
+  - Game.Client.Window.TextUtil.TextAlignment.NONE
+  - Game.Client.Window.TextUtil.TextAlignment.VERTICAL
+  langs:
+  - csharp
+  - vb
+  name: TextUtil.TextAlignment
+  nameWithType: TextUtil.TextAlignment
+  fullName: Game.Client.Window.TextUtil.TextAlignment
+  type: Enum
+  source:
+    remote:
+      path: Client/Window/TextUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: TextAlignment
+    path: ../Game/Client/Window/TextUtil.cs
+    startLine: 65
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window
+  summary: Enum for choosing on which axis the text should get centered.
+  example: []
+  syntax:
+    content: public enum TextUtil.TextAlignment
+    content.vb: Public Enum TextUtil.TextAlignment
+- uid: Game.Client.Window.TextUtil.TextAlignment.NONE
+  commentId: F:Game.Client.Window.TextUtil.TextAlignment.NONE
+  id: NONE
+  parent: Game.Client.Window.TextUtil.TextAlignment
+  langs:
+  - csharp
+  - vb
+  name: NONE
+  nameWithType: TextUtil.TextAlignment.NONE
+  fullName: Game.Client.Window.TextUtil.TextAlignment.NONE
+  type: Field
+  source:
+    remote:
+      path: Client/Window/TextUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: NONE
+    path: ../Game/Client/Window/TextUtil.cs
+    startLine: 70
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window
+  summary: No alignment - default
+  example: []
+  syntax:
+    content: NONE = 0
+    return:
+      type: Game.Client.Window.TextUtil.TextAlignment
+- uid: Game.Client.Window.TextUtil.TextAlignment.VERTICAL
+  commentId: F:Game.Client.Window.TextUtil.TextAlignment.VERTICAL
+  id: VERTICAL
+  parent: Game.Client.Window.TextUtil.TextAlignment
+  langs:
+  - csharp
+  - vb
+  name: VERTICAL
+  nameWithType: TextUtil.TextAlignment.VERTICAL
+  fullName: Game.Client.Window.TextUtil.TextAlignment.VERTICAL
+  type: Field
+  source:
+    remote:
+      path: Client/Window/TextUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: VERTICAL
+    path: ../Game/Client/Window/TextUtil.cs
+    startLine: 75
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window
+  summary: Vertical alignment (Y-Axis)
+  example: []
+  syntax:
+    content: VERTICAL = 1
+    return:
+      type: Game.Client.Window.TextUtil.TextAlignment
+- uid: Game.Client.Window.TextUtil.TextAlignment.HORIZONTAL
+  commentId: F:Game.Client.Window.TextUtil.TextAlignment.HORIZONTAL
+  id: HORIZONTAL
+  parent: Game.Client.Window.TextUtil.TextAlignment
+  langs:
+  - csharp
+  - vb
+  name: HORIZONTAL
+  nameWithType: TextUtil.TextAlignment.HORIZONTAL
+  fullName: Game.Client.Window.TextUtil.TextAlignment.HORIZONTAL
+  type: Field
+  source:
+    remote:
+      path: Client/Window/TextUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: HORIZONTAL
+    path: ../Game/Client/Window/TextUtil.cs
+    startLine: 80
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window
+  summary: Horizontal alignment (X-Axis)
+  example: []
+  syntax:
+    content: HORIZONTAL = 16
+    return:
+      type: Game.Client.Window.TextUtil.TextAlignment
+- uid: Game.Client.Window.TextUtil.TextAlignment.BOTH
+  commentId: F:Game.Client.Window.TextUtil.TextAlignment.BOTH
+  id: BOTH
+  parent: Game.Client.Window.TextUtil.TextAlignment
+  langs:
+  - csharp
+  - vb
+  name: BOTH
+  nameWithType: TextUtil.TextAlignment.BOTH
+  fullName: Game.Client.Window.TextUtil.TextAlignment.BOTH
+  type: Field
+  source:
+    remote:
+      path: Client/Window/TextUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: BOTH
+    path: ../Game/Client/Window/TextUtil.cs
+    startLine: 86
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window
+  summary: >-
+    Vertical and horizontal alignment (X and Y Axis)
+
+    <br /><br />Combination of <xref href="Game.Client.Window.TextUtil.TextAlignment.HORIZONTAL" data-throw-if-not-resolved="false"></xref> and <xref href="Game.Client.Window.TextUtil.TextAlignment.VERTICAL" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: BOTH = 17
+    return:
+      type: Game.Client.Window.TextUtil.TextAlignment
+references:
+- uid: Game.Client.Window
+  commentId: N:Game.Client.Window
+  href: Game.html
+  name: Game.Client.Window
+  nameWithType: Game.Client.Window
+  fullName: Game.Client.Window
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+- uid: Game.Client.Window.TextUtil.TextAlignment
+  commentId: T:Game.Client.Window.TextUtil.TextAlignment
+  parent: Game.Client.Window
+  href: Game.Client.Window.TextUtil.html
+  name: TextUtil.TextAlignment
+  nameWithType: TextUtil.TextAlignment
+  fullName: Game.Client.Window.TextUtil.TextAlignment
+  spec.csharp:
+  - uid: Game.Client.Window.TextUtil
+    name: TextUtil
+    href: Game.Client.Window.TextUtil.html
+  - name: .
+  - uid: Game.Client.Window.TextUtil.TextAlignment
+    name: TextAlignment
+    href: Game.Client.Window.TextUtil.TextAlignment.html
+  spec.vb:
+  - uid: Game.Client.Window.TextUtil
+    name: TextUtil
+    href: Game.Client.Window.TextUtil.html
+  - name: .
+  - uid: Game.Client.Window.TextUtil.TextAlignment
+    name: TextAlignment
+    href: Game.Client.Window.TextUtil.TextAlignment.html
+- uid: Game.Client.Window.TextUtil.TextAlignment.HORIZONTAL
+  commentId: F:Game.Client.Window.TextUtil.TextAlignment.HORIZONTAL
+  href: Game.Client.Window.TextUtil.TextAlignment.html#Game_Client_Window_TextUtil_TextAlignment_HORIZONTAL
+  name: HORIZONTAL
+  nameWithType: TextUtil.TextAlignment.HORIZONTAL
+  fullName: Game.Client.Window.TextUtil.TextAlignment.HORIZONTAL
+- uid: Game.Client.Window.TextUtil.TextAlignment.VERTICAL
+  commentId: F:Game.Client.Window.TextUtil.TextAlignment.VERTICAL
+  href: Game.Client.Window.TextUtil.TextAlignment.html#Game_Client_Window_TextUtil_TextAlignment_VERTICAL
+  name: VERTICAL
+  nameWithType: TextUtil.TextAlignment.VERTICAL
+  fullName: Game.Client.Window.TextUtil.TextAlignment.VERTICAL

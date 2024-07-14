@@ -1,0 +1,1122 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class GUIComponent | Railventure </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class GUIComponent | Railventure ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../images/logo.png" alt="Railventure" class="logomark">
+              <span class="brand-title">Railventure</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../images/logo.png" alt="Railventure" class="logomark">
+                          <span class="brand-title">Railventure</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  <h5 id="current-time"></h5><script>setInterval(() => document.getElementById('current-time').innerText = new Date().toLocaleString(), 1000);</script>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div id="contribution">
+                               <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="Game.Client.Window.UI.GUIComponent">
+
+
+
+  <h1 id="Game_Client_Window_UI_GUIComponent" data-uid="Game.Client.Window.UI.GUIComponent" class="text-break">Class GUIComponent</h1>
+  <div class="markdown level0 summary"><p>Base for GUI Components</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">GUIComponent</span></div>
+      <div class="level2"><a class="xref" href="Game.Client.Window.UI.Components.Common.Button.html">Button</a></div>
+      <div class="level2"><a class="xref" href="Game.Client.Window.UI.Components.Common.GUIWindow.html">GUIWindow</a></div>
+      <div class="level2"><a class="xref" href="Game.Client.Window.UI.Components.Common.GUIWindow.GUIWindowCloseButton.html">GUIWindow.GUIWindowCloseButton</a></div>
+      <div class="level2"><a class="xref" href="Game.Client.Window.UI.Components.Common.HorizontalScrollbar.html">HorizontalScrollbar</a></div>
+      <div class="level2"><a class="xref" href="Game.Client.Window.UI.Components.Common.TextInput.html">TextInput</a></div>
+      <div class="level2"><a class="xref" href="Game.Client.Window.UI.Components.Common.VerticalScrollbar.html">VerticalScrollbar</a></div>
+      <div class="level2"><a class="xref" href="Game.Client.Window.UI.Components.CurrentTime.html">CurrentTime</a></div>
+      <div class="level2"><a class="xref" href="Game.Client.Window.UI.Components.Perfomance.html">Perfomance</a></div>
+      <div class="level2"><a class="xref" href="Game.Client.Window.UI.Components.TestComponent.html">TestComponent</a></div>
+      <div class="level2"><a class="xref" href="Game.Client.Window.UI.Components.TimeControls.html">TimeControls</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Game.html">Game</a>.<a class="xref" href="Game.Client.html">Client</a>.<a class="xref" href="Game.Client.Window.html">Window</a>.<a class="xref" href="Game.Client.Window.UI.html">UI</a></h6>
+  <h6><strong>Assembly</strong>: Railventure.dll</h6>
+  <h5 id="Game_Client_Window_UI_GUIComponent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class GUIComponent</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent__ctor_System_Int32__System_Int32__.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.%23ctor(System.Int32%40%2CSystem.Int32%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L87">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent__ctor_" data-uid="Game.Client.Window.UI.GUIComponent.#ctor*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent__ctor_System_Int32__System_Int32__" data-uid="Game.Client.Window.UI.GUIComponent.#ctor(System.Int32@,System.Int32@)">GUIComponent(in int, in int)</h4>
+  <div class="markdown level1 summary"><p>Base constructor for a component</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GUIComponent(in int width, in int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>Width of this component</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>Height of this component</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent__ctor_System_Int32__System_Int32__System_Int32__System_Int32__.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.%23ctor(System.Int32%40%2CSystem.Int32%40%2CSystem.Int32%40%2CSystem.Int32%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L71">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent__ctor_" data-uid="Game.Client.Window.UI.GUIComponent.#ctor*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent__ctor_System_Int32__System_Int32__System_Int32__System_Int32__" data-uid="Game.Client.Window.UI.GUIComponent.#ctor(System.Int32@,System.Int32@,System.Int32@,System.Int32@)">GUIComponent(in int, in int, in int, in int)</h4>
+  <div class="markdown level1 summary"><p>Base constructor for a component</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GUIComponent(in int x, in int y, in int width, in int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>Horizontal position of this component</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>Vertical position of this component</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>Width of this component</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>Height of this component</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_DestinationRectangle.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.DestinationRectangle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L57">View Source</a>
+  </span>
+  <h4 id="Game_Client_Window_UI_GUIComponent_DestinationRectangle" data-uid="Game.Client.Window.UI.GUIComponent.DestinationRectangle">DestinationRectangle</h4>
+  <div class="markdown level1 summary"><p>Bounds of this component including a position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect DestinationRectangle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_SourceRectangle.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.SourceRectangle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L52">View Source</a>
+  </span>
+  <h4 id="Game_Client_Window_UI_GUIComponent_SourceRectangle" data-uid="Game.Client.Window.UI.GUIComponent.SourceRectangle">SourceRectangle</h4>
+  <div class="markdown level1 summary"><p>Bounds of this component excluding a position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect SourceRectangle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_TextureAccess.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.TextureAccess%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L62">View Source</a>
+  </span>
+  <h4 id="Game_Client_Window_UI_GUIComponent_TextureAccess" data-uid="Game.Client.Window.UI.GUIComponent.TextureAccess">TextureAccess</h4>
+  <div class="markdown level1 summary"><p>Override this to change the TextureAccess.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureAccess TextureAccess</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextureAccess</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent__.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent._%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L14">View Source</a>
+  </span>
+  <h4 id="Game_Client_Window_UI_GUIComponent__" data-uid="Game.Client.Window.UI.GUIComponent._">_</h4>
+  <div class="markdown level1 summary"><p>Logger instance</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly Logger _</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Common.Debug.Logging.Logger.html">Logger</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent__redraw.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent._redraw%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L21">View Source</a>
+  </span>
+  <h4 id="Game_Client_Window_UI_GUIComponent__redraw" data-uid="Game.Client.Window.UI.GUIComponent._redraw">_redraw</h4>
+  <div class="markdown level1 summary"><p>Re-draws the component on the next frame if true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _redraw</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_Height.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.Height%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L41">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_Height_" data-uid="Game.Client.Window.UI.GUIComponent.Height*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_Height" data-uid="Game.Client.Window.UI.GUIComponent.Height">Height</h4>
+  <div class="markdown level1 summary"><p>Height of this component</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Height { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_MainPane.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.MainPane%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L47">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_MainPane_" data-uid="Game.Client.Window.UI.GUIComponent.MainPane*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_MainPane" data-uid="Game.Client.Window.UI.GUIComponent.MainPane">MainPane</h4>
+  <div class="markdown level1 summary"><p>An empty texture with the dimensions of <a class="xref" href="Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Width">Width</a> and <a class="xref" href="Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Height">Height</a> on which the components gets rendered.
+<br>After that it gets copied on top the screen at <a class="xref" href="Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_X">X</a> and <a class="xref" href="Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Y">Y</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture MainPane { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Texture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_Width.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.Width%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L36">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_Width_" data-uid="Game.Client.Window.UI.GUIComponent.Width*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_Width" data-uid="Game.Client.Window.UI.GUIComponent.Width">Width</h4>
+  <div class="markdown level1 summary"><p>Width of this component</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Width { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_X.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.X%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L26">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_X_" data-uid="Game.Client.Window.UI.GUIComponent.X*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_X" data-uid="Game.Client.Window.UI.GUIComponent.X">X</h4>
+  <div class="markdown level1 summary"><p>Horizontal position of this component</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int X { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_Y.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.Y%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L31">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_Y_" data-uid="Game.Client.Window.UI.GUIComponent.Y*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_Y" data-uid="Game.Client.Window.UI.GUIComponent.Y">Y</h4>
+  <div class="markdown level1 summary"><p>Vertical position of this component</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Y { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_Draw_SDL_Sharp_Renderer__System_Single__.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.Draw(SDL_Sharp.Renderer%40%2CSystem.Single%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L169">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_Draw_" data-uid="Game.Client.Window.UI.GUIComponent.Draw*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_Draw_SDL_Sharp_Renderer__System_Single__" data-uid="Game.Client.Window.UI.GUIComponent.Draw(SDL_Sharp.Renderer@,System.Single@)">Draw(ref Renderer, in float)</h4>
+  <div class="markdown level1 summary"><p>Draw here on the component. Position 0,0 is the top-left corner and <a class="xref" href="Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Width">Width</a> + <a class="xref" href="Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Height">Height</a> are the bottom-right corner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Draw(ref Renderer renderer, in float deltaTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td><span class="parametername">renderer</span></td>
+        <td><p>The current instance of the <a class="xref" href="Game.Client.Window.GameWindow.html">GameWindow</a>'s renderer</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">deltaTime</span></td>
+        <td><p>Delta time since last frame</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_GetBounds.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.GetBounds%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L103">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_GetBounds_" data-uid="Game.Client.Window.UI.GUIComponent.GetBounds*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_GetBounds" data-uid="Game.Client.Window.UI.GUIComponent.GetBounds">GetBounds()</h4>
+  <div class="markdown level1 summary"><p>Dimensions of this component, see <span class="xref">SDL_Sharp.Rect</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect GetBounds()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_IsInBounds_SDL_Sharp_Point_.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.IsInBounds(SDL_Sharp.Point)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L125">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_IsInBounds_" data-uid="Game.Client.Window.UI.GUIComponent.IsInBounds*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_IsInBounds_SDL_Sharp_Point_" data-uid="Game.Client.Window.UI.GUIComponent.IsInBounds(SDL_Sharp.Point)">IsInBounds(Point)</h4>
+  <div class="markdown level1 summary"><p>Checks if <code class="paramref">point</code> is inside the boundaries of this component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInBounds(Point point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Point</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_IsInBounds_System_Int32__System_Int32__.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.IsInBounds(System.Int32%40%2CSystem.Int32%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L114">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_IsInBounds_" data-uid="Game.Client.Window.UI.GUIComponent.IsInBounds*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_IsInBounds_System_Int32__System_Int32__" data-uid="Game.Client.Window.UI.GUIComponent.IsInBounds(System.Int32@,System.Int32@)">IsInBounds(in int, in int)</h4>
+  <div class="markdown level1 summary"><p>Checks if <code class="paramref">x</code> and <code class="paramref">y</code> are inside the boundaries of this component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInBounds(in int x, in int y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_Launch_SDL_Sharp_Renderer__.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.Launch(SDL_Sharp.Renderer%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L93">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_Launch_" data-uid="Game.Client.Window.UI.GUIComponent.Launch*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_Launch_SDL_Sharp_Renderer__" data-uid="Game.Client.Window.UI.GUIComponent.Launch(SDL_Sharp.Renderer@)">Launch(ref Renderer)</h4>
+  <div class="markdown level1 summary"><p>Gets run by the parent component, screen or window. Used to setup the component's <a class="xref" href="Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_MainPane">MainPane</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Launch(ref Renderer renderer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td><span class="parametername">renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_MouseDown_SDL_Sharp_Point_SDL_Sharp_Point_.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.MouseDown(SDL_Sharp.Point%2CSDL_Sharp.Point)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L189">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_MouseDown_" data-uid="Game.Client.Window.UI.GUIComponent.MouseDown*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_MouseDown_SDL_Sharp_Point_SDL_Sharp_Point_" data-uid="Game.Client.Window.UI.GUIComponent.MouseDown(SDL_Sharp.Point,SDL_Sharp.Point)">MouseDown(Point, Point)</h4>
+  <div class="markdown level1 summary"><p>Called on mouse click.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void MouseDown(Point absolutePosition, Point relativePosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Point</span></td>
+        <td><span class="parametername">absolutePosition</span></td>
+        <td><p>relative to the window</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Point</span></td>
+        <td><span class="parametername">relativePosition</span></td>
+        <td><p>relative to the component</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_MouseMotion_SDL_Sharp_Point_SDL_Sharp_Point_.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.MouseMotion(SDL_Sharp.Point%2CSDL_Sharp.Point)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L182">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_MouseMotion_" data-uid="Game.Client.Window.UI.GUIComponent.MouseMotion*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_MouseMotion_SDL_Sharp_Point_SDL_Sharp_Point_" data-uid="Game.Client.Window.UI.GUIComponent.MouseMotion(SDL_Sharp.Point,SDL_Sharp.Point)">MouseMotion(Point, Point)</h4>
+  <div class="markdown level1 summary"><p>Called when the cursor moves.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void MouseMotion(Point absolutePosition, Point relativePosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Point</span></td>
+        <td><span class="parametername">absolutePosition</span></td>
+        <td><p>relative to the window</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Point</span></td>
+        <td><span class="parametername">relativePosition</span></td>
+        <td><p>relative to the component</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_MouseUp_SDL_Sharp_Point_SDL_Sharp_Point_.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.MouseUp(SDL_Sharp.Point%2CSDL_Sharp.Point)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L196">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_MouseUp_" data-uid="Game.Client.Window.UI.GUIComponent.MouseUp*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_MouseUp_SDL_Sharp_Point_SDL_Sharp_Point_" data-uid="Game.Client.Window.UI.GUIComponent.MouseUp(SDL_Sharp.Point,SDL_Sharp.Point)">MouseUp(Point, Point)</h4>
+  <div class="markdown level1 summary"><p>Called on mouse up.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void MouseUp(Point absolutePosition, Point relativePosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Point</span></td>
+        <td><span class="parametername">absolutePosition</span></td>
+        <td><p>relative to the window</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Point</span></td>
+        <td><span class="parametername">relativePosition</span></td>
+        <td><p>relative to the component</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_OnKey_SDL_Sharp_Keycode_SDL_Sharp_KeyModifier_SDL_Sharp_ButtonState_.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.OnKey(SDL_Sharp.Keycode%2CSDL_Sharp.KeyModifier%2CSDL_Sharp.ButtonState)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L204">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_OnKey_" data-uid="Game.Client.Window.UI.GUIComponent.OnKey*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_OnKey_SDL_Sharp_Keycode_SDL_Sharp_KeyModifier_SDL_Sharp_ButtonState_" data-uid="Game.Client.Window.UI.GUIComponent.OnKey(SDL_Sharp.Keycode,SDL_Sharp.KeyModifier,SDL_Sharp.ButtonState)">OnKey(Keycode, KeyModifier, ButtonState)</h4>
+  <div class="markdown level1 summary"><p>Called on keyboard input.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnKey(Keycode keyCode, KeyModifier modifiers, ButtonState state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Keycode</span></td>
+        <td><span class="parametername">keyCode</span></td>
+        <td><p>Key on the keyboard</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">KeyModifier</span></td>
+        <td><span class="parametername">modifiers</span></td>
+        <td><p>Active modifier keys</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">ButtonState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Current key state</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_RefreshDimensions_System_Int32__System_Int32__.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.RefreshDimensions(System.Int32%40%2CSystem.Int32%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L211">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_RefreshDimensions_" data-uid="Game.Client.Window.UI.GUIComponent.RefreshDimensions*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_RefreshDimensions_System_Int32__System_Int32__" data-uid="Game.Client.Window.UI.GUIComponent.RefreshDimensions(System.Int32@,System.Int32@)">RefreshDimensions(in int, in int)</h4>
+  <div class="markdown level1 summary"><p>Implement this to update the position of the component on screen-size change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void RefreshDimensions(in int screenWidth, in int screenHeight)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">screenWidth</span></td>
+        <td><p><a class="xref" href="Game.Client.Window.GameWindow.html#Game_Client_Window_GameWindow_Width">Width</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">screenHeight</span></td>
+        <td><p><a class="xref" href="Game.Client.Window.GameWindow.html#Game_Client_Window_GameWindow_Height">Height</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_Render_SDL_Sharp_Renderer__System_Single__System_Boolean_.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.Render(SDL_Sharp.Renderer%40%2CSystem.Single%40%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L140">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_Render_" data-uid="Game.Client.Window.UI.GUIComponent.Render*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_Render_SDL_Sharp_Renderer__System_Single__System_Boolean_" data-uid="Game.Client.Window.UI.GUIComponent.Render(SDL_Sharp.Renderer@,System.Single@,System.Boolean)">Render(ref Renderer, in float, bool)</h4>
+  <div class="markdown level1 summary"><p>Internal logic for rendering the component.<br>
+This method also calls Draw(ref Renderer), which is where the actual drawing takes place.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Render(ref Renderer renderer, in float deltaTime, bool drawOnScreen = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td><span class="parametername">renderer</span></td>
+        <td><p>The current instance of the <a class="xref" href="Game.Client.Window.GameWindow.html">GameWindow</a>'s renderer</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">deltaTime</span></td>
+        <td><p>Delta time since last frame</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">drawOnScreen</span></td>
+        <td><p>TRUE if you also want to draw the component to the screen.
+<br>FALSE to only draw to <a class="xref" href="Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_MainPane">MainPane</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_RenderBounds_SDL_Sharp_Renderer__.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.RenderBounds(SDL_Sharp.Renderer%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L219">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_RenderBounds_" data-uid="Game.Client.Window.UI.GUIComponent.RenderBounds*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_RenderBounds_SDL_Sharp_Renderer__" data-uid="Game.Client.Window.UI.GUIComponent.RenderBounds(SDL_Sharp.Renderer@)">RenderBounds(ref Renderer)</h4>
+  <div class="markdown level1 summary"><p>Draws a green border around the component.
+<br>Might be useful for debugging.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RenderBounds(ref Renderer renderer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td><span class="parametername">renderer</span></td>
+        <td><p>The current instance of the <a class="xref" href="Game.Client.Window.GameWindow.html">GameWindow</a>'s renderer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p><span class="xref">SDL_Sharp.SDL.RenderDrawRect(SDL_Sharp.Renderer, ref SDL_Sharp.Rect)</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Window_UI_GUIComponent_ShouldRedraw.md&amp;value=---%0Auid%3A%20Game.Client.Window.UI.GUIComponent.ShouldRedraw%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Window/UI/GUIComponent.cs/#L175">View Source</a>
+  </span>
+  <a id="Game_Client_Window_UI_GUIComponent_ShouldRedraw_" data-uid="Game.Client.Window.UI.GUIComponent.ShouldRedraw*"></a>
+  <h4 id="Game_Client_Window_UI_GUIComponent_ShouldRedraw" data-uid="Game.Client.Window.UI.GUIComponent.ShouldRedraw">ShouldRedraw()</h4>
+  <div class="markdown level1 summary"><p>The component gets only redrawn, if this method returns true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool ShouldRedraw()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>Return true to redraw. If nothing changed since the last redraw, return false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>Copyright &#169; 2024 JustMattis, Sam302rk</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+</html>

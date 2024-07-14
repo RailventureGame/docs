@@ -1,0 +1,881 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window.UI.Color
+  commentId: T:Game.Client.Window.UI.Color
+  id: Color
+  parent: Game.Client.Window.UI
+  children:
+  - Game.Client.Window.UI.Color.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  - Game.Client.Window.UI.Color.#ctor(System.UInt32)
+  - Game.Client.Window.UI.Color.Alpha
+  - Game.Client.Window.UI.Color.Blue
+  - Game.Client.Window.UI.Color.Choose(System.Boolean@,Game.Client.Window.UI.Color@,Game.Client.Window.UI.Color@)
+  - Game.Client.Window.UI.Color.Green
+  - Game.Client.Window.UI.Color.RGB(System.Byte,System.Byte,System.Byte)
+  - Game.Client.Window.UI.Color.RGB(System.UInt32)
+  - Game.Client.Window.UI.Color.Red
+  - Game.Client.Window.UI.Color.SetAsDrawColor(SDL_Sharp.Renderer@)
+  - Game.Client.Window.UI.Color.ToInteger
+  - Game.Client.Window.UI.Color.ToSDL
+  - Game.Client.Window.UI.Color.WithAlpha(System.Byte)
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: Color
+  fullName: Game.Client.Window.UI.Color
+  type: Struct
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Color
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 94
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Colors for UI
+  example: []
+  syntax:
+    content: public struct Color
+    content.vb: Public Structure Color
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Game.Client.Window.UI.Color.Red
+  commentId: F:Game.Client.Window.UI.Color.Red
+  id: Red
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: Color.Red
+  fullName: Game.Client.Window.UI.Color.Red
+  type: Field
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Red
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 99
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Color channels
+  example: []
+  syntax:
+    content: public readonly byte Red
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Red As Byte
+- uid: Game.Client.Window.UI.Color.Green
+  commentId: F:Game.Client.Window.UI.Color.Green
+  id: Green
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: Color.Green
+  fullName: Game.Client.Window.UI.Color.Green
+  type: Field
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Green
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 99
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Color channels
+  example: []
+  syntax:
+    content: public readonly byte Green
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Green As Byte
+- uid: Game.Client.Window.UI.Color.Blue
+  commentId: F:Game.Client.Window.UI.Color.Blue
+  id: Blue
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: Color.Blue
+  fullName: Game.Client.Window.UI.Color.Blue
+  type: Field
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Blue
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 99
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Color channels
+  example: []
+  syntax:
+    content: public readonly byte Blue
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Blue As Byte
+- uid: Game.Client.Window.UI.Color.Alpha
+  commentId: F:Game.Client.Window.UI.Color.Alpha
+  id: Alpha
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: Alpha
+  nameWithType: Color.Alpha
+  fullName: Game.Client.Window.UI.Color.Alpha
+  type: Field
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Alpha
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 99
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Color channels
+  example: []
+  syntax:
+    content: public readonly byte Alpha
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Alpha As Byte
+- uid: Game.Client.Window.UI.Color.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  commentId: M:Game.Client.Window.UI.Color.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  id: '#ctor(System.Byte,System.Byte,System.Byte,System.Byte)'
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: Color(byte, byte, byte, byte)
+  nameWithType: Color.Color(byte, byte, byte, byte)
+  fullName: Game.Client.Window.UI.Color.Color(byte, byte, byte, byte)
+  type: Constructor
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 108
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Constructor with seperate color channels (RGBA)
+  example: []
+  syntax:
+    content: public Color(byte r, byte g, byte b, byte a)
+    parameters:
+    - id: r
+      type: System.Byte
+      description: ''
+    - id: g
+      type: System.Byte
+      description: ''
+    - id: b
+      type: System.Byte
+      description: ''
+    - id: a
+      type: System.Byte
+      description: ''
+    content.vb: Public Sub New(r As Byte, g As Byte, b As Byte, a As Byte)
+  overload: Game.Client.Window.UI.Color.#ctor*
+  nameWithType.vb: Color.New(Byte, Byte, Byte, Byte)
+  fullName.vb: Game.Client.Window.UI.Color.New(Byte, Byte, Byte, Byte)
+  name.vb: New(Byte, Byte, Byte, Byte)
+- uid: Game.Client.Window.UI.Color.#ctor(System.UInt32)
+  commentId: M:Game.Client.Window.UI.Color.#ctor(System.UInt32)
+  id: '#ctor(System.UInt32)'
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: Color(uint)
+  nameWithType: Color.Color(uint)
+  fullName: Game.Client.Window.UI.Color.Color(uint)
+  type: Constructor
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 117
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Constructor with combined color channels (RRGGBBAA)
+  example: []
+  syntax:
+    content: public Color(uint rrggbbaa)
+    parameters:
+    - id: rrggbbaa
+      type: System.UInt32
+      description: 'Format: 0xRRGGBBAA'
+    content.vb: Public Sub New(rrggbbaa As UInteger)
+  overload: Game.Client.Window.UI.Color.#ctor*
+  nameWithType.vb: Color.New(UInteger)
+  fullName.vb: Game.Client.Window.UI.Color.New(UInteger)
+  name.vb: New(UInteger)
+- uid: Game.Client.Window.UI.Color.RGB(System.Byte,System.Byte,System.Byte)
+  commentId: M:Game.Client.Window.UI.Color.RGB(System.Byte,System.Byte,System.Byte)
+  id: RGB(System.Byte,System.Byte,System.Byte)
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: RGB(byte, byte, byte)
+  nameWithType: Color.RGB(byte, byte, byte)
+  fullName: Game.Client.Window.UI.Color.RGB(byte, byte, byte)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: RGB
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 132
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Constructor for seperate color channels (RGB)
+  example: []
+  syntax:
+    content: public static Color RGB(byte r, byte g, byte b)
+    parameters:
+    - id: r
+      type: System.Byte
+      description: ''
+    - id: g
+      type: System.Byte
+      description: ''
+    - id: b
+      type: System.Byte
+      description: ''
+    return:
+      type: Game.Client.Window.UI.Color
+      description: ''
+    content.vb: Public Shared Function RGB(r As Byte, g As Byte, b As Byte) As Color
+  overload: Game.Client.Window.UI.Color.RGB*
+  nameWithType.vb: Color.RGB(Byte, Byte, Byte)
+  fullName.vb: Game.Client.Window.UI.Color.RGB(Byte, Byte, Byte)
+  name.vb: RGB(Byte, Byte, Byte)
+- uid: Game.Client.Window.UI.Color.RGB(System.UInt32)
+  commentId: M:Game.Client.Window.UI.Color.RGB(System.UInt32)
+  id: RGB(System.UInt32)
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: RGB(uint)
+  nameWithType: Color.RGB(uint)
+  fullName: Game.Client.Window.UI.Color.RGB(uint)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: RGB
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 142
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Constructor for combined color channels (RRGGBB)
+  example: []
+  syntax:
+    content: public static Color RGB(uint rrggbb)
+    parameters:
+    - id: rrggbb
+      type: System.UInt32
+      description: 'Format: 0xRRGGBB'
+    return:
+      type: Game.Client.Window.UI.Color
+      description: ''
+    content.vb: Public Shared Function RGB(rrggbb As UInteger) As Color
+  overload: Game.Client.Window.UI.Color.RGB*
+  nameWithType.vb: Color.RGB(UInteger)
+  fullName.vb: Game.Client.Window.UI.Color.RGB(UInteger)
+  name.vb: RGB(UInteger)
+- uid: Game.Client.Window.UI.Color.ToInteger
+  commentId: M:Game.Client.Window.UI.Color.ToInteger
+  id: ToInteger
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: ToInteger()
+  nameWithType: Color.ToInteger()
+  fullName: Game.Client.Window.UI.Color.ToInteger()
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ToInteger
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 151
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Converts the channels into an integer
+  example: []
+  syntax:
+    content: public int ToInteger()
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Function ToInteger() As Integer
+  overload: Game.Client.Window.UI.Color.ToInteger*
+- uid: Game.Client.Window.UI.Color.ToSDL
+  commentId: M:Game.Client.Window.UI.Color.ToSDL
+  id: ToSDL
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: ToSDL()
+  nameWithType: Color.ToSDL()
+  fullName: Game.Client.Window.UI.Color.ToSDL()
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ToSDL
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 160
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Converts the object into an <xref href="SDL_Sharp.Color" data-throw-if-not-resolved="false"></xref> object.
+  example: []
+  syntax:
+    content: public Color ToSDL()
+    return:
+      type: SDL_Sharp.Color
+      description: ''
+    content.vb: Public Function ToSDL() As Color
+  overload: Game.Client.Window.UI.Color.ToSDL*
+- uid: Game.Client.Window.UI.Color.SetAsDrawColor(SDL_Sharp.Renderer@)
+  commentId: M:Game.Client.Window.UI.Color.SetAsDrawColor(SDL_Sharp.Renderer@)
+  id: SetAsDrawColor(SDL_Sharp.Renderer@)
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: SetAsDrawColor(ref Renderer)
+  nameWithType: Color.SetAsDrawColor(ref Renderer)
+  fullName: Game.Client.Window.UI.Color.SetAsDrawColor(ref SDL_Sharp.Renderer)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SetAsDrawColor
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 170
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Sets this color as draw color for the game renderer.
+  example: []
+  syntax:
+    content: public int SetAsDrawColor(ref Renderer renderer)
+    parameters:
+    - id: renderer
+      type: SDL_Sharp.Renderer
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Function SetAsDrawColor(renderer As Renderer) As Integer
+  overload: Game.Client.Window.UI.Color.SetAsDrawColor*
+  nameWithType.vb: Color.SetAsDrawColor(Renderer)
+  fullName.vb: Game.Client.Window.UI.Color.SetAsDrawColor(SDL_Sharp.Renderer)
+  name.vb: SetAsDrawColor(Renderer)
+- uid: Game.Client.Window.UI.Color.WithAlpha(System.Byte)
+  commentId: M:Game.Client.Window.UI.Color.WithAlpha(System.Byte)
+  id: WithAlpha(System.Byte)
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: WithAlpha(byte)
+  nameWithType: Color.WithAlpha(byte)
+  fullName: Game.Client.Window.UI.Color.WithAlpha(byte)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: WithAlpha
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 180
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Creates a new version of this color with a new alpha value.
+  example: []
+  syntax:
+    content: public Color WithAlpha(byte alpha)
+    parameters:
+    - id: alpha
+      type: System.Byte
+      description: The new alpha channel value.
+    return:
+      type: Game.Client.Window.UI.Color
+      description: A new instance of this color with another alpha value.
+    content.vb: Public Function WithAlpha(alpha As Byte) As Color
+  overload: Game.Client.Window.UI.Color.WithAlpha*
+  nameWithType.vb: Color.WithAlpha(Byte)
+  fullName.vb: Game.Client.Window.UI.Color.WithAlpha(Byte)
+  name.vb: WithAlpha(Byte)
+- uid: Game.Client.Window.UI.Color.Choose(System.Boolean@,Game.Client.Window.UI.Color@,Game.Client.Window.UI.Color@)
+  commentId: M:Game.Client.Window.UI.Color.Choose(System.Boolean@,Game.Client.Window.UI.Color@,Game.Client.Window.UI.Color@)
+  id: Choose(System.Boolean@,Game.Client.Window.UI.Color@,Game.Client.Window.UI.Color@)
+  parent: Game.Client.Window.UI.Color
+  langs:
+  - csharp
+  - vb
+  name: Choose(in bool, in Color, in Color)
+  nameWithType: Color.Choose(in bool, in Color, in Color)
+  fullName: Game.Client.Window.UI.Color.Choose(in bool, in Game.Client.Window.UI.Color, in Game.Client.Window.UI.Color)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/Color.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Choose
+    path: ../Game/Client/Window/UI/Color.cs
+    startLine: 192
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Chooses between two colors depending on the boolean value.
+  example: []
+  syntax:
+    content: public static Color Choose(in bool val, in Color clr1, in Color clr2)
+    parameters:
+    - id: val
+      type: System.Boolean
+      description: Boolean value, if true clr1 is returned, otherwise clr2.
+    - id: clr1
+      type: Game.Client.Window.UI.Color
+      description: ''
+    - id: clr2
+      type: Game.Client.Window.UI.Color
+      description: ''
+    return:
+      type: Game.Client.Window.UI.Color
+      description: Either clr1 or clr2
+    content.vb: Public Shared Function Choose(val As Boolean, clr1 As Color, clr2 As Color) As Color
+  overload: Game.Client.Window.UI.Color.Choose*
+  nameWithType.vb: Color.Choose(Boolean, Color, Color)
+  fullName.vb: Game.Client.Window.UI.Color.Choose(Boolean, Game.Client.Window.UI.Color, Game.Client.Window.UI.Color)
+  name.vb: Choose(Boolean, Color, Color)
+references:
+- uid: Game.Client.Window.UI
+  commentId: N:Game.Client.Window.UI
+  href: Game.html
+  name: Game.Client.Window.UI
+  nameWithType: Game.Client.Window.UI
+  fullName: Game.Client.Window.UI
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: Game.Client.Window.UI.Color.#ctor*
+  commentId: Overload:Game.Client.Window.UI.Color.#ctor
+  href: Game.Client.Window.UI.Color.html#Game_Client_Window_UI_Color__ctor_System_Byte_System_Byte_System_Byte_System_Byte_
+  name: Color
+  nameWithType: Color.Color
+  fullName: Game.Client.Window.UI.Color.Color
+  nameWithType.vb: Color.New
+  fullName.vb: Game.Client.Window.UI.Color.New
+  name.vb: New
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Game.Client.Window.UI.Color.RGB*
+  commentId: Overload:Game.Client.Window.UI.Color.RGB
+  href: Game.Client.Window.UI.Color.html#Game_Client_Window_UI_Color_RGB_System_Byte_System_Byte_System_Byte_
+  name: RGB
+  nameWithType: Color.RGB
+  fullName: Game.Client.Window.UI.Color.RGB
+- uid: Game.Client.Window.UI.Color
+  commentId: T:Game.Client.Window.UI.Color
+  parent: Game.Client.Window.UI
+  href: Game.Client.Window.UI.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Game.Client.Window.UI.Color
+- uid: Game.Client.Window.UI.Color.ToInteger*
+  commentId: Overload:Game.Client.Window.UI.Color.ToInteger
+  href: Game.Client.Window.UI.Color.html#Game_Client_Window_UI_Color_ToInteger
+  name: ToInteger
+  nameWithType: Color.ToInteger
+  fullName: Game.Client.Window.UI.Color.ToInteger
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SDL_Sharp.Color
+  commentId: T:SDL_Sharp.Color
+  parent: SDL_Sharp
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: SDL_Sharp.Color
+- uid: Game.Client.Window.UI.Color.ToSDL*
+  commentId: Overload:Game.Client.Window.UI.Color.ToSDL
+  href: Game.Client.Window.UI.Color.html#Game_Client_Window_UI_Color_ToSDL
+  name: ToSDL
+  nameWithType: Color.ToSDL
+  fullName: Game.Client.Window.UI.Color.ToSDL
+- uid: SDL_Sharp
+  commentId: N:SDL_Sharp
+  isExternal: true
+  name: SDL_Sharp
+  nameWithType: SDL_Sharp
+  fullName: SDL_Sharp
+- uid: Game.Client.Window.UI.Color.SetAsDrawColor*
+  commentId: Overload:Game.Client.Window.UI.Color.SetAsDrawColor
+  href: Game.Client.Window.UI.Color.html#Game_Client_Window_UI_Color_SetAsDrawColor_SDL_Sharp_Renderer__
+  name: SetAsDrawColor
+  nameWithType: Color.SetAsDrawColor
+  fullName: Game.Client.Window.UI.Color.SetAsDrawColor
+- uid: SDL_Sharp.Renderer
+  commentId: T:SDL_Sharp.Renderer
+  parent: SDL_Sharp
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: SDL_Sharp.Renderer
+- uid: Game.Client.Window.UI.Color.WithAlpha*
+  commentId: Overload:Game.Client.Window.UI.Color.WithAlpha
+  href: Game.Client.Window.UI.Color.html#Game_Client_Window_UI_Color_WithAlpha_System_Byte_
+  name: WithAlpha
+  nameWithType: Color.WithAlpha
+  fullName: Game.Client.Window.UI.Color.WithAlpha
+- uid: Game.Client.Window.UI.Color.Choose*
+  commentId: Overload:Game.Client.Window.UI.Color.Choose
+  href: Game.Client.Window.UI.Color.html#Game_Client_Window_UI_Color_Choose_System_Boolean__Game_Client_Window_UI_Color__Game_Client_Window_UI_Color__
+  name: Choose
+  nameWithType: Color.Choose
+  fullName: Game.Client.Window.UI.Color.Choose
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

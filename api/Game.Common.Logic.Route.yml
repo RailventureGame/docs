@@ -1,0 +1,660 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.Route
+  commentId: T:Game.Common.Logic.Route
+  id: Route
+  parent: Game.Common.Logic
+  children:
+  - Game.Common.Logic.Route.#ctor(Game.Common.Logic.Graph.Node,Game.Common.Logic.Graph.Node,System.Double,System.Boolean,System.Boolean,Game.Common.Logic.Types.RailType)
+  - Game.Common.Logic.Route.HasOverheadWire
+  - Game.Common.Logic.Route.HasTwoTracks
+  - Game.Common.Logic.Route.Length
+  - Game.Common.Logic.Route.Type
+  langs:
+  - csharp
+  - vb
+  name: Route
+  nameWithType: Route
+  fullName: Game.Common.Logic.Route
+  type: Class
+  source:
+    remote:
+      path: Common/Logic/Route.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Route
+    path: ../Game/Common/Logic/Route.cs
+    startLine: 8
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic
+  summary: A route, inherited by all types of routes.
+  example: []
+  syntax:
+    content: 'public abstract class Route : Edge'
+    content.vb: Public MustInherit Class Route Inherits Edge
+  inheritance:
+  - System.Object
+  - Game.Common.Logic.Graph.Edge
+  derivedClasses:
+  - Game.Common.Logic.Routes.CruvedEdgeRoutePiece
+  - Game.Common.Logic.Routes.KlothoidEdgeRoutePiece
+  - Game.Common.Logic.Routes.StraightEdgeRoutePiece
+  inheritedMembers:
+  - Game.Common.Logic.Graph.Edge.Start
+  - Game.Common.Logic.Graph.Edge.Dest
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Common.Logic.Route.Length
+  commentId: P:Game.Common.Logic.Route.Length
+  id: Length
+  parent: Game.Common.Logic.Route
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: Route.Length
+  fullName: Game.Common.Logic.Route.Length
+  type: Property
+  source:
+    remote:
+      path: Common/Logic/Route.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Length
+    path: ../Game/Common/Logic/Route.cs
+    startLine: 14
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic
+  summary: The length of the route.
+  example: []
+  syntax:
+    content: public double Length { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Length As Double
+  overload: Game.Common.Logic.Route.Length*
+- uid: Game.Common.Logic.Route.HasTwoTracks
+  commentId: P:Game.Common.Logic.Route.HasTwoTracks
+  id: HasTwoTracks
+  parent: Game.Common.Logic.Route
+  langs:
+  - csharp
+  - vb
+  name: HasTwoTracks
+  nameWithType: Route.HasTwoTracks
+  fullName: Game.Common.Logic.Route.HasTwoTracks
+  type: Property
+  source:
+    remote:
+      path: Common/Logic/Route.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: HasTwoTracks
+    path: ../Game/Common/Logic/Route.cs
+    startLine: 18
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic
+  summary: True if the route has two tracks, false otherwise.
+  example: []
+  syntax:
+    content: public bool HasTwoTracks { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasTwoTracks As Boolean
+  overload: Game.Common.Logic.Route.HasTwoTracks*
+- uid: Game.Common.Logic.Route.HasOverheadWire
+  commentId: P:Game.Common.Logic.Route.HasOverheadWire
+  id: HasOverheadWire
+  parent: Game.Common.Logic.Route
+  langs:
+  - csharp
+  - vb
+  name: HasOverheadWire
+  nameWithType: Route.HasOverheadWire
+  fullName: Game.Common.Logic.Route.HasOverheadWire
+  type: Property
+  source:
+    remote:
+      path: Common/Logic/Route.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: HasOverheadWire
+    path: ../Game/Common/Logic/Route.cs
+    startLine: 22
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic
+  summary: True if the route has overhead wires, false otherwise.
+  example: []
+  syntax:
+    content: public bool HasOverheadWire { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasOverheadWire As Boolean
+  overload: Game.Common.Logic.Route.HasOverheadWire*
+- uid: Game.Common.Logic.Route.Type
+  commentId: P:Game.Common.Logic.Route.Type
+  id: Type
+  parent: Game.Common.Logic.Route
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Route.Type
+  fullName: Game.Common.Logic.Route.Type
+  type: Property
+  source:
+    remote:
+      path: Common/Logic/Route.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Type
+    path: ../Game/Common/Logic/Route.cs
+    startLine: 26
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic
+  summary: The rail type of the route.
+  example: []
+  syntax:
+    content: public RailType Type { get; }
+    parameters: []
+    return:
+      type: Game.Common.Logic.Types.RailType
+    content.vb: Public Property Type As RailType
+  overload: Game.Common.Logic.Route.Type*
+- uid: Game.Common.Logic.Route.#ctor(Game.Common.Logic.Graph.Node,Game.Common.Logic.Graph.Node,System.Double,System.Boolean,System.Boolean,Game.Common.Logic.Types.RailType)
+  commentId: M:Game.Common.Logic.Route.#ctor(Game.Common.Logic.Graph.Node,Game.Common.Logic.Graph.Node,System.Double,System.Boolean,System.Boolean,Game.Common.Logic.Types.RailType)
+  id: '#ctor(Game.Common.Logic.Graph.Node,Game.Common.Logic.Graph.Node,System.Double,System.Boolean,System.Boolean,Game.Common.Logic.Types.RailType)'
+  parent: Game.Common.Logic.Route
+  langs:
+  - csharp
+  - vb
+  name: Route(Node, Node, double, bool, bool, RailType)
+  nameWithType: Route.Route(Node, Node, double, bool, bool, RailType)
+  fullName: Game.Common.Logic.Route.Route(Game.Common.Logic.Graph.Node, Game.Common.Logic.Graph.Node, double, bool, bool, Game.Common.Logic.Types.RailType)
+  type: Constructor
+  source:
+    remote:
+      path: Common/Logic/Route.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Common/Logic/Route.cs
+    startLine: 37
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic
+  summary: Creates a new route with the specified parameters.
+  example: []
+  syntax:
+    content: protected Route(Node start, Node dest, double length, bool hasTwoTracks, bool hasOverheadWire, RailType type)
+    parameters:
+    - id: start
+      type: Game.Common.Logic.Graph.Node
+      description: the start node of the route
+    - id: dest
+      type: Game.Common.Logic.Graph.Node
+      description: the end node of the route
+    - id: length
+      type: System.Double
+      description: the length of the route
+    - id: hasTwoTracks
+      type: System.Boolean
+      description: true if the route has two tracks, false otherwise
+    - id: hasOverheadWire
+      type: System.Boolean
+      description: true if the route has overhead wires, false otherwise
+    - id: type
+      type: Game.Common.Logic.Types.RailType
+      description: the rail type of the route
+    content.vb: Protected Sub New(start As Node, dest As Node, length As Double, hasTwoTracks As Boolean, hasOverheadWire As Boolean, type As RailType)
+  overload: Game.Common.Logic.Route.#ctor*
+  nameWithType.vb: Route.New(Node, Node, Double, Boolean, Boolean, RailType)
+  fullName.vb: Game.Common.Logic.Route.New(Game.Common.Logic.Graph.Node, Game.Common.Logic.Graph.Node, Double, Boolean, Boolean, Game.Common.Logic.Types.RailType)
+  name.vb: New(Node, Node, Double, Boolean, Boolean, RailType)
+references:
+- uid: Game.Common.Logic
+  commentId: N:Game.Common.Logic
+  href: Game.html
+  name: Game.Common.Logic
+  nameWithType: Game.Common.Logic
+  fullName: Game.Common.Logic
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Game.Common.Logic.Graph.Edge
+  commentId: T:Game.Common.Logic.Graph.Edge
+  parent: Game.Common.Logic.Graph
+  href: Game.Common.Logic.Graph.Edge.html
+  name: Edge
+  nameWithType: Edge
+  fullName: Game.Common.Logic.Graph.Edge
+- uid: Game.Common.Logic.Graph.Edge.Start
+  commentId: P:Game.Common.Logic.Graph.Edge.Start
+  parent: Game.Common.Logic.Graph.Edge
+  href: Game.Common.Logic.Graph.Edge.html#Game_Common_Logic_Graph_Edge_Start
+  name: Start
+  nameWithType: Edge.Start
+  fullName: Game.Common.Logic.Graph.Edge.Start
+- uid: Game.Common.Logic.Graph.Edge.Dest
+  commentId: P:Game.Common.Logic.Graph.Edge.Dest
+  parent: Game.Common.Logic.Graph.Edge
+  href: Game.Common.Logic.Graph.Edge.html#Game_Common_Logic_Graph_Edge_Dest
+  name: Dest
+  nameWithType: Edge.Dest
+  fullName: Game.Common.Logic.Graph.Edge.Dest
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Common.Logic.Graph
+  commentId: N:Game.Common.Logic.Graph
+  href: Game.html
+  name: Game.Common.Logic.Graph
+  nameWithType: Game.Common.Logic.Graph
+  fullName: Game.Common.Logic.Graph
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Graph
+    name: Graph
+    href: Game.Common.Logic.Graph.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Graph
+    name: Graph
+    href: Game.Common.Logic.Graph.html
+- uid: Game.Common.Logic.Route.Length*
+  commentId: Overload:Game.Common.Logic.Route.Length
+  href: Game.Common.Logic.Route.html#Game_Common_Logic_Route_Length
+  name: Length
+  nameWithType: Route.Length
+  fullName: Game.Common.Logic.Route.Length
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Game.Common.Logic.Route.HasTwoTracks*
+  commentId: Overload:Game.Common.Logic.Route.HasTwoTracks
+  href: Game.Common.Logic.Route.html#Game_Common_Logic_Route_HasTwoTracks
+  name: HasTwoTracks
+  nameWithType: Route.HasTwoTracks
+  fullName: Game.Common.Logic.Route.HasTwoTracks
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Game.Common.Logic.Route.HasOverheadWire*
+  commentId: Overload:Game.Common.Logic.Route.HasOverheadWire
+  href: Game.Common.Logic.Route.html#Game_Common_Logic_Route_HasOverheadWire
+  name: HasOverheadWire
+  nameWithType: Route.HasOverheadWire
+  fullName: Game.Common.Logic.Route.HasOverheadWire
+- uid: Game.Common.Logic.Route.Type*
+  commentId: Overload:Game.Common.Logic.Route.Type
+  href: Game.Common.Logic.Route.html#Game_Common_Logic_Route_Type
+  name: Type
+  nameWithType: Route.Type
+  fullName: Game.Common.Logic.Route.Type
+- uid: Game.Common.Logic.Types.RailType
+  commentId: T:Game.Common.Logic.Types.RailType
+  parent: Game.Common.Logic.Types
+  href: Game.Common.Logic.Types.RailType.html
+  name: RailType
+  nameWithType: RailType
+  fullName: Game.Common.Logic.Types.RailType
+- uid: Game.Common.Logic.Types
+  commentId: N:Game.Common.Logic.Types
+  href: Game.html
+  name: Game.Common.Logic.Types
+  nameWithType: Game.Common.Logic.Types
+  fullName: Game.Common.Logic.Types
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+- uid: Game.Common.Logic.Route.#ctor*
+  commentId: Overload:Game.Common.Logic.Route.#ctor
+  href: Game.Common.Logic.Route.html#Game_Common_Logic_Route__ctor_Game_Common_Logic_Graph_Node_Game_Common_Logic_Graph_Node_System_Double_System_Boolean_System_Boolean_Game_Common_Logic_Types_RailType_
+  name: Route
+  nameWithType: Route.Route
+  fullName: Game.Common.Logic.Route.Route
+  nameWithType.vb: Route.New
+  fullName.vb: Game.Common.Logic.Route.New
+  name.vb: New
+- uid: Game.Common.Logic.Graph.Node
+  commentId: T:Game.Common.Logic.Graph.Node
+  parent: Game.Common.Logic.Graph
+  href: Game.Common.Logic.Graph.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Game.Common.Logic.Graph.Node

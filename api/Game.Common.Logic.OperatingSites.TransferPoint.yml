@@ -1,0 +1,590 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.OperatingSites.TransferPoint
+  commentId: T:Game.Common.Logic.OperatingSites.TransferPoint
+  id: TransferPoint
+  parent: Game.Common.Logic.OperatingSites
+  children:
+  - Game.Common.Logic.OperatingSites.TransferPoint.#ctor(System.String,System.Int32,System.Int32,System.String,System.Single)
+  - Game.Common.Logic.OperatingSites.TransferPoint.Id
+  - Game.Common.Logic.OperatingSites.TransferPoint.SwitchRadius
+  langs:
+  - csharp
+  - vb
+  name: TransferPoint
+  nameWithType: TransferPoint
+  fullName: Game.Common.Logic.OperatingSites.TransferPoint
+  type: Class
+  source:
+    remote:
+      path: Common/Logic/OperatingSites/TransferPoint.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: TransferPoint
+    path: ../Game/Common/Logic/OperatingSites/TransferPoint.cs
+    startLine: 5
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.OperatingSites
+  summary: A transfer point - subclass of OperatingSite
+  example: []
+  syntax:
+    content: 'public class TransferPoint : OperatingSite'
+    content.vb: Public Class TransferPoint Inherits OperatingSite
+  inheritance:
+  - System.Object
+  - Game.Common.Logic.Graph.Node
+  - Game.Common.Logic.OperatingSite
+  inheritedMembers:
+  - Game.Common.Logic.OperatingSite.Name
+  - Game.Common.Logic.OperatingSite.OriginX
+  - Game.Common.Logic.OperatingSite.OriginY
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Common.Logic.OperatingSites.TransferPoint.Id
+  commentId: P:Game.Common.Logic.OperatingSites.TransferPoint.Id
+  id: Id
+  parent: Game.Common.Logic.OperatingSites.TransferPoint
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TransferPoint.Id
+  fullName: Game.Common.Logic.OperatingSites.TransferPoint.Id
+  type: Property
+  source:
+    remote:
+      path: Common/Logic/OperatingSites/TransferPoint.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Id
+    path: ../Game/Common/Logic/OperatingSites/TransferPoint.cs
+    startLine: 11
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.OperatingSites
+  summary: The id of the transfer point.
+  example: []
+  syntax:
+    content: public string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Game.Common.Logic.OperatingSites.TransferPoint.Id*
+- uid: Game.Common.Logic.OperatingSites.TransferPoint.SwitchRadius
+  commentId: P:Game.Common.Logic.OperatingSites.TransferPoint.SwitchRadius
+  id: SwitchRadius
+  parent: Game.Common.Logic.OperatingSites.TransferPoint
+  langs:
+  - csharp
+  - vb
+  name: SwitchRadius
+  nameWithType: TransferPoint.SwitchRadius
+  fullName: Game.Common.Logic.OperatingSites.TransferPoint.SwitchRadius
+  type: Property
+  source:
+    remote:
+      path: Common/Logic/OperatingSites/TransferPoint.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SwitchRadius
+    path: ../Game/Common/Logic/OperatingSites/TransferPoint.cs
+    startLine: 15
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.OperatingSites
+  summary: The radius of the transfer point's switches
+  example: []
+  syntax:
+    content: public float SwitchRadius { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SwitchRadius As Single
+  overload: Game.Common.Logic.OperatingSites.TransferPoint.SwitchRadius*
+- uid: Game.Common.Logic.OperatingSites.TransferPoint.#ctor(System.String,System.Int32,System.Int32,System.String,System.Single)
+  commentId: M:Game.Common.Logic.OperatingSites.TransferPoint.#ctor(System.String,System.Int32,System.Int32,System.String,System.Single)
+  id: '#ctor(System.String,System.Int32,System.Int32,System.String,System.Single)'
+  parent: Game.Common.Logic.OperatingSites.TransferPoint
+  langs:
+  - csharp
+  - vb
+  name: TransferPoint(string, int, int, string, float)
+  nameWithType: TransferPoint.TransferPoint(string, int, int, string, float)
+  fullName: Game.Common.Logic.OperatingSites.TransferPoint.TransferPoint(string, int, int, string, float)
+  type: Constructor
+  source:
+    remote:
+      path: Common/Logic/OperatingSites/TransferPoint.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Common/Logic/OperatingSites/TransferPoint.cs
+    startLine: 25
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.OperatingSites
+  summary: Creates a new transfer point with the specified parameters.
+  example: []
+  syntax:
+    content: public TransferPoint(string name, int originX, int originY, string id, float switchRadius)
+    parameters:
+    - id: name
+      type: System.String
+      description: the name of the transfer point
+    - id: originX
+      type: System.Int32
+      description: the x coordinate of the origin of the operating sites relative coordinate system
+    - id: originY
+      type: System.Int32
+      description: the y coordinate of the origin of the operating sites relative coordinate system
+    - id: id
+      type: System.String
+      description: the id of the transfer point
+    - id: switchRadius
+      type: System.Single
+      description: the radius of the transfer points switches
+    content.vb: Public Sub New(name As String, originX As Integer, originY As Integer, id As String, switchRadius As Single)
+  overload: Game.Common.Logic.OperatingSites.TransferPoint.#ctor*
+  nameWithType.vb: TransferPoint.New(String, Integer, Integer, String, Single)
+  fullName.vb: Game.Common.Logic.OperatingSites.TransferPoint.New(String, Integer, Integer, String, Single)
+  name.vb: New(String, Integer, Integer, String, Single)
+references:
+- uid: Game.Common.Logic.OperatingSites
+  commentId: N:Game.Common.Logic.OperatingSites
+  href: Game.html
+  name: Game.Common.Logic.OperatingSites
+  nameWithType: Game.Common.Logic.OperatingSites
+  fullName: Game.Common.Logic.OperatingSites
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.OperatingSites
+    name: OperatingSites
+    href: Game.Common.Logic.OperatingSites.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.OperatingSites
+    name: OperatingSites
+    href: Game.Common.Logic.OperatingSites.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Game.Common.Logic.Graph.Node
+  commentId: T:Game.Common.Logic.Graph.Node
+  parent: Game.Common.Logic.Graph
+  href: Game.Common.Logic.Graph.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Game.Common.Logic.Graph.Node
+- uid: Game.Common.Logic.OperatingSite
+  commentId: T:Game.Common.Logic.OperatingSite
+  parent: Game.Common.Logic
+  href: Game.Common.Logic.OperatingSite.html
+  name: OperatingSite
+  nameWithType: OperatingSite
+  fullName: Game.Common.Logic.OperatingSite
+- uid: Game.Common.Logic.OperatingSite.Name
+  commentId: P:Game.Common.Logic.OperatingSite.Name
+  parent: Game.Common.Logic.OperatingSite
+  href: Game.Common.Logic.OperatingSite.html#Game_Common_Logic_OperatingSite_Name
+  name: Name
+  nameWithType: OperatingSite.Name
+  fullName: Game.Common.Logic.OperatingSite.Name
+- uid: Game.Common.Logic.OperatingSite.OriginX
+  commentId: P:Game.Common.Logic.OperatingSite.OriginX
+  parent: Game.Common.Logic.OperatingSite
+  href: Game.Common.Logic.OperatingSite.html#Game_Common_Logic_OperatingSite_OriginX
+  name: OriginX
+  nameWithType: OperatingSite.OriginX
+  fullName: Game.Common.Logic.OperatingSite.OriginX
+- uid: Game.Common.Logic.OperatingSite.OriginY
+  commentId: P:Game.Common.Logic.OperatingSite.OriginY
+  parent: Game.Common.Logic.OperatingSite
+  href: Game.Common.Logic.OperatingSite.html#Game_Common_Logic_OperatingSite_OriginY
+  name: OriginY
+  nameWithType: OperatingSite.OriginY
+  fullName: Game.Common.Logic.OperatingSite.OriginY
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Common.Logic.Graph
+  commentId: N:Game.Common.Logic.Graph
+  href: Game.html
+  name: Game.Common.Logic.Graph
+  nameWithType: Game.Common.Logic.Graph
+  fullName: Game.Common.Logic.Graph
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Graph
+    name: Graph
+    href: Game.Common.Logic.Graph.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Graph
+    name: Graph
+    href: Game.Common.Logic.Graph.html
+- uid: Game.Common.Logic
+  commentId: N:Game.Common.Logic
+  href: Game.html
+  name: Game.Common.Logic
+  nameWithType: Game.Common.Logic
+  fullName: Game.Common.Logic
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+- uid: Game.Common.Logic.OperatingSites.TransferPoint.Id*
+  commentId: Overload:Game.Common.Logic.OperatingSites.TransferPoint.Id
+  href: Game.Common.Logic.OperatingSites.TransferPoint.html#Game_Common_Logic_OperatingSites_TransferPoint_Id
+  name: Id
+  nameWithType: TransferPoint.Id
+  fullName: Game.Common.Logic.OperatingSites.TransferPoint.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Game.Common.Logic.OperatingSites.TransferPoint.SwitchRadius*
+  commentId: Overload:Game.Common.Logic.OperatingSites.TransferPoint.SwitchRadius
+  href: Game.Common.Logic.OperatingSites.TransferPoint.html#Game_Common_Logic_OperatingSites_TransferPoint_SwitchRadius
+  name: SwitchRadius
+  nameWithType: TransferPoint.SwitchRadius
+  fullName: Game.Common.Logic.OperatingSites.TransferPoint.SwitchRadius
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Game.Common.Logic.OperatingSites.TransferPoint.#ctor*
+  commentId: Overload:Game.Common.Logic.OperatingSites.TransferPoint.#ctor
+  href: Game.Common.Logic.OperatingSites.TransferPoint.html#Game_Common_Logic_OperatingSites_TransferPoint__ctor_System_String_System_Int32_System_Int32_System_String_System_Single_
+  name: TransferPoint
+  nameWithType: TransferPoint.TransferPoint
+  fullName: Game.Common.Logic.OperatingSites.TransferPoint.TransferPoint
+  nameWithType.vb: TransferPoint.New
+  fullName.vb: Game.Common.Logic.OperatingSites.TransferPoint.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

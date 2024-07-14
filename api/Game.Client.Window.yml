@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window
+  commentId: N:Game.Client.Window
+  id: Game.Client.Window
+  children:
+  - Game.Client.Window.CloseAllWindows
+  - Game.Client.Window.GameWindow
+  - Game.Client.Window.KeyboardCommand
+  - Game.Client.Window.OpenDevelopmentUI
+  - Game.Client.Window.PauseGame
+  - Game.Client.Window.TextUtil
+  - Game.Client.Window.TextUtil.TextAlignment
+  - Game.Client.Window.ToggleFullscreen
+  langs:
+  - csharp
+  - vb
+  name: Game.Client.Window
+  nameWithType: Game.Client.Window
+  fullName: Game.Client.Window
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Client.Window.GameWindow
+  commentId: T:Game.Client.Window.GameWindow
+  parent: Game.Client.Window
+  href: Game.Client.Window.GameWindow.html
+  name: GameWindow
+  nameWithType: GameWindow
+  fullName: Game.Client.Window.GameWindow
+- uid: Game.Client.Window.KeyboardCommand
+  commentId: T:Game.Client.Window.KeyboardCommand
+  parent: Game.Client.Window
+  href: Game.Client.Window.KeyboardCommand.html
+  name: KeyboardCommand
+  nameWithType: KeyboardCommand
+  fullName: Game.Client.Window.KeyboardCommand
+- uid: Game.Client.Window.PauseGame
+  commentId: T:Game.Client.Window.PauseGame
+  href: Game.Client.Window.PauseGame.html
+  name: PauseGame
+  nameWithType: PauseGame
+  fullName: Game.Client.Window.PauseGame
+- uid: Game.Client.Window.OpenDevelopmentUI
+  commentId: T:Game.Client.Window.OpenDevelopmentUI
+  href: Game.Client.Window.OpenDevelopmentUI.html
+  name: OpenDevelopmentUI
+  nameWithType: OpenDevelopmentUI
+  fullName: Game.Client.Window.OpenDevelopmentUI
+- uid: Game.Client.Window.ToggleFullscreen
+  commentId: T:Game.Client.Window.ToggleFullscreen
+  href: Game.Client.Window.ToggleFullscreen.html
+  name: ToggleFullscreen
+  nameWithType: ToggleFullscreen
+  fullName: Game.Client.Window.ToggleFullscreen
+- uid: Game.Client.Window.CloseAllWindows
+  commentId: T:Game.Client.Window.CloseAllWindows
+  href: Game.Client.Window.CloseAllWindows.html
+  name: CloseAllWindows
+  nameWithType: CloseAllWindows
+  fullName: Game.Client.Window.CloseAllWindows
+- uid: Game.Client.Window.TextUtil
+  commentId: T:Game.Client.Window.TextUtil
+  href: Game.Client.Window.TextUtil.html
+  name: TextUtil
+  nameWithType: TextUtil
+  fullName: Game.Client.Window.TextUtil
+- uid: Game.Client.Window.TextUtil.TextAlignment
+  commentId: T:Game.Client.Window.TextUtil.TextAlignment
+  parent: Game.Client.Window
+  href: Game.Client.Window.TextUtil.html
+  name: TextUtil.TextAlignment
+  nameWithType: TextUtil.TextAlignment
+  fullName: Game.Client.Window.TextUtil.TextAlignment
+  spec.csharp:
+  - uid: Game.Client.Window.TextUtil
+    name: TextUtil
+    href: Game.Client.Window.TextUtil.html
+  - name: .
+  - uid: Game.Client.Window.TextUtil.TextAlignment
+    name: TextAlignment
+    href: Game.Client.Window.TextUtil.TextAlignment.html
+  spec.vb:
+  - uid: Game.Client.Window.TextUtil
+    name: TextUtil
+    href: Game.Client.Window.TextUtil.html
+  - name: .
+  - uid: Game.Client.Window.TextUtil.TextAlignment
+    name: TextAlignment
+    href: Game.Client.Window.TextUtil.TextAlignment.html
+- uid: Game.Client.Window
+  commentId: N:Game.Client.Window
+  href: Game.html
+  name: Game.Client.Window
+  nameWithType: Game.Client.Window
+  fullName: Game.Client.Window
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html

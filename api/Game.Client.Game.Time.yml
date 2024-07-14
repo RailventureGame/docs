@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Game.Time
+  commentId: N:Game.Client.Game.Time
+  id: Game.Client.Game.Time
+  children:
+  - Game.Client.Game.Time.Clock
+  - Game.Client.Game.Time.TimeUtil
+  - Game.Client.Game.Time.TimeUtil.Weekdays
+  langs:
+  - csharp
+  - vb
+  name: Game.Client.Game.Time
+  nameWithType: Game.Client.Game.Time
+  fullName: Game.Client.Game.Time
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Client.Game.Time.Clock
+  commentId: T:Game.Client.Game.Time.Clock
+  parent: Game.Client.Game.Time
+  href: Game.Client.Game.Time.Clock.html
+  name: Clock
+  nameWithType: Clock
+  fullName: Game.Client.Game.Time.Clock
+- uid: Game.Client.Game.Time.TimeUtil
+  commentId: T:Game.Client.Game.Time.TimeUtil
+  href: Game.Client.Game.Time.TimeUtil.html
+  name: TimeUtil
+  nameWithType: TimeUtil
+  fullName: Game.Client.Game.Time.TimeUtil
+- uid: Game.Client.Game.Time.TimeUtil.Weekdays
+  commentId: T:Game.Client.Game.Time.TimeUtil.Weekdays
+  parent: Game.Client.Game.Time
+  href: Game.Client.Game.Time.TimeUtil.html
+  name: TimeUtil.Weekdays
+  nameWithType: TimeUtil.Weekdays
+  fullName: Game.Client.Game.Time.TimeUtil.Weekdays
+  spec.csharp:
+  - uid: Game.Client.Game.Time.TimeUtil
+    name: TimeUtil
+    href: Game.Client.Game.Time.TimeUtil.html
+  - name: .
+  - uid: Game.Client.Game.Time.TimeUtil.Weekdays
+    name: Weekdays
+    href: Game.Client.Game.Time.TimeUtil.Weekdays.html
+  spec.vb:
+  - uid: Game.Client.Game.Time.TimeUtil
+    name: TimeUtil
+    href: Game.Client.Game.Time.TimeUtil.html
+  - name: .
+  - uid: Game.Client.Game.Time.TimeUtil.Weekdays
+    name: Weekdays
+    href: Game.Client.Game.Time.TimeUtil.Weekdays.html
+- uid: Game.Client.Game.Time
+  commentId: N:Game.Client.Game.Time
+  href: Game.html
+  name: Game.Client.Game.Time
+  nameWithType: Game.Client.Game.Time
+  fullName: Game.Client.Game.Time
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Game
+    name: Game
+    href: Game.Client.Game.html
+  - name: .
+  - uid: Game.Client.Game.Time
+    name: Time
+    href: Game.Client.Game.Time.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Game
+    name: Game
+    href: Game.Client.Game.html
+  - name: .
+  - uid: Game.Client.Game.Time
+    name: Time
+    href: Game.Client.Game.Time.html

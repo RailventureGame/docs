@@ -1,0 +1,954 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window.UI.GUIScreen
+  commentId: T:Game.Client.Window.UI.GUIScreen
+  id: GUIScreen
+  parent: Game.Client.Window.UI
+  children:
+  - Game.Client.Window.UI.GUIScreen.#ctor
+  - Game.Client.Window.UI.GUIScreen.#ctor(System.Collections.Generic.List{Game.Client.Window.UI.GUIComponent}@)
+  - Game.Client.Window.UI.GUIScreen.Children
+  - Game.Client.Window.UI.GUIScreen.Draw(SDL_Sharp.Renderer@,System.Single@)
+  - Game.Client.Window.UI.GUIScreen.Launch(SDL_Sharp.Renderer@)
+  - Game.Client.Window.UI.GUIScreen.MouseDown(SDL_Sharp.Point)
+  - Game.Client.Window.UI.GUIScreen.MouseMotion(SDL_Sharp.Point)
+  - Game.Client.Window.UI.GUIScreen.MouseUp(SDL_Sharp.Point)
+  - Game.Client.Window.UI.GUIScreen.OnKey(SDL_Sharp.Keycode,SDL_Sharp.KeyModifier,SDL_Sharp.ButtonState)
+  - Game.Client.Window.UI.GUIScreen.RefreshDimensions(System.Int32@,System.Int32@)
+  - Game.Client.Window.UI.GUIScreen.Render(SDL_Sharp.Renderer@,System.Single@)
+  langs:
+  - csharp
+  - vb
+  name: GUIScreen
+  nameWithType: GUIScreen
+  fullName: Game.Client.Window.UI.GUIScreen
+  type: Class
+  source:
+    remote:
+      path: Client/Window/UI/GUIScreen.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: GUIScreen
+    path: ../Game/Client/Window/UI/GUIScreen.cs
+    startLine: 7
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: A UI Screen
+  example: []
+  syntax:
+    content: public class GUIScreen
+    content.vb: Public Class GUIScreen
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Game.Client.Window.UI.Screens.IngameScreen
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Client.Window.UI.GUIScreen.Children
+  commentId: P:Game.Client.Window.UI.GUIScreen.Children
+  id: Children
+  parent: Game.Client.Window.UI.GUIScreen
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: GUIScreen.Children
+  fullName: Game.Client.Window.UI.GUIScreen.Children
+  type: Property
+  source:
+    remote:
+      path: Client/Window/UI/GUIScreen.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Children
+    path: ../Game/Client/Window/UI/GUIScreen.cs
+    startLine: 12
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Components ontop of this screen
+  example: []
+  syntax:
+    content: public List<GUIComponent> Children { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Game.Client.Window.UI.GUIComponent}
+    content.vb: Public Property Children As List(Of GUIComponent)
+  overload: Game.Client.Window.UI.GUIScreen.Children*
+- uid: Game.Client.Window.UI.GUIScreen.#ctor(System.Collections.Generic.List{Game.Client.Window.UI.GUIComponent}@)
+  commentId: M:Game.Client.Window.UI.GUIScreen.#ctor(System.Collections.Generic.List{Game.Client.Window.UI.GUIComponent}@)
+  id: '#ctor(System.Collections.Generic.List{Game.Client.Window.UI.GUIComponent}@)'
+  parent: Game.Client.Window.UI.GUIScreen
+  langs:
+  - csharp
+  - vb
+  name: GUIScreen(in List<GUIComponent>)
+  nameWithType: GUIScreen.GUIScreen(in List<GUIComponent>)
+  fullName: Game.Client.Window.UI.GUIScreen.GUIScreen(in System.Collections.Generic.List<Game.Client.Window.UI.GUIComponent>)
+  type: Constructor
+  source:
+    remote:
+      path: Client/Window/UI/GUIScreen.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Client/Window/UI/GUIScreen.cs
+    startLine: 19
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Constructor, which uses an existing list of children.
+  example: []
+  syntax:
+    content: public GUIScreen(in List<GUIComponent> children)
+    parameters:
+    - id: children
+      type: System.Collections.Generic.List{Game.Client.Window.UI.GUIComponent}
+      description: >-
+        A existing list of children.
+            <br />Use <xref href="Game.Client.Window.UI.GUIScreen.%23ctor" data-throw-if-not-resolved="false"></xref> to create a empty list.
+    content.vb: Public Sub New(children As List(Of GUIComponent))
+  overload: Game.Client.Window.UI.GUIScreen.#ctor*
+  nameWithType.vb: GUIScreen.New(List(Of GUIComponent))
+  fullName.vb: Game.Client.Window.UI.GUIScreen.New(System.Collections.Generic.List(Of Game.Client.Window.UI.GUIComponent))
+  name.vb: New(List(Of GUIComponent))
+- uid: Game.Client.Window.UI.GUIScreen.#ctor
+  commentId: M:Game.Client.Window.UI.GUIScreen.#ctor
+  id: '#ctor'
+  parent: Game.Client.Window.UI.GUIScreen
+  langs:
+  - csharp
+  - vb
+  name: GUIScreen()
+  nameWithType: GUIScreen.GUIScreen()
+  fullName: Game.Client.Window.UI.GUIScreen.GUIScreen()
+  type: Constructor
+  source:
+    remote:
+      path: Client/Window/UI/GUIScreen.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Client/Window/UI/GUIScreen.cs
+    startLine: 27
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Constructor, which creates a new list of children.
+  example: []
+  syntax:
+    content: public GUIScreen()
+    content.vb: Public Sub New()
+  overload: Game.Client.Window.UI.GUIScreen.#ctor*
+  nameWithType.vb: GUIScreen.New()
+  fullName.vb: Game.Client.Window.UI.GUIScreen.New()
+  name.vb: New()
+- uid: Game.Client.Window.UI.GUIScreen.Launch(SDL_Sharp.Renderer@)
+  commentId: M:Game.Client.Window.UI.GUIScreen.Launch(SDL_Sharp.Renderer@)
+  id: Launch(SDL_Sharp.Renderer@)
+  parent: Game.Client.Window.UI.GUIScreen
+  langs:
+  - csharp
+  - vb
+  name: Launch(ref Renderer)
+  nameWithType: GUIScreen.Launch(ref Renderer)
+  fullName: Game.Client.Window.UI.GUIScreen.Launch(ref SDL_Sharp.Renderer)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/GUIScreen.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Launch
+    path: ../Game/Client/Window/UI/GUIScreen.cs
+    startLine: 36
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Executed on launch. Used to setup the children's MainPane textures.
+  example: []
+  syntax:
+    content: public void Launch(ref Renderer renderer)
+    parameters:
+    - id: renderer
+      type: SDL_Sharp.Renderer
+      description: The game's renderer instance
+    content.vb: Public Sub Launch(renderer As Renderer)
+  overload: Game.Client.Window.UI.GUIScreen.Launch*
+  nameWithType.vb: GUIScreen.Launch(Renderer)
+  fullName.vb: Game.Client.Window.UI.GUIScreen.Launch(SDL_Sharp.Renderer)
+  name.vb: Launch(Renderer)
+- uid: Game.Client.Window.UI.GUIScreen.Render(SDL_Sharp.Renderer@,System.Single@)
+  commentId: M:Game.Client.Window.UI.GUIScreen.Render(SDL_Sharp.Renderer@,System.Single@)
+  id: Render(SDL_Sharp.Renderer@,System.Single@)
+  parent: Game.Client.Window.UI.GUIScreen
+  langs:
+  - csharp
+  - vb
+  name: Render(ref Renderer, in float)
+  nameWithType: GUIScreen.Render(ref Renderer, in float)
+  fullName: Game.Client.Window.UI.GUIScreen.Render(ref SDL_Sharp.Renderer, in float)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/GUIScreen.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Render
+    path: ../Game/Client/Window/UI/GUIScreen.cs
+    startLine: 49
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Causes every children to render.
+  example: []
+  syntax:
+    content: public void Render(ref Renderer renderer, in float deltaTime)
+    parameters:
+    - id: renderer
+      type: SDL_Sharp.Renderer
+      description: The game's renderer instance
+    - id: deltaTime
+      type: System.Single
+      description: Delta time since last frame
+    content.vb: Public Sub Render(renderer As Renderer, deltaTime As Single)
+  overload: Game.Client.Window.UI.GUIScreen.Render*
+  nameWithType.vb: GUIScreen.Render(Renderer, Single)
+  fullName.vb: Game.Client.Window.UI.GUIScreen.Render(SDL_Sharp.Renderer, Single)
+  name.vb: Render(Renderer, Single)
+- uid: Game.Client.Window.UI.GUIScreen.Draw(SDL_Sharp.Renderer@,System.Single@)
+  commentId: M:Game.Client.Window.UI.GUIScreen.Draw(SDL_Sharp.Renderer@,System.Single@)
+  id: Draw(SDL_Sharp.Renderer@,System.Single@)
+  parent: Game.Client.Window.UI.GUIScreen
+  langs:
+  - csharp
+  - vb
+  name: Draw(ref Renderer, in float)
+  nameWithType: GUIScreen.Draw(ref Renderer, in float)
+  fullName: Game.Client.Window.UI.GUIScreen.Draw(ref SDL_Sharp.Renderer, in float)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/GUIScreen.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Draw
+    path: ../Game/Client/Window/UI/GUIScreen.cs
+    startLine: 64
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Draw method - called before rendering children.
+  example: []
+  syntax:
+    content: public virtual void Draw(ref Renderer renderer, in float deltaTime)
+    parameters:
+    - id: renderer
+      type: SDL_Sharp.Renderer
+      description: The game's renderer instance
+    - id: deltaTime
+      type: System.Single
+      description: Delta time since last frame
+    content.vb: Public Overridable Sub Draw(renderer As Renderer, deltaTime As Single)
+  overload: Game.Client.Window.UI.GUIScreen.Draw*
+  nameWithType.vb: GUIScreen.Draw(Renderer, Single)
+  fullName.vb: Game.Client.Window.UI.GUIScreen.Draw(SDL_Sharp.Renderer, Single)
+  name.vb: Draw(Renderer, Single)
+- uid: Game.Client.Window.UI.GUIScreen.MouseMotion(SDL_Sharp.Point)
+  commentId: M:Game.Client.Window.UI.GUIScreen.MouseMotion(SDL_Sharp.Point)
+  id: MouseMotion(SDL_Sharp.Point)
+  parent: Game.Client.Window.UI.GUIScreen
+  langs:
+  - csharp
+  - vb
+  name: MouseMotion(Point)
+  nameWithType: GUIScreen.MouseMotion(Point)
+  fullName: Game.Client.Window.UI.GUIScreen.MouseMotion(SDL_Sharp.Point)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/GUIScreen.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: MouseMotion
+    path: ../Game/Client/Window/UI/GUIScreen.cs
+    startLine: 70
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Pass MouseMotion event to all children.
+  example: []
+  syntax:
+    content: public void MouseMotion(Point absolutePosition)
+    parameters:
+    - id: absolutePosition
+      type: SDL_Sharp.Point
+      description: Absolute cursor position
+    content.vb: Public Sub MouseMotion(absolutePosition As Point)
+  overload: Game.Client.Window.UI.GUIScreen.MouseMotion*
+- uid: Game.Client.Window.UI.GUIScreen.MouseDown(SDL_Sharp.Point)
+  commentId: M:Game.Client.Window.UI.GUIScreen.MouseDown(SDL_Sharp.Point)
+  id: MouseDown(SDL_Sharp.Point)
+  parent: Game.Client.Window.UI.GUIScreen
+  langs:
+  - csharp
+  - vb
+  name: MouseDown(Point)
+  nameWithType: GUIScreen.MouseDown(Point)
+  fullName: Game.Client.Window.UI.GUIScreen.MouseDown(SDL_Sharp.Point)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/GUIScreen.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: MouseDown
+    path: ../Game/Client/Window/UI/GUIScreen.cs
+    startLine: 83
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Pass MouseDown event to all children.
+  example: []
+  syntax:
+    content: public void MouseDown(Point absolutePosition)
+    parameters:
+    - id: absolutePosition
+      type: SDL_Sharp.Point
+      description: Absolute cursor position
+    content.vb: Public Sub MouseDown(absolutePosition As Point)
+  overload: Game.Client.Window.UI.GUIScreen.MouseDown*
+- uid: Game.Client.Window.UI.GUIScreen.MouseUp(SDL_Sharp.Point)
+  commentId: M:Game.Client.Window.UI.GUIScreen.MouseUp(SDL_Sharp.Point)
+  id: MouseUp(SDL_Sharp.Point)
+  parent: Game.Client.Window.UI.GUIScreen
+  langs:
+  - csharp
+  - vb
+  name: MouseUp(Point)
+  nameWithType: GUIScreen.MouseUp(Point)
+  fullName: Game.Client.Window.UI.GUIScreen.MouseUp(SDL_Sharp.Point)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/GUIScreen.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: MouseUp
+    path: ../Game/Client/Window/UI/GUIScreen.cs
+    startLine: 96
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Pass MouseUp event to all children.
+  example: []
+  syntax:
+    content: public void MouseUp(Point absolutePosition)
+    parameters:
+    - id: absolutePosition
+      type: SDL_Sharp.Point
+      description: Absolute cursor position
+    content.vb: Public Sub MouseUp(absolutePosition As Point)
+  overload: Game.Client.Window.UI.GUIScreen.MouseUp*
+- uid: Game.Client.Window.UI.GUIScreen.OnKey(SDL_Sharp.Keycode,SDL_Sharp.KeyModifier,SDL_Sharp.ButtonState)
+  commentId: M:Game.Client.Window.UI.GUIScreen.OnKey(SDL_Sharp.Keycode,SDL_Sharp.KeyModifier,SDL_Sharp.ButtonState)
+  id: OnKey(SDL_Sharp.Keycode,SDL_Sharp.KeyModifier,SDL_Sharp.ButtonState)
+  parent: Game.Client.Window.UI.GUIScreen
+  langs:
+  - csharp
+  - vb
+  name: OnKey(Keycode, KeyModifier, ButtonState)
+  nameWithType: GUIScreen.OnKey(Keycode, KeyModifier, ButtonState)
+  fullName: Game.Client.Window.UI.GUIScreen.OnKey(SDL_Sharp.Keycode, SDL_Sharp.KeyModifier, SDL_Sharp.ButtonState)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/GUIScreen.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: OnKey
+    path: ../Game/Client/Window/UI/GUIScreen.cs
+    startLine: 111
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Pass Keyboard events to all children.
+  example: []
+  syntax:
+    content: public void OnKey(Keycode keyCode, KeyModifier modifiers, ButtonState state)
+    parameters:
+    - id: keyCode
+      type: SDL_Sharp.Keycode
+      description: Key on the keyboard
+    - id: modifiers
+      type: SDL_Sharp.KeyModifier
+      description: Active modifier keys
+    - id: state
+      type: SDL_Sharp.ButtonState
+      description: Current key state
+    content.vb: Public Sub OnKey(keyCode As Keycode, modifiers As KeyModifier, state As ButtonState)
+  overload: Game.Client.Window.UI.GUIScreen.OnKey*
+- uid: Game.Client.Window.UI.GUIScreen.RefreshDimensions(System.Int32@,System.Int32@)
+  commentId: M:Game.Client.Window.UI.GUIScreen.RefreshDimensions(System.Int32@,System.Int32@)
+  id: RefreshDimensions(System.Int32@,System.Int32@)
+  parent: Game.Client.Window.UI.GUIScreen
+  langs:
+  - csharp
+  - vb
+  name: RefreshDimensions(in int, in int)
+  nameWithType: GUIScreen.RefreshDimensions(in int, in int)
+  fullName: Game.Client.Window.UI.GUIScreen.RefreshDimensions(in int, in int)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/GUIScreen.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: RefreshDimensions
+    path: ../Game/Client/Window/UI/GUIScreen.cs
+    startLine: 124
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI
+  summary: Called on screen size change. Gets passed on to every children.
+  example: []
+  syntax:
+    content: public void RefreshDimensions(in int screenWidth, in int screenHeight)
+    parameters:
+    - id: screenWidth
+      type: System.Int32
+      description: New screen width
+    - id: screenHeight
+      type: System.Int32
+      description: New screen height
+    content.vb: Public Sub RefreshDimensions(screenWidth As Integer, screenHeight As Integer)
+  overload: Game.Client.Window.UI.GUIScreen.RefreshDimensions*
+  nameWithType.vb: GUIScreen.RefreshDimensions(Integer, Integer)
+  fullName.vb: Game.Client.Window.UI.GUIScreen.RefreshDimensions(Integer, Integer)
+  name.vb: RefreshDimensions(Integer, Integer)
+references:
+- uid: Game.Client.Window.UI
+  commentId: N:Game.Client.Window.UI
+  href: Game.html
+  name: Game.Client.Window.UI
+  nameWithType: Game.Client.Window.UI
+  fullName: Game.Client.Window.UI
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Client.Window.UI.GUIScreen.Children*
+  commentId: Overload:Game.Client.Window.UI.GUIScreen.Children
+  href: Game.Client.Window.UI.GUIScreen.html#Game_Client_Window_UI_GUIScreen_Children
+  name: Children
+  nameWithType: GUIScreen.Children
+  fullName: Game.Client.Window.UI.GUIScreen.Children
+- uid: System.Collections.Generic.List{Game.Client.Window.UI.GUIComponent}
+  commentId: T:System.Collections.Generic.List{Game.Client.Window.UI.GUIComponent}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<GUIComponent>
+  nameWithType: List<GUIComponent>
+  fullName: System.Collections.Generic.List<Game.Client.Window.UI.GUIComponent>
+  nameWithType.vb: List(Of GUIComponent)
+  fullName.vb: System.Collections.Generic.List(Of Game.Client.Window.UI.GUIComponent)
+  name.vb: List(Of GUIComponent)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Game.Client.Window.UI.GUIComponent
+    name: GUIComponent
+    href: Game.Client.Window.UI.GUIComponent.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Game.Client.Window.UI.GUIComponent
+    name: GUIComponent
+    href: Game.Client.Window.UI.GUIComponent.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Game.Client.Window.UI.GUIScreen.#ctor
+  commentId: M:Game.Client.Window.UI.GUIScreen.#ctor
+  href: Game.Client.Window.UI.GUIScreen.html#Game_Client_Window_UI_GUIScreen__ctor
+  name: GUIScreen()
+  nameWithType: GUIScreen.GUIScreen()
+  fullName: Game.Client.Window.UI.GUIScreen.GUIScreen()
+  nameWithType.vb: GUIScreen.New()
+  fullName.vb: Game.Client.Window.UI.GUIScreen.New()
+  name.vb: New()
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIScreen.#ctor
+    name: GUIScreen
+    href: Game.Client.Window.UI.GUIScreen.html#Game_Client_Window_UI_GUIScreen__ctor
+  - name: (
+  - name: )
+  spec.vb:
+  - name: New
+  - name: (
+  - name: )
+- uid: Game.Client.Window.UI.GUIScreen.#ctor*
+  commentId: Overload:Game.Client.Window.UI.GUIScreen.#ctor
+  href: Game.Client.Window.UI.GUIScreen.html#Game_Client_Window_UI_GUIScreen__ctor_System_Collections_Generic_List_Game_Client_Window_UI_GUIComponent___
+  name: GUIScreen
+  nameWithType: GUIScreen.GUIScreen
+  fullName: Game.Client.Window.UI.GUIScreen.GUIScreen
+  nameWithType.vb: GUIScreen.New
+  fullName.vb: Game.Client.Window.UI.GUIScreen.New
+  name.vb: New
+- uid: Game.Client.Window.UI.GUIScreen.Launch*
+  commentId: Overload:Game.Client.Window.UI.GUIScreen.Launch
+  href: Game.Client.Window.UI.GUIScreen.html#Game_Client_Window_UI_GUIScreen_Launch_SDL_Sharp_Renderer__
+  name: Launch
+  nameWithType: GUIScreen.Launch
+  fullName: Game.Client.Window.UI.GUIScreen.Launch
+- uid: SDL_Sharp.Renderer
+  commentId: T:SDL_Sharp.Renderer
+  parent: SDL_Sharp
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: SDL_Sharp.Renderer
+- uid: SDL_Sharp
+  commentId: N:SDL_Sharp
+  isExternal: true
+  name: SDL_Sharp
+  nameWithType: SDL_Sharp
+  fullName: SDL_Sharp
+- uid: Game.Client.Window.UI.GUIScreen.Render*
+  commentId: Overload:Game.Client.Window.UI.GUIScreen.Render
+  href: Game.Client.Window.UI.GUIScreen.html#Game_Client_Window_UI_GUIScreen_Render_SDL_Sharp_Renderer__System_Single__
+  name: Render
+  nameWithType: GUIScreen.Render
+  fullName: Game.Client.Window.UI.GUIScreen.Render
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Game.Client.Window.UI.GUIScreen.Draw*
+  commentId: Overload:Game.Client.Window.UI.GUIScreen.Draw
+  href: Game.Client.Window.UI.GUIScreen.html#Game_Client_Window_UI_GUIScreen_Draw_SDL_Sharp_Renderer__System_Single__
+  name: Draw
+  nameWithType: GUIScreen.Draw
+  fullName: Game.Client.Window.UI.GUIScreen.Draw
+- uid: Game.Client.Window.UI.GUIScreen.MouseMotion*
+  commentId: Overload:Game.Client.Window.UI.GUIScreen.MouseMotion
+  href: Game.Client.Window.UI.GUIScreen.html#Game_Client_Window_UI_GUIScreen_MouseMotion_SDL_Sharp_Point_
+  name: MouseMotion
+  nameWithType: GUIScreen.MouseMotion
+  fullName: Game.Client.Window.UI.GUIScreen.MouseMotion
+- uid: SDL_Sharp.Point
+  commentId: T:SDL_Sharp.Point
+  parent: SDL_Sharp
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: SDL_Sharp.Point
+- uid: Game.Client.Window.UI.GUIScreen.MouseDown*
+  commentId: Overload:Game.Client.Window.UI.GUIScreen.MouseDown
+  href: Game.Client.Window.UI.GUIScreen.html#Game_Client_Window_UI_GUIScreen_MouseDown_SDL_Sharp_Point_
+  name: MouseDown
+  nameWithType: GUIScreen.MouseDown
+  fullName: Game.Client.Window.UI.GUIScreen.MouseDown
+- uid: Game.Client.Window.UI.GUIScreen.MouseUp*
+  commentId: Overload:Game.Client.Window.UI.GUIScreen.MouseUp
+  href: Game.Client.Window.UI.GUIScreen.html#Game_Client_Window_UI_GUIScreen_MouseUp_SDL_Sharp_Point_
+  name: MouseUp
+  nameWithType: GUIScreen.MouseUp
+  fullName: Game.Client.Window.UI.GUIScreen.MouseUp
+- uid: Game.Client.Window.UI.GUIScreen.OnKey*
+  commentId: Overload:Game.Client.Window.UI.GUIScreen.OnKey
+  href: Game.Client.Window.UI.GUIScreen.html#Game_Client_Window_UI_GUIScreen_OnKey_SDL_Sharp_Keycode_SDL_Sharp_KeyModifier_SDL_Sharp_ButtonState_
+  name: OnKey
+  nameWithType: GUIScreen.OnKey
+  fullName: Game.Client.Window.UI.GUIScreen.OnKey
+- uid: SDL_Sharp.Keycode
+  commentId: T:SDL_Sharp.Keycode
+  parent: SDL_Sharp
+  isExternal: true
+  name: Keycode
+  nameWithType: Keycode
+  fullName: SDL_Sharp.Keycode
+- uid: SDL_Sharp.KeyModifier
+  commentId: T:SDL_Sharp.KeyModifier
+  parent: SDL_Sharp
+  isExternal: true
+  name: KeyModifier
+  nameWithType: KeyModifier
+  fullName: SDL_Sharp.KeyModifier
+- uid: SDL_Sharp.ButtonState
+  commentId: T:SDL_Sharp.ButtonState
+  parent: SDL_Sharp
+  isExternal: true
+  name: ButtonState
+  nameWithType: ButtonState
+  fullName: SDL_Sharp.ButtonState
+- uid: Game.Client.Window.UI.GUIScreen.RefreshDimensions*
+  commentId: Overload:Game.Client.Window.UI.GUIScreen.RefreshDimensions
+  href: Game.Client.Window.UI.GUIScreen.html#Game_Client_Window_UI_GUIScreen_RefreshDimensions_System_Int32__System_Int32__
+  name: RefreshDimensions
+  nameWithType: GUIScreen.RefreshDimensions
+  fullName: Game.Client.Window.UI.GUIScreen.RefreshDimensions
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

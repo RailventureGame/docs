@@ -1,0 +1,1020 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Game.Time.Clock
+  commentId: T:Game.Client.Game.Time.Clock
+  id: Clock
+  parent: Game.Client.Game.Time
+  children:
+  - Game.Client.Game.Time.Clock.#ctor(System.DateTimeOffset@)
+  - Game.Client.Game.Time.Clock.#ctor(System.Int64@)
+  - Game.Client.Game.Time.Clock.CurrentTime
+  - Game.Client.Game.Time.Clock.Day
+  - Game.Client.Game.Time.Clock.GetCurrentTime
+  - Game.Client.Game.Time.Clock.Hour
+  - Game.Client.Game.Time.Clock.IncrementGameTime
+  - Game.Client.Game.Time.Clock.Minute
+  - Game.Client.Game.Time.Clock.Month
+  - Game.Client.Game.Time.Clock.OnGameTick
+  - Game.Client.Game.Time.Clock.OnTick
+  - Game.Client.Game.Time.Clock.Second
+  - Game.Client.Game.Time.Clock.Tick
+  - Game.Client.Game.Time.Clock.TimeScale
+  - Game.Client.Game.Time.Clock.UpdateTimeScale(System.Double)
+  - Game.Client.Game.Time.Clock.Week
+  - Game.Client.Game.Time.Clock.Year
+  langs:
+  - csharp
+  - vb
+  name: Clock
+  nameWithType: Clock
+  fullName: Game.Client.Game.Time.Clock
+  type: Class
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Clock
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 5
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: Manages the timings of the game
+  example: []
+  syntax:
+    content: public class Clock
+    content.vb: Public Class Clock
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Client.Game.Time.Clock.Tick
+  commentId: F:Game.Client.Game.Time.Clock.Tick
+  id: Tick
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: Tick
+  nameWithType: Clock.Tick
+  fullName: Game.Client.Game.Time.Clock.Tick
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Tick
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 15
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: >-
+    Duration of a game tick<br />
+
+    8,33 ms
+  example: []
+  syntax:
+    content: public const double Tick = 8
+    return:
+      type: System.Double
+    content.vb: Public Const Tick As Double = 8
+- uid: Game.Client.Game.Time.Clock.Second
+  commentId: P:Game.Client.Game.Time.Clock.Second
+  id: Second
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: Second
+  nameWithType: Clock.Second
+  fullName: Game.Client.Game.Time.Clock.Second
+  type: Property
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Second
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 20
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: A second inside the game
+  example: []
+  syntax:
+    content: public double Second { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Second As Double
+  overload: Game.Client.Game.Time.Clock.Second*
+- uid: Game.Client.Game.Time.Clock.Minute
+  commentId: P:Game.Client.Game.Time.Clock.Minute
+  id: Minute
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: Minute
+  nameWithType: Clock.Minute
+  fullName: Game.Client.Game.Time.Clock.Minute
+  type: Property
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Minute
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 25
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: A minute inside the game
+  example: []
+  syntax:
+    content: public double Minute { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Minute As Double
+  overload: Game.Client.Game.Time.Clock.Minute*
+- uid: Game.Client.Game.Time.Clock.Hour
+  commentId: P:Game.Client.Game.Time.Clock.Hour
+  id: Hour
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: Hour
+  nameWithType: Clock.Hour
+  fullName: Game.Client.Game.Time.Clock.Hour
+  type: Property
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Hour
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 30
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: An hour inside the game
+  example: []
+  syntax:
+    content: public double Hour { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Hour As Double
+  overload: Game.Client.Game.Time.Clock.Hour*
+- uid: Game.Client.Game.Time.Clock.Day
+  commentId: P:Game.Client.Game.Time.Clock.Day
+  id: Day
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: Clock.Day
+  fullName: Game.Client.Game.Time.Clock.Day
+  type: Property
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Day
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 35
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: A day inside the game
+  example: []
+  syntax:
+    content: public double Day { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Day As Double
+  overload: Game.Client.Game.Time.Clock.Day*
+- uid: Game.Client.Game.Time.Clock.Week
+  commentId: P:Game.Client.Game.Time.Clock.Week
+  id: Week
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: Week
+  nameWithType: Clock.Week
+  fullName: Game.Client.Game.Time.Clock.Week
+  type: Property
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Week
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 40
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: A day inside the game
+  example: []
+  syntax:
+    content: public double Week { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Week As Double
+  overload: Game.Client.Game.Time.Clock.Week*
+- uid: Game.Client.Game.Time.Clock.Month
+  commentId: P:Game.Client.Game.Time.Clock.Month
+  id: Month
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: Clock.Month
+  fullName: Game.Client.Game.Time.Clock.Month
+  type: Property
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Month
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 45
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: A month inside the game
+  example: []
+  syntax:
+    content: public double Month { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Month As Double
+  overload: Game.Client.Game.Time.Clock.Month*
+- uid: Game.Client.Game.Time.Clock.Year
+  commentId: P:Game.Client.Game.Time.Clock.Year
+  id: Year
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: Clock.Year
+  fullName: Game.Client.Game.Time.Clock.Year
+  type: Property
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Year
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 50
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: A year inside the game
+  example: []
+  syntax:
+    content: public double Year { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Year As Double
+  overload: Game.Client.Game.Time.Clock.Year*
+- uid: Game.Client.Game.Time.Clock.TimeScale
+  commentId: P:Game.Client.Game.Time.Clock.TimeScale
+  id: TimeScale
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: TimeScale
+  nameWithType: Clock.TimeScale
+  fullName: Game.Client.Game.Time.Clock.TimeScale
+  type: Property
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: TimeScale
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 57
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: >-
+    The current time scale<br />
+
+    The value is always between 0.0 and 2.0
+  example: []
+  syntax:
+    content: public double TimeScale { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TimeScale As Double
+  overload: Game.Client.Game.Time.Clock.TimeScale*
+- uid: Game.Client.Game.Time.Clock.CurrentTime
+  commentId: P:Game.Client.Game.Time.Clock.CurrentTime
+  id: CurrentTime
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: CurrentTime
+  nameWithType: Clock.CurrentTime
+  fullName: Game.Client.Game.Time.Clock.CurrentTime
+  type: Property
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: CurrentTime
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 66
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: The current ingame time (in ms)
+  example: []
+  syntax:
+    content: public long CurrentTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property CurrentTime As Long
+  overload: Game.Client.Game.Time.Clock.CurrentTime*
+- uid: Game.Client.Game.Time.Clock.#ctor(System.Int64@)
+  commentId: M:Game.Client.Game.Time.Clock.#ctor(System.Int64@)
+  id: '#ctor(System.Int64@)'
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: Clock(in long)
+  nameWithType: Clock.Clock(in long)
+  fullName: Game.Client.Game.Time.Clock.Clock(in long)
+  type: Constructor
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 72
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: Create a new clock
+  example: []
+  syntax:
+    content: public Clock(in long startingTime)
+    parameters:
+    - id: startingTime
+      type: System.Int64
+      description: The initial time offset
+    content.vb: Public Sub New(startingTime As Long)
+  overload: Game.Client.Game.Time.Clock.#ctor*
+  nameWithType.vb: Clock.New(Long)
+  fullName.vb: Game.Client.Game.Time.Clock.New(Long)
+  name.vb: New(Long)
+- uid: Game.Client.Game.Time.Clock.#ctor(System.DateTimeOffset@)
+  commentId: M:Game.Client.Game.Time.Clock.#ctor(System.DateTimeOffset@)
+  id: '#ctor(System.DateTimeOffset@)'
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: Clock(in DateTimeOffset)
+  nameWithType: Clock.Clock(in DateTimeOffset)
+  fullName: Game.Client.Game.Time.Clock.Clock(in System.DateTimeOffset)
+  type: Constructor
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 83
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: Create a new clock
+  example: []
+  syntax:
+    content: public Clock(in DateTimeOffset startingTime)
+    parameters:
+    - id: startingTime
+      type: System.DateTimeOffset
+      description: The initial time offset
+    content.vb: Public Sub New(startingTime As DateTimeOffset)
+  overload: Game.Client.Game.Time.Clock.#ctor*
+  nameWithType.vb: Clock.New(DateTimeOffset)
+  fullName.vb: Game.Client.Game.Time.Clock.New(System.DateTimeOffset)
+  name.vb: New(DateTimeOffset)
+- uid: Game.Client.Game.Time.Clock.OnTick
+  commentId: M:Game.Client.Game.Time.Clock.OnTick
+  id: OnTick
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: OnTick()
+  nameWithType: Clock.OnTick()
+  fullName: Game.Client.Game.Time.Clock.OnTick()
+  type: Method
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: OnTick
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 89
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: >-
+    Runs every <xref href="Game.Client.Game.Time.Clock.Tick" data-throw-if-not-resolved="false"></xref><br />
+
+    Executes always.
+  example: []
+  syntax:
+    content: public void OnTick()
+    content.vb: Public Sub OnTick()
+  overload: Game.Client.Game.Time.Clock.OnTick*
+- uid: Game.Client.Game.Time.Clock.OnGameTick
+  commentId: M:Game.Client.Game.Time.Clock.OnGameTick
+  id: OnGameTick
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: OnGameTick()
+  nameWithType: Clock.OnGameTick()
+  fullName: Game.Client.Game.Time.Clock.OnGameTick()
+  type: Method
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: OnGameTick
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 99
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: >-
+    Runs every <xref href="Game.Client.Game.Time.Clock.Tick" data-throw-if-not-resolved="false"></xref><br />
+
+    Executes only when <xref href="Game.Client.Game.Time.Clock.TimeScale" data-throw-if-not-resolved="false"></xref> ≠ 0
+  example: []
+  syntax:
+    content: public void OnGameTick()
+    content.vb: Public Sub OnGameTick()
+  overload: Game.Client.Game.Time.Clock.OnGameTick*
+- uid: Game.Client.Game.Time.Clock.UpdateTimeScale(System.Double)
+  commentId: M:Game.Client.Game.Time.Clock.UpdateTimeScale(System.Double)
+  id: UpdateTimeScale(System.Double)
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: UpdateTimeScale(double)
+  nameWithType: Clock.UpdateTimeScale(double)
+  fullName: Game.Client.Game.Time.Clock.UpdateTimeScale(double)
+  type: Method
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: UpdateTimeScale
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 108
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: Update <xref href="Game.Client.Game.Time.Clock.TimeScale" data-throw-if-not-resolved="false"></xref> and the interval of <xref href="Game.Client.Game.Time.Clock._timer" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public void UpdateTimeScale(double timeScale)
+    parameters:
+    - id: timeScale
+      type: System.Double
+      description: 'The new TimeScale<br />Note: Gets clamped between 0.0d and 2.0d'
+    content.vb: Public Sub UpdateTimeScale(timeScale As Double)
+  overload: Game.Client.Game.Time.Clock.UpdateTimeScale*
+  nameWithType.vb: Clock.UpdateTimeScale(Double)
+  fullName.vb: Game.Client.Game.Time.Clock.UpdateTimeScale(Double)
+  name.vb: UpdateTimeScale(Double)
+- uid: Game.Client.Game.Time.Clock.IncrementGameTime
+  commentId: M:Game.Client.Game.Time.Clock.IncrementGameTime
+  id: IncrementGameTime
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: IncrementGameTime()
+  nameWithType: Clock.IncrementGameTime()
+  fullName: Game.Client.Game.Time.Clock.IncrementGameTime()
+  type: Method
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: IncrementGameTime
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 122
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: Increment <xref href="Game.Client.Game.Time.Clock.CurrentTime" data-throw-if-not-resolved="false"></xref> by 1000ms (a second)
+  example: []
+  syntax:
+    content: public void IncrementGameTime()
+    content.vb: Public Sub IncrementGameTime()
+  overload: Game.Client.Game.Time.Clock.IncrementGameTime*
+- uid: Game.Client.Game.Time.Clock.GetCurrentTime
+  commentId: M:Game.Client.Game.Time.Clock.GetCurrentTime
+  id: GetCurrentTime
+  parent: Game.Client.Game.Time.Clock
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentTime()
+  nameWithType: Clock.GetCurrentTime()
+  fullName: Game.Client.Game.Time.Clock.GetCurrentTime()
+  type: Method
+  source:
+    remote:
+      path: Client/Game/Time/Clock.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: GetCurrentTime
+    path: ../Game/Client/Game/Time/Clock.cs
+    startLine: 147
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: Retrieve <xref href="Game.Client.Game.Time.Clock.CurrentTime" data-throw-if-not-resolved="false"></xref> as <xref href="System.DateTimeOffset" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public DateTimeOffset GetCurrentTime()
+    return:
+      type: System.DateTimeOffset
+      description: <xref href="Game.Client.Game.Time.Clock.CurrentTime" data-throw-if-not-resolved="false"></xref> as <xref href="System.DateTimeOffset" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetCurrentTime() As DateTimeOffset
+  overload: Game.Client.Game.Time.Clock.GetCurrentTime*
+references:
+- uid: Game.Client.Game.Time
+  commentId: N:Game.Client.Game.Time
+  href: Game.html
+  name: Game.Client.Game.Time
+  nameWithType: Game.Client.Game.Time
+  fullName: Game.Client.Game.Time
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Game
+    name: Game
+    href: Game.Client.Game.html
+  - name: .
+  - uid: Game.Client.Game.Time
+    name: Time
+    href: Game.Client.Game.Time.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Game
+    name: Game
+    href: Game.Client.Game.html
+  - name: .
+  - uid: Game.Client.Game.Time
+    name: Time
+    href: Game.Client.Game.Time.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Game.Client.Game.Time.Clock.Second*
+  commentId: Overload:Game.Client.Game.Time.Clock.Second
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_Second
+  name: Second
+  nameWithType: Clock.Second
+  fullName: Game.Client.Game.Time.Clock.Second
+- uid: Game.Client.Game.Time.Clock.Minute*
+  commentId: Overload:Game.Client.Game.Time.Clock.Minute
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_Minute
+  name: Minute
+  nameWithType: Clock.Minute
+  fullName: Game.Client.Game.Time.Clock.Minute
+- uid: Game.Client.Game.Time.Clock.Hour*
+  commentId: Overload:Game.Client.Game.Time.Clock.Hour
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_Hour
+  name: Hour
+  nameWithType: Clock.Hour
+  fullName: Game.Client.Game.Time.Clock.Hour
+- uid: Game.Client.Game.Time.Clock.Day*
+  commentId: Overload:Game.Client.Game.Time.Clock.Day
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_Day
+  name: Day
+  nameWithType: Clock.Day
+  fullName: Game.Client.Game.Time.Clock.Day
+- uid: Game.Client.Game.Time.Clock.Week*
+  commentId: Overload:Game.Client.Game.Time.Clock.Week
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_Week
+  name: Week
+  nameWithType: Clock.Week
+  fullName: Game.Client.Game.Time.Clock.Week
+- uid: Game.Client.Game.Time.Clock.Month*
+  commentId: Overload:Game.Client.Game.Time.Clock.Month
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_Month
+  name: Month
+  nameWithType: Clock.Month
+  fullName: Game.Client.Game.Time.Clock.Month
+- uid: Game.Client.Game.Time.Clock.Year*
+  commentId: Overload:Game.Client.Game.Time.Clock.Year
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_Year
+  name: Year
+  nameWithType: Clock.Year
+  fullName: Game.Client.Game.Time.Clock.Year
+- uid: Game.Client.Game.Time.Clock.TimeScale*
+  commentId: Overload:Game.Client.Game.Time.Clock.TimeScale
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_TimeScale
+  name: TimeScale
+  nameWithType: Clock.TimeScale
+  fullName: Game.Client.Game.Time.Clock.TimeScale
+- uid: Game.Client.Game.Time.Clock.CurrentTime*
+  commentId: Overload:Game.Client.Game.Time.Clock.CurrentTime
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_CurrentTime
+  name: CurrentTime
+  nameWithType: Clock.CurrentTime
+  fullName: Game.Client.Game.Time.Clock.CurrentTime
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: Game.Client.Game.Time.Clock.#ctor*
+  commentId: Overload:Game.Client.Game.Time.Clock.#ctor
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock__ctor_System_Int64__
+  name: Clock
+  nameWithType: Clock.Clock
+  fullName: Game.Client.Game.Time.Clock.Clock
+  nameWithType.vb: Clock.New
+  fullName.vb: Game.Client.Game.Time.Clock.New
+  name.vb: New
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetimeoffset
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: Game.Client.Game.Time.Clock.Tick
+  commentId: F:Game.Client.Game.Time.Clock.Tick
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_Tick
+  name: Tick
+  nameWithType: Clock.Tick
+  fullName: Game.Client.Game.Time.Clock.Tick
+- uid: Game.Client.Game.Time.Clock.OnTick*
+  commentId: Overload:Game.Client.Game.Time.Clock.OnTick
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_OnTick
+  name: OnTick
+  nameWithType: Clock.OnTick
+  fullName: Game.Client.Game.Time.Clock.OnTick
+- uid: Game.Client.Game.Time.Clock.TimeScale
+  commentId: P:Game.Client.Game.Time.Clock.TimeScale
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_TimeScale
+  name: TimeScale
+  nameWithType: Clock.TimeScale
+  fullName: Game.Client.Game.Time.Clock.TimeScale
+- uid: Game.Client.Game.Time.Clock.OnGameTick*
+  commentId: Overload:Game.Client.Game.Time.Clock.OnGameTick
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_OnGameTick
+  name: OnGameTick
+  nameWithType: Clock.OnGameTick
+  fullName: Game.Client.Game.Time.Clock.OnGameTick
+- uid: Game.Client.Game.Time.Clock._timer
+  commentId: F:Game.Client.Game.Time.Clock._timer
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock__timer
+  name: _timer
+  nameWithType: Clock._timer
+  fullName: Game.Client.Game.Time.Clock._timer
+- uid: Game.Client.Game.Time.Clock.UpdateTimeScale*
+  commentId: Overload:Game.Client.Game.Time.Clock.UpdateTimeScale
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_UpdateTimeScale_System_Double_
+  name: UpdateTimeScale
+  nameWithType: Clock.UpdateTimeScale
+  fullName: Game.Client.Game.Time.Clock.UpdateTimeScale
+- uid: Game.Client.Game.Time.Clock.CurrentTime
+  commentId: P:Game.Client.Game.Time.Clock.CurrentTime
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_CurrentTime
+  name: CurrentTime
+  nameWithType: Clock.CurrentTime
+  fullName: Game.Client.Game.Time.Clock.CurrentTime
+- uid: Game.Client.Game.Time.Clock.IncrementGameTime*
+  commentId: Overload:Game.Client.Game.Time.Clock.IncrementGameTime
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_IncrementGameTime
+  name: IncrementGameTime
+  nameWithType: Clock.IncrementGameTime
+  fullName: Game.Client.Game.Time.Clock.IncrementGameTime
+- uid: Game.Client.Game.Time.Clock.GetCurrentTime*
+  commentId: Overload:Game.Client.Game.Time.Clock.GetCurrentTime
+  href: Game.Client.Game.Time.Clock.html#Game_Client_Game_Time_Clock_GetCurrentTime
+  name: GetCurrentTime
+  nameWithType: Clock.GetCurrentTime
+  fullName: Game.Client.Game.Time.Clock.GetCurrentTime

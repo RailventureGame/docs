@@ -1,0 +1,566 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class RailVehicle | Railventure </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class RailVehicle | Railventure ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../images/logo.png" alt="Railventure" class="logomark">
+              <span class="brand-title">Railventure</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../images/logo.png" alt="Railventure" class="logomark">
+                          <span class="brand-title">Railventure</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  <h5 id="current-time"></h5><script>setInterval(() => document.getElementById('current-time').innerText = new Date().toLocaleString(), 1000);</script>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div id="contribution">
+                               <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Common_Logic_RailVehicles_RailVehicle.md&amp;value=---%0Auid%3A%20Game.Common.Logic.RailVehicles.RailVehicle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="Game.Common.Logic.RailVehicles.RailVehicle">
+
+
+
+  <h1 id="Game_Common_Logic_RailVehicles_RailVehicle" data-uid="Game.Common.Logic.RailVehicles.RailVehicle" class="text-break">Class RailVehicle</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">RailVehicle</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Game.html">Game</a>.<a class="xref" href="Game.Common.html">Common</a>.<a class="xref" href="Game.Common.Logic.html">Logic</a>.<a class="xref" href="Game.Common.Logic.RailVehicles.html">RailVehicles</a></h6>
+  <h6><strong>Assembly</strong>: Railventure.dll</h6>
+  <h5 id="Game_Common_Logic_RailVehicles_RailVehicle_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class RailVehicle</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Common_Logic_RailVehicles_RailVehicle__ctor_System_Double_System_Double_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20Game.Common.Logic.RailVehicles.RailVehicle.%23ctor(System.Double%2CSystem.Double%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Common/Logic/RailVehicles/RailVehicle.cs/#L32">View Source</a>
+  </span>
+  <a id="Game_Common_Logic_RailVehicles_RailVehicle__ctor_" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.#ctor*"></a>
+  <h4 id="Game_Common_Logic_RailVehicles_RailVehicle__ctor_System_Double_System_Double_System_Double_System_Double_" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.#ctor(System.Double,System.Double,System.Double,System.Double)">RailVehicle(double, double, double, double)</h4>
+  <div class="markdown level1 summary"><p>Create a vehicle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RailVehicle(double acceleration, double brakingPower, double weight, double stopDelta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">acceleration</span></td>
+        <td><p>in kilo newtons (kN)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">brakingPower</span></td>
+        <td><p>in kilo newtons (kN)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">weight</span></td>
+        <td><p>in metric tons (t)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">stopDelta</span></td>
+        <td><p>in kilometers per hour (km/h)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Common_Logic_RailVehicles_RailVehicle_Acceleration.md&amp;value=---%0Auid%3A%20Game.Common.Logic.RailVehicles.RailVehicle.Acceleration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Common/Logic/RailVehicles/RailVehicle.cs/#L8">View Source</a>
+  </span>
+  <a id="Game_Common_Logic_RailVehicles_RailVehicle_Acceleration_" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.Acceleration*"></a>
+  <h4 id="Game_Common_Logic_RailVehicles_RailVehicle_Acceleration" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.Acceleration">Acceleration</h4>
+  <div class="markdown level1 summary"><p>The acceleration in Newtons.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Acceleration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Common_Logic_RailVehicles_RailVehicle_Deceleration.md&amp;value=---%0Auid%3A%20Game.Common.Logic.RailVehicles.RailVehicle.Deceleration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Common/Logic/RailVehicles/RailVehicle.cs/#L13">View Source</a>
+  </span>
+  <a id="Game_Common_Logic_RailVehicles_RailVehicle_Deceleration_" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.Deceleration*"></a>
+  <h4 id="Game_Common_Logic_RailVehicles_RailVehicle_Deceleration" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.Deceleration">Deceleration</h4>
+  <div class="markdown level1 summary"><p>The deceleration (braking power) in Newtons.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Deceleration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Common_Logic_RailVehicles_RailVehicle_Mass.md&amp;value=---%0Auid%3A%20Game.Common.Logic.RailVehicles.RailVehicle.Mass%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Common/Logic/RailVehicles/RailVehicle.cs/#L18">View Source</a>
+  </span>
+  <a id="Game_Common_Logic_RailVehicles_RailVehicle_Mass_" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.Mass*"></a>
+  <h4 id="Game_Common_Logic_RailVehicles_RailVehicle_Mass" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.Mass">Mass</h4>
+  <div class="markdown level1 summary"><p>The weight of this vehicle in kilograms.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Mass { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Common_Logic_RailVehicles_RailVehicle_StopDelta.md&amp;value=---%0Auid%3A%20Game.Common.Logic.RailVehicles.RailVehicle.StopDelta%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Common/Logic/RailVehicles/RailVehicle.cs/#L23">View Source</a>
+  </span>
+  <a id="Game_Common_Logic_RailVehicles_RailVehicle_StopDelta_" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.StopDelta*"></a>
+  <h4 id="Game_Common_Logic_RailVehicles_RailVehicle_StopDelta" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.StopDelta">StopDelta</h4>
+  <div class="markdown level1 summary"><p>At which speed the vehicle completely stops. (simplified simulation of a &quot;Feststellbremse&quot;)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double StopDelta { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Common_Logic_RailVehicles_RailVehicle_CalculateAcceleration_System_Double_System_Double_System_Int32_.md&amp;value=---%0Auid%3A%20Game.Common.Logic.RailVehicles.RailVehicle.CalculateAcceleration(System.Double%2CSystem.Double%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Common/Logic/RailVehicles/RailVehicle.cs/#L126">View Source</a>
+  </span>
+  <a id="Game_Common_Logic_RailVehicles_RailVehicle_CalculateAcceleration_" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.CalculateAcceleration*"></a>
+  <h4 id="Game_Common_Logic_RailVehicles_RailVehicle_CalculateAcceleration_System_Double_System_Double_System_Int32_" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.CalculateAcceleration(System.Double,System.Double,System.Int32)">CalculateAcceleration(double, double, int)</h4>
+  <div class="markdown level1 summary"><p>Calculates a t-s diagram for the vehicles Acceleration. This is done by splitting the accelerating into pieces with the
+length of interval.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;double&gt; CalculateAcceleration(double startSpeed, double endSpeed, int interval)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">startSpeed</span></td>
+        <td><p>the start speed of the Acceleration phase</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">endSpeed</span></td>
+        <td><p>the end speed of the Acceleration phase</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>the interval in which the calculation should be done in meters</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</td>
+        <td><p>a list containing the speed values of the vehicle at given distances, where the element of the list
+with index n is the Velocity of the vehicle after n * interval meters in length</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>if an invalid argument (negative speeds, endSpeed less than or equal to start speed or non-positive interval) is passed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Common_Logic_RailVehicles_RailVehicle_CalculateBraking_System_Double_System_Double_System_Int32_.md&amp;value=---%0Auid%3A%20Game.Common.Logic.RailVehicles.RailVehicle.CalculateBraking(System.Double%2CSystem.Double%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Common/Logic/RailVehicles/RailVehicle.cs/#L73">View Source</a>
+  </span>
+  <a id="Game_Common_Logic_RailVehicles_RailVehicle_CalculateBraking_" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.CalculateBraking*"></a>
+  <h4 id="Game_Common_Logic_RailVehicles_RailVehicle_CalculateBraking_System_Double_System_Double_System_Int32_" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.CalculateBraking(System.Double,System.Double,System.Int32)">CalculateBraking(double, double, int)</h4>
+  <div class="markdown level1 summary"><p>Calculates a t-s diagram for the vehicles breaking. This is done by splitting the breaking into pieces with the
+length of interval.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;double&gt; CalculateBraking(double startSpeed, double endSpeed, int interval)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">startSpeed</span></td>
+        <td><p>the start speed of the breaking phase in m/s</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">endSpeed</span></td>
+        <td><p>the end speed of the breaking phase in m/s</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>the interval in which the calculation should be done in meters</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</td>
+        <td><p>a list containing the speed values of the vehicle at given distances, where the element of the list
+with index n is the Velocity of the vehicle after n * interval meters in length</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>if an invalid argument (negative speeds, endSpeed greater than or equal to start speed or non-positive interval) is passed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Common_Logic_RailVehicles_RailVehicle_CalculateVelocity_System_Double_System_Double_System_Int32_.md&amp;value=---%0Auid%3A%20Game.Common.Logic.RailVehicles.RailVehicle.CalculateVelocity(System.Double%2CSystem.Double%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Common/Logic/RailVehicles/RailVehicle.cs/#L47">View Source</a>
+  </span>
+  <a id="Game_Common_Logic_RailVehicles_RailVehicle_CalculateVelocity_" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.CalculateVelocity*"></a>
+  <h4 id="Game_Common_Logic_RailVehicles_RailVehicle_CalculateVelocity_System_Double_System_Double_System_Int32_" data-uid="Game.Common.Logic.RailVehicles.RailVehicle.CalculateVelocity(System.Double,System.Double,System.Int32)">CalculateVelocity(double, double, int)</h4>
+  <div class="markdown level1 summary"><p>Calculates the velocity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;double&gt; CalculateVelocity(double startSpeed, double endSpeed, int interval)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">startSpeed</span></td>
+        <td><p>the start speed in m/s</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">endSpeed</span></td>
+        <td><p>the end speed in m/s</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>the interval in which the calculation should be done in meters</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>Copyright &#169; 2024 JustMattis, Sam302rk</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+</html>

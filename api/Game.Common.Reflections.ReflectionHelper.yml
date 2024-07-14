@@ -1,0 +1,622 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Reflections.ReflectionHelper
+  commentId: T:Game.Common.Reflections.ReflectionHelper
+  id: ReflectionHelper
+  parent: Game.Common.Reflections
+  children:
+  - Game.Common.Reflections.ReflectionHelper.CreateInstances(System.Collections.Generic.List{System.Type})
+  - Game.Common.Reflections.ReflectionHelper.GetClassesWithAttributeAndBaseType(System.String,System.Type,System.Type)
+  - Game.Common.Reflections.ReflectionHelper.GetValueByName``1(System.Object,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ReflectionHelper
+  nameWithType: ReflectionHelper
+  fullName: Game.Common.Reflections.ReflectionHelper
+  type: Class
+  source:
+    remote:
+      path: Common/Reflections/ReflectionHelper.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ReflectionHelper
+    path: ../Game/Common/Reflections/ReflectionHelper.cs
+    startLine: 8
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Reflections
+  summary: A helper class for Reflections operations
+  example: []
+  syntax:
+    content: public static class ReflectionHelper
+    content.vb: Public Module ReflectionHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Common.Reflections.ReflectionHelper.GetValueByName``1(System.Object,System.String)
+  commentId: M:Game.Common.Reflections.ReflectionHelper.GetValueByName``1(System.Object,System.String)
+  id: GetValueByName``1(System.Object,System.String)
+  parent: Game.Common.Reflections.ReflectionHelper
+  langs:
+  - csharp
+  - vb
+  name: GetValueByName<T>(object, string)
+  nameWithType: ReflectionHelper.GetValueByName<T>(object, string)
+  fullName: Game.Common.Reflections.ReflectionHelper.GetValueByName<T>(object, string)
+  type: Method
+  source:
+    remote:
+      path: Common/Reflections/ReflectionHelper.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: GetValueByName
+    path: ../Game/Common/Reflections/ReflectionHelper.cs
+    startLine: 19
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Reflections
+  summary: Gets the value from an object's property
+  example: []
+  syntax:
+    content: public static T? GetValueByName<T>(object obj, string propertyName)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to retrieve the property from
+    - id: propertyName
+      type: System.String
+      description: The name of the property
+    typeParameters:
+    - id: T
+      description: The type of that property
+    return:
+      type: '{T}'
+      description: The value of that property or the type's default, if the type does not match.
+    content.vb: Public Shared Function GetValueByName(Of T)(obj As Object, propertyName As String) As T
+  overload: Game.Common.Reflections.ReflectionHelper.GetValueByName*
+  nameWithType.vb: ReflectionHelper.GetValueByName(Of T)(Object, String)
+  fullName.vb: Game.Common.Reflections.ReflectionHelper.GetValueByName(Of T)(Object, String)
+  name.vb: GetValueByName(Of T)(Object, String)
+- uid: Game.Common.Reflections.ReflectionHelper.GetClassesWithAttributeAndBaseType(System.String,System.Type,System.Type)
+  commentId: M:Game.Common.Reflections.ReflectionHelper.GetClassesWithAttributeAndBaseType(System.String,System.Type,System.Type)
+  id: GetClassesWithAttributeAndBaseType(System.String,System.Type,System.Type)
+  parent: Game.Common.Reflections.ReflectionHelper
+  langs:
+  - csharp
+  - vb
+  name: GetClassesWithAttributeAndBaseType(string, Type, Type)
+  nameWithType: ReflectionHelper.GetClassesWithAttributeAndBaseType(string, Type, Type)
+  fullName: Game.Common.Reflections.ReflectionHelper.GetClassesWithAttributeAndBaseType(string, System.Type, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Common/Reflections/ReflectionHelper.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: GetClassesWithAttributeAndBaseType
+    path: ../Game/Common/Reflections/ReflectionHelper.cs
+    startLine: 42
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Reflections
+  summary: Get all classes within a namespace, which have a choosen base type and attribute
+  example: []
+  syntax:
+    content: public static List<Type> GetClassesWithAttributeAndBaseType(string @namespace, Type @base, Type attribute)
+    parameters:
+    - id: namespace
+      type: System.String
+      description: Choosen namespace
+    - id: base
+      type: System.Type
+      description: Choosen base
+    - id: attribute
+      type: System.Type
+      description: Choosen attribute
+    return:
+      type: System.Collections.Generic.List{System.Type}
+      description: A list of all matching classes
+    content.vb: Public Shared Function GetClassesWithAttributeAndBaseType([namespace] As String, base As Type, attribute As Type) As List(Of Type)
+  overload: Game.Common.Reflections.ReflectionHelper.GetClassesWithAttributeAndBaseType*
+  nameWithType.vb: ReflectionHelper.GetClassesWithAttributeAndBaseType(String, Type, Type)
+  fullName.vb: Game.Common.Reflections.ReflectionHelper.GetClassesWithAttributeAndBaseType(String, System.Type, System.Type)
+  name.vb: GetClassesWithAttributeAndBaseType(String, Type, Type)
+- uid: Game.Common.Reflections.ReflectionHelper.CreateInstances(System.Collections.Generic.List{System.Type})
+  commentId: M:Game.Common.Reflections.ReflectionHelper.CreateInstances(System.Collections.Generic.List{System.Type})
+  id: CreateInstances(System.Collections.Generic.List{System.Type})
+  parent: Game.Common.Reflections.ReflectionHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateInstances(List<Type>)
+  nameWithType: ReflectionHelper.CreateInstances(List<Type>)
+  fullName: Game.Common.Reflections.ReflectionHelper.CreateInstances(System.Collections.Generic.List<System.Type>)
+  type: Method
+  source:
+    remote:
+      path: Common/Reflections/ReflectionHelper.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: CreateInstances
+    path: ../Game/Common/Reflections/ReflectionHelper.cs
+    startLine: 59
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Reflections
+  summary: Take a list of types and create instances of these types
+  example: []
+  syntax:
+    content: public static List<object> CreateInstances(List<Type> types)
+    parameters:
+    - id: types
+      type: System.Collections.Generic.List{System.Type}
+      description: Types which should be converted to object instances
+    return:
+      type: System.Collections.Generic.List{System.Object}
+      description: >-
+        A list with instances of the input types.<br />
+            If no parameterless constructor was found, the object gets skipped
+    content.vb: Public Shared Function CreateInstances(types As List(Of Type)) As List(Of Object)
+  overload: Game.Common.Reflections.ReflectionHelper.CreateInstances*
+  nameWithType.vb: ReflectionHelper.CreateInstances(List(Of Type))
+  fullName.vb: Game.Common.Reflections.ReflectionHelper.CreateInstances(System.Collections.Generic.List(Of System.Type))
+  name.vb: CreateInstances(List(Of Type))
+references:
+- uid: Game.Common.Reflections
+  commentId: N:Game.Common.Reflections
+  href: Game.html
+  name: Game.Common.Reflections
+  nameWithType: Game.Common.Reflections
+  fullName: Game.Common.Reflections
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Reflections
+    name: Reflections
+    href: Game.Common.Reflections.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Reflections
+    name: Reflections
+    href: Game.Common.Reflections.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Common.Reflections.ReflectionHelper.GetValueByName*
+  commentId: Overload:Game.Common.Reflections.ReflectionHelper.GetValueByName
+  href: Game.Common.Reflections.ReflectionHelper.html#Game_Common_Reflections_ReflectionHelper_GetValueByName__1_System_Object_System_String_
+  name: GetValueByName
+  nameWithType: ReflectionHelper.GetValueByName
+  fullName: Game.Common.Reflections.ReflectionHelper.GetValueByName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  commentId: '!:T'
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Game.Common.Reflections.ReflectionHelper.GetClassesWithAttributeAndBaseType*
+  commentId: Overload:Game.Common.Reflections.ReflectionHelper.GetClassesWithAttributeAndBaseType
+  href: Game.Common.Reflections.ReflectionHelper.html#Game_Common_Reflections_ReflectionHelper_GetClassesWithAttributeAndBaseType_System_String_System_Type_System_Type_
+  name: GetClassesWithAttributeAndBaseType
+  nameWithType: ReflectionHelper.GetClassesWithAttributeAndBaseType
+  fullName: Game.Common.Reflections.ReflectionHelper.GetClassesWithAttributeAndBaseType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Collections.Generic.List{System.Type}
+  commentId: T:System.Collections.Generic.List{System.Type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Type>
+  nameWithType: List<Type>
+  fullName: System.Collections.Generic.List<System.Type>
+  nameWithType.vb: List(Of Type)
+  fullName.vb: System.Collections.Generic.List(Of System.Type)
+  name.vb: List(Of Type)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Game.Common.Reflections.ReflectionHelper.CreateInstances*
+  commentId: Overload:Game.Common.Reflections.ReflectionHelper.CreateInstances
+  href: Game.Common.Reflections.ReflectionHelper.html#Game_Common_Reflections_ReflectionHelper_CreateInstances_System_Collections_Generic_List_System_Type__
+  name: CreateInstances
+  nameWithType: ReflectionHelper.CreateInstances
+  fullName: Game.Common.Reflections.ReflectionHelper.CreateInstances
+- uid: System.Collections.Generic.List{System.Object}
+  commentId: T:System.Collections.Generic.List{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<object>
+  nameWithType: List<object>
+  fullName: System.Collections.Generic.List<object>
+  nameWithType.vb: List(Of Object)
+  fullName.vb: System.Collections.Generic.List(Of Object)
+  name.vb: List(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )

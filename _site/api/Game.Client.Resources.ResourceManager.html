@@ -1,0 +1,614 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class ResourceManager | Railventure </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class ResourceManager | Railventure ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../images/logo.png" alt="Railventure" class="logomark">
+              <span class="brand-title">Railventure</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../images/logo.png" alt="Railventure" class="logomark">
+                          <span class="brand-title">Railventure</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  <h5 id="current-time"></h5><script>setInterval(() => document.getElementById('current-time').innerText = new Date().toLocaleString(), 1000);</script>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div id="contribution">
+                               <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Resources_ResourceManager.md&amp;value=---%0Auid%3A%20Game.Client.Resources.ResourceManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="Game.Client.Resources.ResourceManager">
+
+
+
+  <h1 id="Game_Client_Resources_ResourceManager" data-uid="Game.Client.Resources.ResourceManager" class="text-break">Class ResourceManager</h1>
+  <div class="markdown level0 summary"><p>Responsible for loading and caching game assets.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">ResourceManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Game.html">Game</a>.<a class="xref" href="Game.Client.html">Client</a>.<a class="xref" href="Game.Client.Resources.html">Resources</a></h6>
+  <h6><strong>Assembly</strong>: Railventure.dll</h6>
+  <h5 id="Game_Client_Resources_ResourceManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ResourceManager</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Resources_ResourceManager__ctor.md&amp;value=---%0Auid%3A%20Game.Client.Resources.ResourceManager.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Resources/ResourceManager.cs/#L23">View Source</a>
+  </span>
+  <a id="Game_Client_Resources_ResourceManager__ctor_" data-uid="Game.Client.Resources.ResourceManager.#ctor*"></a>
+  <h4 id="Game_Client_Resources_ResourceManager__ctor" data-uid="Game.Client.Resources.ResourceManager.#ctor">ResourceManager()</h4>
+  <div class="markdown level1 summary"><p>Create a new instance. Only to be used by <a class="xref" href="Game.Client.Window.GameWindow.html">GameWindow</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ResourceManager()</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Resources_ResourceManager_CreateNewTexture_Game_Client_Resources_Identifier__System_Int32__System_Int32__SDL_Sharp_Renderer__System_UInt32__.md&amp;value=---%0Auid%3A%20Game.Client.Resources.ResourceManager.CreateNewTexture(Game.Client.Resources.Identifier%40%2CSystem.Int32%40%2CSystem.Int32%40%2CSDL_Sharp.Renderer%40%2CSystem.UInt32%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Resources/ResourceManager.cs/#L54">View Source</a>
+  </span>
+  <a id="Game_Client_Resources_ResourceManager_CreateNewTexture_" data-uid="Game.Client.Resources.ResourceManager.CreateNewTexture*"></a>
+  <h4 id="Game_Client_Resources_ResourceManager_CreateNewTexture_Game_Client_Resources_Identifier__System_Int32__System_Int32__SDL_Sharp_Renderer__System_UInt32__" data-uid="Game.Client.Resources.ResourceManager.CreateNewTexture(Game.Client.Resources.Identifier@,System.Int32@,System.Int32@,SDL_Sharp.Renderer@,System.UInt32@)">CreateNewTexture(in Identifier, in int, in int, ref Renderer, in uint)</h4>
+  <div class="markdown level1 summary"><p>Create a new blank texture, store it in <a class="xref" href="Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager_TextureCache">TextureCache</a> and return it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture CreateNewTexture(in Identifier identifier, in int width, in int height, ref Renderer renderer, in uint pixelType = 373694468)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Client.Resources.Identifier.html">Identifier</a></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The unique identifier for cache</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>Texture width in pixels</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>Texture height in pixels</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td><span class="parametername">renderer</span></td>
+        <td><p>Reference to the Game's Renderer Instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></td>
+        <td><span class="parametername">pixelType</span></td>
+        <td><p>Should be either <a class="xref" href="Game.Client.Window.GameWindow.html#Game_Client_Window_GameWindow_RGB_PIXELTYPE">RGB_PIXELTYPE</a> or <a class="xref" href="Game.Client.Window.GameWindow.html#Game_Client_Window_GameWindow_RGBA_PIXELTYPE">RGBA_PIXELTYPE</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Texture</span></td>
+        <td><p>Blank Texture, ready to be drawn on</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Identifier is already bound to a texture.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Resources_ResourceManager_GetFont_Game_Client_Resources_Identifier__.md&amp;value=---%0Auid%3A%20Game.Client.Resources.ResourceManager.GetFont(Game.Client.Resources.Identifier%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Resources/ResourceManager.cs/#L195">View Source</a>
+  </span>
+  <a id="Game_Client_Resources_ResourceManager_GetFont_" data-uid="Game.Client.Resources.ResourceManager.GetFont*"></a>
+  <h4 id="Game_Client_Resources_ResourceManager_GetFont_Game_Client_Resources_Identifier__" data-uid="Game.Client.Resources.ResourceManager.GetFont(Game.Client.Resources.Identifier@)">GetFont(in Identifier)</h4>
+  <div class="markdown level1 summary"><p>Loads a font from it's *.ttf file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Font GetFont(in Identifier identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Client.Resources.Identifier.html">Identifier</a></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>A identifier for a *.ttf font file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Font</span></td>
+        <td><p>A loaded and cached instance of the selected font.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Resources_ResourceManager_GetTexture_Game_Client_Resources_Identifier__SDL_Sharp_Renderer__.md&amp;value=---%0Auid%3A%20Game.Client.Resources.ResourceManager.GetTexture(Game.Client.Resources.Identifier%40%2CSDL_Sharp.Renderer%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Resources/ResourceManager.cs/#L36">View Source</a>
+  </span>
+  <a id="Game_Client_Resources_ResourceManager_GetTexture_" data-uid="Game.Client.Resources.ResourceManager.GetTexture*"></a>
+  <h4 id="Game_Client_Resources_ResourceManager_GetTexture_Game_Client_Resources_Identifier__SDL_Sharp_Renderer__" data-uid="Game.Client.Resources.ResourceManager.GetTexture(Game.Client.Resources.Identifier@,SDL_Sharp.Renderer@)">GetTexture(in Identifier, ref Renderer)</h4>
+  <div class="markdown level1 summary"><p>Retrieves a texture from cache. When not found, it tries to load the texture from storage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture GetTexture(in Identifier identifier, ref Renderer renderer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Client.Resources.Identifier.html">Identifier</a></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>Texture identifier</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td><span class="parametername">renderer</span></td>
+        <td><p>Reference to the Game's Renderer Instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Texture</span></td>
+        <td><p>The texture if found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Resources_ResourceManager_ReadAllLines_Game_Client_Resources_Identifier__System_Text_Encoding_Game_Client_Resources_ResourceManager_ReadLinesFlags_.md&amp;value=---%0Auid%3A%20Game.Client.Resources.ResourceManager.ReadAllLines(Game.Client.Resources.Identifier%40%2CSystem.Text.Encoding%2CGame.Client.Resources.ResourceManager.ReadLinesFlags)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Resources/ResourceManager.cs/#L111">View Source</a>
+  </span>
+  <a id="Game_Client_Resources_ResourceManager_ReadAllLines_" data-uid="Game.Client.Resources.ResourceManager.ReadAllLines*"></a>
+  <h4 id="Game_Client_Resources_ResourceManager_ReadAllLines_Game_Client_Resources_Identifier__System_Text_Encoding_Game_Client_Resources_ResourceManager_ReadLinesFlags_" data-uid="Game.Client.Resources.ResourceManager.ReadAllLines(Game.Client.Resources.Identifier@,System.Text.Encoding,Game.Client.Resources.ResourceManager.ReadLinesFlags)">ReadAllLines(in Identifier, Encoding?, ReadLinesFlags)</h4>
+  <div class="markdown level1 summary"><p>Read all text lines of a text file</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] ReadAllLines(in Identifier identifier, Encoding? encoding = null, ResourceManager.ReadLinesFlags flags = ReadLinesFlags.None)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Client.Resources.Identifier.html">Identifier</a></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier of that text file</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.encoding">Encoding</a></td>
+        <td><span class="parametername">encoding</span></td>
+        <td><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.encoding">Encoding</a> used for reading this text file. The default is null which uses <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.encoding.utf8">UTF8</a> as fallback.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Game.Client.Resources.ResourceManager.html">ResourceManager</a>.<a class="xref" href="Game.Client.Resources.ResourceManager.ReadLinesFlags.html">ReadLinesFlags</a></td>
+        <td><span class="parametername">flags</span></td>
+        <td><p>See <a class="xref" href="Game.Client.Resources.ResourceManager.ReadLinesFlags.html">ResourceManager.ReadLinesFlags</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
+        <td><p>A string array with all lines of text from that file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>File does not exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Resources_ResourceManager_ReadAllText_Game_Client_Resources_Identifier__System_Text_Encoding_.md&amp;value=---%0Auid%3A%20Game.Client.Resources.ResourceManager.ReadAllText(Game.Client.Resources.Identifier%40%2CSystem.Text.Encoding)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Resources/ResourceManager.cs/#L97">View Source</a>
+  </span>
+  <a id="Game_Client_Resources_ResourceManager_ReadAllText_" data-uid="Game.Client.Resources.ResourceManager.ReadAllText*"></a>
+  <h4 id="Game_Client_Resources_ResourceManager_ReadAllText_Game_Client_Resources_Identifier__System_Text_Encoding_" data-uid="Game.Client.Resources.ResourceManager.ReadAllText(Game.Client.Resources.Identifier@,System.Text.Encoding)">ReadAllText(in Identifier, Encoding?)</h4>
+  <div class="markdown level1 summary"><p>Read all text of a text file</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReadAllText(in Identifier identifier, Encoding? encoding = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Client.Resources.Identifier.html">Identifier</a></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier of that text file</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.encoding">Encoding</a></td>
+        <td><span class="parametername">encoding</span></td>
+        <td><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.encoding">Encoding</a> used for reading this text file. The default is null which uses <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.encoding.utf8">UTF8</a> as fallback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>A string with all text loaded from that file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>File does not exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Resources_ResourceManager_UnloadFont_Game_Client_Resources_Identifier__.md&amp;value=---%0Auid%3A%20Game.Client.Resources.ResourceManager.UnloadFont(Game.Client.Resources.Identifier%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Resources/ResourceManager.cs/#L208">View Source</a>
+  </span>
+  <a id="Game_Client_Resources_ResourceManager_UnloadFont_" data-uid="Game.Client.Resources.ResourceManager.UnloadFont*"></a>
+  <h4 id="Game_Client_Resources_ResourceManager_UnloadFont_Game_Client_Resources_Identifier__" data-uid="Game.Client.Resources.ResourceManager.UnloadFont(Game.Client.Resources.Identifier@)">UnloadFont(in Identifier)</h4>
+  <div class="markdown level1 summary"><p>Removes a font from <a class="xref" href="Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager_FontCache">FontCache</a> and memory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnloadFont(in Identifier identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Client.Resources.Identifier.html">Identifier</a></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>An already existing identifier which should be unbound.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RailventureGame/game/new/main/apiSpec/new?filename=Game_Client_Resources_ResourceManager_UnloadTexture_Game_Client_Resources_Identifier__.md&amp;value=---%0Auid%3A%20Game.Client.Resources.ResourceManager.UnloadTexture(Game.Client.Resources.Identifier%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RailventureGame/game/blob/main/Client/Resources/ResourceManager.cs/#L67">View Source</a>
+  </span>
+  <a id="Game_Client_Resources_ResourceManager_UnloadTexture_" data-uid="Game.Client.Resources.ResourceManager.UnloadTexture*"></a>
+  <h4 id="Game_Client_Resources_ResourceManager_UnloadTexture_Game_Client_Resources_Identifier__" data-uid="Game.Client.Resources.ResourceManager.UnloadTexture(Game.Client.Resources.Identifier@)">UnloadTexture(in Identifier)</h4>
+  <div class="markdown level1 summary"><p>Removes a texture from <a class="xref" href="Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager_TextureCache">TextureCache</a> and memory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnloadTexture(in Identifier identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Client.Resources.Identifier.html">Identifier</a></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>An already existing identifier which should be unbound.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Identifier is not bound to a texture.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>Copyright &#169; 2024 JustMattis, Sam302rk</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+</html>

@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Geometry.Components.TrackComponent
+  commentId: T:Game.Common.Geometry.Components.TrackComponent
+  id: TrackComponent
+  parent: Game.Common.Geometry.Components
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TrackComponent
+  nameWithType: TrackComponent
+  fullName: Game.Common.Geometry.Components.TrackComponent
+  type: Interface
+  source:
+    remote:
+      path: Common/Geometry/Components/TrackComponent.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: TrackComponent
+    path: ../Game/Common/Geometry/Components/TrackComponent.cs
+    startLine: 2
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Geometry.Components
+  syntax:
+    content: 'public interface TrackComponent : IGeometryComponent'
+    content.vb: Public Interface TrackComponent Inherits IGeometryComponent
+  inheritedMembers:
+  - Game.Common.Geometry.IGeometryComponent.X
+  - Game.Common.Geometry.IGeometryComponent.Y
+  - Game.Common.Geometry.IGeometryComponent.Rotation
+  - Game.Common.Geometry.IGeometryComponent.Width
+  - Game.Common.Geometry.IGeometryComponent.Height
+  - Game.Common.Geometry.IGeometryComponent.BoundingBox
+  - Game.Common.Geometry.IGeometryComponent.Edges
+references:
+- uid: Game.Common.Geometry.Components
+  commentId: N:Game.Common.Geometry.Components
+  href: Game.html
+  name: Game.Common.Geometry.Components
+  nameWithType: Game.Common.Geometry.Components
+  fullName: Game.Common.Geometry.Components
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Geometry
+    name: Geometry
+    href: Game.Common.Geometry.html
+  - name: .
+  - uid: Game.Common.Geometry.Components
+    name: Components
+    href: Game.Common.Geometry.Components.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Geometry
+    name: Geometry
+    href: Game.Common.Geometry.html
+  - name: .
+  - uid: Game.Common.Geometry.Components
+    name: Components
+    href: Game.Common.Geometry.Components.html
+- uid: Game.Common.Geometry.IGeometryComponent.X
+  commentId: P:Game.Common.Geometry.IGeometryComponent.X
+  parent: Game.Common.Geometry.IGeometryComponent
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_X
+  name: X
+  nameWithType: IGeometryComponent.X
+  fullName: Game.Common.Geometry.IGeometryComponent.X
+- uid: Game.Common.Geometry.IGeometryComponent.Y
+  commentId: P:Game.Common.Geometry.IGeometryComponent.Y
+  parent: Game.Common.Geometry.IGeometryComponent
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_Y
+  name: Y
+  nameWithType: IGeometryComponent.Y
+  fullName: Game.Common.Geometry.IGeometryComponent.Y
+- uid: Game.Common.Geometry.IGeometryComponent.Rotation
+  commentId: P:Game.Common.Geometry.IGeometryComponent.Rotation
+  parent: Game.Common.Geometry.IGeometryComponent
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_Rotation
+  name: Rotation
+  nameWithType: IGeometryComponent.Rotation
+  fullName: Game.Common.Geometry.IGeometryComponent.Rotation
+- uid: Game.Common.Geometry.IGeometryComponent.Width
+  commentId: P:Game.Common.Geometry.IGeometryComponent.Width
+  parent: Game.Common.Geometry.IGeometryComponent
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_Width
+  name: Width
+  nameWithType: IGeometryComponent.Width
+  fullName: Game.Common.Geometry.IGeometryComponent.Width
+- uid: Game.Common.Geometry.IGeometryComponent.Height
+  commentId: P:Game.Common.Geometry.IGeometryComponent.Height
+  parent: Game.Common.Geometry.IGeometryComponent
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_Height
+  name: Height
+  nameWithType: IGeometryComponent.Height
+  fullName: Game.Common.Geometry.IGeometryComponent.Height
+- uid: Game.Common.Geometry.IGeometryComponent.BoundingBox
+  commentId: P:Game.Common.Geometry.IGeometryComponent.BoundingBox
+  parent: Game.Common.Geometry.IGeometryComponent
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_BoundingBox
+  name: BoundingBox
+  nameWithType: IGeometryComponent.BoundingBox
+  fullName: Game.Common.Geometry.IGeometryComponent.BoundingBox
+- uid: Game.Common.Geometry.IGeometryComponent.Edges
+  commentId: P:Game.Common.Geometry.IGeometryComponent.Edges
+  parent: Game.Common.Geometry.IGeometryComponent
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_Edges
+  name: Edges
+  nameWithType: IGeometryComponent.Edges
+  fullName: Game.Common.Geometry.IGeometryComponent.Edges
+- uid: Game.Common.Geometry.IGeometryComponent
+  commentId: T:Game.Common.Geometry.IGeometryComponent
+  parent: Game.Common.Geometry
+  href: Game.Common.Geometry.IGeometryComponent.html
+  name: IGeometryComponent
+  nameWithType: IGeometryComponent
+  fullName: Game.Common.Geometry.IGeometryComponent
+- uid: Game.Common.Geometry
+  commentId: N:Game.Common.Geometry
+  href: Game.html
+  name: Game.Common.Geometry
+  nameWithType: Game.Common.Geometry
+  fullName: Game.Common.Geometry
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Geometry
+    name: Geometry
+    href: Game.Common.Geometry.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Geometry
+    name: Geometry
+    href: Game.Common.Geometry.html

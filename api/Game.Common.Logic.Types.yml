@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.Types
+  commentId: N:Game.Common.Logic.Types
+  id: Game.Common.Logic.Types
+  children:
+  - Game.Common.Logic.Types.LevelCrossingOperationStyle
+  - Game.Common.Logic.Types.NodeOperationStyle
+  - Game.Common.Logic.Types.RailType
+  - Game.Common.Logic.Types.SwitchOperationStyle
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Logic.Types
+  nameWithType: Game.Common.Logic.Types
+  fullName: Game.Common.Logic.Types
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Logic.Types.LevelCrossingOperationStyle
+  commentId: T:Game.Common.Logic.Types.LevelCrossingOperationStyle
+  parent: Game.Common.Logic.Types
+  href: Game.Common.Logic.Types.LevelCrossingOperationStyle.html
+  name: LevelCrossingOperationStyle
+  nameWithType: LevelCrossingOperationStyle
+  fullName: Game.Common.Logic.Types.LevelCrossingOperationStyle
+- uid: Game.Common.Logic.Types.NodeOperationStyle
+  commentId: T:Game.Common.Logic.Types.NodeOperationStyle
+  parent: Game.Common.Logic.Types
+  href: Game.Common.Logic.Types.NodeOperationStyle.html
+  name: NodeOperationStyle
+  nameWithType: NodeOperationStyle
+  fullName: Game.Common.Logic.Types.NodeOperationStyle
+- uid: Game.Common.Logic.Types.RailType
+  commentId: T:Game.Common.Logic.Types.RailType
+  parent: Game.Common.Logic.Types
+  href: Game.Common.Logic.Types.RailType.html
+  name: RailType
+  nameWithType: RailType
+  fullName: Game.Common.Logic.Types.RailType
+- uid: Game.Common.Logic.Types.SwitchOperationStyle
+  commentId: T:Game.Common.Logic.Types.SwitchOperationStyle
+  parent: Game.Common.Logic.Types
+  href: Game.Common.Logic.Types.SwitchOperationStyle.html
+  name: SwitchOperationStyle
+  nameWithType: SwitchOperationStyle
+  fullName: Game.Common.Logic.Types.SwitchOperationStyle
+- uid: Game.Common.Logic.Types
+  commentId: N:Game.Common.Logic.Types
+  href: Game.html
+  name: Game.Common.Logic.Types
+  nameWithType: Game.Common.Logic.Types
+  fullName: Game.Common.Logic.Types
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html

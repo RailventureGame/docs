@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.Types.RailType
+  commentId: T:Game.Common.Logic.Types.RailType
+  id: RailType
+  parent: Game.Common.Logic.Types
+  children:
+  - Game.Common.Logic.Types.RailType.MAX_SPEED
+  - Game.Common.Logic.Types.RailType.MIN_RADIUS
+  langs:
+  - csharp
+  - vb
+  name: RailType
+  nameWithType: RailType
+  fullName: Game.Common.Logic.Types.RailType
+  type: Enum
+  source:
+    remote:
+      path: Common/Logic/Types/RailType.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: RailType
+    path: ../Game/Common/Logic/Types/RailType.cs
+    startLine: 2
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: public enum RailType
+    content.vb: Public Enum RailType
+- uid: Game.Common.Logic.Types.RailType.MAX_SPEED
+  commentId: F:Game.Common.Logic.Types.RailType.MAX_SPEED
+  id: MAX_SPEED
+  parent: Game.Common.Logic.Types.RailType
+  langs:
+  - csharp
+  - vb
+  name: MAX_SPEED
+  nameWithType: RailType.MAX_SPEED
+  fullName: Game.Common.Logic.Types.RailType.MAX_SPEED
+  type: Field
+  source:
+    remote:
+      path: Common/Logic/Types/RailType.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: MAX_SPEED
+    path: ../Game/Common/Logic/Types/RailType.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: MAX_SPEED = 0
+    return:
+      type: Game.Common.Logic.Types.RailType
+- uid: Game.Common.Logic.Types.RailType.MIN_RADIUS
+  commentId: F:Game.Common.Logic.Types.RailType.MIN_RADIUS
+  id: MIN_RADIUS
+  parent: Game.Common.Logic.Types.RailType
+  langs:
+  - csharp
+  - vb
+  name: MIN_RADIUS
+  nameWithType: RailType.MIN_RADIUS
+  fullName: Game.Common.Logic.Types.RailType.MIN_RADIUS
+  type: Field
+  source:
+    remote:
+      path: Common/Logic/Types/RailType.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: MIN_RADIUS
+    path: ../Game/Common/Logic/Types/RailType.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: MIN_RADIUS = 1
+    return:
+      type: Game.Common.Logic.Types.RailType
+references:
+- uid: Game.Common.Logic.Types
+  commentId: N:Game.Common.Logic.Types
+  href: Game.html
+  name: Game.Common.Logic.Types
+  nameWithType: Game.Common.Logic.Types
+  fullName: Game.Common.Logic.Types
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+- uid: Game.Common.Logic.Types.RailType
+  commentId: T:Game.Common.Logic.Types.RailType
+  parent: Game.Common.Logic.Types
+  href: Game.Common.Logic.Types.RailType.html
+  name: RailType
+  nameWithType: RailType
+  fullName: Game.Common.Logic.Types.RailType

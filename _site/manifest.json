@@ -1,0 +1,1331 @@
+{
+  "source_base_path": "D:/Workspace/Railventure/Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Animations.AnimationHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Animations.AnimationHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Animations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Animations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Game.GameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Game.GameManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Game.Time.Clock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Game.Time.Clock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Game.Time.TimeUtil.Weekdays.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Game.Time.TimeUtil.Weekdays.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Game.Time.TimeUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Game.Time.TimeUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Game.Time.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Game.Time.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Game.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Resources.Identifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Resources.Identifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Resources.ResourceManager.ReadLinesFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Resources.ResourceManager.ReadLinesFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Resources.ResourceManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Resources.ResourceManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Resources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Resources.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.CloseAllWindows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.CloseAllWindows.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.GameWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.GameWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.KeyboardCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.KeyboardCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.OpenDevelopmentUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.OpenDevelopmentUI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.PauseGame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.PauseGame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.Rendering.GameRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.Rendering.GameRenderer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.Rendering.Viewport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.Rendering.Viewport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.Rendering.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.TextUtil.TextAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.TextUtil.TextAlignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.TextUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.TextUtil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.ToggleFullscreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.ToggleFullscreen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Color.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.ColorPalette.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.ColorPalette.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.Common.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.Common.Button.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.Common.GUIWindow.GUIWindowCloseButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.Common.GUIWindow.GUIWindowCloseButton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.Common.GUIWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.Common.GUIWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.Common.HorizontalScrollbar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.Common.HorizontalScrollbar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.Common.TextInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.Common.TextInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.Common.VerticalScrollbar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.Common.VerticalScrollbar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.Common.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.CurrentTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.CurrentTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.Perfomance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.Perfomance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.TestComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.TestComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.TimeControls.ChangeTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.TimeControls.ChangeTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.TimeControls.ContinueTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.TimeControls.ContinueTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.TimeControls.FastForwardTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.TimeControls.FastForwardTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.TimeControls.PauseTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.TimeControls.PauseTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.TimeControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.TimeControls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.Windows.ExampleWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.Windows.ExampleWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.Windows.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.GUIComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.GUIComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.GUIScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.GUIScreen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Helper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Screens.IngameScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Screens.IngameScreen.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Screens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Screens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.UserInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.UserInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Windows.OpenRailVehicleKeyboardCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Windows.OpenRailVehicleKeyboardCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Windows.RailVehicleTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Windows.RailVehicleTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.Windows.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.UI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Client.Window.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Client.Window.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Configuration.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Configuration.Configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.CommandResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.CommandResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.Commands.ClockCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.Commands.ClockCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.Commands.CreateDummyGeometryComponent.DummyObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.Commands.CreateDummyGeometryComponent.DummyObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.Commands.CreateDummyGeometryComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.Commands.CreateDummyGeometryComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.Commands.OpenExampleWindowCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.Commands.OpenExampleWindowCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.Commands.QuitCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.Commands.QuitCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.Logging.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.Logging.Logger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.Logging.LoggingLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.Logging.LoggingLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.Logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.RegisterCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.RegisterCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Debug.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Debug.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Generics.Position.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Generics.Position.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Generics.Rectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Generics.Rectangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Generics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Generics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Geometry.Components.TrackComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Geometry.Components.TrackComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Geometry.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Geometry.Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Geometry.GeometryEnvironment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Geometry.GeometryEnvironment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Geometry.IGeometryComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Geometry.IGeometryComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Geometry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Geometry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Component.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Component.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Components.BufferStop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Components.BufferStop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Components.Crossing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Components.Crossing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Components.CurvedRail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Components.CurvedRail.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Components.DoubleCrossoverSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Components.DoubleCrossoverSwitch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Components.KlothoidRail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Components.KlothoidRail.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Components.SingleCrossoverSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Components.SingleCrossoverSwitch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Components.StraightRail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Components.StraightRail.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Components.Switch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Components.Switch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Graph.DepthFirstSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Graph.DepthFirstSearch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Graph.Edge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Graph.Edge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Graph.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Graph.Graph.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Graph.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Graph.Node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Graph.PieceConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Graph.PieceConnector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Graph.SearchResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Graph.SearchResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Graph.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.OperatingSite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.OperatingSite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.OperatingSites.ConnectionPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.OperatingSites.ConnectionPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.OperatingSites.CoverPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.OperatingSites.CoverPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.OperatingSites.Junction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.OperatingSites.Junction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.OperatingSites.LevelCrossing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.OperatingSites.LevelCrossing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.OperatingSites.Station.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.OperatingSites.Station.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.OperatingSites.Stop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.OperatingSites.Stop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.OperatingSites.TransferPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.OperatingSites.TransferPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.OperatingSites.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.OperatingSites.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.RailVehicles.RailVehicle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.RailVehicles.RailVehicle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.RailVehicles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.RailVehicles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Route.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Route.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Routes.CruvedEdgeRoutePiece.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Routes.CruvedEdgeRoutePiece.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Routes.KlothoidEdgeRoutePiece.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Routes.KlothoidEdgeRoutePiece.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Routes.StraightEdgeRoutePiece.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Routes.StraightEdgeRoutePiece.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Routes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Routes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Types.LevelCrossingOperationStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Types.LevelCrossingOperationStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Types.NodeOperationStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Types.NodeOperationStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Types.RailType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Types.RailType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Types.SwitchOperationStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Types.SwitchOperationStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Logic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Logic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Reflections.ReflectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Reflections.ReflectionHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Common.Reflections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Common.Reflections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Launcher.Runner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Launcher.Runner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.Launcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.Launcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guide/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "guide/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "guide/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "guide/toc.html"
+        },
+        ".json": {
+          "relative_path": "guide/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

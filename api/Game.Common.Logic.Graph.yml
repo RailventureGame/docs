@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.Graph
+  commentId: N:Game.Common.Logic.Graph
+  id: Game.Common.Logic.Graph
+  children:
+  - Game.Common.Logic.Graph.DepthFirstSearch
+  - Game.Common.Logic.Graph.Edge
+  - Game.Common.Logic.Graph.Graph
+  - Game.Common.Logic.Graph.Node
+  - Game.Common.Logic.Graph.PieceConnector
+  - Game.Common.Logic.Graph.SearchResult
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Logic.Graph
+  nameWithType: Game.Common.Logic.Graph
+  fullName: Game.Common.Logic.Graph
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Logic.Graph.DepthFirstSearch
+  commentId: T:Game.Common.Logic.Graph.DepthFirstSearch
+  href: Game.Common.Logic.Graph.DepthFirstSearch.html
+  name: DepthFirstSearch
+  nameWithType: DepthFirstSearch
+  fullName: Game.Common.Logic.Graph.DepthFirstSearch
+- uid: Game.Common.Logic.Graph.Edge
+  commentId: T:Game.Common.Logic.Graph.Edge
+  parent: Game.Common.Logic.Graph
+  href: Game.Common.Logic.Graph.Edge.html
+  name: Edge
+  nameWithType: Edge
+  fullName: Game.Common.Logic.Graph.Edge
+- uid: Game.Common.Logic.Graph.Graph
+  commentId: T:Game.Common.Logic.Graph.Graph
+  parent: Game.Common.Logic.Graph
+  href: Game.Common.Logic.Graph.Graph.html
+  name: Graph
+  nameWithType: Graph
+  fullName: Game.Common.Logic.Graph.Graph
+- uid: Game.Common.Logic.Graph.Node
+  commentId: T:Game.Common.Logic.Graph.Node
+  parent: Game.Common.Logic.Graph
+  href: Game.Common.Logic.Graph.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Game.Common.Logic.Graph.Node
+- uid: Game.Common.Logic.Graph.PieceConnector
+  commentId: T:Game.Common.Logic.Graph.PieceConnector
+  href: Game.Common.Logic.Graph.PieceConnector.html
+  name: PieceConnector
+  nameWithType: PieceConnector
+  fullName: Game.Common.Logic.Graph.PieceConnector
+- uid: Game.Common.Logic.Graph.SearchResult
+  commentId: T:Game.Common.Logic.Graph.SearchResult
+  href: Game.Common.Logic.Graph.SearchResult.html
+  name: SearchResult
+  nameWithType: SearchResult
+  fullName: Game.Common.Logic.Graph.SearchResult
+- uid: Game.Common.Logic.Graph
+  commentId: N:Game.Common.Logic.Graph
+  href: Game.html
+  name: Game.Common.Logic.Graph
+  nameWithType: Game.Common.Logic.Graph
+  fullName: Game.Common.Logic.Graph
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Graph
+    name: Graph
+    href: Game.Common.Logic.Graph.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Graph
+    name: Graph
+    href: Game.Common.Logic.Graph.html

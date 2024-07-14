@@ -1,0 +1,630 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Launcher.Runner
+  commentId: T:Game.Launcher.Runner
+  id: Runner
+  parent: Game.Launcher
+  children:
+  - Game.Launcher.Runner.GeneralConfig
+  - Game.Launcher.Runner.Instance
+  - Game.Launcher.Runner.Manager
+  - Game.Launcher.Runner.Shutdown
+  - Game.Launcher.Runner.StayAlive
+  - Game.Launcher.Runner.UserConfig
+  langs:
+  - csharp
+  - vb
+  name: Runner
+  nameWithType: Runner
+  fullName: Game.Launcher.Runner
+  type: Class
+  source:
+    remote:
+      path: Launcher/Runner.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Runner
+    path: ../Game/Launcher/Runner.cs
+    startLine: 10
+  assemblies:
+  - Railventure
+  namespace: Game.Launcher
+  summary: The main entry point for Railventure
+  example: []
+  syntax:
+    content: public class Runner
+    content.vb: Public Class Runner
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Launcher.Runner.Instance
+  commentId: P:Game.Launcher.Runner.Instance
+  id: Instance
+  parent: Game.Launcher.Runner
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Runner.Instance
+  fullName: Game.Launcher.Runner.Instance
+  type: Property
+  source:
+    remote:
+      path: Launcher/Runner.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Instance
+    path: ../Game/Launcher/Runner.cs
+    startLine: 36
+  assemblies:
+  - Railventure
+  namespace: Game.Launcher
+  summary: <xref href="Game.Launcher.Runner" data-throw-if-not-resolved="false"></xref>'s main instance
+  example: []
+  syntax:
+    content: public static Runner Instance { get; }
+    parameters: []
+    return:
+      type: Game.Launcher.Runner
+    content.vb: Public Shared Property Instance As Runner
+  overload: Game.Launcher.Runner.Instance*
+- uid: Game.Launcher.Runner.StayAlive
+  commentId: P:Game.Launcher.Runner.StayAlive
+  id: StayAlive
+  parent: Game.Launcher.Runner
+  langs:
+  - csharp
+  - vb
+  name: StayAlive
+  nameWithType: Runner.StayAlive
+  fullName: Game.Launcher.Runner.StayAlive
+  type: Property
+  source:
+    remote:
+      path: Launcher/Runner.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: StayAlive
+    path: ../Game/Launcher/Runner.cs
+    startLine: 42
+  assemblies:
+  - Railventure
+  namespace: Game.Launcher
+  summary: >-
+    If false, the game closes peacefully.<br />
+
+    See also <xref href="Game.Launcher.Runner.Shutdown" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public static bool StayAlive { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property StayAlive As Boolean
+  overload: Game.Launcher.Runner.StayAlive*
+- uid: Game.Launcher.Runner.Manager
+  commentId: F:Game.Launcher.Runner.Manager
+  id: Manager
+  parent: Game.Launcher.Runner
+  langs:
+  - csharp
+  - vb
+  name: Manager
+  nameWithType: Runner.Manager
+  fullName: Game.Launcher.Runner.Manager
+  type: Field
+  source:
+    remote:
+      path: Launcher/Runner.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Manager
+    path: ../Game/Launcher/Runner.cs
+    startLine: 47
+  assemblies:
+  - Railventure
+  namespace: Game.Launcher
+  summary: Instance of the <xref href="Game.Client.Game.GameManager" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public static GameManager Manager
+    return:
+      type: Game.Client.Game.GameManager
+    content.vb: Public Shared Manager As GameManager
+- uid: Game.Launcher.Runner.GeneralConfig
+  commentId: P:Game.Launcher.Runner.GeneralConfig
+  id: GeneralConfig
+  parent: Game.Launcher.Runner
+  langs:
+  - csharp
+  - vb
+  name: GeneralConfig
+  nameWithType: Runner.GeneralConfig
+  fullName: Game.Launcher.Runner.GeneralConfig
+  type: Property
+  source:
+    remote:
+      path: Launcher/Runner.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: GeneralConfig
+    path: ../Game/Launcher/Runner.cs
+    startLine: 52
+  assemblies:
+  - Railventure
+  namespace: Game.Launcher
+  summary: General configuration
+  example: []
+  syntax:
+    content: public static Configuration GeneralConfig { get; }
+    parameters: []
+    return:
+      type: Game.Common.Configuration.Configuration
+    content.vb: Public Shared Property GeneralConfig As Configuration
+  overload: Game.Launcher.Runner.GeneralConfig*
+- uid: Game.Launcher.Runner.UserConfig
+  commentId: P:Game.Launcher.Runner.UserConfig
+  id: UserConfig
+  parent: Game.Launcher.Runner
+  langs:
+  - csharp
+  - vb
+  name: UserConfig
+  nameWithType: Runner.UserConfig
+  fullName: Game.Launcher.Runner.UserConfig
+  type: Property
+  source:
+    remote:
+      path: Launcher/Runner.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: UserConfig
+    path: ../Game/Launcher/Runner.cs
+    startLine: 57
+  assemblies:
+  - Railventure
+  namespace: Game.Launcher
+  summary: User information
+  example: []
+  syntax:
+    content: public static Configuration UserConfig { get; }
+    parameters: []
+    return:
+      type: Game.Common.Configuration.Configuration
+    content.vb: Public Shared Property UserConfig As Configuration
+  overload: Game.Launcher.Runner.UserConfig*
+- uid: Game.Launcher.Runner.Shutdown
+  commentId: M:Game.Launcher.Runner.Shutdown
+  id: Shutdown
+  parent: Game.Launcher.Runner
+  langs:
+  - csharp
+  - vb
+  name: Shutdown()
+  nameWithType: Runner.Shutdown()
+  fullName: Game.Launcher.Runner.Shutdown()
+  type: Method
+  source:
+    remote:
+      path: Launcher/Runner.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Shutdown
+    path: ../Game/Launcher/Runner.cs
+    startLine: 79
+  assemblies:
+  - Railventure
+  namespace: Game.Launcher
+  summary: Shuts down the game.
+  example: []
+  syntax:
+    content: public static void Shutdown()
+    content.vb: Public Shared Sub Shutdown()
+  overload: Game.Launcher.Runner.Shutdown*
+references:
+- uid: Game.Launcher
+  commentId: N:Game.Launcher
+  href: Game.html
+  name: Game.Launcher
+  nameWithType: Game.Launcher
+  fullName: Game.Launcher
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Launcher
+    name: Launcher
+    href: Game.Launcher.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Launcher
+    name: Launcher
+    href: Game.Launcher.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Launcher.Runner
+  commentId: T:Game.Launcher.Runner
+  parent: Game.Launcher
+  href: Game.Launcher.Runner.html
+  name: Runner
+  nameWithType: Runner
+  fullName: Game.Launcher.Runner
+- uid: Game.Launcher.Runner.Instance*
+  commentId: Overload:Game.Launcher.Runner.Instance
+  href: Game.Launcher.Runner.html#Game_Launcher_Runner_Instance
+  name: Instance
+  nameWithType: Runner.Instance
+  fullName: Game.Launcher.Runner.Instance
+- uid: Game.Launcher.Runner.Shutdown
+  commentId: M:Game.Launcher.Runner.Shutdown
+  href: Game.Launcher.Runner.html#Game_Launcher_Runner_Shutdown
+  name: Shutdown()
+  nameWithType: Runner.Shutdown()
+  fullName: Game.Launcher.Runner.Shutdown()
+  spec.csharp:
+  - uid: Game.Launcher.Runner.Shutdown
+    name: Shutdown
+    href: Game.Launcher.Runner.html#Game_Launcher_Runner_Shutdown
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Game.Launcher.Runner.Shutdown
+    name: Shutdown
+    href: Game.Launcher.Runner.html#Game_Launcher_Runner_Shutdown
+  - name: (
+  - name: )
+- uid: Game.Launcher.Runner.StayAlive*
+  commentId: Overload:Game.Launcher.Runner.StayAlive
+  href: Game.Launcher.Runner.html#Game_Launcher_Runner_StayAlive
+  name: StayAlive
+  nameWithType: Runner.StayAlive
+  fullName: Game.Launcher.Runner.StayAlive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Game.Client.Game.GameManager
+  commentId: T:Game.Client.Game.GameManager
+  parent: Game.Client.Game
+  href: Game.Client.Game.GameManager.html
+  name: GameManager
+  nameWithType: GameManager
+  fullName: Game.Client.Game.GameManager
+- uid: Game.Client.Game
+  commentId: N:Game.Client.Game
+  href: Game.html
+  name: Game.Client.Game
+  nameWithType: Game.Client.Game
+  fullName: Game.Client.Game
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Game
+    name: Game
+    href: Game.Client.Game.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Game
+    name: Game
+    href: Game.Client.Game.html
+- uid: Game.Launcher.Runner.GeneralConfig*
+  commentId: Overload:Game.Launcher.Runner.GeneralConfig
+  href: Game.Launcher.Runner.html#Game_Launcher_Runner_GeneralConfig
+  name: GeneralConfig
+  nameWithType: Runner.GeneralConfig
+  fullName: Game.Launcher.Runner.GeneralConfig
+- uid: Game.Common.Configuration.Configuration
+  commentId: T:Game.Common.Configuration.Configuration
+  parent: Game.Common.Configuration
+  href: Game.Common.Configuration.Configuration.html
+  name: Configuration
+  nameWithType: Configuration
+  fullName: Game.Common.Configuration.Configuration
+- uid: Game.Common.Configuration
+  commentId: N:Game.Common.Configuration
+  href: Game.html
+  name: Game.Common.Configuration
+  nameWithType: Game.Common.Configuration
+  fullName: Game.Common.Configuration
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Configuration
+    name: Configuration
+    href: Game.Common.Configuration.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Configuration
+    name: Configuration
+    href: Game.Common.Configuration.html
+- uid: Game.Launcher.Runner.UserConfig*
+  commentId: Overload:Game.Launcher.Runner.UserConfig
+  href: Game.Launcher.Runner.html#Game_Launcher_Runner_UserConfig
+  name: UserConfig
+  nameWithType: Runner.UserConfig
+  fullName: Game.Launcher.Runner.UserConfig
+- uid: Game.Launcher.Runner.Shutdown*
+  commentId: Overload:Game.Launcher.Runner.Shutdown
+  href: Game.Launcher.Runner.html#Game_Launcher_Runner_Shutdown
+  name: Shutdown
+  nameWithType: Runner.Shutdown
+  fullName: Game.Launcher.Runner.Shutdown

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.Routes
+  commentId: N:Game.Common.Logic.Routes
+  id: Game.Common.Logic.Routes
+  children:
+  - Game.Common.Logic.Routes.CruvedEdgeRoutePiece
+  - Game.Common.Logic.Routes.KlothoidEdgeRoutePiece
+  - Game.Common.Logic.Routes.StraightEdgeRoutePiece
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Logic.Routes
+  nameWithType: Game.Common.Logic.Routes
+  fullName: Game.Common.Logic.Routes
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Logic.Routes.CruvedEdgeRoutePiece
+  commentId: T:Game.Common.Logic.Routes.CruvedEdgeRoutePiece
+  href: Game.Common.Logic.Routes.CruvedEdgeRoutePiece.html
+  name: CruvedEdgeRoutePiece
+  nameWithType: CruvedEdgeRoutePiece
+  fullName: Game.Common.Logic.Routes.CruvedEdgeRoutePiece
+- uid: Game.Common.Logic.Routes.KlothoidEdgeRoutePiece
+  commentId: T:Game.Common.Logic.Routes.KlothoidEdgeRoutePiece
+  href: Game.Common.Logic.Routes.KlothoidEdgeRoutePiece.html
+  name: KlothoidEdgeRoutePiece
+  nameWithType: KlothoidEdgeRoutePiece
+  fullName: Game.Common.Logic.Routes.KlothoidEdgeRoutePiece
+- uid: Game.Common.Logic.Routes.StraightEdgeRoutePiece
+  commentId: T:Game.Common.Logic.Routes.StraightEdgeRoutePiece
+  href: Game.Common.Logic.Routes.StraightEdgeRoutePiece.html
+  name: StraightEdgeRoutePiece
+  nameWithType: StraightEdgeRoutePiece
+  fullName: Game.Common.Logic.Routes.StraightEdgeRoutePiece

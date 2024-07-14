@@ -1,0 +1,631 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Generics.Rectangle
+  commentId: T:Game.Common.Generics.Rectangle
+  id: Rectangle
+  parent: Game.Common.Generics
+  children:
+  - Game.Common.Generics.Rectangle.#ctor
+  - Game.Common.Generics.Rectangle.#ctor(Game.Common.Generics.Position@,Game.Common.Generics.Position@)
+  - Game.Common.Generics.Rectangle.#ctor(System.Double@,System.Double@)
+  - Game.Common.Generics.Rectangle.#ctor(System.Double@,System.Double@,System.Double@,System.Double@)
+  - Game.Common.Generics.Rectangle.Height
+  - Game.Common.Generics.Rectangle.Position
+  - Game.Common.Generics.Rectangle.Width
+  - Game.Common.Generics.Rectangle.X
+  - Game.Common.Generics.Rectangle.Y
+  langs:
+  - csharp
+  - vb
+  name: Rectangle
+  nameWithType: Rectangle
+  fullName: Game.Common.Generics.Rectangle
+  type: Struct
+  source:
+    remote:
+      path: Common/Generics/Rectangle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Rectangle
+    path: ../Game/Common/Generics/Rectangle.cs
+    startLine: 5
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Generics
+  summary: Generic rectangle object
+  example: []
+  syntax:
+    content: public struct Rectangle
+    content.vb: Public Structure Rectangle
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Game.Common.Generics.Rectangle.X
+  commentId: F:Game.Common.Generics.Rectangle.X
+  id: X
+  parent: Game.Common.Generics.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Rectangle.X
+  fullName: Game.Common.Generics.Rectangle.X
+  type: Field
+  source:
+    remote:
+      path: Common/Generics/Rectangle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: X
+    path: ../Game/Common/Generics/Rectangle.cs
+    startLine: 10
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Generics
+  summary: Horizontal position of this rectangle
+  example: []
+  syntax:
+    content: public double X
+    return:
+      type: System.Double
+    content.vb: Public X As Double
+- uid: Game.Common.Generics.Rectangle.Y
+  commentId: F:Game.Common.Generics.Rectangle.Y
+  id: Y
+  parent: Game.Common.Generics.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Rectangle.Y
+  fullName: Game.Common.Generics.Rectangle.Y
+  type: Field
+  source:
+    remote:
+      path: Common/Generics/Rectangle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Y
+    path: ../Game/Common/Generics/Rectangle.cs
+    startLine: 15
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Generics
+  summary: Vertical position of this rectangle
+  example: []
+  syntax:
+    content: public double Y
+    return:
+      type: System.Double
+    content.vb: Public Y As Double
+- uid: Game.Common.Generics.Rectangle.Width
+  commentId: F:Game.Common.Generics.Rectangle.Width
+  id: Width
+  parent: Game.Common.Generics.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Rectangle.Width
+  fullName: Game.Common.Generics.Rectangle.Width
+  type: Field
+  source:
+    remote:
+      path: Common/Generics/Rectangle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Width
+    path: ../Game/Common/Generics/Rectangle.cs
+    startLine: 20
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Generics
+  summary: Width of this rectangle
+  example: []
+  syntax:
+    content: public double Width
+    return:
+      type: System.Double
+    content.vb: Public Width As Double
+- uid: Game.Common.Generics.Rectangle.Height
+  commentId: F:Game.Common.Generics.Rectangle.Height
+  id: Height
+  parent: Game.Common.Generics.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: Rectangle.Height
+  fullName: Game.Common.Generics.Rectangle.Height
+  type: Field
+  source:
+    remote:
+      path: Common/Generics/Rectangle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Height
+    path: ../Game/Common/Generics/Rectangle.cs
+    startLine: 25
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Generics
+  summary: Height of this rectangle
+  example: []
+  syntax:
+    content: public double Height
+    return:
+      type: System.Double
+    content.vb: Public Height As Double
+- uid: Game.Common.Generics.Rectangle.Position
+  commentId: P:Game.Common.Generics.Rectangle.Position
+  id: Position
+  parent: Game.Common.Generics.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Rectangle.Position
+  fullName: Game.Common.Generics.Rectangle.Position
+  type: Property
+  source:
+    remote:
+      path: Common/Generics/Rectangle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Position
+    path: ../Game/Common/Generics/Rectangle.cs
+    startLine: 30
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Generics
+  summary: Current position of the rectangle as <xref href="Game.Common.Generics.Rectangle.Position" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public Position Position { get; }
+    parameters: []
+    return:
+      type: Game.Common.Generics.Position
+    content.vb: Public ReadOnly Property Position As Position
+  overload: Game.Common.Generics.Rectangle.Position*
+- uid: Game.Common.Generics.Rectangle.#ctor(System.Double@,System.Double@,System.Double@,System.Double@)
+  commentId: M:Game.Common.Generics.Rectangle.#ctor(System.Double@,System.Double@,System.Double@,System.Double@)
+  id: '#ctor(System.Double@,System.Double@,System.Double@,System.Double@)'
+  parent: Game.Common.Generics.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: Rectangle(in double, in double, in double, in double)
+  nameWithType: Rectangle.Rectangle(in double, in double, in double, in double)
+  fullName: Game.Common.Generics.Rectangle.Rectangle(in double, in double, in double, in double)
+  type: Constructor
+  source:
+    remote:
+      path: Common/Generics/Rectangle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Common/Generics/Rectangle.cs
+    startLine: 39
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Generics
+  summary: Creates a new rectangle
+  example: []
+  syntax:
+    content: public Rectangle(in double x, in double y, in double width, in double height)
+    parameters:
+    - id: x
+      type: System.Double
+      description: ''
+    - id: y
+      type: System.Double
+      description: ''
+    - id: width
+      type: System.Double
+      description: ''
+    - id: height
+      type: System.Double
+      description: ''
+    content.vb: Public Sub New(x As Double, y As Double, width As Double, height As Double)
+  overload: Game.Common.Generics.Rectangle.#ctor*
+  nameWithType.vb: Rectangle.New(Double, Double, Double, Double)
+  fullName.vb: Game.Common.Generics.Rectangle.New(Double, Double, Double, Double)
+  name.vb: New(Double, Double, Double, Double)
+- uid: Game.Common.Generics.Rectangle.#ctor(System.Double@,System.Double@)
+  commentId: M:Game.Common.Generics.Rectangle.#ctor(System.Double@,System.Double@)
+  id: '#ctor(System.Double@,System.Double@)'
+  parent: Game.Common.Generics.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: Rectangle(in double, in double)
+  nameWithType: Rectangle.Rectangle(in double, in double)
+  fullName: Game.Common.Generics.Rectangle.Rectangle(in double, in double)
+  type: Constructor
+  source:
+    remote:
+      path: Common/Generics/Rectangle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Common/Generics/Rectangle.cs
+    startLine: 52
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Generics
+  summary: Creates a new rectangle
+  example: []
+  syntax:
+    content: public Rectangle(in double width, in double height)
+    parameters:
+    - id: width
+      type: System.Double
+      description: ''
+    - id: height
+      type: System.Double
+      description: ''
+    content.vb: Public Sub New(width As Double, height As Double)
+  overload: Game.Common.Generics.Rectangle.#ctor*
+  nameWithType.vb: Rectangle.New(Double, Double)
+  fullName.vb: Game.Common.Generics.Rectangle.New(Double, Double)
+  name.vb: New(Double, Double)
+- uid: Game.Common.Generics.Rectangle.#ctor
+  commentId: M:Game.Common.Generics.Rectangle.#ctor
+  id: '#ctor'
+  parent: Game.Common.Generics.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: Rectangle()
+  nameWithType: Rectangle.Rectangle()
+  fullName: Game.Common.Generics.Rectangle.Rectangle()
+  type: Constructor
+  source:
+    remote:
+      path: Common/Generics/Rectangle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Common/Generics/Rectangle.cs
+    startLine: 57
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Generics
+  summary: Creates a new rectangle
+  example: []
+  syntax:
+    content: public Rectangle()
+    content.vb: Public Sub New()
+  overload: Game.Common.Generics.Rectangle.#ctor*
+  nameWithType.vb: Rectangle.New()
+  fullName.vb: Game.Common.Generics.Rectangle.New()
+  name.vb: New()
+- uid: Game.Common.Generics.Rectangle.#ctor(Game.Common.Generics.Position@,Game.Common.Generics.Position@)
+  commentId: M:Game.Common.Generics.Rectangle.#ctor(Game.Common.Generics.Position@,Game.Common.Generics.Position@)
+  id: '#ctor(Game.Common.Generics.Position@,Game.Common.Generics.Position@)'
+  parent: Game.Common.Generics.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: Rectangle(in Position, in Position)
+  nameWithType: Rectangle.Rectangle(in Position, in Position)
+  fullName: Game.Common.Generics.Rectangle.Rectangle(in Game.Common.Generics.Position, in Game.Common.Generics.Position)
+  type: Constructor
+  source:
+    remote:
+      path: Common/Generics/Rectangle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Common/Generics/Rectangle.cs
+    startLine: 64
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Generics
+  summary: Create a new rectangle from two <xref href="Game.Common.Generics.Rectangle.Position" data-throw-if-not-resolved="false"></xref>s for position and size
+  example: []
+  syntax:
+    content: public Rectangle(in Position position, in Position size)
+    parameters:
+    - id: position
+      type: Game.Common.Generics.Position
+      description: The position of this rectangle
+    - id: size
+      type: Game.Common.Generics.Position
+      description: The width and height of this rectangle
+    content.vb: Public Sub New(position As Position, size As Position)
+  overload: Game.Common.Generics.Rectangle.#ctor*
+  nameWithType.vb: Rectangle.New(Position, Position)
+  fullName.vb: Game.Common.Generics.Rectangle.New(Game.Common.Generics.Position, Game.Common.Generics.Position)
+  name.vb: New(Position, Position)
+references:
+- uid: Game.Common.Generics
+  commentId: N:Game.Common.Generics
+  href: Game.html
+  name: Game.Common.Generics
+  nameWithType: Game.Common.Generics
+  fullName: Game.Common.Generics
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Generics
+    name: Generics
+    href: Game.Common.Generics.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Generics
+    name: Generics
+    href: Game.Common.Generics.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Game.Common.Generics.Rectangle.Position
+  commentId: P:Game.Common.Generics.Rectangle.Position
+  href: Game.Common.Generics.Rectangle.html#Game_Common_Generics_Rectangle_Position
+  name: Position
+  nameWithType: Rectangle.Position
+  fullName: Game.Common.Generics.Rectangle.Position
+- uid: Game.Common.Generics.Rectangle.Position*
+  commentId: Overload:Game.Common.Generics.Rectangle.Position
+  href: Game.Common.Generics.Rectangle.html#Game_Common_Generics_Rectangle_Position
+  name: Position
+  nameWithType: Rectangle.Position
+  fullName: Game.Common.Generics.Rectangle.Position
+- uid: Game.Common.Generics.Position
+  commentId: T:Game.Common.Generics.Position
+  parent: Game.Common.Generics
+  href: Game.Common.Generics.Position.html
+  name: Position
+  nameWithType: Position
+  fullName: Game.Common.Generics.Position
+- uid: Game.Common.Generics.Rectangle.#ctor*
+  commentId: Overload:Game.Common.Generics.Rectangle.#ctor
+  href: Game.Common.Generics.Rectangle.html#Game_Common_Generics_Rectangle__ctor_System_Double__System_Double__System_Double__System_Double__
+  name: Rectangle
+  nameWithType: Rectangle.Rectangle
+  fullName: Game.Common.Generics.Rectangle.Rectangle
+  nameWithType.vb: Rectangle.New
+  fullName.vb: Game.Common.Generics.Rectangle.New
+  name.vb: New

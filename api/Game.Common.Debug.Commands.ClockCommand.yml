@@ -1,0 +1,578 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Debug.Commands.ClockCommand
+  commentId: T:Game.Common.Debug.Commands.ClockCommand
+  id: ClockCommand
+  parent: Game.Common.Debug.Commands
+  children:
+  - Game.Common.Debug.Commands.ClockCommand.#ctor
+  - Game.Common.Debug.Commands.ClockCommand.Execute(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: ClockCommand
+  nameWithType: ClockCommand
+  fullName: Game.Common.Debug.Commands.ClockCommand
+  type: Class
+  source:
+    remote:
+      path: Common/Debug/Commands/ClockCommand.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ClockCommand
+    path: ../Game/Common/Debug/Commands/ClockCommand.cs
+    startLine: 6
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Commands
+  summary: Base for a debugging command
+  example: []
+  syntax:
+    content: >-
+      [RegisterCommand]
+
+      public class ClockCommand : Command
+    content.vb: >-
+      <RegisterCommand>
+
+      Public Class ClockCommand Inherits Command
+  inheritance:
+  - System.Object
+  - Game.Common.Debug.Command
+  inheritedMembers:
+  - Game.Common.Debug.Command._
+  - Game.Common.Debug.Command.Name
+  - Game.Common.Debug.Command.Description
+  - Game.Common.Debug.Command.Syntax
+  - Game.Common.Debug.Command.TryExecute(System.String[])
+  - Game.Common.Debug.Command.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: Game.Common.Debug.RegisterCommand
+    ctor: Game.Common.Debug.RegisterCommand.#ctor
+    arguments: []
+- uid: Game.Common.Debug.Commands.ClockCommand.#ctor
+  commentId: M:Game.Common.Debug.Commands.ClockCommand.#ctor
+  id: '#ctor'
+  parent: Game.Common.Debug.Commands.ClockCommand
+  langs:
+  - csharp
+  - vb
+  name: ClockCommand()
+  nameWithType: ClockCommand.ClockCommand()
+  fullName: Game.Common.Debug.Commands.ClockCommand.ClockCommand()
+  type: Constructor
+  source:
+    remote:
+      path: Common/Debug/Commands/ClockCommand.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Common/Debug/Commands/ClockCommand.cs
+    startLine: 10
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Commands
+  example: []
+  syntax:
+    content: public ClockCommand()
+    content.vb: Public Sub New()
+  overload: Game.Common.Debug.Commands.ClockCommand.#ctor*
+  nameWithType.vb: ClockCommand.New()
+  fullName.vb: Game.Common.Debug.Commands.ClockCommand.New()
+  name.vb: New()
+- uid: Game.Common.Debug.Commands.ClockCommand.Execute(System.String[])
+  commentId: M:Game.Common.Debug.Commands.ClockCommand.Execute(System.String[])
+  id: Execute(System.String[])
+  parent: Game.Common.Debug.Commands.ClockCommand
+  langs:
+  - csharp
+  - vb
+  name: Execute(string[])
+  nameWithType: ClockCommand.Execute(string[])
+  fullName: Game.Common.Debug.Commands.ClockCommand.Execute(string[])
+  type: Method
+  source:
+    remote:
+      path: Common/Debug/Commands/ClockCommand.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Execute
+    path: ../Game/Common/Debug/Commands/ClockCommand.cs
+    startLine: 15
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Commands
+  summary: The command's logic.
+  example: []
+  syntax:
+    content: public override CommandResult Execute(string[] args)
+    parameters:
+    - id: args
+      type: System.String[]
+      description: ''
+    return:
+      type: Game.Common.Debug.CommandResult
+      description: ''
+    content.vb: Public Overrides Function Execute(args As String()) As CommandResult
+  overridden: Game.Common.Debug.Command.Execute(System.String[])
+  overload: Game.Common.Debug.Commands.ClockCommand.Execute*
+  nameWithType.vb: ClockCommand.Execute(String())
+  fullName.vb: Game.Common.Debug.Commands.ClockCommand.Execute(String())
+  name.vb: Execute(String())
+references:
+- uid: Game.Common.Debug.Commands
+  commentId: N:Game.Common.Debug.Commands
+  href: Game.html
+  name: Game.Common.Debug.Commands
+  nameWithType: Game.Common.Debug.Commands
+  fullName: Game.Common.Debug.Commands
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+  - name: .
+  - uid: Game.Common.Debug.Commands
+    name: Commands
+    href: Game.Common.Debug.Commands.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+  - name: .
+  - uid: Game.Common.Debug.Commands
+    name: Commands
+    href: Game.Common.Debug.Commands.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Game.Common.Debug.Command
+  commentId: T:Game.Common.Debug.Command
+  parent: Game.Common.Debug
+  href: Game.Common.Debug.Command.html
+  name: Command
+  nameWithType: Command
+  fullName: Game.Common.Debug.Command
+- uid: Game.Common.Debug.Command._
+  commentId: F:Game.Common.Debug.Command._
+  parent: Game.Common.Debug.Command
+  href: Game.Common.Debug.Command.html#Game_Common_Debug_Command__
+  name: _
+  nameWithType: Command._
+  fullName: Game.Common.Debug.Command._
+- uid: Game.Common.Debug.Command.Name
+  commentId: F:Game.Common.Debug.Command.Name
+  parent: Game.Common.Debug.Command
+  href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_Name
+  name: Name
+  nameWithType: Command.Name
+  fullName: Game.Common.Debug.Command.Name
+- uid: Game.Common.Debug.Command.Description
+  commentId: F:Game.Common.Debug.Command.Description
+  parent: Game.Common.Debug.Command
+  href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_Description
+  name: Description
+  nameWithType: Command.Description
+  fullName: Game.Common.Debug.Command.Description
+- uid: Game.Common.Debug.Command.Syntax
+  commentId: F:Game.Common.Debug.Command.Syntax
+  parent: Game.Common.Debug.Command
+  href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_Syntax
+  name: Syntax
+  nameWithType: Command.Syntax
+  fullName: Game.Common.Debug.Command.Syntax
+- uid: Game.Common.Debug.Command.TryExecute(System.String[])
+  commentId: M:Game.Common.Debug.Command.TryExecute(System.String[])
+  parent: Game.Common.Debug.Command
+  isExternal: true
+  href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_TryExecute_System_String___
+  name: TryExecute(string[])
+  nameWithType: Command.TryExecute(string[])
+  fullName: Game.Common.Debug.Command.TryExecute(string[])
+  nameWithType.vb: Command.TryExecute(String())
+  fullName.vb: Game.Common.Debug.Command.TryExecute(String())
+  name.vb: TryExecute(String())
+  spec.csharp:
+  - uid: Game.Common.Debug.Command.TryExecute(System.String[])
+    name: TryExecute
+    href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_TryExecute_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Game.Common.Debug.Command.TryExecute(System.String[])
+    name: TryExecute
+    href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_TryExecute_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: Game.Common.Debug.Command.ToString
+  commentId: M:Game.Common.Debug.Command.ToString
+  parent: Game.Common.Debug.Command
+  href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_ToString
+  name: ToString()
+  nameWithType: Command.ToString()
+  fullName: Game.Common.Debug.Command.ToString()
+  spec.csharp:
+  - uid: Game.Common.Debug.Command.ToString
+    name: ToString
+    href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Game.Common.Debug.Command.ToString
+    name: ToString
+    href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_ToString
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Common.Debug
+  commentId: N:Game.Common.Debug
+  href: Game.html
+  name: Game.Common.Debug
+  nameWithType: Game.Common.Debug
+  fullName: Game.Common.Debug
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+- uid: Game.Common.Debug.Commands.ClockCommand.#ctor*
+  commentId: Overload:Game.Common.Debug.Commands.ClockCommand.#ctor
+  href: Game.Common.Debug.Commands.ClockCommand.html#Game_Common_Debug_Commands_ClockCommand__ctor
+  name: ClockCommand
+  nameWithType: ClockCommand.ClockCommand
+  fullName: Game.Common.Debug.Commands.ClockCommand.ClockCommand
+  nameWithType.vb: ClockCommand.New
+  fullName.vb: Game.Common.Debug.Commands.ClockCommand.New
+  name.vb: New
+- uid: Game.Common.Debug.Command.Execute(System.String[])
+  commentId: M:Game.Common.Debug.Command.Execute(System.String[])
+  parent: Game.Common.Debug.Command
+  isExternal: true
+  href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_Execute_System_String___
+  name: Execute(string[])
+  nameWithType: Command.Execute(string[])
+  fullName: Game.Common.Debug.Command.Execute(string[])
+  nameWithType.vb: Command.Execute(String())
+  fullName.vb: Game.Common.Debug.Command.Execute(String())
+  name.vb: Execute(String())
+  spec.csharp:
+  - uid: Game.Common.Debug.Command.Execute(System.String[])
+    name: Execute
+    href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_Execute_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Game.Common.Debug.Command.Execute(System.String[])
+    name: Execute
+    href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_Execute_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: Game.Common.Debug.Commands.ClockCommand.Execute*
+  commentId: Overload:Game.Common.Debug.Commands.ClockCommand.Execute
+  href: Game.Common.Debug.Commands.ClockCommand.html#Game_Common_Debug_Commands_ClockCommand_Execute_System_String___
+  name: Execute
+  nameWithType: ClockCommand.Execute
+  fullName: Game.Common.Debug.Commands.ClockCommand.Execute
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: Game.Common.Debug.CommandResult
+  commentId: T:Game.Common.Debug.CommandResult
+  parent: Game.Common.Debug
+  href: Game.Common.Debug.CommandResult.html
+  name: CommandResult
+  nameWithType: CommandResult
+  fullName: Game.Common.Debug.CommandResult

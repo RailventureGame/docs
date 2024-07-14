@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Debug.CommandResult
+  commentId: T:Game.Common.Debug.CommandResult
+  id: CommandResult
+  parent: Game.Common.Debug
+  children:
+  - Game.Common.Debug.CommandResult.INVALID_INPUT
+  - Game.Common.Debug.CommandResult.SUCCESS
+  - Game.Common.Debug.CommandResult.SYNTAX_ERROR
+  - Game.Common.Debug.CommandResult.UNKNOWN_ERROR
+  langs:
+  - csharp
+  - vb
+  name: CommandResult
+  nameWithType: CommandResult
+  fullName: Game.Common.Debug.CommandResult
+  type: Enum
+  source:
+    remote:
+      path: Common/Debug/CommandResult.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: CommandResult
+    path: ../Game/Common/Debug/CommandResult.cs
+    startLine: 5
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug
+  summary: Results for <xref href="Game.Common.Debug.Command" data-throw-if-not-resolved="false"></xref>s
+  example: []
+  syntax:
+    content: public enum CommandResult
+    content.vb: Public Enum CommandResult
+- uid: Game.Common.Debug.CommandResult.UNKNOWN_ERROR
+  commentId: F:Game.Common.Debug.CommandResult.UNKNOWN_ERROR
+  id: UNKNOWN_ERROR
+  parent: Game.Common.Debug.CommandResult
+  langs:
+  - csharp
+  - vb
+  name: UNKNOWN_ERROR
+  nameWithType: CommandResult.UNKNOWN_ERROR
+  fullName: Game.Common.Debug.CommandResult.UNKNOWN_ERROR
+  type: Field
+  source:
+    remote:
+      path: Common/Debug/CommandResult.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: UNKNOWN_ERROR
+    path: ../Game/Common/Debug/CommandResult.cs
+    startLine: 11
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug
+  summary: >-
+    Some unknown error occurred, most likely an exception got thrown.
+
+    <br />This result should only be returned by <xref href="Game.Common.Debug.Command.TryExecute(System.String%5b%5d)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: UNKNOWN_ERROR = 0
+    return:
+      type: Game.Common.Debug.CommandResult
+- uid: Game.Common.Debug.CommandResult.SUCCESS
+  commentId: F:Game.Common.Debug.CommandResult.SUCCESS
+  id: SUCCESS
+  parent: Game.Common.Debug.CommandResult
+  langs:
+  - csharp
+  - vb
+  name: SUCCESS
+  nameWithType: CommandResult.SUCCESS
+  fullName: Game.Common.Debug.CommandResult.SUCCESS
+  type: Field
+  source:
+    remote:
+      path: Common/Debug/CommandResult.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SUCCESS
+    path: ../Game/Common/Debug/CommandResult.cs
+    startLine: 16
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug
+  summary: The command ran without any notable issues.
+  example: []
+  syntax:
+    content: SUCCESS = 1
+    return:
+      type: Game.Common.Debug.CommandResult
+- uid: Game.Common.Debug.CommandResult.SYNTAX_ERROR
+  commentId: F:Game.Common.Debug.CommandResult.SYNTAX_ERROR
+  id: SYNTAX_ERROR
+  parent: Game.Common.Debug.CommandResult
+  langs:
+  - csharp
+  - vb
+  name: SYNTAX_ERROR
+  nameWithType: CommandResult.SYNTAX_ERROR
+  fullName: Game.Common.Debug.CommandResult.SYNTAX_ERROR
+  type: Field
+  source:
+    remote:
+      path: Common/Debug/CommandResult.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SYNTAX_ERROR
+    path: ../Game/Common/Debug/CommandResult.cs
+    startLine: 21
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug
+  summary: Wrong syntax.
+  example: []
+  syntax:
+    content: SYNTAX_ERROR = 2
+    return:
+      type: Game.Common.Debug.CommandResult
+- uid: Game.Common.Debug.CommandResult.INVALID_INPUT
+  commentId: F:Game.Common.Debug.CommandResult.INVALID_INPUT
+  id: INVALID_INPUT
+  parent: Game.Common.Debug.CommandResult
+  langs:
+  - csharp
+  - vb
+  name: INVALID_INPUT
+  nameWithType: CommandResult.INVALID_INPUT
+  fullName: Game.Common.Debug.CommandResult.INVALID_INPUT
+  type: Field
+  source:
+    remote:
+      path: Common/Debug/CommandResult.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: INVALID_INPUT
+    path: ../Game/Common/Debug/CommandResult.cs
+    startLine: 26
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug
+  summary: One of the passed arguments is invalid.
+  example: []
+  syntax:
+    content: INVALID_INPUT = 3
+    return:
+      type: Game.Common.Debug.CommandResult
+references:
+- uid: Game.Common.Debug.Command
+  commentId: T:Game.Common.Debug.Command
+  parent: Game.Common.Debug
+  href: Game.Common.Debug.Command.html
+  name: Command
+  nameWithType: Command
+  fullName: Game.Common.Debug.Command
+- uid: Game.Common.Debug
+  commentId: N:Game.Common.Debug
+  href: Game.html
+  name: Game.Common.Debug
+  nameWithType: Game.Common.Debug
+  fullName: Game.Common.Debug
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+- uid: Game.Common.Debug.Command.TryExecute(System.String[])
+  commentId: M:Game.Common.Debug.Command.TryExecute(System.String[])
+  parent: Game.Common.Debug.Command
+  isExternal: true
+  href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_TryExecute_System_String___
+  name: TryExecute(string[])
+  nameWithType: Command.TryExecute(string[])
+  fullName: Game.Common.Debug.Command.TryExecute(string[])
+  nameWithType.vb: Command.TryExecute(String())
+  fullName.vb: Game.Common.Debug.Command.TryExecute(String())
+  name.vb: TryExecute(String())
+  spec.csharp:
+  - uid: Game.Common.Debug.Command.TryExecute(System.String[])
+    name: TryExecute
+    href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_TryExecute_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Game.Common.Debug.Command.TryExecute(System.String[])
+    name: TryExecute
+    href: Game.Common.Debug.Command.html#Game_Common_Debug_Command_TryExecute_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: Game.Common.Debug.CommandResult
+  commentId: T:Game.Common.Debug.CommandResult
+  parent: Game.Common.Debug
+  href: Game.Common.Debug.CommandResult.html
+  name: CommandResult
+  nameWithType: CommandResult
+  fullName: Game.Common.Debug.CommandResult

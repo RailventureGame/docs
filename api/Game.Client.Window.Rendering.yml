@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window.Rendering
+  commentId: N:Game.Client.Window.Rendering
+  id: Game.Client.Window.Rendering
+  children:
+  - Game.Client.Window.Rendering.GameRenderer
+  - Game.Client.Window.Rendering.Viewport
+  langs:
+  - csharp
+  - vb
+  name: Game.Client.Window.Rendering
+  nameWithType: Game.Client.Window.Rendering
+  fullName: Game.Client.Window.Rendering
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Client.Window.Rendering.GameRenderer
+  commentId: T:Game.Client.Window.Rendering.GameRenderer
+  parent: Game.Client.Window.Rendering
+  href: Game.Client.Window.Rendering.GameRenderer.html
+  name: GameRenderer
+  nameWithType: GameRenderer
+  fullName: Game.Client.Window.Rendering.GameRenderer
+- uid: Game.Client.Window.Rendering.Viewport
+  commentId: T:Game.Client.Window.Rendering.Viewport
+  parent: Game.Client.Window.Rendering
+  href: Game.Client.Window.Rendering.Viewport.html
+  name: Viewport
+  nameWithType: Viewport
+  fullName: Game.Client.Window.Rendering.Viewport
+- uid: Game.Client.Window.Rendering
+  commentId: N:Game.Client.Window.Rendering
+  href: Game.html
+  name: Game.Client.Window.Rendering
+  nameWithType: Game.Client.Window.Rendering
+  fullName: Game.Client.Window.Rendering
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.Rendering
+    name: Rendering
+    href: Game.Client.Window.Rendering.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.Rendering
+    name: Rendering
+    href: Game.Client.Window.Rendering.html

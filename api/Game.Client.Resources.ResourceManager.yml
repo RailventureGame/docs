@@ -1,0 +1,943 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Resources.ResourceManager
+  commentId: T:Game.Client.Resources.ResourceManager
+  id: ResourceManager
+  parent: Game.Client.Resources
+  children:
+  - Game.Client.Resources.ResourceManager.#ctor
+  - Game.Client.Resources.ResourceManager.CreateNewTexture(Game.Client.Resources.Identifier@,System.Int32@,System.Int32@,SDL_Sharp.Renderer@,System.UInt32@)
+  - Game.Client.Resources.ResourceManager.GetFont(Game.Client.Resources.Identifier@)
+  - Game.Client.Resources.ResourceManager.GetTexture(Game.Client.Resources.Identifier@,SDL_Sharp.Renderer@)
+  - Game.Client.Resources.ResourceManager.ReadAllLines(Game.Client.Resources.Identifier@,System.Text.Encoding,Game.Client.Resources.ResourceManager.ReadLinesFlags)
+  - Game.Client.Resources.ResourceManager.ReadAllText(Game.Client.Resources.Identifier@,System.Text.Encoding)
+  - Game.Client.Resources.ResourceManager.UnloadFont(Game.Client.Resources.Identifier@)
+  - Game.Client.Resources.ResourceManager.UnloadTexture(Game.Client.Resources.Identifier@)
+  langs:
+  - csharp
+  - vb
+  name: ResourceManager
+  nameWithType: ResourceManager
+  fullName: Game.Client.Resources.ResourceManager
+  type: Class
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ResourceManager
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 12
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Responsible for loading and caching game assets.
+  example: []
+  syntax:
+    content: public class ResourceManager
+    content.vb: Public Class ResourceManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Client.Resources.ResourceManager.#ctor
+  commentId: M:Game.Client.Resources.ResourceManager.#ctor
+  id: '#ctor'
+  parent: Game.Client.Resources.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ResourceManager()
+  nameWithType: ResourceManager.ResourceManager()
+  fullName: Game.Client.Resources.ResourceManager.ResourceManager()
+  type: Constructor
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 22
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Create a new instance. Only to be used by <xref href="Game.Client.Window.GameWindow" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public ResourceManager()
+    content.vb: Public Sub New()
+  overload: Game.Client.Resources.ResourceManager.#ctor*
+  nameWithType.vb: ResourceManager.New()
+  fullName.vb: Game.Client.Resources.ResourceManager.New()
+  name.vb: New()
+- uid: Game.Client.Resources.ResourceManager.GetTexture(Game.Client.Resources.Identifier@,SDL_Sharp.Renderer@)
+  commentId: M:Game.Client.Resources.ResourceManager.GetTexture(Game.Client.Resources.Identifier@,SDL_Sharp.Renderer@)
+  id: GetTexture(Game.Client.Resources.Identifier@,SDL_Sharp.Renderer@)
+  parent: Game.Client.Resources.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetTexture(in Identifier, ref Renderer)
+  nameWithType: ResourceManager.GetTexture(in Identifier, ref Renderer)
+  fullName: Game.Client.Resources.ResourceManager.GetTexture(in Game.Client.Resources.Identifier, ref SDL_Sharp.Renderer)
+  type: Method
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: GetTexture
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 35
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Retrieves a texture from cache. When not found, it tries to load the texture from storage.
+  example: []
+  syntax:
+    content: public Texture GetTexture(in Identifier identifier, ref Renderer renderer)
+    parameters:
+    - id: identifier
+      type: Game.Client.Resources.Identifier
+      description: Texture identifier
+    - id: renderer
+      type: SDL_Sharp.Renderer
+      description: Reference to the Game's Renderer Instance.
+    return:
+      type: SDL_Sharp.Texture
+      description: The texture if found.
+    content.vb: Public Function GetTexture(identifier As Identifier, renderer As Renderer) As Texture
+  overload: Game.Client.Resources.ResourceManager.GetTexture*
+  nameWithType.vb: ResourceManager.GetTexture(Identifier, Renderer)
+  fullName.vb: Game.Client.Resources.ResourceManager.GetTexture(Game.Client.Resources.Identifier, SDL_Sharp.Renderer)
+  name.vb: GetTexture(Identifier, Renderer)
+- uid: Game.Client.Resources.ResourceManager.CreateNewTexture(Game.Client.Resources.Identifier@,System.Int32@,System.Int32@,SDL_Sharp.Renderer@,System.UInt32@)
+  commentId: M:Game.Client.Resources.ResourceManager.CreateNewTexture(Game.Client.Resources.Identifier@,System.Int32@,System.Int32@,SDL_Sharp.Renderer@,System.UInt32@)
+  id: CreateNewTexture(Game.Client.Resources.Identifier@,System.Int32@,System.Int32@,SDL_Sharp.Renderer@,System.UInt32@)
+  parent: Game.Client.Resources.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: CreateNewTexture(in Identifier, in int, in int, ref Renderer, in uint)
+  nameWithType: ResourceManager.CreateNewTexture(in Identifier, in int, in int, ref Renderer, in uint)
+  fullName: Game.Client.Resources.ResourceManager.CreateNewTexture(in Game.Client.Resources.Identifier, in int, in int, ref SDL_Sharp.Renderer, in uint)
+  type: Method
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: CreateNewTexture
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 53
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Create a new blank texture, store it in <xref href="Game.Client.Resources.ResourceManager.TextureCache" data-throw-if-not-resolved="false"></xref> and return it.
+  example: []
+  syntax:
+    content: public Texture CreateNewTexture(in Identifier identifier, in int width, in int height, ref Renderer renderer, in uint pixelType = 373694468)
+    parameters:
+    - id: identifier
+      type: Game.Client.Resources.Identifier
+      description: The unique identifier for cache
+    - id: width
+      type: System.Int32
+      description: Texture width in pixels
+    - id: height
+      type: System.Int32
+      description: Texture height in pixels
+    - id: renderer
+      type: SDL_Sharp.Renderer
+      description: Reference to the Game's Renderer Instance.
+    - id: pixelType
+      type: System.UInt32
+      description: Should be either <xref href="Game.Client.Window.GameWindow.RGB_PIXELTYPE" data-throw-if-not-resolved="false"></xref> or <xref href="Game.Client.Window.GameWindow.RGBA_PIXELTYPE" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: SDL_Sharp.Texture
+      description: Blank Texture, ready to be drawn on
+    content.vb: Public Function CreateNewTexture(identifier As Identifier, width As Integer, height As Integer, renderer As Renderer, pixelType As UInteger = 373694468) As Texture
+  overload: Game.Client.Resources.ResourceManager.CreateNewTexture*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: Identifier is already bound to a texture.
+  nameWithType.vb: ResourceManager.CreateNewTexture(Identifier, Integer, Integer, Renderer, UInteger)
+  fullName.vb: Game.Client.Resources.ResourceManager.CreateNewTexture(Game.Client.Resources.Identifier, Integer, Integer, SDL_Sharp.Renderer, UInteger)
+  name.vb: CreateNewTexture(Identifier, Integer, Integer, Renderer, UInteger)
+- uid: Game.Client.Resources.ResourceManager.UnloadTexture(Game.Client.Resources.Identifier@)
+  commentId: M:Game.Client.Resources.ResourceManager.UnloadTexture(Game.Client.Resources.Identifier@)
+  id: UnloadTexture(Game.Client.Resources.Identifier@)
+  parent: Game.Client.Resources.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: UnloadTexture(in Identifier)
+  nameWithType: ResourceManager.UnloadTexture(in Identifier)
+  fullName: Game.Client.Resources.ResourceManager.UnloadTexture(in Game.Client.Resources.Identifier)
+  type: Method
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: UnloadTexture
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 66
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Removes a texture from <xref href="Game.Client.Resources.ResourceManager.TextureCache" data-throw-if-not-resolved="false"></xref> and memory.
+  example: []
+  syntax:
+    content: public void UnloadTexture(in Identifier identifier)
+    parameters:
+    - id: identifier
+      type: Game.Client.Resources.Identifier
+      description: An already existing identifier which should be unbound.
+    content.vb: Public Sub UnloadTexture(identifier As Identifier)
+  overload: Game.Client.Resources.ResourceManager.UnloadTexture*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: Identifier is not bound to a texture.
+  nameWithType.vb: ResourceManager.UnloadTexture(Identifier)
+  fullName.vb: Game.Client.Resources.ResourceManager.UnloadTexture(Game.Client.Resources.Identifier)
+  name.vb: UnloadTexture(Identifier)
+- uid: Game.Client.Resources.ResourceManager.ReadAllText(Game.Client.Resources.Identifier@,System.Text.Encoding)
+  commentId: M:Game.Client.Resources.ResourceManager.ReadAllText(Game.Client.Resources.Identifier@,System.Text.Encoding)
+  id: ReadAllText(Game.Client.Resources.Identifier@,System.Text.Encoding)
+  parent: Game.Client.Resources.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ReadAllText(in Identifier, Encoding?)
+  nameWithType: ResourceManager.ReadAllText(in Identifier, Encoding?)
+  fullName: Game.Client.Resources.ResourceManager.ReadAllText(in Game.Client.Resources.Identifier, System.Text.Encoding?)
+  type: Method
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ReadAllText
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 96
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Read all text of a text file
+  example: []
+  syntax:
+    content: public static string ReadAllText(in Identifier identifier, Encoding? encoding = null)
+    parameters:
+    - id: identifier
+      type: Game.Client.Resources.Identifier
+      description: The identifier of that text file
+    - id: encoding
+      type: System.Text.Encoding
+      description: The <xref href="System.Text.Encoding" data-throw-if-not-resolved="false"></xref> used for reading this text file. The default is null which uses <xref href="System.Text.Encoding.UTF8" data-throw-if-not-resolved="false"></xref> as fallback.
+    return:
+      type: System.String
+      description: A string with all text loaded from that file.
+    content.vb: Public Shared Function ReadAllText(identifier As Identifier, encoding As Encoding = Nothing) As String
+  overload: Game.Client.Resources.ResourceManager.ReadAllText*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: File does not exist.
+  nameWithType.vb: ResourceManager.ReadAllText(Identifier, Encoding)
+  fullName.vb: Game.Client.Resources.ResourceManager.ReadAllText(Game.Client.Resources.Identifier, System.Text.Encoding)
+  name.vb: ReadAllText(Identifier, Encoding)
+- uid: Game.Client.Resources.ResourceManager.ReadAllLines(Game.Client.Resources.Identifier@,System.Text.Encoding,Game.Client.Resources.ResourceManager.ReadLinesFlags)
+  commentId: M:Game.Client.Resources.ResourceManager.ReadAllLines(Game.Client.Resources.Identifier@,System.Text.Encoding,Game.Client.Resources.ResourceManager.ReadLinesFlags)
+  id: ReadAllLines(Game.Client.Resources.Identifier@,System.Text.Encoding,Game.Client.Resources.ResourceManager.ReadLinesFlags)
+  parent: Game.Client.Resources.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: ReadAllLines(in Identifier, Encoding?, ReadLinesFlags)
+  nameWithType: ResourceManager.ReadAllLines(in Identifier, Encoding?, ResourceManager.ReadLinesFlags)
+  fullName: Game.Client.Resources.ResourceManager.ReadAllLines(in Game.Client.Resources.Identifier, System.Text.Encoding?, Game.Client.Resources.ResourceManager.ReadLinesFlags)
+  type: Method
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ReadAllLines
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 110
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Read all text lines of a text file
+  example: []
+  syntax:
+    content: public static string[] ReadAllLines(in Identifier identifier, Encoding? encoding = null, ResourceManager.ReadLinesFlags flags = ReadLinesFlags.None)
+    parameters:
+    - id: identifier
+      type: Game.Client.Resources.Identifier
+      description: The identifier of that text file
+    - id: encoding
+      type: System.Text.Encoding
+      description: The <xref href="System.Text.Encoding" data-throw-if-not-resolved="false"></xref> used for reading this text file. The default is null which uses <xref href="System.Text.Encoding.UTF8" data-throw-if-not-resolved="false"></xref> as fallback.
+    - id: flags
+      type: Game.Client.Resources.ResourceManager.ReadLinesFlags
+      description: See <xref href="Game.Client.Resources.ResourceManager.ReadLinesFlags" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: System.String[]
+      description: A string array with all lines of text from that file.
+    content.vb: Public Shared Function ReadAllLines(identifier As Identifier, encoding As Encoding = Nothing, flags As ResourceManager.ReadLinesFlags = ReadLinesFlags.None) As String()
+  overload: Game.Client.Resources.ResourceManager.ReadAllLines*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: File does not exist.
+  nameWithType.vb: ResourceManager.ReadAllLines(Identifier, Encoding, ResourceManager.ReadLinesFlags)
+  fullName.vb: Game.Client.Resources.ResourceManager.ReadAllLines(Game.Client.Resources.Identifier, System.Text.Encoding, Game.Client.Resources.ResourceManager.ReadLinesFlags)
+  name.vb: ReadAllLines(Identifier, Encoding, ReadLinesFlags)
+- uid: Game.Client.Resources.ResourceManager.GetFont(Game.Client.Resources.Identifier@)
+  commentId: M:Game.Client.Resources.ResourceManager.GetFont(Game.Client.Resources.Identifier@)
+  id: GetFont(Game.Client.Resources.Identifier@)
+  parent: Game.Client.Resources.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: GetFont(in Identifier)
+  nameWithType: ResourceManager.GetFont(in Identifier)
+  fullName: Game.Client.Resources.ResourceManager.GetFont(in Game.Client.Resources.Identifier)
+  type: Method
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: GetFont
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 194
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Loads a font from it's *.ttf file.
+  example: []
+  syntax:
+    content: public Font GetFont(in Identifier identifier)
+    parameters:
+    - id: identifier
+      type: Game.Client.Resources.Identifier
+      description: A identifier for a *.ttf font file.
+    return:
+      type: SDL_Sharp.Ttf.Font
+      description: A loaded and cached instance of the selected font.
+    content.vb: Public Function GetFont(identifier As Identifier) As Font
+  overload: Game.Client.Resources.ResourceManager.GetFont*
+  nameWithType.vb: ResourceManager.GetFont(Identifier)
+  fullName.vb: Game.Client.Resources.ResourceManager.GetFont(Game.Client.Resources.Identifier)
+  name.vb: GetFont(Identifier)
+- uid: Game.Client.Resources.ResourceManager.UnloadFont(Game.Client.Resources.Identifier@)
+  commentId: M:Game.Client.Resources.ResourceManager.UnloadFont(Game.Client.Resources.Identifier@)
+  id: UnloadFont(Game.Client.Resources.Identifier@)
+  parent: Game.Client.Resources.ResourceManager
+  langs:
+  - csharp
+  - vb
+  name: UnloadFont(in Identifier)
+  nameWithType: ResourceManager.UnloadFont(in Identifier)
+  fullName: Game.Client.Resources.ResourceManager.UnloadFont(in Game.Client.Resources.Identifier)
+  type: Method
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: UnloadFont
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 207
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Removes a font from <xref href="Game.Client.Resources.ResourceManager.FontCache" data-throw-if-not-resolved="false"></xref> and memory.
+  example: []
+  syntax:
+    content: public void UnloadFont(in Identifier identifier)
+    parameters:
+    - id: identifier
+      type: Game.Client.Resources.Identifier
+      description: An already existing identifier which should be unbound.
+    content.vb: Public Sub UnloadFont(identifier As Identifier)
+  overload: Game.Client.Resources.ResourceManager.UnloadFont*
+  nameWithType.vb: ResourceManager.UnloadFont(Identifier)
+  fullName.vb: Game.Client.Resources.ResourceManager.UnloadFont(Game.Client.Resources.Identifier)
+  name.vb: UnloadFont(Identifier)
+references:
+- uid: Game.Client.Resources
+  commentId: N:Game.Client.Resources
+  href: Game.html
+  name: Game.Client.Resources
+  nameWithType: Game.Client.Resources
+  fullName: Game.Client.Resources
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Resources
+    name: Resources
+    href: Game.Client.Resources.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Resources
+    name: Resources
+    href: Game.Client.Resources.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Client.Window.GameWindow
+  commentId: T:Game.Client.Window.GameWindow
+  parent: Game.Client.Window
+  href: Game.Client.Window.GameWindow.html
+  name: GameWindow
+  nameWithType: GameWindow
+  fullName: Game.Client.Window.GameWindow
+- uid: Game.Client.Resources.ResourceManager.#ctor*
+  commentId: Overload:Game.Client.Resources.ResourceManager.#ctor
+  href: Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager__ctor
+  name: ResourceManager
+  nameWithType: ResourceManager.ResourceManager
+  fullName: Game.Client.Resources.ResourceManager.ResourceManager
+  nameWithType.vb: ResourceManager.New
+  fullName.vb: Game.Client.Resources.ResourceManager.New
+  name.vb: New
+- uid: Game.Client.Window
+  commentId: N:Game.Client.Window
+  href: Game.html
+  name: Game.Client.Window
+  nameWithType: Game.Client.Window
+  fullName: Game.Client.Window
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+- uid: Game.Client.Resources.ResourceManager.GetTexture*
+  commentId: Overload:Game.Client.Resources.ResourceManager.GetTexture
+  href: Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager_GetTexture_Game_Client_Resources_Identifier__SDL_Sharp_Renderer__
+  name: GetTexture
+  nameWithType: ResourceManager.GetTexture
+  fullName: Game.Client.Resources.ResourceManager.GetTexture
+- uid: Game.Client.Resources.Identifier
+  commentId: T:Game.Client.Resources.Identifier
+  parent: Game.Client.Resources
+  href: Game.Client.Resources.Identifier.html
+  name: Identifier
+  nameWithType: Identifier
+  fullName: Game.Client.Resources.Identifier
+- uid: SDL_Sharp.Renderer
+  commentId: T:SDL_Sharp.Renderer
+  parent: SDL_Sharp
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: SDL_Sharp.Renderer
+- uid: SDL_Sharp.Texture
+  commentId: T:SDL_Sharp.Texture
+  parent: SDL_Sharp
+  isExternal: true
+  name: Texture
+  nameWithType: Texture
+  fullName: SDL_Sharp.Texture
+- uid: SDL_Sharp
+  commentId: N:SDL_Sharp
+  isExternal: true
+  name: SDL_Sharp
+  nameWithType: SDL_Sharp
+  fullName: SDL_Sharp
+- uid: Game.Client.Resources.ResourceManager.TextureCache
+  commentId: P:Game.Client.Resources.ResourceManager.TextureCache
+  href: Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager_TextureCache
+  name: TextureCache
+  nameWithType: ResourceManager.TextureCache
+  fullName: Game.Client.Resources.ResourceManager.TextureCache
+- uid: Game.Client.Window.GameWindow.RGB_PIXELTYPE
+  commentId: F:Game.Client.Window.GameWindow.RGB_PIXELTYPE
+  href: Game.Client.Window.GameWindow.html#Game_Client_Window_GameWindow_RGB_PIXELTYPE
+  name: RGB_PIXELTYPE
+  nameWithType: GameWindow.RGB_PIXELTYPE
+  fullName: Game.Client.Window.GameWindow.RGB_PIXELTYPE
+- uid: Game.Client.Window.GameWindow.RGBA_PIXELTYPE
+  commentId: F:Game.Client.Window.GameWindow.RGBA_PIXELTYPE
+  href: Game.Client.Window.GameWindow.html#Game_Client_Window_GameWindow_RGBA_PIXELTYPE
+  name: RGBA_PIXELTYPE
+  nameWithType: GameWindow.RGBA_PIXELTYPE
+  fullName: Game.Client.Window.GameWindow.RGBA_PIXELTYPE
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: Game.Client.Resources.ResourceManager.CreateNewTexture*
+  commentId: Overload:Game.Client.Resources.ResourceManager.CreateNewTexture
+  href: Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager_CreateNewTexture_Game_Client_Resources_Identifier__System_Int32__System_Int32__SDL_Sharp_Renderer__System_UInt32__
+  name: CreateNewTexture
+  nameWithType: ResourceManager.CreateNewTexture
+  fullName: Game.Client.Resources.ResourceManager.CreateNewTexture
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Game.Client.Resources.ResourceManager.UnloadTexture*
+  commentId: Overload:Game.Client.Resources.ResourceManager.UnloadTexture
+  href: Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager_UnloadTexture_Game_Client_Resources_Identifier__
+  name: UnloadTexture
+  nameWithType: ResourceManager.UnloadTexture
+  fullName: Game.Client.Resources.ResourceManager.UnloadTexture
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.Text.Encoding.UTF8
+  commentId: P:System.Text.Encoding.UTF8
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.utf8
+  name: UTF8
+  nameWithType: Encoding.UTF8
+  fullName: System.Text.Encoding.UTF8
+- uid: Game.Client.Resources.ResourceManager.ReadAllText*
+  commentId: Overload:Game.Client.Resources.ResourceManager.ReadAllText
+  href: Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager_ReadAllText_Game_Client_Resources_Identifier__System_Text_Encoding_
+  name: ReadAllText
+  nameWithType: ResourceManager.ReadAllText
+  fullName: Game.Client.Resources.ResourceManager.ReadAllText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+- uid: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  commentId: T:Game.Client.Resources.ResourceManager.ReadLinesFlags
+  parent: Game.Client.Resources
+  href: Game.Client.Resources.ResourceManager.html
+  name: ResourceManager.ReadLinesFlags
+  nameWithType: ResourceManager.ReadLinesFlags
+  fullName: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  spec.csharp:
+  - uid: Game.Client.Resources.ResourceManager
+    name: ResourceManager
+    href: Game.Client.Resources.ResourceManager.html
+  - name: .
+  - uid: Game.Client.Resources.ResourceManager.ReadLinesFlags
+    name: ReadLinesFlags
+    href: Game.Client.Resources.ResourceManager.ReadLinesFlags.html
+  spec.vb:
+  - uid: Game.Client.Resources.ResourceManager
+    name: ResourceManager
+    href: Game.Client.Resources.ResourceManager.html
+  - name: .
+  - uid: Game.Client.Resources.ResourceManager.ReadLinesFlags
+    name: ReadLinesFlags
+    href: Game.Client.Resources.ResourceManager.ReadLinesFlags.html
+- uid: Game.Client.Resources.ResourceManager.ReadAllLines*
+  commentId: Overload:Game.Client.Resources.ResourceManager.ReadAllLines
+  href: Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager_ReadAllLines_Game_Client_Resources_Identifier__System_Text_Encoding_Game_Client_Resources_ResourceManager_ReadLinesFlags_
+  name: ReadAllLines
+  nameWithType: ResourceManager.ReadAllLines
+  fullName: Game.Client.Resources.ResourceManager.ReadAllLines
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: Game.Client.Resources.ResourceManager.GetFont*
+  commentId: Overload:Game.Client.Resources.ResourceManager.GetFont
+  href: Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager_GetFont_Game_Client_Resources_Identifier__
+  name: GetFont
+  nameWithType: ResourceManager.GetFont
+  fullName: Game.Client.Resources.ResourceManager.GetFont
+- uid: SDL_Sharp.Ttf.Font
+  commentId: T:SDL_Sharp.Ttf.Font
+  parent: SDL_Sharp.Ttf
+  isExternal: true
+  name: Font
+  nameWithType: Font
+  fullName: SDL_Sharp.Ttf.Font
+- uid: SDL_Sharp.Ttf
+  commentId: N:SDL_Sharp.Ttf
+  isExternal: true
+  name: SDL_Sharp.Ttf
+  nameWithType: SDL_Sharp.Ttf
+  fullName: SDL_Sharp.Ttf
+  spec.csharp:
+  - uid: SDL_Sharp
+    name: SDL_Sharp
+    isExternal: true
+  - name: .
+  - uid: SDL_Sharp.Ttf
+    name: Ttf
+    isExternal: true
+  spec.vb:
+  - uid: SDL_Sharp
+    name: SDL_Sharp
+    isExternal: true
+  - name: .
+  - uid: SDL_Sharp.Ttf
+    name: Ttf
+    isExternal: true
+- uid: Game.Client.Resources.ResourceManager.FontCache
+  commentId: P:Game.Client.Resources.ResourceManager.FontCache
+  href: Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager_FontCache
+  name: FontCache
+  nameWithType: ResourceManager.FontCache
+  fullName: Game.Client.Resources.ResourceManager.FontCache
+- uid: Game.Client.Resources.ResourceManager.UnloadFont*
+  commentId: Overload:Game.Client.Resources.ResourceManager.UnloadFont
+  href: Game.Client.Resources.ResourceManager.html#Game_Client_Resources_ResourceManager_UnloadFont_Game_Client_Resources_Identifier__
+  name: UnloadFont
+  nameWithType: ResourceManager.UnloadFont
+  fullName: Game.Client.Resources.ResourceManager.UnloadFont

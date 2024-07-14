@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window.UI.Components
+  commentId: N:Game.Client.Window.UI.Components
+  id: Game.Client.Window.UI.Components
+  children:
+  - Game.Client.Window.UI.Components.CurrentTime
+  - Game.Client.Window.UI.Components.Perfomance
+  - Game.Client.Window.UI.Components.TestComponent
+  - Game.Client.Window.UI.Components.TimeControls
+  - Game.Client.Window.UI.Components.TimeControls.ChangeTime
+  - Game.Client.Window.UI.Components.TimeControls.ContinueTime
+  - Game.Client.Window.UI.Components.TimeControls.FastForwardTime
+  - Game.Client.Window.UI.Components.TimeControls.PauseTime
+  langs:
+  - csharp
+  - vb
+  name: Game.Client.Window.UI.Components
+  nameWithType: Game.Client.Window.UI.Components
+  fullName: Game.Client.Window.UI.Components
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Client.Window.UI.Components.CurrentTime
+  commentId: T:Game.Client.Window.UI.Components.CurrentTime
+  href: Game.Client.Window.UI.Components.CurrentTime.html
+  name: CurrentTime
+  nameWithType: CurrentTime
+  fullName: Game.Client.Window.UI.Components.CurrentTime
+- uid: Game.Client.Window.UI.Components.Perfomance
+  commentId: T:Game.Client.Window.UI.Components.Perfomance
+  href: Game.Client.Window.UI.Components.Perfomance.html
+  name: Perfomance
+  nameWithType: Perfomance
+  fullName: Game.Client.Window.UI.Components.Perfomance
+- uid: Game.Client.Window.UI.Components.TestComponent
+  commentId: T:Game.Client.Window.UI.Components.TestComponent
+  href: Game.Client.Window.UI.Components.TestComponent.html
+  name: TestComponent
+  nameWithType: TestComponent
+  fullName: Game.Client.Window.UI.Components.TestComponent
+- uid: Game.Client.Window.UI.Components.TimeControls
+  commentId: T:Game.Client.Window.UI.Components.TimeControls
+  parent: Game.Client.Window.UI.Components
+  href: Game.Client.Window.UI.Components.TimeControls.html
+  name: TimeControls
+  nameWithType: TimeControls
+  fullName: Game.Client.Window.UI.Components.TimeControls
+- uid: Game.Client.Window.UI.Components.TimeControls.ChangeTime
+  commentId: T:Game.Client.Window.UI.Components.TimeControls.ChangeTime
+  href: Game.Client.Window.UI.Components.TimeControls.html
+  name: TimeControls.ChangeTime
+  nameWithType: TimeControls.ChangeTime
+  fullName: Game.Client.Window.UI.Components.TimeControls.ChangeTime
+  spec.csharp:
+  - uid: Game.Client.Window.UI.Components.TimeControls
+    name: TimeControls
+    href: Game.Client.Window.UI.Components.TimeControls.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.TimeControls.ChangeTime
+    name: ChangeTime
+    href: Game.Client.Window.UI.Components.TimeControls.ChangeTime.html
+  spec.vb:
+  - uid: Game.Client.Window.UI.Components.TimeControls
+    name: TimeControls
+    href: Game.Client.Window.UI.Components.TimeControls.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.TimeControls.ChangeTime
+    name: ChangeTime
+    href: Game.Client.Window.UI.Components.TimeControls.ChangeTime.html
+- uid: Game.Client.Window.UI.Components.TimeControls.PauseTime
+  commentId: T:Game.Client.Window.UI.Components.TimeControls.PauseTime
+  href: Game.Client.Window.UI.Components.TimeControls.html
+  name: TimeControls.PauseTime
+  nameWithType: TimeControls.PauseTime
+  fullName: Game.Client.Window.UI.Components.TimeControls.PauseTime
+  spec.csharp:
+  - uid: Game.Client.Window.UI.Components.TimeControls
+    name: TimeControls
+    href: Game.Client.Window.UI.Components.TimeControls.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.TimeControls.PauseTime
+    name: PauseTime
+    href: Game.Client.Window.UI.Components.TimeControls.PauseTime.html
+  spec.vb:
+  - uid: Game.Client.Window.UI.Components.TimeControls
+    name: TimeControls
+    href: Game.Client.Window.UI.Components.TimeControls.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.TimeControls.PauseTime
+    name: PauseTime
+    href: Game.Client.Window.UI.Components.TimeControls.PauseTime.html
+- uid: Game.Client.Window.UI.Components.TimeControls.ContinueTime
+  commentId: T:Game.Client.Window.UI.Components.TimeControls.ContinueTime
+  href: Game.Client.Window.UI.Components.TimeControls.html
+  name: TimeControls.ContinueTime
+  nameWithType: TimeControls.ContinueTime
+  fullName: Game.Client.Window.UI.Components.TimeControls.ContinueTime
+  spec.csharp:
+  - uid: Game.Client.Window.UI.Components.TimeControls
+    name: TimeControls
+    href: Game.Client.Window.UI.Components.TimeControls.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.TimeControls.ContinueTime
+    name: ContinueTime
+    href: Game.Client.Window.UI.Components.TimeControls.ContinueTime.html
+  spec.vb:
+  - uid: Game.Client.Window.UI.Components.TimeControls
+    name: TimeControls
+    href: Game.Client.Window.UI.Components.TimeControls.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.TimeControls.ContinueTime
+    name: ContinueTime
+    href: Game.Client.Window.UI.Components.TimeControls.ContinueTime.html
+- uid: Game.Client.Window.UI.Components.TimeControls.FastForwardTime
+  commentId: T:Game.Client.Window.UI.Components.TimeControls.FastForwardTime
+  href: Game.Client.Window.UI.Components.TimeControls.html
+  name: TimeControls.FastForwardTime
+  nameWithType: TimeControls.FastForwardTime
+  fullName: Game.Client.Window.UI.Components.TimeControls.FastForwardTime
+  spec.csharp:
+  - uid: Game.Client.Window.UI.Components.TimeControls
+    name: TimeControls
+    href: Game.Client.Window.UI.Components.TimeControls.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.TimeControls.FastForwardTime
+    name: FastForwardTime
+    href: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.html
+  spec.vb:
+  - uid: Game.Client.Window.UI.Components.TimeControls
+    name: TimeControls
+    href: Game.Client.Window.UI.Components.TimeControls.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.TimeControls.FastForwardTime
+    name: FastForwardTime
+    href: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.html
+- uid: Game.Client.Window.UI.Components
+  commentId: N:Game.Client.Window.UI.Components
+  href: Game.html
+  name: Game.Client.Window.UI.Components
+  nameWithType: Game.Client.Window.UI.Components
+  fullName: Game.Client.Window.UI.Components
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components
+    name: Components
+    href: Game.Client.Window.UI.Components.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components
+    name: Components
+    href: Game.Client.Window.UI.Components.html

@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Debug.Commands
+  commentId: N:Game.Common.Debug.Commands
+  id: Game.Common.Debug.Commands
+  children:
+  - Game.Common.Debug.Commands.ClockCommand
+  - Game.Common.Debug.Commands.CreateDummyGeometryComponent
+  - Game.Common.Debug.Commands.CreateDummyGeometryComponent.DummyObject
+  - Game.Common.Debug.Commands.OpenExampleWindowCommand
+  - Game.Common.Debug.Commands.QuitCommand
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Debug.Commands
+  nameWithType: Game.Common.Debug.Commands
+  fullName: Game.Common.Debug.Commands
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Debug.Commands.ClockCommand
+  commentId: T:Game.Common.Debug.Commands.ClockCommand
+  href: Game.Common.Debug.Commands.ClockCommand.html
+  name: ClockCommand
+  nameWithType: ClockCommand
+  fullName: Game.Common.Debug.Commands.ClockCommand
+- uid: Game.Common.Debug.Commands.CreateDummyGeometryComponent
+  commentId: T:Game.Common.Debug.Commands.CreateDummyGeometryComponent
+  href: Game.Common.Debug.Commands.CreateDummyGeometryComponent.html
+  name: CreateDummyGeometryComponent
+  nameWithType: CreateDummyGeometryComponent
+  fullName: Game.Common.Debug.Commands.CreateDummyGeometryComponent
+- uid: Game.Common.Debug.Commands.CreateDummyGeometryComponent.DummyObject
+  commentId: T:Game.Common.Debug.Commands.CreateDummyGeometryComponent.DummyObject
+  href: Game.Common.Debug.Commands.CreateDummyGeometryComponent.html
+  name: CreateDummyGeometryComponent.DummyObject
+  nameWithType: CreateDummyGeometryComponent.DummyObject
+  fullName: Game.Common.Debug.Commands.CreateDummyGeometryComponent.DummyObject
+  spec.csharp:
+  - uid: Game.Common.Debug.Commands.CreateDummyGeometryComponent
+    name: CreateDummyGeometryComponent
+    href: Game.Common.Debug.Commands.CreateDummyGeometryComponent.html
+  - name: .
+  - uid: Game.Common.Debug.Commands.CreateDummyGeometryComponent.DummyObject
+    name: DummyObject
+    href: Game.Common.Debug.Commands.CreateDummyGeometryComponent.DummyObject.html
+  spec.vb:
+  - uid: Game.Common.Debug.Commands.CreateDummyGeometryComponent
+    name: CreateDummyGeometryComponent
+    href: Game.Common.Debug.Commands.CreateDummyGeometryComponent.html
+  - name: .
+  - uid: Game.Common.Debug.Commands.CreateDummyGeometryComponent.DummyObject
+    name: DummyObject
+    href: Game.Common.Debug.Commands.CreateDummyGeometryComponent.DummyObject.html
+- uid: Game.Common.Debug.Commands.OpenExampleWindowCommand
+  commentId: T:Game.Common.Debug.Commands.OpenExampleWindowCommand
+  href: Game.Common.Debug.Commands.OpenExampleWindowCommand.html
+  name: OpenExampleWindowCommand
+  nameWithType: OpenExampleWindowCommand
+  fullName: Game.Common.Debug.Commands.OpenExampleWindowCommand
+- uid: Game.Common.Debug.Commands.QuitCommand
+  commentId: T:Game.Common.Debug.Commands.QuitCommand
+  href: Game.Common.Debug.Commands.QuitCommand.html
+  name: QuitCommand
+  nameWithType: QuitCommand
+  fullName: Game.Common.Debug.Commands.QuitCommand

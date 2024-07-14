@@ -1,0 +1,329 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  commentId: T:Game.Client.Resources.ResourceManager.ReadLinesFlags
+  id: ResourceManager.ReadLinesFlags
+  parent: Game.Client.Resources
+  children:
+  - Game.Client.Resources.ResourceManager.ReadLinesFlags.All
+  - Game.Client.Resources.ResourceManager.ReadLinesFlags.None
+  - Game.Client.Resources.ResourceManager.ReadLinesFlags.PrintAcceptedLines
+  - Game.Client.Resources.ResourceManager.ReadLinesFlags.PrintEverything
+  - Game.Client.Resources.ResourceManager.ReadLinesFlags.PrintLineDifference
+  - Game.Client.Resources.ResourceManager.ReadLinesFlags.SkipComments
+  - Game.Client.Resources.ResourceManager.ReadLinesFlags.SkipEmptyLines
+  - Game.Client.Resources.ResourceManager.ReadLinesFlags.SkipEverything
+  langs:
+  - csharp
+  - vb
+  name: ResourceManager.ReadLinesFlags
+  nameWithType: ResourceManager.ReadLinesFlags
+  fullName: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  type: Enum
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ReadLinesFlags
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 141
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Flags for reading text files.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ResourceManager.ReadLinesFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum ResourceManager.ReadLinesFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Game.Client.Resources.ResourceManager.ReadLinesFlags.None
+  commentId: F:Game.Client.Resources.ResourceManager.ReadLinesFlags.None
+  id: None
+  parent: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ResourceManager.ReadLinesFlags.None
+  fullName: Game.Client.Resources.ResourceManager.ReadLinesFlags.None
+  type: Field
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: None
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 147
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: No flags.
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Game.Client.Resources.ResourceManager.ReadLinesFlags
+- uid: Game.Client.Resources.ResourceManager.ReadLinesFlags.SkipEmptyLines
+  commentId: F:Game.Client.Resources.ResourceManager.ReadLinesFlags.SkipEmptyLines
+  id: SkipEmptyLines
+  parent: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  langs:
+  - csharp
+  - vb
+  name: SkipEmptyLines
+  nameWithType: ResourceManager.ReadLinesFlags.SkipEmptyLines
+  fullName: Game.Client.Resources.ResourceManager.ReadLinesFlags.SkipEmptyLines
+  type: Field
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SkipEmptyLines
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 152
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Skips empty lines
+  example: []
+  syntax:
+    content: SkipEmptyLines = 1
+    return:
+      type: Game.Client.Resources.ResourceManager.ReadLinesFlags
+- uid: Game.Client.Resources.ResourceManager.ReadLinesFlags.SkipComments
+  commentId: F:Game.Client.Resources.ResourceManager.ReadLinesFlags.SkipComments
+  id: SkipComments
+  parent: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  langs:
+  - csharp
+  - vb
+  name: SkipComments
+  nameWithType: ResourceManager.ReadLinesFlags.SkipComments
+  fullName: Game.Client.Resources.ResourceManager.ReadLinesFlags.SkipComments
+  type: Field
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SkipComments
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 157
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Skip comments, which start with '#'
+  example: []
+  syntax:
+    content: SkipComments = 2
+    return:
+      type: Game.Client.Resources.ResourceManager.ReadLinesFlags
+- uid: Game.Client.Resources.ResourceManager.ReadLinesFlags.PrintAcceptedLines
+  commentId: F:Game.Client.Resources.ResourceManager.ReadLinesFlags.PrintAcceptedLines
+  id: PrintAcceptedLines
+  parent: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  langs:
+  - csharp
+  - vb
+  name: PrintAcceptedLines
+  nameWithType: ResourceManager.ReadLinesFlags.PrintAcceptedLines
+  fullName: Game.Client.Resources.ResourceManager.ReadLinesFlags.PrintAcceptedLines
+  type: Field
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: PrintAcceptedLines
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 162
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Prints all lines, which get get added to the resulting string array.
+  example: []
+  syntax:
+    content: PrintAcceptedLines = 4
+    return:
+      type: Game.Client.Resources.ResourceManager.ReadLinesFlags
+- uid: Game.Client.Resources.ResourceManager.ReadLinesFlags.PrintLineDifference
+  commentId: F:Game.Client.Resources.ResourceManager.ReadLinesFlags.PrintLineDifference
+  id: PrintLineDifference
+  parent: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  langs:
+  - csharp
+  - vb
+  name: PrintLineDifference
+  nameWithType: ResourceManager.ReadLinesFlags.PrintLineDifference
+  fullName: Game.Client.Resources.ResourceManager.ReadLinesFlags.PrintLineDifference
+  type: Field
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: PrintLineDifference
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 167
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Prints the amount of loaded lines vs. returned lines.
+  example: []
+  syntax:
+    content: PrintLineDifference = 8
+    return:
+      type: Game.Client.Resources.ResourceManager.ReadLinesFlags
+- uid: Game.Client.Resources.ResourceManager.ReadLinesFlags.SkipEverything
+  commentId: F:Game.Client.Resources.ResourceManager.ReadLinesFlags.SkipEverything
+  id: SkipEverything
+  parent: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  langs:
+  - csharp
+  - vb
+  name: SkipEverything
+  nameWithType: ResourceManager.ReadLinesFlags.SkipEverything
+  fullName: Game.Client.Resources.ResourceManager.ReadLinesFlags.SkipEverything
+  type: Field
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SkipEverything
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 174
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Skips empty lines and comments.
+  example: []
+  syntax:
+    content: SkipEverything = SkipEmptyLines | SkipComments
+    return:
+      type: Game.Client.Resources.ResourceManager.ReadLinesFlags
+    content.vb: SkipEverything = SkipEmptyLines Or SkipComments
+- uid: Game.Client.Resources.ResourceManager.ReadLinesFlags.PrintEverything
+  commentId: F:Game.Client.Resources.ResourceManager.ReadLinesFlags.PrintEverything
+  id: PrintEverything
+  parent: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  langs:
+  - csharp
+  - vb
+  name: PrintEverything
+  nameWithType: ResourceManager.ReadLinesFlags.PrintEverything
+  fullName: Game.Client.Resources.ResourceManager.ReadLinesFlags.PrintEverything
+  type: Field
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: PrintEverything
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 179
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Prints all accepted lines and the difference.
+  example: []
+  syntax:
+    content: PrintEverything = PrintAcceptedLines | PrintLineDifference
+    return:
+      type: Game.Client.Resources.ResourceManager.ReadLinesFlags
+    content.vb: PrintEverything = PrintAcceptedLines Or PrintLineDifference
+- uid: Game.Client.Resources.ResourceManager.ReadLinesFlags.All
+  commentId: F:Game.Client.Resources.ResourceManager.ReadLinesFlags.All
+  id: All
+  parent: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: ResourceManager.ReadLinesFlags.All
+  fullName: Game.Client.Resources.ResourceManager.ReadLinesFlags.All
+  type: Field
+  source:
+    remote:
+      path: Client/Resources/ResourceManager.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: All
+    path: ../Game/Client/Resources/ResourceManager.cs
+    startLine: 184
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: All flags combined.
+  example: []
+  syntax:
+    content: All = SkipEverything | PrintEverything
+    return:
+      type: Game.Client.Resources.ResourceManager.ReadLinesFlags
+    content.vb: All = SkipEverything Or PrintEverything
+references:
+- uid: Game.Client.Resources
+  commentId: N:Game.Client.Resources
+  href: Game.html
+  name: Game.Client.Resources
+  nameWithType: Game.Client.Resources
+  fullName: Game.Client.Resources
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Resources
+    name: Resources
+    href: Game.Client.Resources.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Resources
+    name: Resources
+    href: Game.Client.Resources.html
+- uid: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  commentId: T:Game.Client.Resources.ResourceManager.ReadLinesFlags
+  parent: Game.Client.Resources
+  href: Game.Client.Resources.ResourceManager.html
+  name: ResourceManager.ReadLinesFlags
+  nameWithType: ResourceManager.ReadLinesFlags
+  fullName: Game.Client.Resources.ResourceManager.ReadLinesFlags
+  spec.csharp:
+  - uid: Game.Client.Resources.ResourceManager
+    name: ResourceManager
+    href: Game.Client.Resources.ResourceManager.html
+  - name: .
+  - uid: Game.Client.Resources.ResourceManager.ReadLinesFlags
+    name: ReadLinesFlags
+    href: Game.Client.Resources.ResourceManager.ReadLinesFlags.html
+  spec.vb:
+  - uid: Game.Client.Resources.ResourceManager
+    name: ResourceManager
+    href: Game.Client.Resources.ResourceManager.html
+  - name: .
+  - uid: Game.Client.Resources.ResourceManager.ReadLinesFlags
+    name: ReadLinesFlags
+    href: Game.Client.Resources.ResourceManager.ReadLinesFlags.html

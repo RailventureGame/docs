@@ -1,0 +1,431 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.Graph.SearchResult
+  commentId: T:Game.Common.Logic.Graph.SearchResult
+  id: SearchResult
+  parent: Game.Common.Logic.Graph
+  children:
+  - Game.Common.Logic.Graph.SearchResult.#ctor(Game.Common.Logic.Graph.Node,Game.Common.Logic.Graph.Edge)
+  - Game.Common.Logic.Graph.SearchResult.Node
+  - Game.Common.Logic.Graph.SearchResult.Predecessor
+  langs:
+  - csharp
+  - vb
+  name: SearchResult
+  nameWithType: SearchResult
+  fullName: Game.Common.Logic.Graph.SearchResult
+  type: Struct
+  source:
+    remote:
+      path: Common/Logic/Graph/SearchResult.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SearchResult
+    path: ../Game/Common/Logic/Graph/SearchResult.cs
+    startLine: 5
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Graph
+  summary: A search result containing a node and the edge connecting it to its predecessor.
+  example: []
+  syntax:
+    content: public struct SearchResult
+    content.vb: Public Structure SearchResult
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Game.Common.Logic.Graph.SearchResult.Node
+  commentId: P:Game.Common.Logic.Graph.SearchResult.Node
+  id: Node
+  parent: Game.Common.Logic.Graph.SearchResult
+  langs:
+  - csharp
+  - vb
+  name: Node
+  nameWithType: SearchResult.Node
+  fullName: Game.Common.Logic.Graph.SearchResult.Node
+  type: Property
+  source:
+    remote:
+      path: Common/Logic/Graph/SearchResult.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Node
+    path: ../Game/Common/Logic/Graph/SearchResult.cs
+    startLine: 11
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Graph
+  summary: The node of the search result.
+  example: []
+  syntax:
+    content: public readonly Node Node { get; }
+    parameters: []
+    return:
+      type: Game.Common.Logic.Graph.Node
+    content.vb: Public Property Node As Node
+  overload: Game.Common.Logic.Graph.SearchResult.Node*
+- uid: Game.Common.Logic.Graph.SearchResult.Predecessor
+  commentId: P:Game.Common.Logic.Graph.SearchResult.Predecessor
+  id: Predecessor
+  parent: Game.Common.Logic.Graph.SearchResult
+  langs:
+  - csharp
+  - vb
+  name: Predecessor
+  nameWithType: SearchResult.Predecessor
+  fullName: Game.Common.Logic.Graph.SearchResult.Predecessor
+  type: Property
+  source:
+    remote:
+      path: Common/Logic/Graph/SearchResult.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Predecessor
+    path: ../Game/Common/Logic/Graph/SearchResult.cs
+    startLine: 15
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Graph
+  summary: The edge connecting the node to its predecessor node.
+  example: []
+  syntax:
+    content: public readonly Edge? Predecessor { get; }
+    parameters: []
+    return:
+      type: Game.Common.Logic.Graph.Edge
+    content.vb: Public Property Predecessor As Edge
+  overload: Game.Common.Logic.Graph.SearchResult.Predecessor*
+- uid: Game.Common.Logic.Graph.SearchResult.#ctor(Game.Common.Logic.Graph.Node,Game.Common.Logic.Graph.Edge)
+  commentId: M:Game.Common.Logic.Graph.SearchResult.#ctor(Game.Common.Logic.Graph.Node,Game.Common.Logic.Graph.Edge)
+  id: '#ctor(Game.Common.Logic.Graph.Node,Game.Common.Logic.Graph.Edge)'
+  parent: Game.Common.Logic.Graph.SearchResult
+  langs:
+  - csharp
+  - vb
+  name: SearchResult(Node, Edge?)
+  nameWithType: SearchResult.SearchResult(Node, Edge?)
+  fullName: Game.Common.Logic.Graph.SearchResult.SearchResult(Game.Common.Logic.Graph.Node, Game.Common.Logic.Graph.Edge?)
+  type: Constructor
+  source:
+    remote:
+      path: Common/Logic/Graph/SearchResult.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Common/Logic/Graph/SearchResult.cs
+    startLine: 22
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Graph
+  summary: Creates a new search result with the specified parameters.
+  example: []
+  syntax:
+    content: public SearchResult(Node node, Edge? predecessor)
+    parameters:
+    - id: node
+      type: Game.Common.Logic.Graph.Node
+      description: the node of the result
+    - id: predecessor
+      type: Game.Common.Logic.Graph.Edge
+      description: the edge connecting the node to its predecessor node
+    content.vb: Public Sub New(node As Node, predecessor As Edge)
+  overload: Game.Common.Logic.Graph.SearchResult.#ctor*
+  nameWithType.vb: SearchResult.New(Node, Edge)
+  fullName.vb: Game.Common.Logic.Graph.SearchResult.New(Game.Common.Logic.Graph.Node, Game.Common.Logic.Graph.Edge)
+  name.vb: New(Node, Edge)
+references:
+- uid: Game.Common.Logic.Graph
+  commentId: N:Game.Common.Logic.Graph
+  href: Game.html
+  name: Game.Common.Logic.Graph
+  nameWithType: Game.Common.Logic.Graph
+  fullName: Game.Common.Logic.Graph
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Graph
+    name: Graph
+    href: Game.Common.Logic.Graph.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Graph
+    name: Graph
+    href: Game.Common.Logic.Graph.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Common.Logic.Graph.SearchResult.Node*
+  commentId: Overload:Game.Common.Logic.Graph.SearchResult.Node
+  href: Game.Common.Logic.Graph.SearchResult.html#Game_Common_Logic_Graph_SearchResult_Node
+  name: Node
+  nameWithType: SearchResult.Node
+  fullName: Game.Common.Logic.Graph.SearchResult.Node
+- uid: Game.Common.Logic.Graph.Node
+  commentId: T:Game.Common.Logic.Graph.Node
+  parent: Game.Common.Logic.Graph
+  href: Game.Common.Logic.Graph.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Game.Common.Logic.Graph.Node
+- uid: Game.Common.Logic.Graph.SearchResult.Predecessor*
+  commentId: Overload:Game.Common.Logic.Graph.SearchResult.Predecessor
+  href: Game.Common.Logic.Graph.SearchResult.html#Game_Common_Logic_Graph_SearchResult_Predecessor
+  name: Predecessor
+  nameWithType: SearchResult.Predecessor
+  fullName: Game.Common.Logic.Graph.SearchResult.Predecessor
+- uid: Game.Common.Logic.Graph.Edge
+  commentId: T:Game.Common.Logic.Graph.Edge
+  parent: Game.Common.Logic.Graph
+  href: Game.Common.Logic.Graph.Edge.html
+  name: Edge
+  nameWithType: Edge
+  fullName: Game.Common.Logic.Graph.Edge
+- uid: Game.Common.Logic.Graph.SearchResult.#ctor*
+  commentId: Overload:Game.Common.Logic.Graph.SearchResult.#ctor
+  href: Game.Common.Logic.Graph.SearchResult.html#Game_Common_Logic_Graph_SearchResult__ctor_Game_Common_Logic_Graph_Node_Game_Common_Logic_Graph_Edge_
+  name: SearchResult
+  nameWithType: SearchResult.SearchResult
+  fullName: Game.Common.Logic.Graph.SearchResult.SearchResult
+  nameWithType.vb: SearchResult.New
+  fullName.vb: Game.Common.Logic.Graph.SearchResult.New
+  name.vb: New

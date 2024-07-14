@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.Types.SwitchOperationStyle
+  commentId: T:Game.Common.Logic.Types.SwitchOperationStyle
+  id: SwitchOperationStyle
+  parent: Game.Common.Logic.Types
+  children:
+  - Game.Common.Logic.Types.SwitchOperationStyle.MANUAL
+  - Game.Common.Logic.Types.SwitchOperationStyle.SIGNALBOX
+  langs:
+  - csharp
+  - vb
+  name: SwitchOperationStyle
+  nameWithType: SwitchOperationStyle
+  fullName: Game.Common.Logic.Types.SwitchOperationStyle
+  type: Enum
+  source:
+    remote:
+      path: Common/Logic/Types/SwitchOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SwitchOperationStyle
+    path: ../Game/Common/Logic/Types/SwitchOperationStyle.cs
+    startLine: 2
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: public enum SwitchOperationStyle
+    content.vb: Public Enum SwitchOperationStyle
+- uid: Game.Common.Logic.Types.SwitchOperationStyle.MANUAL
+  commentId: F:Game.Common.Logic.Types.SwitchOperationStyle.MANUAL
+  id: MANUAL
+  parent: Game.Common.Logic.Types.SwitchOperationStyle
+  langs:
+  - csharp
+  - vb
+  name: MANUAL
+  nameWithType: SwitchOperationStyle.MANUAL
+  fullName: Game.Common.Logic.Types.SwitchOperationStyle.MANUAL
+  type: Field
+  source:
+    remote:
+      path: Common/Logic/Types/SwitchOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: MANUAL
+    path: ../Game/Common/Logic/Types/SwitchOperationStyle.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: MANUAL = 0
+    return:
+      type: Game.Common.Logic.Types.SwitchOperationStyle
+- uid: Game.Common.Logic.Types.SwitchOperationStyle.SIGNALBOX
+  commentId: F:Game.Common.Logic.Types.SwitchOperationStyle.SIGNALBOX
+  id: SIGNALBOX
+  parent: Game.Common.Logic.Types.SwitchOperationStyle
+  langs:
+  - csharp
+  - vb
+  name: SIGNALBOX
+  nameWithType: SwitchOperationStyle.SIGNALBOX
+  fullName: Game.Common.Logic.Types.SwitchOperationStyle.SIGNALBOX
+  type: Field
+  source:
+    remote:
+      path: Common/Logic/Types/SwitchOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: SIGNALBOX
+    path: ../Game/Common/Logic/Types/SwitchOperationStyle.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: SIGNALBOX = 1
+    return:
+      type: Game.Common.Logic.Types.SwitchOperationStyle
+references:
+- uid: Game.Common.Logic.Types
+  commentId: N:Game.Common.Logic.Types
+  href: Game.html
+  name: Game.Common.Logic.Types
+  nameWithType: Game.Common.Logic.Types
+  fullName: Game.Common.Logic.Types
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+- uid: Game.Common.Logic.Types.SwitchOperationStyle
+  commentId: T:Game.Common.Logic.Types.SwitchOperationStyle
+  parent: Game.Common.Logic.Types
+  href: Game.Common.Logic.Types.SwitchOperationStyle.html
+  name: SwitchOperationStyle
+  nameWithType: SwitchOperationStyle
+  fullName: Game.Common.Logic.Types.SwitchOperationStyle

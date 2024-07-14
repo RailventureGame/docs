@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Animations
+  commentId: N:Game.Client.Animations
+  id: Game.Client.Animations
+  children:
+  - Game.Client.Animations.AnimationHelper
+  langs:
+  - csharp
+  - vb
+  name: Game.Client.Animations
+  nameWithType: Game.Client.Animations
+  fullName: Game.Client.Animations
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Client.Animations.AnimationHelper
+  commentId: T:Game.Client.Animations.AnimationHelper
+  href: Game.Client.Animations.AnimationHelper.html
+  name: AnimationHelper
+  nameWithType: AnimationHelper
+  fullName: Game.Client.Animations.AnimationHelper

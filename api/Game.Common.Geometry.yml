@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Geometry
+  commentId: N:Game.Common.Geometry
+  id: Game.Common.Geometry
+  children:
+  - Game.Common.Geometry.GeometryEnvironment
+  - Game.Common.Geometry.IGeometryComponent
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Geometry
+  nameWithType: Game.Common.Geometry
+  fullName: Game.Common.Geometry
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Geometry.GeometryEnvironment
+  commentId: T:Game.Common.Geometry.GeometryEnvironment
+  parent: Game.Common.Geometry
+  href: Game.Common.Geometry.GeometryEnvironment.html
+  name: GeometryEnvironment
+  nameWithType: GeometryEnvironment
+  fullName: Game.Common.Geometry.GeometryEnvironment
+- uid: Game.Common.Geometry.IGeometryComponent
+  commentId: T:Game.Common.Geometry.IGeometryComponent
+  parent: Game.Common.Geometry
+  href: Game.Common.Geometry.IGeometryComponent.html
+  name: IGeometryComponent
+  nameWithType: IGeometryComponent
+  fullName: Game.Common.Geometry.IGeometryComponent
+- uid: Game.Common.Geometry
+  commentId: N:Game.Common.Geometry
+  href: Game.html
+  name: Game.Common.Geometry
+  nameWithType: Game.Common.Geometry
+  fullName: Game.Common.Geometry
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Geometry
+    name: Geometry
+    href: Game.Common.Geometry.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Geometry
+    name: Geometry
+    href: Game.Common.Geometry.html

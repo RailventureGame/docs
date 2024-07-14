@@ -1,0 +1,271 @@
+### YamlMime:TableOfContent
+items:
+- uid: Game.Client.Animations
+  name: Game.Client.Animations
+  items:
+  - uid: Game.Client.Animations.AnimationHelper
+    name: AnimationHelper
+- uid: Game.Client.Game
+  name: Game.Client.Game
+  items:
+  - uid: Game.Client.Game.GameManager
+    name: GameManager
+- uid: Game.Client.Game.Time
+  name: Game.Client.Game.Time
+  items:
+  - uid: Game.Client.Game.Time.Clock
+    name: Clock
+  - uid: Game.Client.Game.Time.TimeUtil
+    name: TimeUtil
+  - uid: Game.Client.Game.Time.TimeUtil.Weekdays
+    name: TimeUtil.Weekdays
+- uid: Game.Client.Resources
+  name: Game.Client.Resources
+  items:
+  - uid: Game.Client.Resources.Identifier
+    name: Identifier
+  - uid: Game.Client.Resources.ResourceManager
+    name: ResourceManager
+  - uid: Game.Client.Resources.ResourceManager.ReadLinesFlags
+    name: ResourceManager.ReadLinesFlags
+- uid: Game.Client.Window
+  name: Game.Client.Window
+  items:
+  - uid: Game.Client.Window.CloseAllWindows
+    name: CloseAllWindows
+  - uid: Game.Client.Window.GameWindow
+    name: GameWindow
+  - uid: Game.Client.Window.KeyboardCommand
+    name: KeyboardCommand
+  - uid: Game.Client.Window.OpenDevelopmentUI
+    name: OpenDevelopmentUI
+  - uid: Game.Client.Window.PauseGame
+    name: PauseGame
+  - uid: Game.Client.Window.TextUtil
+    name: TextUtil
+  - uid: Game.Client.Window.TextUtil.TextAlignment
+    name: TextUtil.TextAlignment
+  - uid: Game.Client.Window.ToggleFullscreen
+    name: ToggleFullscreen
+- uid: Game.Client.Window.Rendering
+  name: Game.Client.Window.Rendering
+  items:
+  - uid: Game.Client.Window.Rendering.GameRenderer
+    name: GameRenderer
+  - uid: Game.Client.Window.Rendering.Viewport
+    name: Viewport
+- uid: Game.Client.Window.UI
+  name: Game.Client.Window.UI
+  items:
+  - uid: Game.Client.Window.UI.Color
+    name: Color
+  - uid: Game.Client.Window.UI.ColorPalette
+    name: ColorPalette
+  - uid: Game.Client.Window.UI.GUIComponent
+    name: GUIComponent
+  - uid: Game.Client.Window.UI.GUIScreen
+    name: GUIScreen
+  - uid: Game.Client.Window.UI.Helper
+    name: Helper
+  - uid: Game.Client.Window.UI.UserInterface
+    name: UserInterface
+- uid: Game.Client.Window.UI.Components
+  name: Game.Client.Window.UI.Components
+  items:
+  - uid: Game.Client.Window.UI.Components.CurrentTime
+    name: CurrentTime
+  - uid: Game.Client.Window.UI.Components.Perfomance
+    name: Perfomance
+  - uid: Game.Client.Window.UI.Components.TestComponent
+    name: TestComponent
+  - uid: Game.Client.Window.UI.Components.TimeControls
+    name: TimeControls
+  - uid: Game.Client.Window.UI.Components.TimeControls.ChangeTime
+    name: TimeControls.ChangeTime
+  - uid: Game.Client.Window.UI.Components.TimeControls.ContinueTime
+    name: TimeControls.ContinueTime
+  - uid: Game.Client.Window.UI.Components.TimeControls.FastForwardTime
+    name: TimeControls.FastForwardTime
+  - uid: Game.Client.Window.UI.Components.TimeControls.PauseTime
+    name: TimeControls.PauseTime
+- uid: Game.Client.Window.UI.Components.Common
+  name: Game.Client.Window.UI.Components.Common
+  items:
+  - uid: Game.Client.Window.UI.Components.Common.Button
+    name: Button
+  - uid: Game.Client.Window.UI.Components.Common.GUIWindow
+    name: GUIWindow
+  - uid: Game.Client.Window.UI.Components.Common.GUIWindow.GUIWindowCloseButton
+    name: GUIWindow.GUIWindowCloseButton
+  - uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+    name: HorizontalScrollbar
+  - uid: Game.Client.Window.UI.Components.Common.TextInput
+    name: TextInput
+  - uid: Game.Client.Window.UI.Components.Common.VerticalScrollbar
+    name: VerticalScrollbar
+- uid: Game.Client.Window.UI.Components.Windows
+  name: Game.Client.Window.UI.Components.Windows
+  items:
+  - uid: Game.Client.Window.UI.Components.Windows.ExampleWindow
+    name: ExampleWindow
+- uid: Game.Client.Window.UI.Screens
+  name: Game.Client.Window.UI.Screens
+  items:
+  - uid: Game.Client.Window.UI.Screens.IngameScreen
+    name: IngameScreen
+- uid: Game.Client.Window.UI.Windows
+  name: Game.Client.Window.UI.Windows
+  items:
+  - uid: Game.Client.Window.UI.Windows.OpenRailVehicleKeyboardCommand
+    name: OpenRailVehicleKeyboardCommand
+  - uid: Game.Client.Window.UI.Windows.RailVehicleTest
+    name: RailVehicleTest
+- uid: Game.Common.Configuration
+  name: Game.Common.Configuration
+  items:
+  - uid: Game.Common.Configuration.Configuration
+    name: Configuration
+- uid: Game.Common.Debug
+  name: Game.Common.Debug
+  items:
+  - uid: Game.Common.Debug.Command
+    name: Command
+  - uid: Game.Common.Debug.CommandResult
+    name: CommandResult
+  - uid: Game.Common.Debug.RegisterCommand
+    name: RegisterCommand
+- uid: Game.Common.Debug.Commands
+  name: Game.Common.Debug.Commands
+  items:
+  - uid: Game.Common.Debug.Commands.ClockCommand
+    name: ClockCommand
+  - uid: Game.Common.Debug.Commands.CreateDummyGeometryComponent
+    name: CreateDummyGeometryComponent
+  - uid: Game.Common.Debug.Commands.CreateDummyGeometryComponent.DummyObject
+    name: CreateDummyGeometryComponent.DummyObject
+  - uid: Game.Common.Debug.Commands.OpenExampleWindowCommand
+    name: OpenExampleWindowCommand
+  - uid: Game.Common.Debug.Commands.QuitCommand
+    name: QuitCommand
+- uid: Game.Common.Debug.Logging
+  name: Game.Common.Debug.Logging
+  items:
+  - uid: Game.Common.Debug.Logging.Logger
+    name: Logger
+  - uid: Game.Common.Debug.Logging.LoggingLevel
+    name: LoggingLevel
+- uid: Game.Common.Generics
+  name: Game.Common.Generics
+  items:
+  - uid: Game.Common.Generics.Position
+    name: Position
+  - uid: Game.Common.Generics.Rectangle
+    name: Rectangle
+- uid: Game.Common.Geometry
+  name: Game.Common.Geometry
+  items:
+  - uid: Game.Common.Geometry.GeometryEnvironment
+    name: GeometryEnvironment
+  - uid: Game.Common.Geometry.IGeometryComponent
+    name: IGeometryComponent
+- uid: Game.Common.Geometry.Components
+  name: Game.Common.Geometry.Components
+  items:
+  - uid: Game.Common.Geometry.Components.TrackComponent
+    name: TrackComponent
+- uid: Game.Common.Logic
+  name: Game.Common.Logic
+  items:
+  - uid: Game.Common.Logic.Component
+    name: Component
+  - uid: Game.Common.Logic.OperatingSite
+    name: OperatingSite
+  - uid: Game.Common.Logic.Route
+    name: Route
+- uid: Game.Common.Logic.Components
+  name: Game.Common.Logic.Components
+  items:
+  - uid: Game.Common.Logic.Components.BufferStop
+    name: BufferStop
+  - uid: Game.Common.Logic.Components.Crossing
+    name: Crossing
+  - uid: Game.Common.Logic.Components.CurvedRail
+    name: CurvedRail
+  - uid: Game.Common.Logic.Components.DoubleCrossoverSwitch
+    name: DoubleCrossoverSwitch
+  - uid: Game.Common.Logic.Components.KlothoidRail
+    name: KlothoidRail
+  - uid: Game.Common.Logic.Components.SingleCrossoverSwitch
+    name: SingleCrossoverSwitch
+  - uid: Game.Common.Logic.Components.StraightRail
+    name: StraightRail
+  - uid: Game.Common.Logic.Components.Switch
+    name: Switch
+- uid: Game.Common.Logic.Graph
+  name: Game.Common.Logic.Graph
+  items:
+  - uid: Game.Common.Logic.Graph.DepthFirstSearch
+    name: DepthFirstSearch
+  - uid: Game.Common.Logic.Graph.Edge
+    name: Edge
+  - uid: Game.Common.Logic.Graph.Graph
+    name: Graph
+  - uid: Game.Common.Logic.Graph.Node
+    name: Node
+  - uid: Game.Common.Logic.Graph.PieceConnector
+    name: PieceConnector
+  - uid: Game.Common.Logic.Graph.SearchResult
+    name: SearchResult
+- uid: Game.Common.Logic.OperatingSites
+  name: Game.Common.Logic.OperatingSites
+  items:
+  - uid: Game.Common.Logic.OperatingSites.ConnectionPoint
+    name: ConnectionPoint
+  - uid: Game.Common.Logic.OperatingSites.CoverPoint
+    name: CoverPoint
+  - uid: Game.Common.Logic.OperatingSites.Junction
+    name: Junction
+  - uid: Game.Common.Logic.OperatingSites.LevelCrossing
+    name: LevelCrossing
+  - uid: Game.Common.Logic.OperatingSites.Station
+    name: Station
+  - uid: Game.Common.Logic.OperatingSites.Stop
+    name: Stop
+  - uid: Game.Common.Logic.OperatingSites.TransferPoint
+    name: TransferPoint
+- uid: Game.Common.Logic.RailVehicles
+  name: Game.Common.Logic.RailVehicles
+  items:
+  - uid: Game.Common.Logic.RailVehicles.RailVehicle
+    name: RailVehicle
+- uid: Game.Common.Logic.Routes
+  name: Game.Common.Logic.Routes
+  items:
+  - uid: Game.Common.Logic.Routes.CruvedEdgeRoutePiece
+    name: CruvedEdgeRoutePiece
+  - uid: Game.Common.Logic.Routes.KlothoidEdgeRoutePiece
+    name: KlothoidEdgeRoutePiece
+  - uid: Game.Common.Logic.Routes.StraightEdgeRoutePiece
+    name: StraightEdgeRoutePiece
+- uid: Game.Common.Logic.Types
+  name: Game.Common.Logic.Types
+  items:
+  - uid: Game.Common.Logic.Types.LevelCrossingOperationStyle
+    name: LevelCrossingOperationStyle
+  - uid: Game.Common.Logic.Types.NodeOperationStyle
+    name: NodeOperationStyle
+  - uid: Game.Common.Logic.Types.RailType
+    name: RailType
+  - uid: Game.Common.Logic.Types.SwitchOperationStyle
+    name: SwitchOperationStyle
+- uid: Game.Common.Reflections
+  name: Game.Common.Reflections
+  items:
+  - uid: Game.Common.Reflections.ReflectionHelper
+    name: ReflectionHelper
+- uid: Game.Launcher
+  name: Game.Launcher
+  items:
+  - uid: Game.Launcher.Runner
+    name: Runner
+memberLayout: SamePage

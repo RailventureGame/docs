@@ -1,0 +1,1330 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  commentId: T:Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  id: HorizontalScrollbar
+  parent: Game.Client.Window.UI.Components.Common
+  children:
+  - Game.Client.Window.UI.Components.Common.HorizontalScrollbar.#ctor(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+  - Game.Client.Window.UI.Components.Common.HorizontalScrollbar.CurrentValue
+  - Game.Client.Window.UI.Components.Common.HorizontalScrollbar.Draw(SDL_Sharp.Renderer@,System.Single@)
+  - Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseDown(SDL_Sharp.Point,SDL_Sharp.Point)
+  - Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseMotion(SDL_Sharp.Point,SDL_Sharp.Point)
+  - Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseUp(SDL_Sharp.Point,SDL_Sharp.Point)
+  - Game.Client.Window.UI.Components.Common.HorizontalScrollbar.ScrollbarWidth
+  langs:
+  - csharp
+  - vb
+  name: HorizontalScrollbar
+  nameWithType: HorizontalScrollbar
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  type: Class
+  source:
+    remote:
+      path: Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: HorizontalScrollbar
+    path: ../Game/Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+    startLine: 7
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI.Components.Common
+  summary: Horizontal Scrollbar
+  example: []
+  syntax:
+    content: 'public class HorizontalScrollbar : GUIComponent'
+    content.vb: Public Class HorizontalScrollbar Inherits GUIComponent
+  inheritance:
+  - System.Object
+  - Game.Client.Window.UI.GUIComponent
+  inheritedMembers:
+  - Game.Client.Window.UI.GUIComponent._
+  - Game.Client.Window.UI.GUIComponent._redraw
+  - Game.Client.Window.UI.GUIComponent.X
+  - Game.Client.Window.UI.GUIComponent.Y
+  - Game.Client.Window.UI.GUIComponent.Width
+  - Game.Client.Window.UI.GUIComponent.Height
+  - Game.Client.Window.UI.GUIComponent.MainPane
+  - Game.Client.Window.UI.GUIComponent.SourceRectangle
+  - Game.Client.Window.UI.GUIComponent.DestinationRectangle
+  - Game.Client.Window.UI.GUIComponent.TextureAccess
+  - Game.Client.Window.UI.GUIComponent.Launch(SDL_Sharp.Renderer@)
+  - Game.Client.Window.UI.GUIComponent.GetBounds
+  - Game.Client.Window.UI.GUIComponent.IsInBounds(System.Int32@,System.Int32@)
+  - Game.Client.Window.UI.GUIComponent.IsInBounds(SDL_Sharp.Point)
+  - Game.Client.Window.UI.GUIComponent.Render(SDL_Sharp.Renderer@,System.Single@,System.Boolean)
+  - Game.Client.Window.UI.GUIComponent.ShouldRedraw
+  - Game.Client.Window.UI.GUIComponent.OnKey(SDL_Sharp.Keycode,SDL_Sharp.KeyModifier,SDL_Sharp.ButtonState)
+  - Game.Client.Window.UI.GUIComponent.RefreshDimensions(System.Int32@,System.Int32@)
+  - Game.Client.Window.UI.GUIComponent.RenderBounds(SDL_Sharp.Renderer@)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.CurrentValue
+  commentId: P:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.CurrentValue
+  id: CurrentValue
+  parent: Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  langs:
+  - csharp
+  - vb
+  name: CurrentValue
+  nameWithType: HorizontalScrollbar.CurrentValue
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.CurrentValue
+  type: Property
+  source:
+    remote:
+      path: Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: CurrentValue
+    path: ../Game/Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+    startLine: 12
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI.Components.Common
+  summary: Current value of the scrollbar.
+  example: []
+  syntax:
+    content: public int CurrentValue { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CurrentValue As Integer
+  overload: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.CurrentValue*
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.ScrollbarWidth
+  commentId: P:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.ScrollbarWidth
+  id: ScrollbarWidth
+  parent: Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  langs:
+  - csharp
+  - vb
+  name: ScrollbarWidth
+  nameWithType: HorizontalScrollbar.ScrollbarWidth
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.ScrollbarWidth
+  type: Property
+  source:
+    remote:
+      path: Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ScrollbarWidth
+    path: ../Game/Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+    startLine: 18
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI.Components.Common
+  summary: >-
+    Width of the Scrollbar
+
+    <br />Must be smaller than <xref href="Game.Client.Window.UI.GUIComponent.Width" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public int ScrollbarWidth { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ScrollbarWidth As Integer
+  overload: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.ScrollbarWidth*
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.#ctor(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+  commentId: M:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.#ctor(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+  id: '#ctor(System.Int32@,System.Int32@,System.Int32@,System.Int32@)'
+  parent: Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  langs:
+  - csharp
+  - vb
+  name: HorizontalScrollbar(in int, in int, in int, in int)
+  nameWithType: HorizontalScrollbar.HorizontalScrollbar(in int, in int, in int, in int)
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.HorizontalScrollbar(in int, in int, in int, in int)
+  type: Constructor
+  source:
+    remote:
+      path: Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+    startLine: 31
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI.Components.Common
+  summary: Creates a scrollbar with maximal value and scrollbar thickness.
+  example: []
+  syntax:
+    content: public HorizontalScrollbar(in int scrollBarWidth, in int x, in int y, in int width)
+    parameters:
+    - id: scrollBarWidth
+      type: System.Int32
+      description: ''
+    - id: x
+      type: System.Int32
+      description: ''
+    - id: y
+      type: System.Int32
+      description: ''
+    - id: width
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub New(scrollBarWidth As Integer, x As Integer, y As Integer, width As Integer)
+  overload: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.#ctor*
+  nameWithType.vb: HorizontalScrollbar.New(Integer, Integer, Integer, Integer)
+  fullName.vb: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.New(Integer, Integer, Integer, Integer)
+  name.vb: New(Integer, Integer, Integer, Integer)
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.Draw(SDL_Sharp.Renderer@,System.Single@)
+  commentId: M:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.Draw(SDL_Sharp.Renderer@,System.Single@)
+  id: Draw(SDL_Sharp.Renderer@,System.Single@)
+  parent: Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  langs:
+  - csharp
+  - vb
+  name: Draw(ref Renderer, in float)
+  nameWithType: HorizontalScrollbar.Draw(ref Renderer, in float)
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.Draw(ref SDL_Sharp.Renderer, in float)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Draw
+    path: ../Game/Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+    startLine: 37
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI.Components.Common
+  summary: Draw here on the component. Position 0,0 is the top-left corner and <xref href="Game.Client.Window.UI.GUIComponent.Width" data-throw-if-not-resolved="false"></xref> + <xref href="Game.Client.Window.UI.GUIComponent.Height" data-throw-if-not-resolved="false"></xref> are the bottom-right corner.
+  example: []
+  syntax:
+    content: public override void Draw(ref Renderer renderer, in float deltaTime)
+    parameters:
+    - id: renderer
+      type: SDL_Sharp.Renderer
+      description: The current instance of the <xref href="Game.Client.Window.GameWindow" data-throw-if-not-resolved="false"></xref>'s renderer
+    - id: deltaTime
+      type: System.Single
+      description: Delta time since last frame
+    content.vb: Public Overrides Sub Draw(renderer As Renderer, deltaTime As Single)
+  overridden: Game.Client.Window.UI.GUIComponent.Draw(SDL_Sharp.Renderer@,System.Single@)
+  overload: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.Draw*
+  nameWithType.vb: HorizontalScrollbar.Draw(Renderer, Single)
+  fullName.vb: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.Draw(SDL_Sharp.Renderer, Single)
+  name.vb: Draw(Renderer, Single)
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseMotion(SDL_Sharp.Point,SDL_Sharp.Point)
+  commentId: M:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseMotion(SDL_Sharp.Point,SDL_Sharp.Point)
+  id: MouseMotion(SDL_Sharp.Point,SDL_Sharp.Point)
+  parent: Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  langs:
+  - csharp
+  - vb
+  name: MouseMotion(Point, Point)
+  nameWithType: HorizontalScrollbar.MouseMotion(Point, Point)
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseMotion(SDL_Sharp.Point, SDL_Sharp.Point)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: MouseMotion
+    path: ../Game/Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+    startLine: 48
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI.Components.Common
+  summary: Called when the cursor moves.
+  example: []
+  syntax:
+    content: public override void MouseMotion(Point absolutePosition, Point relativePosition)
+    parameters:
+    - id: absolutePosition
+      type: SDL_Sharp.Point
+      description: relative to the window
+    - id: relativePosition
+      type: SDL_Sharp.Point
+      description: relative to the component
+    content.vb: Public Overrides Sub MouseMotion(absolutePosition As Point, relativePosition As Point)
+  overridden: Game.Client.Window.UI.GUIComponent.MouseMotion(SDL_Sharp.Point,SDL_Sharp.Point)
+  overload: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseMotion*
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseDown(SDL_Sharp.Point,SDL_Sharp.Point)
+  commentId: M:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseDown(SDL_Sharp.Point,SDL_Sharp.Point)
+  id: MouseDown(SDL_Sharp.Point,SDL_Sharp.Point)
+  parent: Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  langs:
+  - csharp
+  - vb
+  name: MouseDown(Point, Point)
+  nameWithType: HorizontalScrollbar.MouseDown(Point, Point)
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseDown(SDL_Sharp.Point, SDL_Sharp.Point)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: MouseDown
+    path: ../Game/Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+    startLine: 62
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI.Components.Common
+  summary: Called on mouse click.
+  example: []
+  syntax:
+    content: public override void MouseDown(Point absolutePosition, Point relativePosition)
+    parameters:
+    - id: absolutePosition
+      type: SDL_Sharp.Point
+      description: relative to the window
+    - id: relativePosition
+      type: SDL_Sharp.Point
+      description: relative to the component
+    content.vb: Public Overrides Sub MouseDown(absolutePosition As Point, relativePosition As Point)
+  overridden: Game.Client.Window.UI.GUIComponent.MouseDown(SDL_Sharp.Point,SDL_Sharp.Point)
+  overload: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseDown*
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseUp(SDL_Sharp.Point,SDL_Sharp.Point)
+  commentId: M:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseUp(SDL_Sharp.Point,SDL_Sharp.Point)
+  id: MouseUp(SDL_Sharp.Point,SDL_Sharp.Point)
+  parent: Game.Client.Window.UI.Components.Common.HorizontalScrollbar
+  langs:
+  - csharp
+  - vb
+  name: MouseUp(Point, Point)
+  nameWithType: HorizontalScrollbar.MouseUp(Point, Point)
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseUp(SDL_Sharp.Point, SDL_Sharp.Point)
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: MouseUp
+    path: ../Game/Client/Window/UI/Components/Common/HorizontalScrollbar.cs
+    startLine: 74
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI.Components.Common
+  summary: Called on mouse up.
+  example: []
+  syntax:
+    content: public override void MouseUp(Point absolutePosition, Point relativePosition)
+    parameters:
+    - id: absolutePosition
+      type: SDL_Sharp.Point
+      description: relative to the window
+    - id: relativePosition
+      type: SDL_Sharp.Point
+      description: relative to the component
+    content.vb: Public Overrides Sub MouseUp(absolutePosition As Point, relativePosition As Point)
+  overridden: Game.Client.Window.UI.GUIComponent.MouseUp(SDL_Sharp.Point,SDL_Sharp.Point)
+  overload: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseUp*
+references:
+- uid: Game.Client.Window.UI.Components.Common
+  commentId: N:Game.Client.Window.UI.Components.Common
+  href: Game.html
+  name: Game.Client.Window.UI.Components.Common
+  nameWithType: Game.Client.Window.UI.Components.Common
+  fullName: Game.Client.Window.UI.Components.Common
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components
+    name: Components
+    href: Game.Client.Window.UI.Components.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.Common
+    name: Common
+    href: Game.Client.Window.UI.Components.Common.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components
+    name: Components
+    href: Game.Client.Window.UI.Components.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components.Common
+    name: Common
+    href: Game.Client.Window.UI.Components.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Game.Client.Window.UI.GUIComponent
+  commentId: T:Game.Client.Window.UI.GUIComponent
+  parent: Game.Client.Window.UI
+  href: Game.Client.Window.UI.GUIComponent.html
+  name: GUIComponent
+  nameWithType: GUIComponent
+  fullName: Game.Client.Window.UI.GUIComponent
+- uid: Game.Client.Window.UI.GUIComponent._
+  commentId: F:Game.Client.Window.UI.GUIComponent._
+  parent: Game.Client.Window.UI.GUIComponent
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent__
+  name: _
+  nameWithType: GUIComponent._
+  fullName: Game.Client.Window.UI.GUIComponent._
+- uid: Game.Client.Window.UI.GUIComponent._redraw
+  commentId: F:Game.Client.Window.UI.GUIComponent._redraw
+  parent: Game.Client.Window.UI.GUIComponent
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent__redraw
+  name: _redraw
+  nameWithType: GUIComponent._redraw
+  fullName: Game.Client.Window.UI.GUIComponent._redraw
+- uid: Game.Client.Window.UI.GUIComponent.X
+  commentId: P:Game.Client.Window.UI.GUIComponent.X
+  parent: Game.Client.Window.UI.GUIComponent
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_X
+  name: X
+  nameWithType: GUIComponent.X
+  fullName: Game.Client.Window.UI.GUIComponent.X
+- uid: Game.Client.Window.UI.GUIComponent.Y
+  commentId: P:Game.Client.Window.UI.GUIComponent.Y
+  parent: Game.Client.Window.UI.GUIComponent
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Y
+  name: Y
+  nameWithType: GUIComponent.Y
+  fullName: Game.Client.Window.UI.GUIComponent.Y
+- uid: Game.Client.Window.UI.GUIComponent.Width
+  commentId: P:Game.Client.Window.UI.GUIComponent.Width
+  parent: Game.Client.Window.UI.GUIComponent
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Width
+  name: Width
+  nameWithType: GUIComponent.Width
+  fullName: Game.Client.Window.UI.GUIComponent.Width
+- uid: Game.Client.Window.UI.GUIComponent.Height
+  commentId: P:Game.Client.Window.UI.GUIComponent.Height
+  parent: Game.Client.Window.UI.GUIComponent
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Height
+  name: Height
+  nameWithType: GUIComponent.Height
+  fullName: Game.Client.Window.UI.GUIComponent.Height
+- uid: Game.Client.Window.UI.GUIComponent.MainPane
+  commentId: P:Game.Client.Window.UI.GUIComponent.MainPane
+  parent: Game.Client.Window.UI.GUIComponent
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_MainPane
+  name: MainPane
+  nameWithType: GUIComponent.MainPane
+  fullName: Game.Client.Window.UI.GUIComponent.MainPane
+- uid: Game.Client.Window.UI.GUIComponent.SourceRectangle
+  commentId: F:Game.Client.Window.UI.GUIComponent.SourceRectangle
+  parent: Game.Client.Window.UI.GUIComponent
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_SourceRectangle
+  name: SourceRectangle
+  nameWithType: GUIComponent.SourceRectangle
+  fullName: Game.Client.Window.UI.GUIComponent.SourceRectangle
+- uid: Game.Client.Window.UI.GUIComponent.DestinationRectangle
+  commentId: F:Game.Client.Window.UI.GUIComponent.DestinationRectangle
+  parent: Game.Client.Window.UI.GUIComponent
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_DestinationRectangle
+  name: DestinationRectangle
+  nameWithType: GUIComponent.DestinationRectangle
+  fullName: Game.Client.Window.UI.GUIComponent.DestinationRectangle
+- uid: Game.Client.Window.UI.GUIComponent.TextureAccess
+  commentId: F:Game.Client.Window.UI.GUIComponent.TextureAccess
+  parent: Game.Client.Window.UI.GUIComponent
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_TextureAccess
+  name: TextureAccess
+  nameWithType: GUIComponent.TextureAccess
+  fullName: Game.Client.Window.UI.GUIComponent.TextureAccess
+- uid: Game.Client.Window.UI.GUIComponent.Launch(SDL_Sharp.Renderer@)
+  commentId: M:Game.Client.Window.UI.GUIComponent.Launch(SDL_Sharp.Renderer@)
+  parent: Game.Client.Window.UI.GUIComponent
+  isExternal: true
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Launch_SDL_Sharp_Renderer__
+  name: Launch(ref Renderer)
+  nameWithType: GUIComponent.Launch(ref Renderer)
+  fullName: Game.Client.Window.UI.GUIComponent.Launch(ref SDL_Sharp.Renderer)
+  nameWithType.vb: GUIComponent.Launch(Renderer)
+  fullName.vb: Game.Client.Window.UI.GUIComponent.Launch(SDL_Sharp.Renderer)
+  name.vb: Launch(Renderer)
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.Launch(SDL_Sharp.Renderer@)
+    name: Launch
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Launch_SDL_Sharp_Renderer__
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: SDL_Sharp.Renderer
+    name: Renderer
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.Launch(SDL_Sharp.Renderer@)
+    name: Launch
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Launch_SDL_Sharp_Renderer__
+  - name: (
+  - uid: SDL_Sharp.Renderer
+    name: Renderer
+    isExternal: true
+  - name: )
+- uid: Game.Client.Window.UI.GUIComponent.GetBounds
+  commentId: M:Game.Client.Window.UI.GUIComponent.GetBounds
+  parent: Game.Client.Window.UI.GUIComponent
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_GetBounds
+  name: GetBounds()
+  nameWithType: GUIComponent.GetBounds()
+  fullName: Game.Client.Window.UI.GUIComponent.GetBounds()
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.GetBounds
+    name: GetBounds
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_GetBounds
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.GetBounds
+    name: GetBounds
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_GetBounds
+  - name: (
+  - name: )
+- uid: Game.Client.Window.UI.GUIComponent.IsInBounds(System.Int32@,System.Int32@)
+  commentId: M:Game.Client.Window.UI.GUIComponent.IsInBounds(System.Int32@,System.Int32@)
+  parent: Game.Client.Window.UI.GUIComponent
+  isExternal: true
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_IsInBounds_System_Int32__System_Int32__
+  name: IsInBounds(in int, in int)
+  nameWithType: GUIComponent.IsInBounds(in int, in int)
+  fullName: Game.Client.Window.UI.GUIComponent.IsInBounds(in int, in int)
+  nameWithType.vb: GUIComponent.IsInBounds(Integer, Integer)
+  fullName.vb: Game.Client.Window.UI.GUIComponent.IsInBounds(Integer, Integer)
+  name.vb: IsInBounds(Integer, Integer)
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.IsInBounds(System.Int32@,System.Int32@)
+    name: IsInBounds
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_IsInBounds_System_Int32__System_Int32__
+  - name: (
+  - name: in
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.IsInBounds(System.Int32@,System.Int32@)
+    name: IsInBounds
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_IsInBounds_System_Int32__System_Int32__
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Game.Client.Window.UI.GUIComponent.IsInBounds(SDL_Sharp.Point)
+  commentId: M:Game.Client.Window.UI.GUIComponent.IsInBounds(SDL_Sharp.Point)
+  parent: Game.Client.Window.UI.GUIComponent
+  isExternal: true
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_IsInBounds_SDL_Sharp_Point_
+  name: IsInBounds(Point)
+  nameWithType: GUIComponent.IsInBounds(Point)
+  fullName: Game.Client.Window.UI.GUIComponent.IsInBounds(SDL_Sharp.Point)
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.IsInBounds(SDL_Sharp.Point)
+    name: IsInBounds
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_IsInBounds_SDL_Sharp_Point_
+  - name: (
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.IsInBounds(SDL_Sharp.Point)
+    name: IsInBounds
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_IsInBounds_SDL_Sharp_Point_
+  - name: (
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: )
+- uid: Game.Client.Window.UI.GUIComponent.Render(SDL_Sharp.Renderer@,System.Single@,System.Boolean)
+  commentId: M:Game.Client.Window.UI.GUIComponent.Render(SDL_Sharp.Renderer@,System.Single@,System.Boolean)
+  parent: Game.Client.Window.UI.GUIComponent
+  isExternal: true
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Render_SDL_Sharp_Renderer__System_Single__System_Boolean_
+  name: Render(ref Renderer, in float, bool)
+  nameWithType: GUIComponent.Render(ref Renderer, in float, bool)
+  fullName: Game.Client.Window.UI.GUIComponent.Render(ref SDL_Sharp.Renderer, in float, bool)
+  nameWithType.vb: GUIComponent.Render(Renderer, Single, Boolean)
+  fullName.vb: Game.Client.Window.UI.GUIComponent.Render(SDL_Sharp.Renderer, Single, Boolean)
+  name.vb: Render(Renderer, Single, Boolean)
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.Render(SDL_Sharp.Renderer@,System.Single@,System.Boolean)
+    name: Render
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Render_SDL_Sharp_Renderer__System_Single__System_Boolean_
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: SDL_Sharp.Renderer
+    name: Renderer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.Render(SDL_Sharp.Renderer@,System.Single@,System.Boolean)
+    name: Render
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Render_SDL_Sharp_Renderer__System_Single__System_Boolean_
+  - name: (
+  - uid: SDL_Sharp.Renderer
+    name: Renderer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Game.Client.Window.UI.GUIComponent.ShouldRedraw
+  commentId: M:Game.Client.Window.UI.GUIComponent.ShouldRedraw
+  parent: Game.Client.Window.UI.GUIComponent
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_ShouldRedraw
+  name: ShouldRedraw()
+  nameWithType: GUIComponent.ShouldRedraw()
+  fullName: Game.Client.Window.UI.GUIComponent.ShouldRedraw()
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.ShouldRedraw
+    name: ShouldRedraw
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_ShouldRedraw
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.ShouldRedraw
+    name: ShouldRedraw
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_ShouldRedraw
+  - name: (
+  - name: )
+- uid: Game.Client.Window.UI.GUIComponent.OnKey(SDL_Sharp.Keycode,SDL_Sharp.KeyModifier,SDL_Sharp.ButtonState)
+  commentId: M:Game.Client.Window.UI.GUIComponent.OnKey(SDL_Sharp.Keycode,SDL_Sharp.KeyModifier,SDL_Sharp.ButtonState)
+  parent: Game.Client.Window.UI.GUIComponent
+  isExternal: true
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_OnKey_SDL_Sharp_Keycode_SDL_Sharp_KeyModifier_SDL_Sharp_ButtonState_
+  name: OnKey(Keycode, KeyModifier, ButtonState)
+  nameWithType: GUIComponent.OnKey(Keycode, KeyModifier, ButtonState)
+  fullName: Game.Client.Window.UI.GUIComponent.OnKey(SDL_Sharp.Keycode, SDL_Sharp.KeyModifier, SDL_Sharp.ButtonState)
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.OnKey(SDL_Sharp.Keycode,SDL_Sharp.KeyModifier,SDL_Sharp.ButtonState)
+    name: OnKey
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_OnKey_SDL_Sharp_Keycode_SDL_Sharp_KeyModifier_SDL_Sharp_ButtonState_
+  - name: (
+  - uid: SDL_Sharp.Keycode
+    name: Keycode
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SDL_Sharp.KeyModifier
+    name: KeyModifier
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SDL_Sharp.ButtonState
+    name: ButtonState
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.OnKey(SDL_Sharp.Keycode,SDL_Sharp.KeyModifier,SDL_Sharp.ButtonState)
+    name: OnKey
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_OnKey_SDL_Sharp_Keycode_SDL_Sharp_KeyModifier_SDL_Sharp_ButtonState_
+  - name: (
+  - uid: SDL_Sharp.Keycode
+    name: Keycode
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SDL_Sharp.KeyModifier
+    name: KeyModifier
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SDL_Sharp.ButtonState
+    name: ButtonState
+    isExternal: true
+  - name: )
+- uid: Game.Client.Window.UI.GUIComponent.RefreshDimensions(System.Int32@,System.Int32@)
+  commentId: M:Game.Client.Window.UI.GUIComponent.RefreshDimensions(System.Int32@,System.Int32@)
+  parent: Game.Client.Window.UI.GUIComponent
+  isExternal: true
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_RefreshDimensions_System_Int32__System_Int32__
+  name: RefreshDimensions(in int, in int)
+  nameWithType: GUIComponent.RefreshDimensions(in int, in int)
+  fullName: Game.Client.Window.UI.GUIComponent.RefreshDimensions(in int, in int)
+  nameWithType.vb: GUIComponent.RefreshDimensions(Integer, Integer)
+  fullName.vb: Game.Client.Window.UI.GUIComponent.RefreshDimensions(Integer, Integer)
+  name.vb: RefreshDimensions(Integer, Integer)
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.RefreshDimensions(System.Int32@,System.Int32@)
+    name: RefreshDimensions
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_RefreshDimensions_System_Int32__System_Int32__
+  - name: (
+  - name: in
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.RefreshDimensions(System.Int32@,System.Int32@)
+    name: RefreshDimensions
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_RefreshDimensions_System_Int32__System_Int32__
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Game.Client.Window.UI.GUIComponent.RenderBounds(SDL_Sharp.Renderer@)
+  commentId: M:Game.Client.Window.UI.GUIComponent.RenderBounds(SDL_Sharp.Renderer@)
+  parent: Game.Client.Window.UI.GUIComponent
+  isExternal: true
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_RenderBounds_SDL_Sharp_Renderer__
+  name: RenderBounds(ref Renderer)
+  nameWithType: GUIComponent.RenderBounds(ref Renderer)
+  fullName: Game.Client.Window.UI.GUIComponent.RenderBounds(ref SDL_Sharp.Renderer)
+  nameWithType.vb: GUIComponent.RenderBounds(Renderer)
+  fullName.vb: Game.Client.Window.UI.GUIComponent.RenderBounds(SDL_Sharp.Renderer)
+  name.vb: RenderBounds(Renderer)
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.RenderBounds(SDL_Sharp.Renderer@)
+    name: RenderBounds
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_RenderBounds_SDL_Sharp_Renderer__
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: SDL_Sharp.Renderer
+    name: Renderer
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.RenderBounds(SDL_Sharp.Renderer@)
+    name: RenderBounds
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_RenderBounds_SDL_Sharp_Renderer__
+  - name: (
+  - uid: SDL_Sharp.Renderer
+    name: Renderer
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Client.Window.UI
+  commentId: N:Game.Client.Window.UI
+  href: Game.html
+  name: Game.Client.Window.UI
+  nameWithType: Game.Client.Window.UI
+  fullName: Game.Client.Window.UI
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.CurrentValue*
+  commentId: Overload:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.CurrentValue
+  href: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.html#Game_Client_Window_UI_Components_Common_HorizontalScrollbar_CurrentValue
+  name: CurrentValue
+  nameWithType: HorizontalScrollbar.CurrentValue
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.CurrentValue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.ScrollbarWidth*
+  commentId: Overload:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.ScrollbarWidth
+  href: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.html#Game_Client_Window_UI_Components_Common_HorizontalScrollbar_ScrollbarWidth
+  name: ScrollbarWidth
+  nameWithType: HorizontalScrollbar.ScrollbarWidth
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.ScrollbarWidth
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.#ctor*
+  commentId: Overload:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.#ctor
+  href: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.html#Game_Client_Window_UI_Components_Common_HorizontalScrollbar__ctor_System_Int32__System_Int32__System_Int32__System_Int32__
+  name: HorizontalScrollbar
+  nameWithType: HorizontalScrollbar.HorizontalScrollbar
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.HorizontalScrollbar
+  nameWithType.vb: HorizontalScrollbar.New
+  fullName.vb: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.New
+  name.vb: New
+- uid: Game.Client.Window.GameWindow
+  commentId: T:Game.Client.Window.GameWindow
+  parent: Game.Client.Window
+  href: Game.Client.Window.GameWindow.html
+  name: GameWindow
+  nameWithType: GameWindow
+  fullName: Game.Client.Window.GameWindow
+- uid: Game.Client.Window.UI.GUIComponent.Draw(SDL_Sharp.Renderer@,System.Single@)
+  commentId: M:Game.Client.Window.UI.GUIComponent.Draw(SDL_Sharp.Renderer@,System.Single@)
+  parent: Game.Client.Window.UI.GUIComponent
+  isExternal: true
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Draw_SDL_Sharp_Renderer__System_Single__
+  name: Draw(ref Renderer, in float)
+  nameWithType: GUIComponent.Draw(ref Renderer, in float)
+  fullName: Game.Client.Window.UI.GUIComponent.Draw(ref SDL_Sharp.Renderer, in float)
+  nameWithType.vb: GUIComponent.Draw(Renderer, Single)
+  fullName.vb: Game.Client.Window.UI.GUIComponent.Draw(SDL_Sharp.Renderer, Single)
+  name.vb: Draw(Renderer, Single)
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.Draw(SDL_Sharp.Renderer@,System.Single@)
+    name: Draw
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Draw_SDL_Sharp_Renderer__System_Single__
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: SDL_Sharp.Renderer
+    name: Renderer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.Draw(SDL_Sharp.Renderer@,System.Single@)
+    name: Draw
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_Draw_SDL_Sharp_Renderer__System_Single__
+  - name: (
+  - uid: SDL_Sharp.Renderer
+    name: Renderer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.Draw*
+  commentId: Overload:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.Draw
+  href: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.html#Game_Client_Window_UI_Components_Common_HorizontalScrollbar_Draw_SDL_Sharp_Renderer__System_Single__
+  name: Draw
+  nameWithType: HorizontalScrollbar.Draw
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.Draw
+- uid: SDL_Sharp.Renderer
+  commentId: T:SDL_Sharp.Renderer
+  parent: SDL_Sharp
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: SDL_Sharp.Renderer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Game.Client.Window
+  commentId: N:Game.Client.Window
+  href: Game.html
+  name: Game.Client.Window
+  nameWithType: Game.Client.Window
+  fullName: Game.Client.Window
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+- uid: SDL_Sharp
+  commentId: N:SDL_Sharp
+  isExternal: true
+  name: SDL_Sharp
+  nameWithType: SDL_Sharp
+  fullName: SDL_Sharp
+- uid: Game.Client.Window.UI.GUIComponent.MouseMotion(SDL_Sharp.Point,SDL_Sharp.Point)
+  commentId: M:Game.Client.Window.UI.GUIComponent.MouseMotion(SDL_Sharp.Point,SDL_Sharp.Point)
+  parent: Game.Client.Window.UI.GUIComponent
+  isExternal: true
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_MouseMotion_SDL_Sharp_Point_SDL_Sharp_Point_
+  name: MouseMotion(Point, Point)
+  nameWithType: GUIComponent.MouseMotion(Point, Point)
+  fullName: Game.Client.Window.UI.GUIComponent.MouseMotion(SDL_Sharp.Point, SDL_Sharp.Point)
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.MouseMotion(SDL_Sharp.Point,SDL_Sharp.Point)
+    name: MouseMotion
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_MouseMotion_SDL_Sharp_Point_SDL_Sharp_Point_
+  - name: (
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.MouseMotion(SDL_Sharp.Point,SDL_Sharp.Point)
+    name: MouseMotion
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_MouseMotion_SDL_Sharp_Point_SDL_Sharp_Point_
+  - name: (
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: )
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseMotion*
+  commentId: Overload:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseMotion
+  href: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.html#Game_Client_Window_UI_Components_Common_HorizontalScrollbar_MouseMotion_SDL_Sharp_Point_SDL_Sharp_Point_
+  name: MouseMotion
+  nameWithType: HorizontalScrollbar.MouseMotion
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseMotion
+- uid: SDL_Sharp.Point
+  commentId: T:SDL_Sharp.Point
+  parent: SDL_Sharp
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: SDL_Sharp.Point
+- uid: Game.Client.Window.UI.GUIComponent.MouseDown(SDL_Sharp.Point,SDL_Sharp.Point)
+  commentId: M:Game.Client.Window.UI.GUIComponent.MouseDown(SDL_Sharp.Point,SDL_Sharp.Point)
+  parent: Game.Client.Window.UI.GUIComponent
+  isExternal: true
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_MouseDown_SDL_Sharp_Point_SDL_Sharp_Point_
+  name: MouseDown(Point, Point)
+  nameWithType: GUIComponent.MouseDown(Point, Point)
+  fullName: Game.Client.Window.UI.GUIComponent.MouseDown(SDL_Sharp.Point, SDL_Sharp.Point)
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.MouseDown(SDL_Sharp.Point,SDL_Sharp.Point)
+    name: MouseDown
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_MouseDown_SDL_Sharp_Point_SDL_Sharp_Point_
+  - name: (
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.MouseDown(SDL_Sharp.Point,SDL_Sharp.Point)
+    name: MouseDown
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_MouseDown_SDL_Sharp_Point_SDL_Sharp_Point_
+  - name: (
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: )
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseDown*
+  commentId: Overload:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseDown
+  href: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.html#Game_Client_Window_UI_Components_Common_HorizontalScrollbar_MouseDown_SDL_Sharp_Point_SDL_Sharp_Point_
+  name: MouseDown
+  nameWithType: HorizontalScrollbar.MouseDown
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseDown
+- uid: Game.Client.Window.UI.GUIComponent.MouseUp(SDL_Sharp.Point,SDL_Sharp.Point)
+  commentId: M:Game.Client.Window.UI.GUIComponent.MouseUp(SDL_Sharp.Point,SDL_Sharp.Point)
+  parent: Game.Client.Window.UI.GUIComponent
+  isExternal: true
+  href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_MouseUp_SDL_Sharp_Point_SDL_Sharp_Point_
+  name: MouseUp(Point, Point)
+  nameWithType: GUIComponent.MouseUp(Point, Point)
+  fullName: Game.Client.Window.UI.GUIComponent.MouseUp(SDL_Sharp.Point, SDL_Sharp.Point)
+  spec.csharp:
+  - uid: Game.Client.Window.UI.GUIComponent.MouseUp(SDL_Sharp.Point,SDL_Sharp.Point)
+    name: MouseUp
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_MouseUp_SDL_Sharp_Point_SDL_Sharp_Point_
+  - name: (
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.UI.GUIComponent.MouseUp(SDL_Sharp.Point,SDL_Sharp.Point)
+    name: MouseUp
+    href: Game.Client.Window.UI.GUIComponent.html#Game_Client_Window_UI_GUIComponent_MouseUp_SDL_Sharp_Point_SDL_Sharp_Point_
+  - name: (
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SDL_Sharp.Point
+    name: Point
+    isExternal: true
+  - name: )
+- uid: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseUp*
+  commentId: Overload:Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseUp
+  href: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.html#Game_Client_Window_UI_Components_Common_HorizontalScrollbar_MouseUp_SDL_Sharp_Point_SDL_Sharp_Point_
+  name: MouseUp
+  nameWithType: HorizontalScrollbar.MouseUp
+  fullName: Game.Client.Window.UI.Components.Common.HorizontalScrollbar.MouseUp

@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.OperatingSites
+  commentId: N:Game.Common.Logic.OperatingSites
+  id: Game.Common.Logic.OperatingSites
+  children:
+  - Game.Common.Logic.OperatingSites.ConnectionPoint
+  - Game.Common.Logic.OperatingSites.CoverPoint
+  - Game.Common.Logic.OperatingSites.Junction
+  - Game.Common.Logic.OperatingSites.LevelCrossing
+  - Game.Common.Logic.OperatingSites.Station
+  - Game.Common.Logic.OperatingSites.Stop
+  - Game.Common.Logic.OperatingSites.TransferPoint
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Logic.OperatingSites
+  nameWithType: Game.Common.Logic.OperatingSites
+  fullName: Game.Common.Logic.OperatingSites
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Logic.OperatingSites.ConnectionPoint
+  commentId: T:Game.Common.Logic.OperatingSites.ConnectionPoint
+  href: Game.Common.Logic.OperatingSites.ConnectionPoint.html
+  name: ConnectionPoint
+  nameWithType: ConnectionPoint
+  fullName: Game.Common.Logic.OperatingSites.ConnectionPoint
+- uid: Game.Common.Logic.OperatingSites.CoverPoint
+  commentId: T:Game.Common.Logic.OperatingSites.CoverPoint
+  href: Game.Common.Logic.OperatingSites.CoverPoint.html
+  name: CoverPoint
+  nameWithType: CoverPoint
+  fullName: Game.Common.Logic.OperatingSites.CoverPoint
+- uid: Game.Common.Logic.OperatingSites.Junction
+  commentId: T:Game.Common.Logic.OperatingSites.Junction
+  href: Game.Common.Logic.OperatingSites.Junction.html
+  name: Junction
+  nameWithType: Junction
+  fullName: Game.Common.Logic.OperatingSites.Junction
+- uid: Game.Common.Logic.OperatingSites.LevelCrossing
+  commentId: T:Game.Common.Logic.OperatingSites.LevelCrossing
+  href: Game.Common.Logic.OperatingSites.LevelCrossing.html
+  name: LevelCrossing
+  nameWithType: LevelCrossing
+  fullName: Game.Common.Logic.OperatingSites.LevelCrossing
+- uid: Game.Common.Logic.OperatingSites.Station
+  commentId: T:Game.Common.Logic.OperatingSites.Station
+  href: Game.Common.Logic.OperatingSites.Station.html
+  name: Station
+  nameWithType: Station
+  fullName: Game.Common.Logic.OperatingSites.Station
+- uid: Game.Common.Logic.OperatingSites.Stop
+  commentId: T:Game.Common.Logic.OperatingSites.Stop
+  href: Game.Common.Logic.OperatingSites.Stop.html
+  name: Stop
+  nameWithType: Stop
+  fullName: Game.Common.Logic.OperatingSites.Stop
+- uid: Game.Common.Logic.OperatingSites.TransferPoint
+  commentId: T:Game.Common.Logic.OperatingSites.TransferPoint
+  href: Game.Common.Logic.OperatingSites.TransferPoint.html
+  name: TransferPoint
+  nameWithType: TransferPoint
+  fullName: Game.Common.Logic.OperatingSites.TransferPoint

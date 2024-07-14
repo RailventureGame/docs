@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.RailVehicles
+  commentId: N:Game.Common.Logic.RailVehicles
+  id: Game.Common.Logic.RailVehicles
+  children:
+  - Game.Common.Logic.RailVehicles.RailVehicle
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Logic.RailVehicles
+  nameWithType: Game.Common.Logic.RailVehicles
+  fullName: Game.Common.Logic.RailVehicles
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Logic.RailVehicles.RailVehicle
+  commentId: T:Game.Common.Logic.RailVehicles.RailVehicle
+  href: Game.Common.Logic.RailVehicles.RailVehicle.html
+  name: RailVehicle
+  nameWithType: RailVehicle
+  fullName: Game.Common.Logic.RailVehicles.RailVehicle

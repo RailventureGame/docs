@@ -1,0 +1,701 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Resources.Identifier
+  commentId: T:Game.Client.Resources.Identifier
+  id: Identifier
+  parent: Game.Client.Resources
+  children:
+  - Game.Client.Resources.Identifier.#ctor(System.String,System.String)
+  - Game.Client.Resources.Identifier.#ctor(System.String,System.String,System.String)
+  - Game.Client.Resources.Identifier.DefaultNamespace
+  - Game.Client.Resources.Identifier.Exists
+  - Game.Client.Resources.Identifier.Extension
+  - Game.Client.Resources.Identifier.Namespace
+  - Game.Client.Resources.Identifier.Path
+  - Game.Client.Resources.Identifier.ToPath
+  - Game.Client.Resources.Identifier.ToString
+  langs:
+  - csharp
+  - vb
+  name: Identifier
+  nameWithType: Identifier
+  fullName: Game.Client.Resources.Identifier
+  type: Class
+  source:
+    remote:
+      path: Client/Resources/Identifier.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Identifier
+    path: ../Game/Client/Resources/Identifier.cs
+    startLine: 5
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Resource Identifiers -- Used to describe the location of game assets like textures, sounds and other assets.
+  example: []
+  syntax:
+    content: public class Identifier
+    content.vb: Public Class Identifier
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Game.Client.Resources.Identifier.DefaultNamespace
+  commentId: F:Game.Client.Resources.Identifier.DefaultNamespace
+  id: DefaultNamespace
+  parent: Game.Client.Resources.Identifier
+  langs:
+  - csharp
+  - vb
+  name: DefaultNamespace
+  nameWithType: Identifier.DefaultNamespace
+  fullName: Game.Client.Resources.Identifier.DefaultNamespace
+  type: Field
+  source:
+    remote:
+      path: Client/Resources/Identifier.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: DefaultNamespace
+    path: ../Game/Client/Resources/Identifier.cs
+    startLine: 11
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: >-
+    Default namespace used when no namespace is supplied.
+
+    <br />Also used for the game's default content.
+  example: []
+  syntax:
+    content: public const string DefaultNamespace = "Railventure"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultNamespace As String = "Railventure"
+- uid: Game.Client.Resources.Identifier.Namespace
+  commentId: P:Game.Client.Resources.Identifier.Namespace
+  id: Namespace
+  parent: Game.Client.Resources.Identifier
+  langs:
+  - csharp
+  - vb
+  name: Namespace
+  nameWithType: Identifier.Namespace
+  fullName: Game.Client.Resources.Identifier.Namespace
+  type: Property
+  source:
+    remote:
+      path: Client/Resources/Identifier.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Namespace
+    path: ../Game/Client/Resources/Identifier.cs
+    startLine: 16
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: The Namespace in which this resource lives.
+  example: []
+  syntax:
+    content: public string Namespace { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property [Namespace] As String
+  overload: Game.Client.Resources.Identifier.Namespace*
+- uid: Game.Client.Resources.Identifier.Path
+  commentId: P:Game.Client.Resources.Identifier.Path
+  id: Path
+  parent: Game.Client.Resources.Identifier
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: Identifier.Path
+  fullName: Game.Client.Resources.Identifier.Path
+  type: Property
+  source:
+    remote:
+      path: Client/Resources/Identifier.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Path
+    path: ../Game/Client/Resources/Identifier.cs
+    startLine: 21
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: The path of the resource inside the namespace.
+  example: []
+  syntax:
+    content: public string Path { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Path As String
+  overload: Game.Client.Resources.Identifier.Path*
+- uid: Game.Client.Resources.Identifier.Extension
+  commentId: P:Game.Client.Resources.Identifier.Extension
+  id: Extension
+  parent: Game.Client.Resources.Identifier
+  langs:
+  - csharp
+  - vb
+  name: Extension
+  nameWithType: Identifier.Extension
+  fullName: Game.Client.Resources.Identifier.Extension
+  type: Property
+  source:
+    remote:
+      path: Client/Resources/Identifier.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Extension
+    path: ../Game/Client/Resources/Identifier.cs
+    startLine: 26
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: The resource file's extension
+  example: []
+  syntax:
+    content: public string Extension { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Extension As String
+  overload: Game.Client.Resources.Identifier.Extension*
+- uid: Game.Client.Resources.Identifier.#ctor(System.String,System.String,System.String)
+  commentId: M:Game.Client.Resources.Identifier.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: Game.Client.Resources.Identifier
+  langs:
+  - csharp
+  - vb
+  name: Identifier(string?, string, string)
+  nameWithType: Identifier.Identifier(string?, string, string)
+  fullName: Game.Client.Resources.Identifier.Identifier(string?, string, string)
+  type: Constructor
+  source:
+    remote:
+      path: Client/Resources/Identifier.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Client/Resources/Identifier.cs
+    startLine: 34
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Create an resource identifier.
+  example: []
+  syntax:
+    content: public Identifier(string? @namespace, string path, string ext)
+    parameters:
+    - id: namespace
+      type: System.String
+      description: The Namespace in which this file lives
+    - id: path
+      type: System.String
+      description: The path to the referenced file
+    - id: ext
+      type: System.String
+      description: The extension of the referenced file
+    content.vb: Public Sub New([namespace] As String, path As String, ext As String)
+  overload: Game.Client.Resources.Identifier.#ctor*
+  nameWithType.vb: Identifier.New(String, String, String)
+  fullName.vb: Game.Client.Resources.Identifier.New(String, String, String)
+  name.vb: New(String, String, String)
+- uid: Game.Client.Resources.Identifier.#ctor(System.String,System.String)
+  commentId: M:Game.Client.Resources.Identifier.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: Game.Client.Resources.Identifier
+  langs:
+  - csharp
+  - vb
+  name: Identifier(string, string)
+  nameWithType: Identifier.Identifier(string, string)
+  fullName: Game.Client.Resources.Identifier.Identifier(string, string)
+  type: Constructor
+  source:
+    remote:
+      path: Client/Resources/Identifier.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Client/Resources/Identifier.cs
+    startLine: 49
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Create an resource identifier.
+  example: []
+  syntax:
+    content: public Identifier(string path, string ext)
+    parameters:
+    - id: path
+      type: System.String
+      description: >-
+        Accepted formats:
+            <br /> - "namespace::path.to.resource"
+            <br /> - "path.to.resource" (defaults to <xref href="Game.Client.Resources.Identifier.DefaultNamespace" data-throw-if-not-resolved="false"></xref>)
+    - id: ext
+      type: System.String
+      description: The file's extension
+    content.vb: Public Sub New(path As String, ext As String)
+  overload: Game.Client.Resources.Identifier.#ctor*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: Input string has too many namespace seperators. ('::')
+  nameWithType.vb: Identifier.New(String, String)
+  fullName.vb: Game.Client.Resources.Identifier.New(String, String)
+  name.vb: New(String, String)
+- uid: Game.Client.Resources.Identifier.ToString
+  commentId: M:Game.Client.Resources.Identifier.ToString
+  id: ToString
+  parent: Game.Client.Resources.Identifier
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Identifier.ToString()
+  fullName: Game.Client.Resources.Identifier.ToString()
+  type: Method
+  source:
+    remote:
+      path: Client/Resources/Identifier.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ToString
+    path: ../Game/Client/Resources/Identifier.cs
+    startLine: 76
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Convert identifier to a string
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: 'A string of this identifier in following format: namespace::path.to.resource'
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Game.Client.Resources.Identifier.ToString*
+- uid: Game.Client.Resources.Identifier.ToPath
+  commentId: M:Game.Client.Resources.Identifier.ToPath
+  id: ToPath
+  parent: Game.Client.Resources.Identifier
+  langs:
+  - csharp
+  - vb
+  name: ToPath()
+  nameWithType: Identifier.ToPath()
+  fullName: Game.Client.Resources.Identifier.ToPath()
+  type: Method
+  source:
+    remote:
+      path: Client/Resources/Identifier.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ToPath
+    path: ../Game/Client/Resources/Identifier.cs
+    startLine: 85
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Converts the identifier to a relative path.
+  example: []
+  syntax:
+    content: public string ToPath()
+    return:
+      type: System.String
+      description: A relative path in form of a string
+    content.vb: Public Function ToPath() As String
+  overload: Game.Client.Resources.Identifier.ToPath*
+- uid: Game.Client.Resources.Identifier.Exists
+  commentId: M:Game.Client.Resources.Identifier.Exists
+  id: Exists
+  parent: Game.Client.Resources.Identifier
+  langs:
+  - csharp
+  - vb
+  name: Exists()
+  nameWithType: Identifier.Exists()
+  fullName: Game.Client.Resources.Identifier.Exists()
+  type: Method
+  source:
+    remote:
+      path: Client/Resources/Identifier.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Exists
+    path: ../Game/Client/Resources/Identifier.cs
+    startLine: 94
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Resources
+  summary: Does this file exist yet?
+  example: []
+  syntax:
+    content: public bool Exists()
+    return:
+      type: System.Boolean
+      description: true if this file exists already, otherwise false
+    content.vb: Public Function Exists() As Boolean
+  overload: Game.Client.Resources.Identifier.Exists*
+references:
+- uid: Game.Client.Resources
+  commentId: N:Game.Client.Resources
+  href: Game.html
+  name: Game.Client.Resources
+  nameWithType: Game.Client.Resources
+  fullName: Game.Client.Resources
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Resources
+    name: Resources
+    href: Game.Client.Resources.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Resources
+    name: Resources
+    href: Game.Client.Resources.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Game.Client.Resources.Identifier.Namespace*
+  commentId: Overload:Game.Client.Resources.Identifier.Namespace
+  href: Game.Client.Resources.Identifier.html#Game_Client_Resources_Identifier_Namespace
+  name: Namespace
+  nameWithType: Identifier.Namespace
+  fullName: Game.Client.Resources.Identifier.Namespace
+- uid: Game.Client.Resources.Identifier.Path*
+  commentId: Overload:Game.Client.Resources.Identifier.Path
+  href: Game.Client.Resources.Identifier.html#Game_Client_Resources_Identifier_Path
+  name: Path
+  nameWithType: Identifier.Path
+  fullName: Game.Client.Resources.Identifier.Path
+- uid: Game.Client.Resources.Identifier.Extension*
+  commentId: Overload:Game.Client.Resources.Identifier.Extension
+  href: Game.Client.Resources.Identifier.html#Game_Client_Resources_Identifier_Extension
+  name: Extension
+  nameWithType: Identifier.Extension
+  fullName: Game.Client.Resources.Identifier.Extension
+- uid: Game.Client.Resources.Identifier.#ctor*
+  commentId: Overload:Game.Client.Resources.Identifier.#ctor
+  href: Game.Client.Resources.Identifier.html#Game_Client_Resources_Identifier__ctor_System_String_System_String_System_String_
+  name: Identifier
+  nameWithType: Identifier.Identifier
+  fullName: Game.Client.Resources.Identifier.Identifier
+  nameWithType.vb: Identifier.New
+  fullName.vb: Game.Client.Resources.Identifier.New
+  name.vb: New
+- uid: Game.Client.Resources.Identifier.DefaultNamespace
+  commentId: F:Game.Client.Resources.Identifier.DefaultNamespace
+  href: Game.Client.Resources.Identifier.html#Game_Client_Resources_Identifier_DefaultNamespace
+  name: DefaultNamespace
+  nameWithType: Identifier.DefaultNamespace
+  fullName: Game.Client.Resources.Identifier.DefaultNamespace
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Game.Client.Resources.Identifier.ToString*
+  commentId: Overload:Game.Client.Resources.Identifier.ToString
+  href: Game.Client.Resources.Identifier.html#Game_Client_Resources_Identifier_ToString
+  name: ToString
+  nameWithType: Identifier.ToString
+  fullName: Game.Client.Resources.Identifier.ToString
+- uid: Game.Client.Resources.Identifier.ToPath*
+  commentId: Overload:Game.Client.Resources.Identifier.ToPath
+  href: Game.Client.Resources.Identifier.html#Game_Client_Resources_Identifier_ToPath
+  name: ToPath
+  nameWithType: Identifier.ToPath
+  fullName: Game.Client.Resources.Identifier.ToPath
+- uid: Game.Client.Resources.Identifier.Exists*
+  commentId: Overload:Game.Client.Resources.Identifier.Exists
+  href: Game.Client.Resources.Identifier.html#Game_Client_Resources_Identifier_Exists
+  name: Exists
+  nameWithType: Identifier.Exists
+  fullName: Game.Client.Resources.Identifier.Exists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

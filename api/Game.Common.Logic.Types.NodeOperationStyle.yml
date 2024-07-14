@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.Types.NodeOperationStyle
+  commentId: T:Game.Common.Logic.Types.NodeOperationStyle
+  id: NodeOperationStyle
+  parent: Game.Common.Logic.Types
+  children:
+  - Game.Common.Logic.Types.NodeOperationStyle.DIGITAL_SIGNALBOX
+  - Game.Common.Logic.Types.NodeOperationStyle.ELECTROMECHANICAL_SIGNALBOX
+  - Game.Common.Logic.Types.NodeOperationStyle.ELECTRONIC_SIGNALBOX
+  - Game.Common.Logic.Types.NodeOperationStyle.MECHANICAL_SIGNALBOX
+  - Game.Common.Logic.Types.NodeOperationStyle.RELAY_SIGNALBOX
+  langs:
+  - csharp
+  - vb
+  name: NodeOperationStyle
+  nameWithType: NodeOperationStyle
+  fullName: Game.Common.Logic.Types.NodeOperationStyle
+  type: Enum
+  source:
+    remote:
+      path: Common/Logic/Types/NodeOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: NodeOperationStyle
+    path: ../Game/Common/Logic/Types/NodeOperationStyle.cs
+    startLine: 2
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: public enum NodeOperationStyle
+    content.vb: Public Enum NodeOperationStyle
+- uid: Game.Common.Logic.Types.NodeOperationStyle.MECHANICAL_SIGNALBOX
+  commentId: F:Game.Common.Logic.Types.NodeOperationStyle.MECHANICAL_SIGNALBOX
+  id: MECHANICAL_SIGNALBOX
+  parent: Game.Common.Logic.Types.NodeOperationStyle
+  langs:
+  - csharp
+  - vb
+  name: MECHANICAL_SIGNALBOX
+  nameWithType: NodeOperationStyle.MECHANICAL_SIGNALBOX
+  fullName: Game.Common.Logic.Types.NodeOperationStyle.MECHANICAL_SIGNALBOX
+  type: Field
+  source:
+    remote:
+      path: Common/Logic/Types/NodeOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: MECHANICAL_SIGNALBOX
+    path: ../Game/Common/Logic/Types/NodeOperationStyle.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: MECHANICAL_SIGNALBOX = 0
+    return:
+      type: Game.Common.Logic.Types.NodeOperationStyle
+- uid: Game.Common.Logic.Types.NodeOperationStyle.ELECTROMECHANICAL_SIGNALBOX
+  commentId: F:Game.Common.Logic.Types.NodeOperationStyle.ELECTROMECHANICAL_SIGNALBOX
+  id: ELECTROMECHANICAL_SIGNALBOX
+  parent: Game.Common.Logic.Types.NodeOperationStyle
+  langs:
+  - csharp
+  - vb
+  name: ELECTROMECHANICAL_SIGNALBOX
+  nameWithType: NodeOperationStyle.ELECTROMECHANICAL_SIGNALBOX
+  fullName: Game.Common.Logic.Types.NodeOperationStyle.ELECTROMECHANICAL_SIGNALBOX
+  type: Field
+  source:
+    remote:
+      path: Common/Logic/Types/NodeOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ELECTROMECHANICAL_SIGNALBOX
+    path: ../Game/Common/Logic/Types/NodeOperationStyle.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: ELECTROMECHANICAL_SIGNALBOX = 1
+    return:
+      type: Game.Common.Logic.Types.NodeOperationStyle
+- uid: Game.Common.Logic.Types.NodeOperationStyle.RELAY_SIGNALBOX
+  commentId: F:Game.Common.Logic.Types.NodeOperationStyle.RELAY_SIGNALBOX
+  id: RELAY_SIGNALBOX
+  parent: Game.Common.Logic.Types.NodeOperationStyle
+  langs:
+  - csharp
+  - vb
+  name: RELAY_SIGNALBOX
+  nameWithType: NodeOperationStyle.RELAY_SIGNALBOX
+  fullName: Game.Common.Logic.Types.NodeOperationStyle.RELAY_SIGNALBOX
+  type: Field
+  source:
+    remote:
+      path: Common/Logic/Types/NodeOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: RELAY_SIGNALBOX
+    path: ../Game/Common/Logic/Types/NodeOperationStyle.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: RELAY_SIGNALBOX = 2
+    return:
+      type: Game.Common.Logic.Types.NodeOperationStyle
+- uid: Game.Common.Logic.Types.NodeOperationStyle.ELECTRONIC_SIGNALBOX
+  commentId: F:Game.Common.Logic.Types.NodeOperationStyle.ELECTRONIC_SIGNALBOX
+  id: ELECTRONIC_SIGNALBOX
+  parent: Game.Common.Logic.Types.NodeOperationStyle
+  langs:
+  - csharp
+  - vb
+  name: ELECTRONIC_SIGNALBOX
+  nameWithType: NodeOperationStyle.ELECTRONIC_SIGNALBOX
+  fullName: Game.Common.Logic.Types.NodeOperationStyle.ELECTRONIC_SIGNALBOX
+  type: Field
+  source:
+    remote:
+      path: Common/Logic/Types/NodeOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ELECTRONIC_SIGNALBOX
+    path: ../Game/Common/Logic/Types/NodeOperationStyle.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: ELECTRONIC_SIGNALBOX = 3
+    return:
+      type: Game.Common.Logic.Types.NodeOperationStyle
+- uid: Game.Common.Logic.Types.NodeOperationStyle.DIGITAL_SIGNALBOX
+  commentId: F:Game.Common.Logic.Types.NodeOperationStyle.DIGITAL_SIGNALBOX
+  id: DIGITAL_SIGNALBOX
+  parent: Game.Common.Logic.Types.NodeOperationStyle
+  langs:
+  - csharp
+  - vb
+  name: DIGITAL_SIGNALBOX
+  nameWithType: NodeOperationStyle.DIGITAL_SIGNALBOX
+  fullName: Game.Common.Logic.Types.NodeOperationStyle.DIGITAL_SIGNALBOX
+  type: Field
+  source:
+    remote:
+      path: Common/Logic/Types/NodeOperationStyle.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: DIGITAL_SIGNALBOX
+    path: ../Game/Common/Logic/Types/NodeOperationStyle.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.Types
+  syntax:
+    content: DIGITAL_SIGNALBOX = 4
+    return:
+      type: Game.Common.Logic.Types.NodeOperationStyle
+references:
+- uid: Game.Common.Logic.Types
+  commentId: N:Game.Common.Logic.Types
+  href: Game.html
+  name: Game.Common.Logic.Types
+  nameWithType: Game.Common.Logic.Types
+  fullName: Game.Common.Logic.Types
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+- uid: Game.Common.Logic.Types.NodeOperationStyle
+  commentId: T:Game.Common.Logic.Types.NodeOperationStyle
+  parent: Game.Common.Logic.Types
+  href: Game.Common.Logic.Types.NodeOperationStyle.html
+  name: NodeOperationStyle
+  nameWithType: NodeOperationStyle
+  fullName: Game.Common.Logic.Types.NodeOperationStyle

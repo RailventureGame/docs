@@ -1,0 +1,464 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Geometry.IGeometryComponent
+  commentId: T:Game.Common.Geometry.IGeometryComponent
+  id: IGeometryComponent
+  parent: Game.Common.Geometry
+  children:
+  - Game.Common.Geometry.IGeometryComponent.BoundingBox
+  - Game.Common.Geometry.IGeometryComponent.Edges
+  - Game.Common.Geometry.IGeometryComponent.Height
+  - Game.Common.Geometry.IGeometryComponent.Rotation
+  - Game.Common.Geometry.IGeometryComponent.Width
+  - Game.Common.Geometry.IGeometryComponent.X
+  - Game.Common.Geometry.IGeometryComponent.Y
+  langs:
+  - csharp
+  - vb
+  name: IGeometryComponent
+  nameWithType: IGeometryComponent
+  fullName: Game.Common.Geometry.IGeometryComponent
+  type: Interface
+  source:
+    remote:
+      path: Common/Geometry/IGeometryComponent.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: IGeometryComponent
+    path: ../Game/Common/Geometry/IGeometryComponent.cs
+    startLine: 4
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Geometry
+  syntax:
+    content: public interface IGeometryComponent
+    content.vb: Public Interface IGeometryComponent
+- uid: Game.Common.Geometry.IGeometryComponent.X
+  commentId: P:Game.Common.Geometry.IGeometryComponent.X
+  id: X
+  parent: Game.Common.Geometry.IGeometryComponent
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: IGeometryComponent.X
+  fullName: Game.Common.Geometry.IGeometryComponent.X
+  type: Property
+  source:
+    remote:
+      path: Common/Geometry/IGeometryComponent.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: X
+    path: ../Game/Common/Geometry/IGeometryComponent.cs
+    startLine: 6
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Geometry
+  syntax:
+    content: double X { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property X As Double
+  overload: Game.Common.Geometry.IGeometryComponent.X*
+- uid: Game.Common.Geometry.IGeometryComponent.Y
+  commentId: P:Game.Common.Geometry.IGeometryComponent.Y
+  id: Y
+  parent: Game.Common.Geometry.IGeometryComponent
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: IGeometryComponent.Y
+  fullName: Game.Common.Geometry.IGeometryComponent.Y
+  type: Property
+  source:
+    remote:
+      path: Common/Geometry/IGeometryComponent.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Y
+    path: ../Game/Common/Geometry/IGeometryComponent.cs
+    startLine: 7
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Geometry
+  syntax:
+    content: double Y { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property Y As Double
+  overload: Game.Common.Geometry.IGeometryComponent.Y*
+- uid: Game.Common.Geometry.IGeometryComponent.Rotation
+  commentId: P:Game.Common.Geometry.IGeometryComponent.Rotation
+  id: Rotation
+  parent: Game.Common.Geometry.IGeometryComponent
+  langs:
+  - csharp
+  - vb
+  name: Rotation
+  nameWithType: IGeometryComponent.Rotation
+  fullName: Game.Common.Geometry.IGeometryComponent.Rotation
+  type: Property
+  source:
+    remote:
+      path: Common/Geometry/IGeometryComponent.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Rotation
+    path: ../Game/Common/Geometry/IGeometryComponent.cs
+    startLine: 8
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Geometry
+  syntax:
+    content: double Rotation { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property Rotation As Double
+  overload: Game.Common.Geometry.IGeometryComponent.Rotation*
+- uid: Game.Common.Geometry.IGeometryComponent.Width
+  commentId: P:Game.Common.Geometry.IGeometryComponent.Width
+  id: Width
+  parent: Game.Common.Geometry.IGeometryComponent
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: IGeometryComponent.Width
+  fullName: Game.Common.Geometry.IGeometryComponent.Width
+  type: Property
+  source:
+    remote:
+      path: Common/Geometry/IGeometryComponent.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Width
+    path: ../Game/Common/Geometry/IGeometryComponent.cs
+    startLine: 9
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Geometry
+  syntax:
+    content: double Width { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property Width As Double
+  overload: Game.Common.Geometry.IGeometryComponent.Width*
+- uid: Game.Common.Geometry.IGeometryComponent.Height
+  commentId: P:Game.Common.Geometry.IGeometryComponent.Height
+  id: Height
+  parent: Game.Common.Geometry.IGeometryComponent
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: IGeometryComponent.Height
+  fullName: Game.Common.Geometry.IGeometryComponent.Height
+  type: Property
+  source:
+    remote:
+      path: Common/Geometry/IGeometryComponent.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Height
+    path: ../Game/Common/Geometry/IGeometryComponent.cs
+    startLine: 10
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Geometry
+  syntax:
+    content: double Height { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property Height As Double
+  overload: Game.Common.Geometry.IGeometryComponent.Height*
+- uid: Game.Common.Geometry.IGeometryComponent.BoundingBox
+  commentId: P:Game.Common.Geometry.IGeometryComponent.BoundingBox
+  id: BoundingBox
+  parent: Game.Common.Geometry.IGeometryComponent
+  langs:
+  - csharp
+  - vb
+  name: BoundingBox
+  nameWithType: IGeometryComponent.BoundingBox
+  fullName: Game.Common.Geometry.IGeometryComponent.BoundingBox
+  type: Property
+  source:
+    remote:
+      path: Common/Geometry/IGeometryComponent.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: BoundingBox
+    path: ../Game/Common/Geometry/IGeometryComponent.cs
+    startLine: 12
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Geometry
+  syntax:
+    content: Rectangle BoundingBox { get; }
+    parameters: []
+    return:
+      type: Game.Common.Generics.Rectangle
+    content.vb: ReadOnly Property BoundingBox As Rectangle
+  overload: Game.Common.Geometry.IGeometryComponent.BoundingBox*
+- uid: Game.Common.Geometry.IGeometryComponent.Edges
+  commentId: P:Game.Common.Geometry.IGeometryComponent.Edges
+  id: Edges
+  parent: Game.Common.Geometry.IGeometryComponent
+  langs:
+  - csharp
+  - vb
+  name: Edges
+  nameWithType: IGeometryComponent.Edges
+  fullName: Game.Common.Geometry.IGeometryComponent.Edges
+  type: Property
+  source:
+    remote:
+      path: Common/Geometry/IGeometryComponent.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Edges
+    path: ../Game/Common/Geometry/IGeometryComponent.cs
+    startLine: 30
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Geometry
+  syntax:
+    content: List<Position> Edges { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Game.Common.Generics.Position}
+    content.vb: ReadOnly Property Edges As List(Of Position)
+  overload: Game.Common.Geometry.IGeometryComponent.Edges*
+references:
+- uid: Game.Common.Geometry
+  commentId: N:Game.Common.Geometry
+  href: Game.html
+  name: Game.Common.Geometry
+  nameWithType: Game.Common.Geometry
+  fullName: Game.Common.Geometry
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Geometry
+    name: Geometry
+    href: Game.Common.Geometry.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Geometry
+    name: Geometry
+    href: Game.Common.Geometry.html
+- uid: Game.Common.Geometry.IGeometryComponent.X*
+  commentId: Overload:Game.Common.Geometry.IGeometryComponent.X
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_X
+  name: X
+  nameWithType: IGeometryComponent.X
+  fullName: Game.Common.Geometry.IGeometryComponent.X
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Common.Geometry.IGeometryComponent.Y*
+  commentId: Overload:Game.Common.Geometry.IGeometryComponent.Y
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_Y
+  name: Y
+  nameWithType: IGeometryComponent.Y
+  fullName: Game.Common.Geometry.IGeometryComponent.Y
+- uid: Game.Common.Geometry.IGeometryComponent.Rotation*
+  commentId: Overload:Game.Common.Geometry.IGeometryComponent.Rotation
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_Rotation
+  name: Rotation
+  nameWithType: IGeometryComponent.Rotation
+  fullName: Game.Common.Geometry.IGeometryComponent.Rotation
+- uid: Game.Common.Geometry.IGeometryComponent.Width*
+  commentId: Overload:Game.Common.Geometry.IGeometryComponent.Width
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_Width
+  name: Width
+  nameWithType: IGeometryComponent.Width
+  fullName: Game.Common.Geometry.IGeometryComponent.Width
+- uid: Game.Common.Geometry.IGeometryComponent.Height*
+  commentId: Overload:Game.Common.Geometry.IGeometryComponent.Height
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_Height
+  name: Height
+  nameWithType: IGeometryComponent.Height
+  fullName: Game.Common.Geometry.IGeometryComponent.Height
+- uid: Game.Common.Geometry.IGeometryComponent.BoundingBox*
+  commentId: Overload:Game.Common.Geometry.IGeometryComponent.BoundingBox
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_BoundingBox
+  name: BoundingBox
+  nameWithType: IGeometryComponent.BoundingBox
+  fullName: Game.Common.Geometry.IGeometryComponent.BoundingBox
+- uid: Game.Common.Generics.Rectangle
+  commentId: T:Game.Common.Generics.Rectangle
+  parent: Game.Common.Generics
+  href: Game.Common.Generics.Rectangle.html
+  name: Rectangle
+  nameWithType: Rectangle
+  fullName: Game.Common.Generics.Rectangle
+- uid: Game.Common.Generics
+  commentId: N:Game.Common.Generics
+  href: Game.html
+  name: Game.Common.Generics
+  nameWithType: Game.Common.Generics
+  fullName: Game.Common.Generics
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Generics
+    name: Generics
+    href: Game.Common.Generics.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Generics
+    name: Generics
+    href: Game.Common.Generics.html
+- uid: Game.Common.Geometry.IGeometryComponent.Edges*
+  commentId: Overload:Game.Common.Geometry.IGeometryComponent.Edges
+  href: Game.Common.Geometry.IGeometryComponent.html#Game_Common_Geometry_IGeometryComponent_Edges
+  name: Edges
+  nameWithType: IGeometryComponent.Edges
+  fullName: Game.Common.Geometry.IGeometryComponent.Edges
+- uid: System.Collections.Generic.List{Game.Common.Generics.Position}
+  commentId: T:System.Collections.Generic.List{Game.Common.Generics.Position}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Position>
+  nameWithType: List<Position>
+  fullName: System.Collections.Generic.List<Game.Common.Generics.Position>
+  nameWithType.vb: List(Of Position)
+  fullName.vb: System.Collections.Generic.List(Of Game.Common.Generics.Position)
+  name.vb: List(Of Position)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Game.Common.Generics.Position
+    name: Position
+    href: Game.Common.Generics.Position.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Game.Common.Generics.Position
+    name: Position
+    href: Game.Common.Generics.Position.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

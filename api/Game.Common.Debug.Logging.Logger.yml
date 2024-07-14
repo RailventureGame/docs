@@ -1,0 +1,861 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Debug.Logging.Logger
+  commentId: T:Game.Common.Debug.Logging.Logger
+  id: Logger
+  parent: Game.Common.Debug.Logging
+  children:
+  - Game.Common.Debug.Logging.Logger.#ctor(System.Object)
+  - Game.Common.Debug.Logging.Logger.#ctor(System.Type)
+  - Game.Common.Debug.Logging.Logger.Commands
+  - Game.Common.Debug.Logging.Logger.Error(System.String@)
+  - Game.Common.Debug.Logging.Logger.Finalize
+  - Game.Common.Debug.Logging.Logger.Info(System.String@)
+  - Game.Common.Debug.Logging.Logger.Log(System.String@,Game.Common.Debug.Logging.LoggingLevel)
+  - Game.Common.Debug.Logging.Logger.Success(System.String@)
+  - Game.Common.Debug.Logging.Logger.Warn(System.String@)
+  langs:
+  - csharp
+  - vb
+  name: Logger
+  nameWithType: Logger
+  fullName: Game.Common.Debug.Logging.Logger
+  type: Class
+  source:
+    remote:
+      path: Common/Debug/Logging/Logger.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Logger
+    path: ../Game/Common/Debug/Logging/Logger.cs
+    startLine: 15
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: >-
+    The class used for logging.
+
+    <br /><br /> -- Examples --
+
+    <br /><br />// per-instance logger
+
+    <br />private Logger _ = new (this);
+
+    <br /><br />// static class logger
+
+    <br />private static Logger _ = new (typeof(YourClassName));
+
+    <br /><br />// per-instance logger for abstract classes
+
+    <br />protected Logger _ = new (this);
+  example: []
+  syntax:
+    content: public class Logger
+    content.vb: Public Class Logger
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Common.Debug.Logging.Logger.Commands
+  commentId: F:Game.Common.Debug.Logging.Logger.Commands
+  id: Commands
+  parent: Game.Common.Debug.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Commands
+  nameWithType: Logger.Commands
+  fullName: Game.Common.Debug.Logging.Logger.Commands
+  type: Field
+  source:
+    remote:
+      path: Common/Debug/Logging/Logger.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Commands
+    path: ../Game/Common/Debug/Logging/Logger.cs
+    startLine: 23
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: Add commands here.
+  example: []
+  syntax:
+    content: public static readonly List<Command> Commands
+    return:
+      type: System.Collections.Generic.List{Game.Common.Debug.Command}
+    content.vb: Public Shared ReadOnly Commands As List(Of Command)
+- uid: Game.Common.Debug.Logging.Logger.#ctor(System.Object)
+  commentId: M:Game.Common.Debug.Logging.Logger.#ctor(System.Object)
+  id: '#ctor(System.Object)'
+  parent: Game.Common.Debug.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Logger(object)
+  nameWithType: Logger.Logger(object)
+  fullName: Game.Common.Debug.Logging.Logger.Logger(object)
+  type: Constructor
+  source:
+    remote:
+      path: Common/Debug/Logging/Logger.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Common/Debug/Logging/Logger.cs
+    startLine: 70
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: Per-instance logger
+  example: []
+  syntax:
+    content: public Logger(object parent)
+    parameters:
+    - id: parent
+      type: System.Object
+      description: e.g. this
+    content.vb: Public Sub New(parent As Object)
+  overload: Game.Common.Debug.Logging.Logger.#ctor*
+  nameWithType.vb: Logger.New(Object)
+  fullName.vb: Game.Common.Debug.Logging.Logger.New(Object)
+  name.vb: New(Object)
+- uid: Game.Common.Debug.Logging.Logger.#ctor(System.Type)
+  commentId: M:Game.Common.Debug.Logging.Logger.#ctor(System.Type)
+  id: '#ctor(System.Type)'
+  parent: Game.Common.Debug.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Logger(Type)
+  nameWithType: Logger.Logger(Type)
+  fullName: Game.Common.Debug.Logging.Logger.Logger(System.Type)
+  type: Constructor
+  source:
+    remote:
+      path: Common/Debug/Logging/Logger.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Common/Debug/Logging/Logger.cs
+    startLine: 78
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: Static logger
+  example: []
+  syntax:
+    content: public Logger(Type parent)
+    parameters:
+    - id: parent
+      type: System.Type
+      description: e.g. typeof(YourClassName)
+    content.vb: Public Sub New(parent As Type)
+  overload: Game.Common.Debug.Logging.Logger.#ctor*
+  nameWithType.vb: Logger.New(Type)
+  fullName.vb: Game.Common.Debug.Logging.Logger.New(System.Type)
+  name.vb: New(Type)
+- uid: Game.Common.Debug.Logging.Logger.Warn(System.String@)
+  commentId: M:Game.Common.Debug.Logging.Logger.Warn(System.String@)
+  id: Warn(System.String@)
+  parent: Game.Common.Debug.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Warn(in string)
+  nameWithType: Logger.Warn(in string)
+  fullName: Game.Common.Debug.Logging.Logger.Warn(in string)
+  type: Method
+  source:
+    remote:
+      path: Common/Debug/Logging/Logger.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Warn
+    path: ../Game/Common/Debug/Logging/Logger.cs
+    startLine: 89
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: >-
+    Creates a log entry for a warning
+
+    <br /> ...see also <xref href="Game.Common.Debug.Logging.LoggingLevel.Warning" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public void Warn(in string msg)
+    parameters:
+    - id: msg
+      type: System.String
+      description: The message
+    content.vb: Public Sub Warn(msg As String)
+  overload: Game.Common.Debug.Logging.Logger.Warn*
+  nameWithType.vb: Logger.Warn(String)
+  fullName.vb: Game.Common.Debug.Logging.Logger.Warn(String)
+  name.vb: Warn(String)
+- uid: Game.Common.Debug.Logging.Logger.Error(System.String@)
+  commentId: M:Game.Common.Debug.Logging.Logger.Error(System.String@)
+  id: Error(System.String@)
+  parent: Game.Common.Debug.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Error(in string)
+  nameWithType: Logger.Error(in string)
+  fullName: Game.Common.Debug.Logging.Logger.Error(in string)
+  type: Method
+  source:
+    remote:
+      path: Common/Debug/Logging/Logger.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Error
+    path: ../Game/Common/Debug/Logging/Logger.cs
+    startLine: 99
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: >-
+    Creates a log entry for a error
+
+    <br /> ...see also <xref href="Game.Common.Debug.Logging.LoggingLevel.Error" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public void Error(in string msg)
+    parameters:
+    - id: msg
+      type: System.String
+      description: The message
+    content.vb: Public Sub [Error](msg As String)
+  overload: Game.Common.Debug.Logging.Logger.Error*
+  nameWithType.vb: Logger.Error(String)
+  fullName.vb: Game.Common.Debug.Logging.Logger.Error(String)
+  name.vb: Error(String)
+- uid: Game.Common.Debug.Logging.Logger.Success(System.String@)
+  commentId: M:Game.Common.Debug.Logging.Logger.Success(System.String@)
+  id: Success(System.String@)
+  parent: Game.Common.Debug.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Success(in string)
+  nameWithType: Logger.Success(in string)
+  fullName: Game.Common.Debug.Logging.Logger.Success(in string)
+  type: Method
+  source:
+    remote:
+      path: Common/Debug/Logging/Logger.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Success
+    path: ../Game/Common/Debug/Logging/Logger.cs
+    startLine: 109
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: >-
+    Creates a log entry for a successfully performed action
+
+    <br /> ...see also <xref href="Game.Common.Debug.Logging.LoggingLevel.Success" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public void Success(in string msg)
+    parameters:
+    - id: msg
+      type: System.String
+      description: The message
+    content.vb: Public Sub Success(msg As String)
+  overload: Game.Common.Debug.Logging.Logger.Success*
+  nameWithType.vb: Logger.Success(String)
+  fullName.vb: Game.Common.Debug.Logging.Logger.Success(String)
+  name.vb: Success(String)
+- uid: Game.Common.Debug.Logging.Logger.Info(System.String@)
+  commentId: M:Game.Common.Debug.Logging.Logger.Info(System.String@)
+  id: Info(System.String@)
+  parent: Game.Common.Debug.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Info(in string)
+  nameWithType: Logger.Info(in string)
+  fullName: Game.Common.Debug.Logging.Logger.Info(in string)
+  type: Method
+  source:
+    remote:
+      path: Common/Debug/Logging/Logger.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Info
+    path: ../Game/Common/Debug/Logging/Logger.cs
+    startLine: 119
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: >-
+    Creates a log entry for a info to the user
+
+    <br /> ...see also <xref href="Game.Common.Debug.Logging.LoggingLevel.Info" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public void Info(in string msg)
+    parameters:
+    - id: msg
+      type: System.String
+      description: The message
+    content.vb: Public Sub Info(msg As String)
+  overload: Game.Common.Debug.Logging.Logger.Info*
+  nameWithType.vb: Logger.Info(String)
+  fullName.vb: Game.Common.Debug.Logging.Logger.Info(String)
+  name.vb: Info(String)
+- uid: Game.Common.Debug.Logging.Logger.Log(System.String@,Game.Common.Debug.Logging.LoggingLevel)
+  commentId: M:Game.Common.Debug.Logging.Logger.Log(System.String@,Game.Common.Debug.Logging.LoggingLevel)
+  id: Log(System.String@,Game.Common.Debug.Logging.LoggingLevel)
+  parent: Game.Common.Debug.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: Log(in string, LoggingLevel)
+  nameWithType: Logger.Log(in string, LoggingLevel)
+  fullName: Game.Common.Debug.Logging.Logger.Log(in string, Game.Common.Debug.Logging.LoggingLevel)
+  type: Method
+  source:
+    remote:
+      path: Common/Debug/Logging/Logger.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Log
+    path: ../Game/Common/Debug/Logging/Logger.cs
+    startLine: 130
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: >-
+    Create a log entry
+
+    <br /> ...see also <xref href="Game.Common.Debug.Logging.LoggingLevel" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public void Log(in string msg, LoggingLevel level = LoggingLevel.Debug)
+    parameters:
+    - id: msg
+      type: System.String
+      description: The message
+    - id: level
+      type: Game.Common.Debug.Logging.LoggingLevel
+      description: The logging level
+    content.vb: Public Sub Log(msg As String, level As LoggingLevel = LoggingLevel.Debug)
+  overload: Game.Common.Debug.Logging.Logger.Log*
+  nameWithType.vb: Logger.Log(String, LoggingLevel)
+  fullName.vb: Game.Common.Debug.Logging.Logger.Log(String, Game.Common.Debug.Logging.LoggingLevel)
+  name.vb: Log(String, LoggingLevel)
+- uid: Game.Common.Debug.Logging.Logger.Finalize
+  commentId: M:Game.Common.Debug.Logging.Logger.Finalize
+  id: Finalize
+  parent: Game.Common.Debug.Logging.Logger
+  langs:
+  - csharp
+  - vb
+  name: ~Logger()
+  nameWithType: Logger.~Logger()
+  fullName: Game.Common.Debug.Logging.Logger.~Logger()
+  type: Method
+  source:
+    remote:
+      path: Common/Debug/Logging/Logger.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Finalize
+    path: ../Game/Common/Debug/Logging/Logger.cs
+    startLine: 175
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: This logger got destroyed. -- Clean up procedure
+  example: []
+  syntax:
+    content: protected ~Logger()
+    content.vb: 'Protected '
+  overload: Game.Common.Debug.Logging.Logger.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+references:
+- uid: Game.Common.Debug.Logging
+  commentId: N:Game.Common.Debug.Logging
+  href: Game.html
+  name: Game.Common.Debug.Logging
+  nameWithType: Game.Common.Debug.Logging
+  fullName: Game.Common.Debug.Logging
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+  - name: .
+  - uid: Game.Common.Debug.Logging
+    name: Logging
+    href: Game.Common.Debug.Logging.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+  - name: .
+  - uid: Game.Common.Debug.Logging
+    name: Logging
+    href: Game.Common.Debug.Logging.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{Game.Common.Debug.Command}
+  commentId: T:System.Collections.Generic.List{Game.Common.Debug.Command}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Command>
+  nameWithType: List<Command>
+  fullName: System.Collections.Generic.List<Game.Common.Debug.Command>
+  nameWithType.vb: List(Of Command)
+  fullName.vb: System.Collections.Generic.List(Of Game.Common.Debug.Command)
+  name.vb: List(Of Command)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Game.Common.Debug.Command
+    name: Command
+    href: Game.Common.Debug.Command.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Game.Common.Debug.Command
+    name: Command
+    href: Game.Common.Debug.Command.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Game.Common.Debug.Logging.Logger.#ctor*
+  commentId: Overload:Game.Common.Debug.Logging.Logger.#ctor
+  href: Game.Common.Debug.Logging.Logger.html#Game_Common_Debug_Logging_Logger__ctor_System_Object_
+  name: Logger
+  nameWithType: Logger.Logger
+  fullName: Game.Common.Debug.Logging.Logger.Logger
+  nameWithType.vb: Logger.New
+  fullName.vb: Game.Common.Debug.Logging.Logger.New
+  name.vb: New
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Game.Common.Debug.Logging.LoggingLevel.Warning
+  commentId: F:Game.Common.Debug.Logging.LoggingLevel.Warning
+  href: Game.Common.Debug.Logging.LoggingLevel.html#Game_Common_Debug_Logging_LoggingLevel_Warning
+  name: Warning
+  nameWithType: LoggingLevel.Warning
+  fullName: Game.Common.Debug.Logging.LoggingLevel.Warning
+- uid: Game.Common.Debug.Logging.Logger.Warn*
+  commentId: Overload:Game.Common.Debug.Logging.Logger.Warn
+  href: Game.Common.Debug.Logging.Logger.html#Game_Common_Debug_Logging_Logger_Warn_System_String__
+  name: Warn
+  nameWithType: Logger.Warn
+  fullName: Game.Common.Debug.Logging.Logger.Warn
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Game.Common.Debug.Logging.LoggingLevel.Error
+  commentId: F:Game.Common.Debug.Logging.LoggingLevel.Error
+  href: Game.Common.Debug.Logging.LoggingLevel.html#Game_Common_Debug_Logging_LoggingLevel_Error
+  name: Error
+  nameWithType: LoggingLevel.Error
+  fullName: Game.Common.Debug.Logging.LoggingLevel.Error
+- uid: Game.Common.Debug.Logging.Logger.Error*
+  commentId: Overload:Game.Common.Debug.Logging.Logger.Error
+  href: Game.Common.Debug.Logging.Logger.html#Game_Common_Debug_Logging_Logger_Error_System_String__
+  name: Error
+  nameWithType: Logger.Error
+  fullName: Game.Common.Debug.Logging.Logger.Error
+- uid: Game.Common.Debug.Logging.LoggingLevel.Success
+  commentId: F:Game.Common.Debug.Logging.LoggingLevel.Success
+  href: Game.Common.Debug.Logging.LoggingLevel.html#Game_Common_Debug_Logging_LoggingLevel_Success
+  name: Success
+  nameWithType: LoggingLevel.Success
+  fullName: Game.Common.Debug.Logging.LoggingLevel.Success
+- uid: Game.Common.Debug.Logging.Logger.Success*
+  commentId: Overload:Game.Common.Debug.Logging.Logger.Success
+  href: Game.Common.Debug.Logging.Logger.html#Game_Common_Debug_Logging_Logger_Success_System_String__
+  name: Success
+  nameWithType: Logger.Success
+  fullName: Game.Common.Debug.Logging.Logger.Success
+- uid: Game.Common.Debug.Logging.LoggingLevel.Info
+  commentId: F:Game.Common.Debug.Logging.LoggingLevel.Info
+  href: Game.Common.Debug.Logging.LoggingLevel.html#Game_Common_Debug_Logging_LoggingLevel_Info
+  name: Info
+  nameWithType: LoggingLevel.Info
+  fullName: Game.Common.Debug.Logging.LoggingLevel.Info
+- uid: Game.Common.Debug.Logging.Logger.Info*
+  commentId: Overload:Game.Common.Debug.Logging.Logger.Info
+  href: Game.Common.Debug.Logging.Logger.html#Game_Common_Debug_Logging_Logger_Info_System_String__
+  name: Info
+  nameWithType: Logger.Info
+  fullName: Game.Common.Debug.Logging.Logger.Info
+- uid: Game.Common.Debug.Logging.LoggingLevel
+  commentId: T:Game.Common.Debug.Logging.LoggingLevel
+  parent: Game.Common.Debug.Logging
+  href: Game.Common.Debug.Logging.LoggingLevel.html
+  name: LoggingLevel
+  nameWithType: LoggingLevel
+  fullName: Game.Common.Debug.Logging.LoggingLevel
+- uid: Game.Common.Debug.Logging.Logger.Log*
+  commentId: Overload:Game.Common.Debug.Logging.Logger.Log
+  href: Game.Common.Debug.Logging.Logger.html#Game_Common_Debug_Logging_Logger_Log_System_String__Game_Common_Debug_Logging_LoggingLevel_
+  name: Log
+  nameWithType: Logger.Log
+  fullName: Game.Common.Debug.Logging.Logger.Log
+- uid: Game.Common.Debug.Logging.Logger.Finalize*
+  commentId: Overload:Game.Common.Debug.Logging.Logger.Finalize
+  href: Game.Common.Debug.Logging.Logger.html#Game_Common_Debug_Logging_Logger_Finalize
+  name: ~Logger
+  nameWithType: Logger.~Logger
+  fullName: Game.Common.Debug.Logging.Logger.~Logger
+  spec.csharp:
+  - name: "~"
+  - uid: Game.Common.Debug.Logging.Logger.Finalize*
+    name: Logger
+    href: Game.Common.Debug.Logging.Logger.html#Game_Common_Debug_Logging_Logger_Finalize

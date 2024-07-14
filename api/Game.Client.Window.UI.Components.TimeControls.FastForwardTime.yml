@@ -1,0 +1,515 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window.UI.Components.TimeControls.FastForwardTime
+  commentId: T:Game.Client.Window.UI.Components.TimeControls.FastForwardTime
+  id: TimeControls.FastForwardTime
+  parent: Game.Client.Window.UI.Components
+  children:
+  - Game.Client.Window.UI.Components.TimeControls.FastForwardTime.#ctor(Game.Client.Window.UI.Components.TimeControls)
+  - Game.Client.Window.UI.Components.TimeControls.FastForwardTime.OnKeyEvent
+  langs:
+  - csharp
+  - vb
+  name: TimeControls.FastForwardTime
+  nameWithType: TimeControls.FastForwardTime
+  fullName: Game.Client.Window.UI.Components.TimeControls.FastForwardTime
+  type: Class
+  source:
+    remote:
+      path: Client/Window/UI/Components/TimeControls.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: FastForwardTime
+    path: ../Game/Client/Window/UI/Components/TimeControls.cs
+    startLine: 175
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI.Components
+  summary: A keyboard command ("keybinding")
+  example: []
+  syntax:
+    content: 'public class TimeControls.FastForwardTime : KeyboardCommand'
+    content.vb: Public Class TimeControls.FastForwardTime Inherits KeyboardCommand
+  inheritance:
+  - System.Object
+  - Game.Client.Window.KeyboardCommand
+  inheritedMembers:
+  - Game.Client.Window.KeyboardCommand.KeyCode
+  - Game.Client.Window.KeyboardCommand.Modifiers
+  - Game.Client.Window.KeyboardCommand.ExecutionState
+  - Game.Client.Window.KeyboardCommand.Identifier
+  - Game.Client.Window.KeyboardCommand.Name
+  - Game.Client.Window.KeyboardCommand.Description
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.#ctor(Game.Client.Window.UI.Components.TimeControls)
+  commentId: M:Game.Client.Window.UI.Components.TimeControls.FastForwardTime.#ctor(Game.Client.Window.UI.Components.TimeControls)
+  id: '#ctor(Game.Client.Window.UI.Components.TimeControls)'
+  parent: Game.Client.Window.UI.Components.TimeControls.FastForwardTime
+  langs:
+  - csharp
+  - vb
+  name: FastForwardTime(TimeControls)
+  nameWithType: TimeControls.FastForwardTime.FastForwardTime(TimeControls)
+  fullName: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.FastForwardTime(Game.Client.Window.UI.Components.TimeControls)
+  type: Constructor
+  source:
+    remote:
+      path: Client/Window/UI/Components/TimeControls.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Client/Window/UI/Components/TimeControls.cs
+    startLine: 180
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI.Components
+  example: []
+  syntax:
+    content: public FastForwardTime(TimeControls parent)
+    parameters:
+    - id: parent
+      type: Game.Client.Window.UI.Components.TimeControls
+    content.vb: Public Sub New(parent As TimeControls)
+  overload: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.#ctor*
+  nameWithType.vb: TimeControls.FastForwardTime.New(TimeControls)
+  fullName.vb: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.New(Game.Client.Window.UI.Components.TimeControls)
+  name.vb: New(TimeControls)
+- uid: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.OnKeyEvent
+  commentId: M:Game.Client.Window.UI.Components.TimeControls.FastForwardTime.OnKeyEvent
+  id: OnKeyEvent
+  parent: Game.Client.Window.UI.Components.TimeControls.FastForwardTime
+  langs:
+  - csharp
+  - vb
+  name: OnKeyEvent()
+  nameWithType: TimeControls.FastForwardTime.OnKeyEvent()
+  fullName: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.OnKeyEvent()
+  type: Method
+  source:
+    remote:
+      path: Client/Window/UI/Components/TimeControls.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: OnKeyEvent
+    path: ../Game/Client/Window/UI/Components/TimeControls.cs
+    startLine: 186
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Window.UI.Components
+  summary: Main code when the keyboard command is executed
+  example: []
+  syntax:
+    content: public override void OnKeyEvent()
+    content.vb: Public Overrides Sub OnKeyEvent()
+  overridden: Game.Client.Window.KeyboardCommand.OnKeyEvent
+  overload: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.OnKeyEvent*
+references:
+- uid: Game.Client.Window.UI.Components
+  commentId: N:Game.Client.Window.UI.Components
+  href: Game.html
+  name: Game.Client.Window.UI.Components
+  nameWithType: Game.Client.Window.UI.Components
+  fullName: Game.Client.Window.UI.Components
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components
+    name: Components
+    href: Game.Client.Window.UI.Components.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+  - name: .
+  - uid: Game.Client.Window.UI.Components
+    name: Components
+    href: Game.Client.Window.UI.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Game.Client.Window.KeyboardCommand
+  commentId: T:Game.Client.Window.KeyboardCommand
+  parent: Game.Client.Window
+  href: Game.Client.Window.KeyboardCommand.html
+  name: KeyboardCommand
+  nameWithType: KeyboardCommand
+  fullName: Game.Client.Window.KeyboardCommand
+- uid: Game.Client.Window.KeyboardCommand.KeyCode
+  commentId: P:Game.Client.Window.KeyboardCommand.KeyCode
+  parent: Game.Client.Window.KeyboardCommand
+  href: Game.Client.Window.KeyboardCommand.html#Game_Client_Window_KeyboardCommand_KeyCode
+  name: KeyCode
+  nameWithType: KeyboardCommand.KeyCode
+  fullName: Game.Client.Window.KeyboardCommand.KeyCode
+- uid: Game.Client.Window.KeyboardCommand.Modifiers
+  commentId: P:Game.Client.Window.KeyboardCommand.Modifiers
+  parent: Game.Client.Window.KeyboardCommand
+  href: Game.Client.Window.KeyboardCommand.html#Game_Client_Window_KeyboardCommand_Modifiers
+  name: Modifiers
+  nameWithType: KeyboardCommand.Modifiers
+  fullName: Game.Client.Window.KeyboardCommand.Modifiers
+- uid: Game.Client.Window.KeyboardCommand.ExecutionState
+  commentId: P:Game.Client.Window.KeyboardCommand.ExecutionState
+  parent: Game.Client.Window.KeyboardCommand
+  href: Game.Client.Window.KeyboardCommand.html#Game_Client_Window_KeyboardCommand_ExecutionState
+  name: ExecutionState
+  nameWithType: KeyboardCommand.ExecutionState
+  fullName: Game.Client.Window.KeyboardCommand.ExecutionState
+- uid: Game.Client.Window.KeyboardCommand.Identifier
+  commentId: P:Game.Client.Window.KeyboardCommand.Identifier
+  parent: Game.Client.Window.KeyboardCommand
+  href: Game.Client.Window.KeyboardCommand.html#Game_Client_Window_KeyboardCommand_Identifier
+  name: Identifier
+  nameWithType: KeyboardCommand.Identifier
+  fullName: Game.Client.Window.KeyboardCommand.Identifier
+- uid: Game.Client.Window.KeyboardCommand.Name
+  commentId: P:Game.Client.Window.KeyboardCommand.Name
+  parent: Game.Client.Window.KeyboardCommand
+  href: Game.Client.Window.KeyboardCommand.html#Game_Client_Window_KeyboardCommand_Name
+  name: Name
+  nameWithType: KeyboardCommand.Name
+  fullName: Game.Client.Window.KeyboardCommand.Name
+- uid: Game.Client.Window.KeyboardCommand.Description
+  commentId: P:Game.Client.Window.KeyboardCommand.Description
+  parent: Game.Client.Window.KeyboardCommand
+  href: Game.Client.Window.KeyboardCommand.html#Game_Client_Window_KeyboardCommand_Description
+  name: Description
+  nameWithType: KeyboardCommand.Description
+  fullName: Game.Client.Window.KeyboardCommand.Description
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Client.Window
+  commentId: N:Game.Client.Window
+  href: Game.html
+  name: Game.Client.Window
+  nameWithType: Game.Client.Window
+  fullName: Game.Client.Window
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+- uid: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.#ctor*
+  commentId: Overload:Game.Client.Window.UI.Components.TimeControls.FastForwardTime.#ctor
+  href: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.html#Game_Client_Window_UI_Components_TimeControls_FastForwardTime__ctor_Game_Client_Window_UI_Components_TimeControls_
+  name: FastForwardTime
+  nameWithType: TimeControls.FastForwardTime.FastForwardTime
+  fullName: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.FastForwardTime
+  nameWithType.vb: TimeControls.FastForwardTime.New
+  fullName.vb: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.New
+  name.vb: New
+- uid: Game.Client.Window.UI.Components.TimeControls
+  commentId: T:Game.Client.Window.UI.Components.TimeControls
+  parent: Game.Client.Window.UI.Components
+  href: Game.Client.Window.UI.Components.TimeControls.html
+  name: TimeControls
+  nameWithType: TimeControls
+  fullName: Game.Client.Window.UI.Components.TimeControls
+- uid: Game.Client.Window.KeyboardCommand.OnKeyEvent
+  commentId: M:Game.Client.Window.KeyboardCommand.OnKeyEvent
+  parent: Game.Client.Window.KeyboardCommand
+  href: Game.Client.Window.KeyboardCommand.html#Game_Client_Window_KeyboardCommand_OnKeyEvent
+  name: OnKeyEvent()
+  nameWithType: KeyboardCommand.OnKeyEvent()
+  fullName: Game.Client.Window.KeyboardCommand.OnKeyEvent()
+  spec.csharp:
+  - uid: Game.Client.Window.KeyboardCommand.OnKeyEvent
+    name: OnKeyEvent
+    href: Game.Client.Window.KeyboardCommand.html#Game_Client_Window_KeyboardCommand_OnKeyEvent
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Game.Client.Window.KeyboardCommand.OnKeyEvent
+    name: OnKeyEvent
+    href: Game.Client.Window.KeyboardCommand.html#Game_Client_Window_KeyboardCommand_OnKeyEvent
+  - name: (
+  - name: )
+- uid: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.OnKeyEvent*
+  commentId: Overload:Game.Client.Window.UI.Components.TimeControls.FastForwardTime.OnKeyEvent
+  href: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.html#Game_Client_Window_UI_Components_TimeControls_FastForwardTime_OnKeyEvent
+  name: OnKeyEvent
+  nameWithType: TimeControls.FastForwardTime.OnKeyEvent
+  fullName: Game.Client.Window.UI.Components.TimeControls.FastForwardTime.OnKeyEvent

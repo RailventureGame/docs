@@ -1,0 +1,668 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Game.Time.TimeUtil
+  commentId: T:Game.Client.Game.Time.TimeUtil
+  id: TimeUtil
+  parent: Game.Client.Game.Time
+  children:
+  - Game.Client.Game.Time.TimeUtil.ConvertFromTo(System.Int64,System.Int64,System.Int64)
+  - Game.Client.Game.Time.TimeUtil.Day
+  - Game.Client.Game.Time.TimeUtil.Hour
+  - Game.Client.Game.Time.TimeUtil.Millisecond
+  - Game.Client.Game.Time.TimeUtil.Minute
+  - Game.Client.Game.Time.TimeUtil.Month
+  - Game.Client.Game.Time.TimeUtil.Second
+  - Game.Client.Game.Time.TimeUtil.Week
+  - Game.Client.Game.Time.TimeUtil.Year
+  langs:
+  - csharp
+  - vb
+  name: TimeUtil
+  nameWithType: TimeUtil
+  fullName: Game.Client.Game.Time.TimeUtil
+  type: Class
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: TimeUtil
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 5
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: Helper methods for time conversion
+  example: []
+  syntax:
+    content: public class TimeUtil
+    content.vb: Public Class TimeUtil
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Client.Game.Time.TimeUtil.Millisecond
+  commentId: F:Game.Client.Game.Time.TimeUtil.Millisecond
+  id: Millisecond
+  parent: Game.Client.Game.Time.TimeUtil
+  langs:
+  - csharp
+  - vb
+  name: Millisecond
+  nameWithType: TimeUtil.Millisecond
+  fullName: Game.Client.Game.Time.TimeUtil.Millisecond
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Millisecond
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 8
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: public const long Millisecond = 1
+    return:
+      type: System.Int64
+    content.vb: Public Const Millisecond As Long = 1
+- uid: Game.Client.Game.Time.TimeUtil.Second
+  commentId: F:Game.Client.Game.Time.TimeUtil.Second
+  id: Second
+  parent: Game.Client.Game.Time.TimeUtil
+  langs:
+  - csharp
+  - vb
+  name: Second
+  nameWithType: TimeUtil.Second
+  fullName: Game.Client.Game.Time.TimeUtil.Second
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Second
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 11
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: public const long Second = 1000
+    return:
+      type: System.Int64
+    content.vb: Public Const Second As Long = 1000
+- uid: Game.Client.Game.Time.TimeUtil.Minute
+  commentId: F:Game.Client.Game.Time.TimeUtil.Minute
+  id: Minute
+  parent: Game.Client.Game.Time.TimeUtil
+  langs:
+  - csharp
+  - vb
+  name: Minute
+  nameWithType: TimeUtil.Minute
+  fullName: Game.Client.Game.Time.TimeUtil.Minute
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Minute
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 14
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: public const long Minute = 60000
+    return:
+      type: System.Int64
+    content.vb: Public Const Minute As Long = 60000
+- uid: Game.Client.Game.Time.TimeUtil.Hour
+  commentId: F:Game.Client.Game.Time.TimeUtil.Hour
+  id: Hour
+  parent: Game.Client.Game.Time.TimeUtil
+  langs:
+  - csharp
+  - vb
+  name: Hour
+  nameWithType: TimeUtil.Hour
+  fullName: Game.Client.Game.Time.TimeUtil.Hour
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Hour
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 17
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: public const long Hour = 3600000
+    return:
+      type: System.Int64
+    content.vb: Public Const Hour As Long = 3600000
+- uid: Game.Client.Game.Time.TimeUtil.Day
+  commentId: F:Game.Client.Game.Time.TimeUtil.Day
+  id: Day
+  parent: Game.Client.Game.Time.TimeUtil
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: TimeUtil.Day
+  fullName: Game.Client.Game.Time.TimeUtil.Day
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Day
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 20
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: public const long Day = 86400000
+    return:
+      type: System.Int64
+    content.vb: Public Const Day As Long = 86400000
+- uid: Game.Client.Game.Time.TimeUtil.Week
+  commentId: F:Game.Client.Game.Time.TimeUtil.Week
+  id: Week
+  parent: Game.Client.Game.Time.TimeUtil
+  langs:
+  - csharp
+  - vb
+  name: Week
+  nameWithType: TimeUtil.Week
+  fullName: Game.Client.Game.Time.TimeUtil.Week
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Week
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 23
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: public const long Week = 604800000
+    return:
+      type: System.Int64
+    content.vb: Public Const Week As Long = 604800000
+- uid: Game.Client.Game.Time.TimeUtil.Month
+  commentId: F:Game.Client.Game.Time.TimeUtil.Month
+  id: Month
+  parent: Game.Client.Game.Time.TimeUtil
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: TimeUtil.Month
+  fullName: Game.Client.Game.Time.TimeUtil.Month
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Month
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 26
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: public const long Month = 2592000000
+    return:
+      type: System.Int64
+    content.vb: Public Const Month As Long = 2592000000
+- uid: Game.Client.Game.Time.TimeUtil.Year
+  commentId: F:Game.Client.Game.Time.TimeUtil.Year
+  id: Year
+  parent: Game.Client.Game.Time.TimeUtil
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: TimeUtil.Year
+  fullName: Game.Client.Game.Time.TimeUtil.Year
+  type: Field
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Year
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 29
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  example: []
+  syntax:
+    content: public const long Year = 31536000000
+    return:
+      type: System.Int64
+    content.vb: Public Const Year As Long = 31536000000
+- uid: Game.Client.Game.Time.TimeUtil.ConvertFromTo(System.Int64,System.Int64,System.Int64)
+  commentId: M:Game.Client.Game.Time.TimeUtil.ConvertFromTo(System.Int64,System.Int64,System.Int64)
+  id: ConvertFromTo(System.Int64,System.Int64,System.Int64)
+  parent: Game.Client.Game.Time.TimeUtil
+  langs:
+  - csharp
+  - vb
+  name: ConvertFromTo(long, long, long)
+  nameWithType: TimeUtil.ConvertFromTo(long, long, long)
+  fullName: Game.Client.Game.Time.TimeUtil.ConvertFromTo(long, long, long)
+  type: Method
+  source:
+    remote:
+      path: Client/Game/Time/TimeUtil.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ConvertFromTo
+    path: ../Game/Client/Game/Time/TimeUtil.cs
+    startLine: 75
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Game.Time
+  summary: Convert a time from any time unit to another time unit
+  remarks: >-
+    Units:<br />
+            - <xref href="Game.Client.Game.Time.TimeUtil.Millisecond" data-throw-if-not-resolved="false"></xref><br />
+            - <xref href="Game.Client.Game.Time.TimeUtil.Second" data-throw-if-not-resolved="false"></xref><br />
+            - <xref href="Game.Client.Game.Time.TimeUtil.Minute" data-throw-if-not-resolved="false"></xref><br />
+            - <xref href="Game.Client.Game.Time.TimeUtil.Hour" data-throw-if-not-resolved="false"></xref><br />
+            - <xref href="Game.Client.Game.Time.TimeUtil.Day" data-throw-if-not-resolved="false"></xref><br />
+            - <xref href="Game.Client.Game.Time.TimeUtil.Week" data-throw-if-not-resolved="false"></xref><br />
+            - <xref href="Game.Client.Game.Time.TimeUtil.Month" data-throw-if-not-resolved="false"></xref><br />
+            - <xref href="Game.Client.Game.Time.TimeUtil.Year" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public static long ConvertFromTo(long timeValue, long from, long to)
+    parameters:
+    - id: timeValue
+      type: System.Int64
+      description: a time in any unit
+    - id: from
+      type: System.Int64
+      description: the current unit of timeValue
+    - id: to
+      type: System.Int64
+      description: the new unit of timeValue
+    return:
+      type: System.Int64
+      description: timeValue in the to-unit
+    content.vb: Public Shared Function ConvertFromTo(timeValue As Long, from As Long, [to] As Long) As Long
+  overload: Game.Client.Game.Time.TimeUtil.ConvertFromTo*
+  nameWithType.vb: TimeUtil.ConvertFromTo(Long, Long, Long)
+  fullName.vb: Game.Client.Game.Time.TimeUtil.ConvertFromTo(Long, Long, Long)
+  name.vb: ConvertFromTo(Long, Long, Long)
+references:
+- uid: Game.Client.Game.Time
+  commentId: N:Game.Client.Game.Time
+  href: Game.html
+  name: Game.Client.Game.Time
+  nameWithType: Game.Client.Game.Time
+  fullName: Game.Client.Game.Time
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Game
+    name: Game
+    href: Game.Client.Game.html
+  - name: .
+  - uid: Game.Client.Game.Time
+    name: Time
+    href: Game.Client.Game.Time.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Game
+    name: Game
+    href: Game.Client.Game.html
+  - name: .
+  - uid: Game.Client.Game.Time
+    name: Time
+    href: Game.Client.Game.Time.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: Game.Client.Game.Time.TimeUtil.Millisecond
+  commentId: F:Game.Client.Game.Time.TimeUtil.Millisecond
+  href: Game.Client.Game.Time.TimeUtil.html#Game_Client_Game_Time_TimeUtil_Millisecond
+  name: Millisecond
+  nameWithType: TimeUtil.Millisecond
+  fullName: Game.Client.Game.Time.TimeUtil.Millisecond
+- uid: Game.Client.Game.Time.TimeUtil.Second
+  commentId: F:Game.Client.Game.Time.TimeUtil.Second
+  href: Game.Client.Game.Time.TimeUtil.html#Game_Client_Game_Time_TimeUtil_Second
+  name: Second
+  nameWithType: TimeUtil.Second
+  fullName: Game.Client.Game.Time.TimeUtil.Second
+- uid: Game.Client.Game.Time.TimeUtil.Minute
+  commentId: F:Game.Client.Game.Time.TimeUtil.Minute
+  href: Game.Client.Game.Time.TimeUtil.html#Game_Client_Game_Time_TimeUtil_Minute
+  name: Minute
+  nameWithType: TimeUtil.Minute
+  fullName: Game.Client.Game.Time.TimeUtil.Minute
+- uid: Game.Client.Game.Time.TimeUtil.Hour
+  commentId: F:Game.Client.Game.Time.TimeUtil.Hour
+  href: Game.Client.Game.Time.TimeUtil.html#Game_Client_Game_Time_TimeUtil_Hour
+  name: Hour
+  nameWithType: TimeUtil.Hour
+  fullName: Game.Client.Game.Time.TimeUtil.Hour
+- uid: Game.Client.Game.Time.TimeUtil.Day
+  commentId: F:Game.Client.Game.Time.TimeUtil.Day
+  href: Game.Client.Game.Time.TimeUtil.html#Game_Client_Game_Time_TimeUtil_Day
+  name: Day
+  nameWithType: TimeUtil.Day
+  fullName: Game.Client.Game.Time.TimeUtil.Day
+- uid: Game.Client.Game.Time.TimeUtil.Week
+  commentId: F:Game.Client.Game.Time.TimeUtil.Week
+  href: Game.Client.Game.Time.TimeUtil.html#Game_Client_Game_Time_TimeUtil_Week
+  name: Week
+  nameWithType: TimeUtil.Week
+  fullName: Game.Client.Game.Time.TimeUtil.Week
+- uid: Game.Client.Game.Time.TimeUtil.Month
+  commentId: F:Game.Client.Game.Time.TimeUtil.Month
+  href: Game.Client.Game.Time.TimeUtil.html#Game_Client_Game_Time_TimeUtil_Month
+  name: Month
+  nameWithType: TimeUtil.Month
+  fullName: Game.Client.Game.Time.TimeUtil.Month
+- uid: Game.Client.Game.Time.TimeUtil.Year
+  commentId: F:Game.Client.Game.Time.TimeUtil.Year
+  href: Game.Client.Game.Time.TimeUtil.html#Game_Client_Game_Time_TimeUtil_Year
+  name: Year
+  nameWithType: TimeUtil.Year
+  fullName: Game.Client.Game.Time.TimeUtil.Year
+- uid: Game.Client.Game.Time.TimeUtil.ConvertFromTo*
+  commentId: Overload:Game.Client.Game.Time.TimeUtil.ConvertFromTo
+  href: Game.Client.Game.Time.TimeUtil.html#Game_Client_Game_Time_TimeUtil_ConvertFromTo_System_Int64_System_Int64_System_Int64_
+  name: ConvertFromTo
+  nameWithType: TimeUtil.ConvertFromTo
+  fullName: Game.Client.Game.Time.TimeUtil.ConvertFromTo

@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Debug.Logging.LoggingLevel
+  commentId: T:Game.Common.Debug.Logging.LoggingLevel
+  id: LoggingLevel
+  parent: Game.Common.Debug.Logging
+  children:
+  - Game.Common.Debug.Logging.LoggingLevel.Debug
+  - Game.Common.Debug.Logging.LoggingLevel.Error
+  - Game.Common.Debug.Logging.LoggingLevel.Info
+  - Game.Common.Debug.Logging.LoggingLevel.Success
+  - Game.Common.Debug.Logging.LoggingLevel.Warning
+  langs:
+  - csharp
+  - vb
+  name: LoggingLevel
+  nameWithType: LoggingLevel
+  fullName: Game.Common.Debug.Logging.LoggingLevel
+  type: Enum
+  source:
+    remote:
+      path: Common/Debug/Logging/LoggingLevel.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: LoggingLevel
+    path: ../Game/Common/Debug/Logging/LoggingLevel.cs
+    startLine: 2
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  syntax:
+    content: public enum LoggingLevel
+    content.vb: Public Enum LoggingLevel
+- uid: Game.Common.Debug.Logging.LoggingLevel.Debug
+  commentId: F:Game.Common.Debug.Logging.LoggingLevel.Debug
+  id: Debug
+  parent: Game.Common.Debug.Logging.LoggingLevel
+  langs:
+  - csharp
+  - vb
+  name: Debug
+  nameWithType: LoggingLevel.Debug
+  fullName: Game.Common.Debug.Logging.LoggingLevel.Debug
+  type: Field
+  source:
+    remote:
+      path: Common/Debug/Logging/LoggingLevel.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Debug
+    path: ../Game/Common/Debug/Logging/LoggingLevel.cs
+    startLine: 7
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: Any messages only relevant for developers
+  example: []
+  syntax:
+    content: Debug = 0
+    return:
+      type: Game.Common.Debug.Logging.LoggingLevel
+- uid: Game.Common.Debug.Logging.LoggingLevel.Info
+  commentId: F:Game.Common.Debug.Logging.LoggingLevel.Info
+  id: Info
+  parent: Game.Common.Debug.Logging.LoggingLevel
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: LoggingLevel.Info
+  fullName: Game.Common.Debug.Logging.LoggingLevel.Info
+  type: Field
+  source:
+    remote:
+      path: Common/Debug/Logging/LoggingLevel.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Info
+    path: ../Game/Common/Debug/Logging/LoggingLevel.cs
+    startLine: 11
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: Something interesting for the user happend
+  example: []
+  syntax:
+    content: Info = 1
+    return:
+      type: Game.Common.Debug.Logging.LoggingLevel
+- uid: Game.Common.Debug.Logging.LoggingLevel.Warning
+  commentId: F:Game.Common.Debug.Logging.LoggingLevel.Warning
+  id: Warning
+  parent: Game.Common.Debug.Logging.LoggingLevel
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: LoggingLevel.Warning
+  fullName: Game.Common.Debug.Logging.LoggingLevel.Warning
+  type: Field
+  source:
+    remote:
+      path: Common/Debug/Logging/LoggingLevel.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Warning
+    path: ../Game/Common/Debug/Logging/LoggingLevel.cs
+    startLine: 15
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: This shouldn't happen.
+  example: []
+  syntax:
+    content: Warning = 2
+    return:
+      type: Game.Common.Debug.Logging.LoggingLevel
+- uid: Game.Common.Debug.Logging.LoggingLevel.Error
+  commentId: F:Game.Common.Debug.Logging.LoggingLevel.Error
+  id: Error
+  parent: Game.Common.Debug.Logging.LoggingLevel
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: LoggingLevel.Error
+  fullName: Game.Common.Debug.Logging.LoggingLevel.Error
+  type: Field
+  source:
+    remote:
+      path: Common/Debug/Logging/LoggingLevel.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Error
+    path: ../Game/Common/Debug/Logging/LoggingLevel.cs
+    startLine: 19
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: An error occurred
+  example: []
+  syntax:
+    content: Error = 3
+    return:
+      type: Game.Common.Debug.Logging.LoggingLevel
+- uid: Game.Common.Debug.Logging.LoggingLevel.Success
+  commentId: F:Game.Common.Debug.Logging.LoggingLevel.Success
+  id: Success
+  parent: Game.Common.Debug.Logging.LoggingLevel
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: LoggingLevel.Success
+  fullName: Game.Common.Debug.Logging.LoggingLevel.Success
+  type: Field
+  source:
+    remote:
+      path: Common/Debug/Logging/LoggingLevel.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Success
+    path: ../Game/Common/Debug/Logging/LoggingLevel.cs
+    startLine: 23
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Debug.Logging
+  summary: Successfully performed action
+  example: []
+  syntax:
+    content: Success = 4
+    return:
+      type: Game.Common.Debug.Logging.LoggingLevel
+references:
+- uid: Game.Common.Debug.Logging
+  commentId: N:Game.Common.Debug.Logging
+  href: Game.html
+  name: Game.Common.Debug.Logging
+  nameWithType: Game.Common.Debug.Logging
+  fullName: Game.Common.Debug.Logging
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+  - name: .
+  - uid: Game.Common.Debug.Logging
+    name: Logging
+    href: Game.Common.Debug.Logging.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+  - name: .
+  - uid: Game.Common.Debug.Logging
+    name: Logging
+    href: Game.Common.Debug.Logging.html
+- uid: Game.Common.Debug.Logging.LoggingLevel
+  commentId: T:Game.Common.Debug.Logging.LoggingLevel
+  parent: Game.Common.Debug.Logging
+  href: Game.Common.Debug.Logging.LoggingLevel.html
+  name: LoggingLevel
+  nameWithType: LoggingLevel
+  fullName: Game.Common.Debug.Logging.LoggingLevel

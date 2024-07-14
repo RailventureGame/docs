@@ -1,0 +1,887 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic.OperatingSites.Junction
+  commentId: T:Game.Common.Logic.OperatingSites.Junction
+  id: Junction
+  parent: Game.Common.Logic.OperatingSites
+  children:
+  - Game.Common.Logic.OperatingSites.Junction.#ctor(System.String,System.Int32,System.Int32,System.String,Game.Common.Logic.Types.NodeOperationStyle)
+  - Game.Common.Logic.OperatingSites.Junction.AddChild(Game.Common.Geometry.IGeometryComponent)
+  - Game.Common.Logic.OperatingSites.Junction.GetChildren
+  - Game.Common.Logic.OperatingSites.Junction.Id
+  - Game.Common.Logic.OperatingSites.Junction.OperationStyle
+  - Game.Common.Logic.OperatingSites.Junction.RemoveChild(Game.Common.Geometry.IGeometryComponent)
+  langs:
+  - csharp
+  - vb
+  name: Junction
+  nameWithType: Junction
+  fullName: Game.Common.Logic.OperatingSites.Junction
+  type: Class
+  source:
+    remote:
+      path: Common/Logic/OperatingSites/Junction.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Junction
+    path: ../Game/Common/Logic/OperatingSites/Junction.cs
+    startLine: 6
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.OperatingSites
+  syntax:
+    content: 'public class Junction : OperatingSite'
+    content.vb: Public Class Junction Inherits OperatingSite
+  inheritance:
+  - System.Object
+  - Game.Common.Logic.Graph.Node
+  - Game.Common.Logic.OperatingSite
+  inheritedMembers:
+  - Game.Common.Logic.OperatingSite.Name
+  - Game.Common.Logic.OperatingSite.OriginX
+  - Game.Common.Logic.OperatingSite.OriginY
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Common.Logic.OperatingSites.Junction.Id
+  commentId: P:Game.Common.Logic.OperatingSites.Junction.Id
+  id: Id
+  parent: Game.Common.Logic.OperatingSites.Junction
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Junction.Id
+  fullName: Game.Common.Logic.OperatingSites.Junction.Id
+  type: Property
+  source:
+    remote:
+      path: Common/Logic/OperatingSites/Junction.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: Id
+    path: ../Game/Common/Logic/OperatingSites/Junction.cs
+    startLine: 12
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.OperatingSites
+  summary: The id of the junction.
+  example: []
+  syntax:
+    content: public string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Game.Common.Logic.OperatingSites.Junction.Id*
+- uid: Game.Common.Logic.OperatingSites.Junction.OperationStyle
+  commentId: P:Game.Common.Logic.OperatingSites.Junction.OperationStyle
+  id: OperationStyle
+  parent: Game.Common.Logic.OperatingSites.Junction
+  langs:
+  - csharp
+  - vb
+  name: OperationStyle
+  nameWithType: Junction.OperationStyle
+  fullName: Game.Common.Logic.OperatingSites.Junction.OperationStyle
+  type: Property
+  source:
+    remote:
+      path: Common/Logic/OperatingSites/Junction.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: OperationStyle
+    path: ../Game/Common/Logic/OperatingSites/Junction.cs
+    startLine: 16
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.OperatingSites
+  summary: The operation style of the junction.
+  example: []
+  syntax:
+    content: public NodeOperationStyle OperationStyle { get; }
+    parameters: []
+    return:
+      type: Game.Common.Logic.Types.NodeOperationStyle
+    content.vb: Public Property OperationStyle As NodeOperationStyle
+  overload: Game.Common.Logic.OperatingSites.Junction.OperationStyle*
+- uid: Game.Common.Logic.OperatingSites.Junction.#ctor(System.String,System.Int32,System.Int32,System.String,Game.Common.Logic.Types.NodeOperationStyle)
+  commentId: M:Game.Common.Logic.OperatingSites.Junction.#ctor(System.String,System.Int32,System.Int32,System.String,Game.Common.Logic.Types.NodeOperationStyle)
+  id: '#ctor(System.String,System.Int32,System.Int32,System.String,Game.Common.Logic.Types.NodeOperationStyle)'
+  parent: Game.Common.Logic.OperatingSites.Junction
+  langs:
+  - csharp
+  - vb
+  name: Junction(string, int, int, string, NodeOperationStyle)
+  nameWithType: Junction.Junction(string, int, int, string, NodeOperationStyle)
+  fullName: Game.Common.Logic.OperatingSites.Junction.Junction(string, int, int, string, Game.Common.Logic.Types.NodeOperationStyle)
+  type: Constructor
+  source:
+    remote:
+      path: Common/Logic/OperatingSites/Junction.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: .ctor
+    path: ../Game/Common/Logic/OperatingSites/Junction.cs
+    startLine: 28
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.OperatingSites
+  summary: Creates a new junction with the specified parameters.
+  example: []
+  syntax:
+    content: public Junction(string name, int originX, int originY, string id, NodeOperationStyle operationStyle)
+    parameters:
+    - id: name
+      type: System.String
+      description: the name of the junction
+    - id: originX
+      type: System.Int32
+      description: the x coordinate of the origin of the operating sites relative coordinate system
+    - id: originY
+      type: System.Int32
+      description: the y coordinate of the origin of the operating sites relative coordinate system
+    - id: id
+      type: System.String
+      description: the id of the junction
+    - id: operationStyle
+      type: Game.Common.Logic.Types.NodeOperationStyle
+      description: the operation style of the junction
+    content.vb: Public Sub New(name As String, originX As Integer, originY As Integer, id As String, operationStyle As NodeOperationStyle)
+  overload: Game.Common.Logic.OperatingSites.Junction.#ctor*
+  nameWithType.vb: Junction.New(String, Integer, Integer, String, NodeOperationStyle)
+  fullName.vb: Game.Common.Logic.OperatingSites.Junction.New(String, Integer, Integer, String, Game.Common.Logic.Types.NodeOperationStyle)
+  name.vb: New(String, Integer, Integer, String, NodeOperationStyle)
+- uid: Game.Common.Logic.OperatingSites.Junction.GetChildren
+  commentId: M:Game.Common.Logic.OperatingSites.Junction.GetChildren
+  id: GetChildren
+  parent: Game.Common.Logic.OperatingSites.Junction
+  langs:
+  - csharp
+  - vb
+  name: GetChildren()
+  nameWithType: Junction.GetChildren()
+  fullName: Game.Common.Logic.OperatingSites.Junction.GetChildren()
+  type: Method
+  source:
+    remote:
+      path: Common/Logic/OperatingSites/Junction.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: GetChildren
+    path: ../Game/Common/Logic/OperatingSites/Junction.cs
+    startLine: 40
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.OperatingSites
+  summary: Gets the children of the junction.
+  example: []
+  syntax:
+    content: public ReadOnlyCollection<IGeometryComponent> GetChildren()
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{Game.Common.Geometry.IGeometryComponent}
+      description: a read only collection containing the junctions children
+    content.vb: Public Function GetChildren() As ReadOnlyCollection(Of IGeometryComponent)
+  overload: Game.Common.Logic.OperatingSites.Junction.GetChildren*
+- uid: Game.Common.Logic.OperatingSites.Junction.AddChild(Game.Common.Geometry.IGeometryComponent)
+  commentId: M:Game.Common.Logic.OperatingSites.Junction.AddChild(Game.Common.Geometry.IGeometryComponent)
+  id: AddChild(Game.Common.Geometry.IGeometryComponent)
+  parent: Game.Common.Logic.OperatingSites.Junction
+  langs:
+  - csharp
+  - vb
+  name: AddChild(IGeometryComponent)
+  nameWithType: Junction.AddChild(IGeometryComponent)
+  fullName: Game.Common.Logic.OperatingSites.Junction.AddChild(Game.Common.Geometry.IGeometryComponent)
+  type: Method
+  source:
+    remote:
+      path: Common/Logic/OperatingSites/Junction.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: AddChild
+    path: ../Game/Common/Logic/OperatingSites/Junction.cs
+    startLine: 49
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.OperatingSites
+  summary: Adds a child to the junction children.
+  example: []
+  syntax:
+    content: public void AddChild(IGeometryComponent child)
+    parameters:
+    - id: child
+      type: Game.Common.Geometry.IGeometryComponent
+      description: the child to be added to the junction
+    content.vb: Public Sub AddChild(child As IGeometryComponent)
+  overload: Game.Common.Logic.OperatingSites.Junction.AddChild*
+- uid: Game.Common.Logic.OperatingSites.Junction.RemoveChild(Game.Common.Geometry.IGeometryComponent)
+  commentId: M:Game.Common.Logic.OperatingSites.Junction.RemoveChild(Game.Common.Geometry.IGeometryComponent)
+  id: RemoveChild(Game.Common.Geometry.IGeometryComponent)
+  parent: Game.Common.Logic.OperatingSites.Junction
+  langs:
+  - csharp
+  - vb
+  name: RemoveChild(IGeometryComponent)
+  nameWithType: Junction.RemoveChild(IGeometryComponent)
+  fullName: Game.Common.Logic.OperatingSites.Junction.RemoveChild(Game.Common.Geometry.IGeometryComponent)
+  type: Method
+  source:
+    remote:
+      path: Common/Logic/OperatingSites/Junction.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: RemoveChild
+    path: ../Game/Common/Logic/OperatingSites/Junction.cs
+    startLine: 60
+  assemblies:
+  - Railventure
+  namespace: Game.Common.Logic.OperatingSites
+  summary: Removes a child from the junction children.
+  example: []
+  syntax:
+    content: public bool RemoveChild(IGeometryComponent child)
+    parameters:
+    - id: child
+      type: Game.Common.Geometry.IGeometryComponent
+      description: the child to be removed from the junction
+    return:
+      type: System.Boolean
+      description: true if the junctions children were modified, false otherwise
+    content.vb: Public Function RemoveChild(child As IGeometryComponent) As Boolean
+  overload: Game.Common.Logic.OperatingSites.Junction.RemoveChild*
+references:
+- uid: Game.Common.Logic.OperatingSites
+  commentId: N:Game.Common.Logic.OperatingSites
+  href: Game.html
+  name: Game.Common.Logic.OperatingSites
+  nameWithType: Game.Common.Logic.OperatingSites
+  fullName: Game.Common.Logic.OperatingSites
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.OperatingSites
+    name: OperatingSites
+    href: Game.Common.Logic.OperatingSites.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.OperatingSites
+    name: OperatingSites
+    href: Game.Common.Logic.OperatingSites.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Game.Common.Logic.Graph.Node
+  commentId: T:Game.Common.Logic.Graph.Node
+  parent: Game.Common.Logic.Graph
+  href: Game.Common.Logic.Graph.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Game.Common.Logic.Graph.Node
+- uid: Game.Common.Logic.OperatingSite
+  commentId: T:Game.Common.Logic.OperatingSite
+  parent: Game.Common.Logic
+  href: Game.Common.Logic.OperatingSite.html
+  name: OperatingSite
+  nameWithType: OperatingSite
+  fullName: Game.Common.Logic.OperatingSite
+- uid: Game.Common.Logic.OperatingSite.Name
+  commentId: P:Game.Common.Logic.OperatingSite.Name
+  parent: Game.Common.Logic.OperatingSite
+  href: Game.Common.Logic.OperatingSite.html#Game_Common_Logic_OperatingSite_Name
+  name: Name
+  nameWithType: OperatingSite.Name
+  fullName: Game.Common.Logic.OperatingSite.Name
+- uid: Game.Common.Logic.OperatingSite.OriginX
+  commentId: P:Game.Common.Logic.OperatingSite.OriginX
+  parent: Game.Common.Logic.OperatingSite
+  href: Game.Common.Logic.OperatingSite.html#Game_Common_Logic_OperatingSite_OriginX
+  name: OriginX
+  nameWithType: OperatingSite.OriginX
+  fullName: Game.Common.Logic.OperatingSite.OriginX
+- uid: Game.Common.Logic.OperatingSite.OriginY
+  commentId: P:Game.Common.Logic.OperatingSite.OriginY
+  parent: Game.Common.Logic.OperatingSite
+  href: Game.Common.Logic.OperatingSite.html#Game_Common_Logic_OperatingSite_OriginY
+  name: OriginY
+  nameWithType: OperatingSite.OriginY
+  fullName: Game.Common.Logic.OperatingSite.OriginY
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Common.Logic.Graph
+  commentId: N:Game.Common.Logic.Graph
+  href: Game.html
+  name: Game.Common.Logic.Graph
+  nameWithType: Game.Common.Logic.Graph
+  fullName: Game.Common.Logic.Graph
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Graph
+    name: Graph
+    href: Game.Common.Logic.Graph.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Graph
+    name: Graph
+    href: Game.Common.Logic.Graph.html
+- uid: Game.Common.Logic
+  commentId: N:Game.Common.Logic
+  href: Game.html
+  name: Game.Common.Logic
+  nameWithType: Game.Common.Logic
+  fullName: Game.Common.Logic
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+- uid: Game.Common.Logic.OperatingSites.Junction.Id*
+  commentId: Overload:Game.Common.Logic.OperatingSites.Junction.Id
+  href: Game.Common.Logic.OperatingSites.Junction.html#Game_Common_Logic_OperatingSites_Junction_Id
+  name: Id
+  nameWithType: Junction.Id
+  fullName: Game.Common.Logic.OperatingSites.Junction.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Game.Common.Logic.OperatingSites.Junction.OperationStyle*
+  commentId: Overload:Game.Common.Logic.OperatingSites.Junction.OperationStyle
+  href: Game.Common.Logic.OperatingSites.Junction.html#Game_Common_Logic_OperatingSites_Junction_OperationStyle
+  name: OperationStyle
+  nameWithType: Junction.OperationStyle
+  fullName: Game.Common.Logic.OperatingSites.Junction.OperationStyle
+- uid: Game.Common.Logic.Types.NodeOperationStyle
+  commentId: T:Game.Common.Logic.Types.NodeOperationStyle
+  parent: Game.Common.Logic.Types
+  href: Game.Common.Logic.Types.NodeOperationStyle.html
+  name: NodeOperationStyle
+  nameWithType: NodeOperationStyle
+  fullName: Game.Common.Logic.Types.NodeOperationStyle
+- uid: Game.Common.Logic.Types
+  commentId: N:Game.Common.Logic.Types
+  href: Game.html
+  name: Game.Common.Logic.Types
+  nameWithType: Game.Common.Logic.Types
+  fullName: Game.Common.Logic.Types
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  - name: .
+  - uid: Game.Common.Logic.Types
+    name: Types
+    href: Game.Common.Logic.Types.html
+- uid: Game.Common.Logic.OperatingSites.Junction.#ctor*
+  commentId: Overload:Game.Common.Logic.OperatingSites.Junction.#ctor
+  href: Game.Common.Logic.OperatingSites.Junction.html#Game_Common_Logic_OperatingSites_Junction__ctor_System_String_System_Int32_System_Int32_System_String_Game_Common_Logic_Types_NodeOperationStyle_
+  name: Junction
+  nameWithType: Junction.Junction
+  fullName: Game.Common.Logic.OperatingSites.Junction.Junction
+  nameWithType.vb: Junction.New
+  fullName.vb: Game.Common.Logic.OperatingSites.Junction.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Game.Common.Logic.OperatingSites.Junction.GetChildren*
+  commentId: Overload:Game.Common.Logic.OperatingSites.Junction.GetChildren
+  href: Game.Common.Logic.OperatingSites.Junction.html#Game_Common_Logic_OperatingSites_Junction_GetChildren
+  name: GetChildren
+  nameWithType: Junction.GetChildren
+  fullName: Game.Common.Logic.OperatingSites.Junction.GetChildren
+- uid: System.Collections.ObjectModel.ReadOnlyCollection{Game.Common.Geometry.IGeometryComponent}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection{Game.Common.Geometry.IGeometryComponent}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+  name: ReadOnlyCollection<IGeometryComponent>
+  nameWithType: ReadOnlyCollection<IGeometryComponent>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<Game.Common.Geometry.IGeometryComponent>
+  nameWithType.vb: ReadOnlyCollection(Of IGeometryComponent)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of Game.Common.Geometry.IGeometryComponent)
+  name.vb: ReadOnlyCollection(Of IGeometryComponent)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+  - name: <
+  - uid: Game.Common.Geometry.IGeometryComponent
+    name: IGeometryComponent
+    href: Game.Common.Geometry.IGeometryComponent.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Game.Common.Geometry.IGeometryComponent
+    name: IGeometryComponent
+    href: Game.Common.Geometry.IGeometryComponent.html
+  - name: )
+- uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+  name: ReadOnlyCollection<T>
+  nameWithType: ReadOnlyCollection<T>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
+  nameWithType.vb: ReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T)
+  name.vb: ReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: Game.Common.Logic.OperatingSites.Junction.AddChild*
+  commentId: Overload:Game.Common.Logic.OperatingSites.Junction.AddChild
+  href: Game.Common.Logic.OperatingSites.Junction.html#Game_Common_Logic_OperatingSites_Junction_AddChild_Game_Common_Geometry_IGeometryComponent_
+  name: AddChild
+  nameWithType: Junction.AddChild
+  fullName: Game.Common.Logic.OperatingSites.Junction.AddChild
+- uid: Game.Common.Geometry.IGeometryComponent
+  commentId: T:Game.Common.Geometry.IGeometryComponent
+  parent: Game.Common.Geometry
+  href: Game.Common.Geometry.IGeometryComponent.html
+  name: IGeometryComponent
+  nameWithType: IGeometryComponent
+  fullName: Game.Common.Geometry.IGeometryComponent
+- uid: Game.Common.Geometry
+  commentId: N:Game.Common.Geometry
+  href: Game.html
+  name: Game.Common.Geometry
+  nameWithType: Game.Common.Geometry
+  fullName: Game.Common.Geometry
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Geometry
+    name: Geometry
+    href: Game.Common.Geometry.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Geometry
+    name: Geometry
+    href: Game.Common.Geometry.html
+- uid: Game.Common.Logic.OperatingSites.Junction.RemoveChild*
+  commentId: Overload:Game.Common.Logic.OperatingSites.Junction.RemoveChild
+  href: Game.Common.Logic.OperatingSites.Junction.html#Game_Common_Logic_OperatingSites_Junction_RemoveChild_Game_Common_Geometry_IGeometryComponent_
+  name: RemoveChild
+  nameWithType: Junction.RemoveChild
+  fullName: Game.Common.Logic.OperatingSites.Junction.RemoveChild
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

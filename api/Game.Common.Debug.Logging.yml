@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Debug.Logging
+  commentId: N:Game.Common.Debug.Logging
+  id: Game.Common.Debug.Logging
+  children:
+  - Game.Common.Debug.Logging.Logger
+  - Game.Common.Debug.Logging.LoggingLevel
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Debug.Logging
+  nameWithType: Game.Common.Debug.Logging
+  fullName: Game.Common.Debug.Logging
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Debug.Logging.Logger
+  commentId: T:Game.Common.Debug.Logging.Logger
+  parent: Game.Common.Debug.Logging
+  href: Game.Common.Debug.Logging.Logger.html
+  name: Logger
+  nameWithType: Logger
+  fullName: Game.Common.Debug.Logging.Logger
+- uid: Game.Common.Debug.Logging.LoggingLevel
+  commentId: T:Game.Common.Debug.Logging.LoggingLevel
+  parent: Game.Common.Debug.Logging
+  href: Game.Common.Debug.Logging.LoggingLevel.html
+  name: LoggingLevel
+  nameWithType: LoggingLevel
+  fullName: Game.Common.Debug.Logging.LoggingLevel
+- uid: Game.Common.Debug.Logging
+  commentId: N:Game.Common.Debug.Logging
+  href: Game.html
+  name: Game.Common.Debug.Logging
+  nameWithType: Game.Common.Debug.Logging
+  fullName: Game.Common.Debug.Logging
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+  - name: .
+  - uid: Game.Common.Debug.Logging
+    name: Logging
+    href: Game.Common.Debug.Logging.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Debug
+    name: Debug
+    href: Game.Common.Debug.html
+  - name: .
+  - uid: Game.Common.Debug.Logging
+    name: Logging
+    href: Game.Common.Debug.Logging.html

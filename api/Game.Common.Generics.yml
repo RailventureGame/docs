@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Generics
+  commentId: N:Game.Common.Generics
+  id: Game.Common.Generics
+  children:
+  - Game.Common.Generics.Position
+  - Game.Common.Generics.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Generics
+  nameWithType: Game.Common.Generics
+  fullName: Game.Common.Generics
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Generics.Position
+  commentId: T:Game.Common.Generics.Position
+  parent: Game.Common.Generics
+  href: Game.Common.Generics.Position.html
+  name: Position
+  nameWithType: Position
+  fullName: Game.Common.Generics.Position
+- uid: Game.Common.Generics.Rectangle
+  commentId: T:Game.Common.Generics.Rectangle
+  parent: Game.Common.Generics
+  href: Game.Common.Generics.Rectangle.html
+  name: Rectangle
+  nameWithType: Rectangle
+  fullName: Game.Common.Generics.Rectangle
+- uid: Game.Common.Generics
+  commentId: N:Game.Common.Generics
+  href: Game.html
+  name: Game.Common.Generics
+  nameWithType: Game.Common.Generics
+  fullName: Game.Common.Generics
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Generics
+    name: Generics
+    href: Game.Common.Generics.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Generics
+    name: Generics
+    href: Game.Common.Generics.html

@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Common.Logic
+  commentId: N:Game.Common.Logic
+  id: Game.Common.Logic
+  children:
+  - Game.Common.Logic.Component
+  - Game.Common.Logic.OperatingSite
+  - Game.Common.Logic.Route
+  langs:
+  - csharp
+  - vb
+  name: Game.Common.Logic
+  nameWithType: Game.Common.Logic
+  fullName: Game.Common.Logic
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Common.Logic.Component
+  commentId: T:Game.Common.Logic.Component
+  parent: Game.Common.Logic
+  href: Game.Common.Logic.Component.html
+  name: Component
+  nameWithType: Component
+  fullName: Game.Common.Logic.Component
+- uid: Game.Common.Logic.OperatingSite
+  commentId: T:Game.Common.Logic.OperatingSite
+  parent: Game.Common.Logic
+  href: Game.Common.Logic.OperatingSite.html
+  name: OperatingSite
+  nameWithType: OperatingSite
+  fullName: Game.Common.Logic.OperatingSite
+- uid: Game.Common.Logic.Route
+  commentId: T:Game.Common.Logic.Route
+  parent: Game.Common.Logic
+  href: Game.Common.Logic.Route.html
+  name: Route
+  nameWithType: Route
+  fullName: Game.Common.Logic.Route
+- uid: Game.Common.Logic
+  commentId: N:Game.Common.Logic
+  href: Game.html
+  name: Game.Common.Logic
+  nameWithType: Game.Common.Logic
+  fullName: Game.Common.Logic
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Common
+    name: Common
+    href: Game.Common.html
+  - name: .
+  - uid: Game.Common.Logic
+    name: Logic
+    href: Game.Common.Logic.html

@@ -1,0 +1,489 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Animations.AnimationHelper
+  commentId: T:Game.Client.Animations.AnimationHelper
+  id: AnimationHelper
+  parent: Game.Client.Animations
+  children:
+  - Game.Client.Animations.AnimationHelper.ExponentialSmoothing(System.Double@,System.Double@,System.Single@,System.Single@)
+  - Game.Client.Animations.AnimationHelper.ImpreciseLerp(System.Double@,System.Double@,System.Single@)
+  - Game.Client.Animations.AnimationHelper.PreciseLerp(System.Double@,System.Double@,System.Single@)
+  langs:
+  - csharp
+  - vb
+  name: AnimationHelper
+  nameWithType: AnimationHelper
+  fullName: Game.Client.Animations.AnimationHelper
+  type: Class
+  source:
+    remote:
+      path: Client/Animations/AnimationHelper.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: AnimationHelper
+    path: ../Game/Client/Animations/AnimationHelper.cs
+    startLine: 5
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Animations
+  summary: A helper function for easing, animations, lerping and other methods.
+  example: []
+  syntax:
+    content: public class AnimationHelper
+    content.vb: Public Class AnimationHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Game.Client.Animations.AnimationHelper.ImpreciseLerp(System.Double@,System.Double@,System.Single@)
+  commentId: M:Game.Client.Animations.AnimationHelper.ImpreciseLerp(System.Double@,System.Double@,System.Single@)
+  id: ImpreciseLerp(System.Double@,System.Double@,System.Single@)
+  parent: Game.Client.Animations.AnimationHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpreciseLerp(in double, in double, in float)
+  nameWithType: AnimationHelper.ImpreciseLerp(in double, in double, in float)
+  fullName: Game.Client.Animations.AnimationHelper.ImpreciseLerp(in double, in double, in float)
+  type: Method
+  source:
+    remote:
+      path: Client/Animations/AnimationHelper.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ImpreciseLerp
+    path: ../Game/Client/Animations/AnimationHelper.cs
+    startLine: 15
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Animations
+  summary: >-
+    Imprecise method, which does not guarantee v = v1 when t = 1, due to floating-point arithmetic error.<br />
+
+    This method is monotonic. This form may be used when the hardware has a native fused multiply-add instruction.
+  example: []
+  syntax:
+    content: public static double ImpreciseLerp(in double a, in double b, in float t)
+    parameters:
+    - id: a
+      type: System.Double
+      description: Value at t=0
+    - id: b
+      type: System.Double
+      description: Value at t=1
+    - id: t
+      type: System.Single
+      description: Time value, a being 0, b being 1
+    return:
+      type: System.Double
+      description: A value between a and b
+    content.vb: Public Shared Function ImpreciseLerp(a As Double, b As Double, t As Single) As Double
+  overload: Game.Client.Animations.AnimationHelper.ImpreciseLerp*
+  nameWithType.vb: AnimationHelper.ImpreciseLerp(Double, Double, Single)
+  fullName.vb: Game.Client.Animations.AnimationHelper.ImpreciseLerp(Double, Double, Single)
+  name.vb: ImpreciseLerp(Double, Double, Single)
+- uid: Game.Client.Animations.AnimationHelper.PreciseLerp(System.Double@,System.Double@,System.Single@)
+  commentId: M:Game.Client.Animations.AnimationHelper.PreciseLerp(System.Double@,System.Double@,System.Single@)
+  id: PreciseLerp(System.Double@,System.Double@,System.Single@)
+  parent: Game.Client.Animations.AnimationHelper
+  langs:
+  - csharp
+  - vb
+  name: PreciseLerp(in double, in double, in float)
+  nameWithType: AnimationHelper.PreciseLerp(in double, in double, in float)
+  fullName: Game.Client.Animations.AnimationHelper.PreciseLerp(in double, in double, in float)
+  type: Method
+  source:
+    remote:
+      path: Client/Animations/AnimationHelper.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: PreciseLerp
+    path: ../Game/Client/Animations/AnimationHelper.cs
+    startLine: 28
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Animations
+  summary: >-
+    Precise method, which guarantees v = v1 when t = 1. This method is monotonic only when v0 * v1 is smaller than 0.<br />
+
+    Lerping between same values might not produce the same value.
+  example: []
+  syntax:
+    content: public static double PreciseLerp(in double a, in double b, in float t)
+    parameters:
+    - id: a
+      type: System.Double
+      description: Value at t=0
+    - id: b
+      type: System.Double
+      description: Value at t=1
+    - id: t
+      type: System.Single
+      description: Time value, a being 0, b being 1
+    return:
+      type: System.Double
+      description: A value between a and b
+    content.vb: Public Shared Function PreciseLerp(a As Double, b As Double, t As Single) As Double
+  overload: Game.Client.Animations.AnimationHelper.PreciseLerp*
+  nameWithType.vb: AnimationHelper.PreciseLerp(Double, Double, Single)
+  fullName.vb: Game.Client.Animations.AnimationHelper.PreciseLerp(Double, Double, Single)
+  name.vb: PreciseLerp(Double, Double, Single)
+- uid: Game.Client.Animations.AnimationHelper.ExponentialSmoothing(System.Double@,System.Double@,System.Single@,System.Single@)
+  commentId: M:Game.Client.Animations.AnimationHelper.ExponentialSmoothing(System.Double@,System.Double@,System.Single@,System.Single@)
+  id: ExponentialSmoothing(System.Double@,System.Double@,System.Single@,System.Single@)
+  parent: Game.Client.Animations.AnimationHelper
+  langs:
+  - csharp
+  - vb
+  name: ExponentialSmoothing(ref double, in double, in float, in float)
+  nameWithType: AnimationHelper.ExponentialSmoothing(ref double, in double, in float, in float)
+  fullName: Game.Client.Animations.AnimationHelper.ExponentialSmoothing(ref double, in double, in float, in float)
+  type: Method
+  source:
+    remote:
+      path: Client/Animations/AnimationHelper.cs
+      branch: main
+      repo: https://github.com/RailventureGame/game
+    id: ExponentialSmoothing
+    path: ../Game/Client/Animations/AnimationHelper.cs
+    startLine: 40
+  assemblies:
+  - Railventure
+  namespace: Game.Client.Animations
+  summary: Exponential Smoothing between two numbers.
+  example: []
+  syntax:
+    content: public static void ExponentialSmoothing(ref double a, in double b, in float speed, in float deltaTime)
+    parameters:
+    - id: a
+      type: System.Double
+      description: Start point
+    - id: b
+      type: System.Double
+      description: End point
+    - id: speed
+      type: System.Single
+      description: speed of this transition
+    - id: deltaTime
+      type: System.Single
+      description: delta time since last function call
+    content.vb: Public Shared Sub ExponentialSmoothing(a As Double, b As Double, speed As Single, deltaTime As Single)
+  overload: Game.Client.Animations.AnimationHelper.ExponentialSmoothing*
+  nameWithType.vb: AnimationHelper.ExponentialSmoothing(Double, Double, Single, Single)
+  fullName.vb: Game.Client.Animations.AnimationHelper.ExponentialSmoothing(Double, Double, Single, Single)
+  name.vb: ExponentialSmoothing(Double, Double, Single, Single)
+references:
+- uid: Game.Client.Animations
+  commentId: N:Game.Client.Animations
+  href: Game.html
+  name: Game.Client.Animations
+  nameWithType: Game.Client.Animations
+  fullName: Game.Client.Animations
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Animations
+    name: Animations
+    href: Game.Client.Animations.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Animations
+    name: Animations
+    href: Game.Client.Animations.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Game.Client.Animations.AnimationHelper.ImpreciseLerp*
+  commentId: Overload:Game.Client.Animations.AnimationHelper.ImpreciseLerp
+  href: Game.Client.Animations.AnimationHelper.html#Game_Client_Animations_AnimationHelper_ImpreciseLerp_System_Double__System_Double__System_Single__
+  name: ImpreciseLerp
+  nameWithType: AnimationHelper.ImpreciseLerp
+  fullName: Game.Client.Animations.AnimationHelper.ImpreciseLerp
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Game.Client.Animations.AnimationHelper.PreciseLerp*
+  commentId: Overload:Game.Client.Animations.AnimationHelper.PreciseLerp
+  href: Game.Client.Animations.AnimationHelper.html#Game_Client_Animations_AnimationHelper_PreciseLerp_System_Double__System_Double__System_Single__
+  name: PreciseLerp
+  nameWithType: AnimationHelper.PreciseLerp
+  fullName: Game.Client.Animations.AnimationHelper.PreciseLerp
+- uid: Game.Client.Animations.AnimationHelper.ExponentialSmoothing*
+  commentId: Overload:Game.Client.Animations.AnimationHelper.ExponentialSmoothing
+  href: Game.Client.Animations.AnimationHelper.html#Game_Client_Animations_AnimationHelper_ExponentialSmoothing_System_Double__System_Double__System_Single__System_Single__
+  name: ExponentialSmoothing
+  nameWithType: AnimationHelper.ExponentialSmoothing
+  fullName: Game.Client.Animations.AnimationHelper.ExponentialSmoothing

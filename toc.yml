@@ -1,0 +1,6 @@
+- name: User's Guide
+  href: guide/
+- name: Modding Docs
+  href: docs/
+- name: API Reference
+  href: api/

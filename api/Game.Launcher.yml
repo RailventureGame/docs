@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Launcher
+  commentId: N:Game.Launcher
+  id: Game.Launcher
+  children:
+  - Game.Launcher.Runner
+  langs:
+  - csharp
+  - vb
+  name: Game.Launcher
+  nameWithType: Game.Launcher
+  fullName: Game.Launcher
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Launcher.Runner
+  commentId: T:Game.Launcher.Runner
+  parent: Game.Launcher
+  href: Game.Launcher.Runner.html
+  name: Runner
+  nameWithType: Runner
+  fullName: Game.Launcher.Runner
+- uid: Game.Launcher
+  commentId: N:Game.Launcher
+  href: Game.html
+  name: Game.Launcher
+  nameWithType: Game.Launcher
+  fullName: Game.Launcher
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Launcher
+    name: Launcher
+    href: Game.Launcher.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Launcher
+    name: Launcher
+    href: Game.Launcher.html

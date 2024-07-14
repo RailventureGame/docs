@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Game.Client.Window.UI
+  commentId: N:Game.Client.Window.UI
+  id: Game.Client.Window.UI
+  children:
+  - Game.Client.Window.UI.Color
+  - Game.Client.Window.UI.ColorPalette
+  - Game.Client.Window.UI.GUIComponent
+  - Game.Client.Window.UI.GUIScreen
+  - Game.Client.Window.UI.Helper
+  - Game.Client.Window.UI.UserInterface
+  langs:
+  - csharp
+  - vb
+  name: Game.Client.Window.UI
+  nameWithType: Game.Client.Window.UI
+  fullName: Game.Client.Window.UI
+  type: Namespace
+  assemblies:
+  - Railventure
+references:
+- uid: Game.Client.Window.UI.ColorPalette
+  commentId: T:Game.Client.Window.UI.ColorPalette
+  href: Game.Client.Window.UI.ColorPalette.html
+  name: ColorPalette
+  nameWithType: ColorPalette
+  fullName: Game.Client.Window.UI.ColorPalette
+- uid: Game.Client.Window.UI.Color
+  commentId: T:Game.Client.Window.UI.Color
+  parent: Game.Client.Window.UI
+  href: Game.Client.Window.UI.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Game.Client.Window.UI.Color
+- uid: Game.Client.Window.UI.GUIComponent
+  commentId: T:Game.Client.Window.UI.GUIComponent
+  parent: Game.Client.Window.UI
+  href: Game.Client.Window.UI.GUIComponent.html
+  name: GUIComponent
+  nameWithType: GUIComponent
+  fullName: Game.Client.Window.UI.GUIComponent
+- uid: Game.Client.Window.UI.GUIScreen
+  commentId: T:Game.Client.Window.UI.GUIScreen
+  parent: Game.Client.Window.UI
+  href: Game.Client.Window.UI.GUIScreen.html
+  name: GUIScreen
+  nameWithType: GUIScreen
+  fullName: Game.Client.Window.UI.GUIScreen
+- uid: Game.Client.Window.UI.Helper
+  commentId: T:Game.Client.Window.UI.Helper
+  href: Game.Client.Window.UI.Helper.html
+  name: Helper
+  nameWithType: Helper
+  fullName: Game.Client.Window.UI.Helper
+- uid: Game.Client.Window.UI.UserInterface
+  commentId: T:Game.Client.Window.UI.UserInterface
+  parent: Game.Client.Window.UI
+  href: Game.Client.Window.UI.UserInterface.html
+  name: UserInterface
+  nameWithType: UserInterface
+  fullName: Game.Client.Window.UI.UserInterface
+- uid: Game.Client.Window.UI
+  commentId: N:Game.Client.Window.UI
+  href: Game.html
+  name: Game.Client.Window.UI
+  nameWithType: Game.Client.Window.UI
+  fullName: Game.Client.Window.UI
+  spec.csharp:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
+  spec.vb:
+  - uid: Game
+    name: Game
+    href: Game.html
+  - name: .
+  - uid: Game.Client
+    name: Client
+    href: Game.Client.html
+  - name: .
+  - uid: Game.Client.Window
+    name: Window
+    href: Game.Client.Window.html
+  - name: .
+  - uid: Game.Client.Window.UI
+    name: UI
+    href: Game.Client.Window.UI.html
